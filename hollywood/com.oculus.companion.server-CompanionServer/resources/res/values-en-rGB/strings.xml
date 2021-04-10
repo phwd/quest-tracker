@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Companion server</string>
+    <string name="permdesc_companionService">Allows the app to send intents to the companion service.</string>
+    <string name="permlab_companionService">send intents to the companion service</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Third-party controller</string>
+</resources>

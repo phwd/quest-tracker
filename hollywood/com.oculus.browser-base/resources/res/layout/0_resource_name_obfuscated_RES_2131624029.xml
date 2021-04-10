@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGroupUiToolbarView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/tab_group_ui_toolbar_view" android:background="@color/0_resource_name_obfuscated_RES_2131099774" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/main_content" android:layout_width="match_parent" android:layout_height="match_parent">
+            <org.chromium.ui.widget.ChromeImageView android:id="@+id/toolbar_left_button" android:src="@drawable/0_resource_name_obfuscated_RES_2131231054" app:tint="@color/0_resource_name_obfuscated_RES_2131099829" style="@style/0_resource_name_obfuscated_RES_2132017397"/>
+            <FrameLayout android:id="@+id/toolbar_container_view" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <org.chromium.ui.widget.ChromeImageView android:id="@+id/toolbar_right_button" android:src="@drawable/0_resource_name_obfuscated_RES_2131231498" app:tint="@color/0_resource_name_obfuscated_RES_2131099829" style="@style/0_resource_name_obfuscated_RES_2132017397"/>
+        </LinearLayout>
+        <org.chromium.ui.widget.ChromeImageView android:id="@+id/tab_strip_fading_edge_start" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131166189" android:layout_height="match_parent" android:src="@drawable/0_resource_name_obfuscated_RES_2131231556" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131166188"/>
+        <org.chromium.ui.widget.ChromeImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/tab_strip_fading_edge_end" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131166189" android:layout_height="match_parent" android:src="@drawable/0_resource_name_obfuscated_RES_2131231555" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131166188"/>
+    </FrameLayout>
+</org.chromium.chrome.browser.tasks.tab_management.TabGroupUiToolbarView>

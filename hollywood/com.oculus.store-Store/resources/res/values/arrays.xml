@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dynamicsurface1">
+        <item>name:dynamicsurface1</item>
+    </array>
+    <array name="dynamicsurface2">
+        <item>name:dynamicsurface2</item>
+    </array>
+    <array name="dynamicsurface3">
+        <item>name:dynamicsurface3</item>
+    </array>
+    <array name="dynamicsurface4">
+        <item>name:dynamicsurface4</item>
+    </array>
+    <array name="dynamicsurface5">
+        <item>name:dynamicsurface5</item>
+    </array>
+    <array name="dynamicsurface6">
+        <item>name:dynamicsurface6</item>
+    </array>
+    <array name="dynamicsurface7">
+        <item>name:dynamicsurface7</item>
+    </array>
+    <array name="dynamicsurface8">
+        <item>name:dynamicsurface8</item>
+    </array>
+    <array name="logbox">
+        <item>name:logbox</item>
+    </array>
+    <array name="main">
+        <item>name:#main</item>
+    </array>
+    <array name="oculus_vrshell_layers">
+        <item>@array/dynamicsurface1</item>
+        <item>@array/dynamicsurface2</item>
+        <item>@array/dynamicsurface3</item>
+        <item>@array/dynamicsurface4</item>
+        <item>@array/dynamicsurface5</item>
+        <item>@array/dynamicsurface6</item>
+        <item>@array/dynamicsurface7</item>
+        <item>@array/dynamicsurface8</item>
+        <item>@array/videos_behind_main</item>
+        <item>@array/main</item>
+        <item>@array/videos</item>
+        <item>@array/playerui</item>
+        <item>@array/reactdebugsurface</item>
+        <item>@array/logbox</item>
+        <item>@array/reactsplashscreen</item>
+    </array>
+    <array name="playerui">
+        <item>name:playerui</item>
+    </array>
+    <array name="reactdebugsurface">
+        <item>name:reactdebugsurface</item>
+    </array>
+    <array name="reactsplashscreen">
+        <item>name:reactsplashscreen</item>
+    </array>
+    <array name="videos">
+        <item>name:videos</item>
+    </array>
+    <array name="videos_behind_main">
+        <item>name:videos_behind_main</item>
+    </array>
+</resources>

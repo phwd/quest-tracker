@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="@integer/0_resource_name_obfuscated_RES_2131492887">
+        <shape android:shape="oval">
+            <solid android:color="@color/0_resource_name_obfuscated_RES_2131099789"/>
+        </shape>
+    </item>
+    <item android:maxLevel="@integer/0_resource_name_obfuscated_RES_2131492889">
+        <shape android:shape="oval">
+            <solid android:color="@color/0_resource_name_obfuscated_RES_2131099800"/>
+        </shape>
+    </item>
+    <item android:maxLevel="@integer/0_resource_name_obfuscated_RES_2131492888">
+        <shape android:shape="oval">
+            <solid android:color="@color/0_resource_name_obfuscated_RES_2131100251"/>
+        </shape>
+    </item>
+</level-list>

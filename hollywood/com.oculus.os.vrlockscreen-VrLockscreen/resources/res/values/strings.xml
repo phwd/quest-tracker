@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VrLockscreen</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="forgot_pattern">Forgot Pattern?</string>
+    <string name="lockscreen_confirm_for_removal">Draw your unlock pattern to confirm removal.</string>
+    <string name="lockscreen_confirm_help">Draw your pattern again to confirm. Please remember this pattern. If you forget it, you’ll need to factory reset this device.</string>
+    <string name="lockscreen_confirm_lock">Confirm Unlock Pattern</string>
+    <string name="lockscreen_patterm_mismatch">Patterns does not match, please try again</string>
+    <string name="lockscreen_remove_lock">Remove Unlock Pattern</string>
+    <string name="lockscreen_secure_owner_account">You can secure your account on this device by setting an unlock pattern. You’ll need to draw this pattern each time you want to access your account on this device.</string>
+    <string name="lockscreen_secure_secondary_account">You can secure your account on this device by setting an unlock pattern. You’ll need to draw this pattern each time you want to access your account on this device.</string>
+    <string name="lockscreen_set_pattern">Set Unlock Pattern</string>
+    <string name="lockscreen_set_pattern_hint">Secure your account on this device.</string>
+    <string name="next">Next</string>
+    <string name="skip">Not Now</string>
+</resources>

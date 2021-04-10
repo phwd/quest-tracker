@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Dein Headset wird langsam heiß. Wir empfehlen eine Pause von einigen Minuten, damit sich dein Headset abkühlen kann.</string>
+    <string name="fan_malfunction">Die Kühlung deines Geräts funktioniert nicht richtig. Aufgrund von nicht ausreichender Kühlung kann es zu einer Überhitzung des Headsets oder Störungen kommen. Bitte wende dich an den Oculus-Kundensupport unter https://support.oculus.com, wenn du Hilfe benötigst.</string>
+    <string name="notification_dismiss">Zum Schließen dieser Benachrichtigung tippen</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTEMWARNUNG</string>
+    <string name="temp_critical">Dein Headset ist zu heiß und schaltet sich in Kürze automatisch aus. Um das Verletzungsrisiko zu verringern, nimm dein Headset ab und lass es vor der nächsten Nutzung abkühlen.</string>
+</resources>

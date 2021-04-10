@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LockscreenButton" parent="?unknown_ref: 103050c">
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MultiUserButton" parent="?unknown_ref: 103050c">
+        <item name="android:textSize">@dimen/multi_user_font_size_button</item>
+        <item name="android:textColor">@drawable/multi_user_button_text_selector</item>
+        <item name="android:layout_width">@dimen/multi_user_button_width</item>
+        <item name="android:layout_height">@dimen/multi_user_button_height</item>
+        <item name="android:backgroundTint">@drawable/multi_user_button_tint_selector</item>
+        <item name="android:backgroundTintMode">multiply</item>
+    </style>
+    <style name="MultiUserButtonPrimary" parent="@style/MultiUserButton">
+        <item name="android:background">@drawable/multi_user_button_states_primary</item>
+    </style>
+    <style name="MultiUserButtonSecondary" parent="@style/MultiUserButton">
+        <item name="android:background">@drawable/multi_user_button_states_secondary</item>
+    </style>
+    <style name="MultiUserButtonTertiary" parent="@style/MultiUserButton">
+        <item name="android:background">@drawable/multi_user_button_states_tertiary</item>
+    </style>
+    <style name="MultiUserDialog">
+        <item name="android:background">@drawable/multi_user_panel_background</item>
+        <item name="android:layout_width">@dimen/multi_user_panel_width</item>
+        <item name="android:layout_height">@dimen/multi_user_panel_height</item>
+    </style>
+    <style name="MultiUserResetPatternSteps" parent="@android:style/Widget.Holo.Light.GestureOverlayView">
+        <item name="android:textSize">@dimen/multi_user_font_size_text</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/multi_user_item_size</item>
+    </style>
+    <style name="MultiUserSubTitle">
+        <item name="android:textSize">@dimen/multi_user_font_size_subheading</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/multi_user_subtitle_bottom_margin</item>
+    </style>
+    <style name="MultiUserTitle">
+        <item name="android:textSize">@dimen/multi_user_font_size_heading</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingBottom">@dimen/multi_user_title_bottom_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Theme.LockscreenFullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterTransition">@null</item>
+        <item name="android:windowExitTransition">@null</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+</resources>

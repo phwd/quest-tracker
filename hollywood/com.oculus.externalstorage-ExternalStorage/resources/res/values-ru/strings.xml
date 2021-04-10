@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Готово</string>
+    <string name="otg_failure_message">Зарядите аккумулятор гарнитуры хотя бы до 60 %% и повторите попытку.</string>
+    <string name="otg_failure_title">Не удается подключиться к порту USB</string>
+    <string name="reformat_usb">Переформатируйте USB-носитель</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Если переформатировать USB-носитель, все данные с него будут удалены.</string>
+    <string name="storage_format_confirm_title">Вы уверены?</string>
+    <string name="storage_launcher_accept">Продолжить</string>
+    <string name="storage_launcher_format_message">Чтобы использовать этот USB-носитель с гарнитурой, переформатируйте его.</string>
+    <string name="storage_launcher_format_title">Диск не поддерживается</string>
+    <string name="storage_launcher_gallery_message">Открыть приложение Oculus Gallery для просмотра контента на диске?</string>
+    <string name="storage_launcher_gallery_title">Внешняя память</string>
+    <string name="storage_launcher_refuse">Отмена</string>
+    <string name="storage_wizard_error_body">Ошибка: ^1</string>
+    <string name="storage_wizard_error_title">Не удалось отформатировать ^1</string>
+    <string name="storage_wizard_format_progress_body">Не вынимайте ^1, пока идет форматирование.</string>
+    <string name="storage_wizard_format_progress_title">Форматирование: ^1…</string>
+    <string name="storage_wizard_ready_external_body">Теперь ^1 можно использовать для фото и других медиафайлов.</string>
+    <string name="storage_wizard_ready_title">^1 можно использовать</string>
+</resources>

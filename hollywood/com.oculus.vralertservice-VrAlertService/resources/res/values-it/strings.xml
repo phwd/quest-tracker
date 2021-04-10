@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Il tuo visore si sta scaldando. Ti consigliamo di fare una pausa di alcuni minuti per attendere che il tuo visore si raffreddi.</string>
+    <string name="fan_malfunction">La ventola di raffreddamento del tuo dispositivo non funziona correttamente. Il tuo visore potrebbe surriscaldarsi o riscontrare un comportamento anomalo a causa del raffreddamento insufficiente. Per ricevere aiuto, contatta l\'assistenza clienti di Oculus (https://support.oculus.com).</string>
+    <string name="notification_dismiss">Tocca per ignorare questa notifica</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">Avviso di sistema</string>
+    <string name="temp_critical">La temperatura del tuo visore sta aumentando e si spegnerà. Per ridurre il rischio di lesioni personali, rimuovi il tuo visore e attendi che si raffreddi prima di continuare a usarlo.</string>
+</resources>

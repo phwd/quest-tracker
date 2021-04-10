@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockscreen_try_countdown">
+        <item quantity="other">%1$d초 후 다시 시도해주세요</item>
+    </plurals>
+</resources>

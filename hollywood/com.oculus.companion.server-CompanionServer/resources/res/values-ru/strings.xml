@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Будет выполнен выход из oculus.com!</string>
+    <string name="permdesc_companionService">Приложение получит разрешение отправлять намерения сопутствующему сервису.</string>
+    <string name="permlab_companionService">отправка намерений в сопутствующий сервис</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Сторонний контроллер</string>
+</resources>

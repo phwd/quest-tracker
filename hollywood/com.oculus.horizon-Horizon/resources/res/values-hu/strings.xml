@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">Váratlan hiba történt egy kép betöltése közben.</string>
+    <string name="com_facebook_internet_permission_error_message">A webes bejelentkezéshez szükséges a jogosultság az internet használatára.</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest-hiba</string>
+    <string name="com_facebook_loading">Betöltés...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

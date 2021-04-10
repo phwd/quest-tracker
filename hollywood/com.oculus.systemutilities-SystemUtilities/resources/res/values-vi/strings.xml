@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">%1$s tỷ</string>
+    <string name="shorten_billions_capitalized">%1$s tỷ</string>
+    <string name="shorten_millions">%1$s triệu</string>
+    <string name="shorten_millions_capitalized">%1$s triệu</string>
+    <string name="shorten_thousands">%1$s nghìn</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

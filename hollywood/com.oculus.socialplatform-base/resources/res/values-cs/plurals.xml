@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d dostupné místo</item>
+        <item quantity="few">%1$d dostupná místa</item>
+        <item quantity="other">%1$d dostupných míst</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%1$d další</item>
+        <item quantity="few">%1$d další</item>
+        <item quantity="other">%1$d dalších</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">V této skupině je %1$d člověk, kterého máte zablokovaného</item>
+        <item quantity="few">V této skupině jsou %1$d lidé, které máte zablokované</item>
+        <item quantity="other">V této skupině je %1$d lidí, které máte zablokované</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">%1$d člověk je připravený vydat se někam společně.</item>
+        <item quantity="few">%1$d lidé jsou připravení vydat se někam společně.</item>
+        <item quantity="other">%1$d lidí je připravených vydat se někam společně.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Pozvánka sdílena s %1$s a %2$d dalším člověkem.</item>
+        <item quantity="other">Pozvánka sdílena s %1$s a %2$d dalšími lidmi.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Pozvánka odeslána %1$s a %2$d dalšímu člověku.</item>
+        <item quantity="other">Pozvánka odeslána %1$s a %2$d dalším lidem.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">před %1$d dnem</item>
+        <item quantity="other">před %1$d dny</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">před %1$d hodinou</item>
+        <item quantity="other">před %1$d hodinami</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d společný přítel</item>
+        <item quantity="few">%1$d společní přátelé</item>
+        <item quantity="other">%1$d společných přátel</item>
+    </plurals>
+</resources>

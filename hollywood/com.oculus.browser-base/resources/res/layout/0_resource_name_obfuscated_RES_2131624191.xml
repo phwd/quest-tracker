@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:id="@+id/url_scheme" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0"/>
+    <org.chromium.chrome.browser.infobar.TextViewEllipsizerSafe android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:ellipsize="start" android:id="@+id/url_minus_scheme" android:clickable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+</LinearLayout>

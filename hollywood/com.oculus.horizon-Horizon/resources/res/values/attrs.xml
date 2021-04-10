@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="actualImageResource" format="reference">
+    </attr>
+    <attr name="actualImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitBottomStart" value="8" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="actualImageUri" format="string">
+    </attr>
+    <attr name="alpha" format="float">
+    </attr>
+    <attr name="backgroundImage" format="reference">
+    </attr>
+    <attr name="com_facebook_auxiliary_view_position">
+        <enum name="bottom" value="0" />
+        <enum name="inline" value="1" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="com_facebook_confirm_logout" format="boolean">
+    </attr>
+    <attr name="com_facebook_foreground_color" format="color">
+    </attr>
+    <attr name="com_facebook_horizontal_alignment">
+        <enum name="center" value="0" />
+        <enum name="left" value="1" />
+        <enum name="right" value="2" />
+    </attr>
+    <attr name="com_facebook_is_cropped" format="boolean">
+    </attr>
+    <attr name="com_facebook_login_text" format="string">
+    </attr>
+    <attr name="com_facebook_logout_text" format="string">
+    </attr>
+    <attr name="com_facebook_object_id" format="string">
+    </attr>
+    <attr name="com_facebook_object_type">
+        <enum name="open_graph" value="1" />
+        <enum name="page" value="2" />
+        <enum name="unknown" value="0" />
+    </attr>
+    <attr name="com_facebook_preset_size">
+        <enum name="large" value="-4" />
+        <enum name="normal" value="-3" />
+        <enum name="small" value="-2" />
+    </attr>
+    <attr name="com_facebook_style">
+        <enum name="box_count" value="2" />
+        <enum name="button" value="1" />
+        <enum name="standard" value="0" />
+    </attr>
+    <attr name="com_facebook_tooltip_mode">
+        <enum name="automatic" value="0" />
+        <enum name="display_always" value="1" />
+        <enum name="never_display" value="2" />
+    </attr>
+    <attr name="elevation" format="dimension">
+    </attr>
+    <attr name="enablePinchZoom" format="boolean">
+    </attr>
+    <attr name="fadeDuration" format="integer">
+    </attr>
+    <attr name="failureImage" format="reference">
+    </attr>
+    <attr name="failureImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitBottomStart" value="8" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="font" format="reference">
+    </attr>
+    <attr name="fontProviderAuthority" format="string">
+    </attr>
+    <attr name="fontProviderCerts" format="reference">
+    </attr>
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string">
+    </attr>
+    <attr name="fontProviderQuery" format="string">
+    </attr>
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string">
+    </attr>
+    <attr name="fontWeight" format="integer">
+    </attr>
+    <attr name="initialCameraFacing">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="keylines" format="reference">
+    </attr>
+    <attr name="layout_anchor" format="reference">
+    </attr>
+    <attr name="layout_anchorGravity">
+        <flag name="bottom" value="50" />
+        <flag name="center" value="11" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center_vertical" value="10" />
+        <flag name="clip_horizontal" value="8" />
+        <flag name="clip_vertical" value="80" />
+        <flag name="end" value="800005" />
+        <flag name="fill" value="77" />
+        <flag name="fill_horizontal" value="7" />
+        <flag name="fill_vertical" value="70" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="layout_behavior" format="string">
+    </attr>
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="all" value="77" />
+        <flag name="bottom" value="50" />
+        <flag name="end" value="800005" />
+        <flag name="left" value="3" />
+        <flag name="none" value="0" />
+        <flag name="right" value="5" />
+        <flag name="start" value="800003" />
+        <flag name="top" value="30" />
+    </attr>
+    <attr name="layout_insetEdge">
+        <enum name="bottom" value="50" />
+        <enum name="end" value="800005" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="800003" />
+        <enum name="top" value="30" />
+    </attr>
+    <attr name="layout_keyline" format="integer">
+    </attr>
+    <attr name="lockMediaOrientation" format="boolean">
+    </attr>
+    <attr name="overlayImage" format="reference">
+    </attr>
+    <attr name="photoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="placeholderImage" format="reference">
+    </attr>
+    <attr name="placeholderImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitBottomStart" value="8" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="preferredCameraApi">
+        <enum name="camera1" value="1" />
+        <enum name="camera2" value="2" />
+    </attr>
+    <attr name="pressedStateOverlayImage" format="reference">
+    </attr>
+    <attr name="progressBarAutoRotateInterval" format="integer">
+    </attr>
+    <attr name="progressBarImage" format="reference">
+    </attr>
+    <attr name="progressBarImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitBottomStart" value="8" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="retryImage" format="reference">
+    </attr>
+    <attr name="retryImageScaleType">
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitBottomStart" value="8" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="roundAsCircle" format="boolean">
+    </attr>
+    <attr name="roundBottomEnd" format="boolean">
+    </attr>
+    <attr name="roundBottomLeft" format="boolean">
+    </attr>
+    <attr name="roundBottomRight" format="boolean">
+    </attr>
+    <attr name="roundBottomStart" format="boolean">
+    </attr>
+    <attr name="roundTopEnd" format="boolean">
+    </attr>
+    <attr name="roundTopLeft" format="boolean">
+    </attr>
+    <attr name="roundTopRight" format="boolean">
+    </attr>
+    <attr name="roundTopStart" format="boolean">
+    </attr>
+    <attr name="roundWithOverlayColor" format="color">
+    </attr>
+    <attr name="roundedCornerRadius" format="dimension">
+    </attr>
+    <attr name="roundingBorderColor" format="reference|color">
+    </attr>
+    <attr name="roundingBorderPadding" format="dimension">
+    </attr>
+    <attr name="roundingBorderWidth" format="dimension">
+    </attr>
+    <attr name="singleTapGesture">
+        <flag name="disabled" value="0" />
+        <flag name="focus" value="1" />
+        <flag name="metering" value="2" />
+    </attr>
+    <attr name="statusBarBackground" format="reference|color">
+    </attr>
+    <attr name="swipeRefreshLayoutProgressSpinnerBackgroundColor" format="color">
+    </attr>
+    <attr name="ttcIndex" format="integer">
+    </attr>
+    <attr name="videoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="viewAspectRatio" format="float">
+    </attr>
+</resources>

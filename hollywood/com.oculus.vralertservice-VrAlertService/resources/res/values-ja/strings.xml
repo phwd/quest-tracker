@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">ヘッドセットが熱くなっています。一時停止して、ヘッドセットの温度が下がるまで数分間待つことをおすすめします。</string>
+    <string name="fan_malfunction">デバイスの冷却ファンが正常に機能していません。冷却が不十分なため、ヘッドセットがオーバーヒートしたり、異常な挙動を起こす場合があります。Oculusカスタマーサポート(https://support.oculus.com)までお問い合わせください。</string>
+    <string name="notification_dismiss">このお知らせを閉じるには、タップしてください</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">システムアラート</string>
+    <string name="temp_critical">ヘッドセットの温度が上がっているため電源が切れます。使用を続けるには、怪我を避けるため、ヘッドセットを外して温度が下がるのを待ってください。</string>
+</resources>

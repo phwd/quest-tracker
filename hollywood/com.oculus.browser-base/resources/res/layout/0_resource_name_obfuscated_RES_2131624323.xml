@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.ChromeImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166257" style="@style/0_resource_name_obfuscated_RES_2132017972"/>

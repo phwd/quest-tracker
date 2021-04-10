@@ -1,0 +1,101 @@
+package com.facebook.common.util;
+
+import android.util.Base64;
+import com.facebook.infer.annotation.Nullsafe;
+import com.facebook.qe.schema.Types;
+import com.facebook.secure.trustedapp.HashHelper;
+import com.facebook.stetho.dumpapp.Framer;
+import com.fasterxml.jackson.dataformat.smile.SmileConstants;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+@Nullsafe(Nullsafe.Mode.STRICT)
+public class SecureHashUtil {
+    private static final int BUFFER_SIZE = 4096;
+    static final byte[] HEX_CHAR_TABLE = {48, Framer.STDOUT_FRAME_PREFIX, Framer.STDERR_FRAME_PREFIX, 51, SmileConstants.TOKEN_KEY_LONG_STRING, 53, 54, 55, 56, 57, 97, 98, 99, Types.TYPE_STRING, Types.TYPE_BOOL, Types.TYPE_INT};
+
+    public static String makeSHA1Hash(String str) {
+        try {
+            return makeSHA1Hash(str.getBytes("utf-8"));
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String makeSHA1Hash(byte[] bArr) {
+        return makeHash(bArr, HashHelper.SHA1);
+    }
+
+    public static String makeSHA256Hash(byte[] bArr) {
+        return makeHash(bArr, "SHA-256");
+    }
+
+    public static String makeSHA1HashBase64(byte[] bArr) {
+        try {
+            MessageDigest instance = MessageDigest.getInstance(HashHelper.SHA1);
+            instance.update(bArr, 0, bArr.length);
+            return Base64.encodeToString(instance.digest(), 11);
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String makeMD5Hash(String str) {
+        try {
+            return makeMD5Hash(str.getBytes("utf-8"));
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static String makeMD5Hash(byte[] bArr) {
+        return makeHash(bArr, "MD5");
+    }
+
+    public static String makeMD5Hash(InputStream inputStream) throws IOException {
+        return makeHash(inputStream, "MD5");
+    }
+
+    public static String convertToHex(byte[] bArr) throws UnsupportedEncodingException {
+        StringBuilder sb = new StringBuilder(bArr.length);
+        for (byte b : bArr) {
+            int i = b & 255;
+            sb.append((char) HEX_CHAR_TABLE[i >>> 4]);
+            sb.append((char) HEX_CHAR_TABLE[i & 15]);
+        }
+        return sb.toString();
+    }
+
+    private static String makeHash(byte[] bArr, String str) {
+        try {
+            MessageDigest instance = MessageDigest.getInstance(str);
+            instance.update(bArr, 0, bArr.length);
+            return convertToHex(instance.digest());
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } catch (UnsupportedEncodingException e2) {
+            throw new RuntimeException(e2);
+        }
+    }
+
+    private static String makeHash(InputStream inputStream, String str) throws IOException {
+        try {
+            MessageDigest instance = MessageDigest.getInstance(str);
+            byte[] bArr = new byte[4096];
+            while (true) {
+                int read = inputStream.read(bArr);
+                if (read <= 0) {
+                    return convertToHex(instance.digest());
+                }
+                instance.update(bArr, 0, read);
+            }
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } catch (UnsupportedEncodingException e2) {
+            throw new RuntimeException(e2);
+        }
+    }
+}

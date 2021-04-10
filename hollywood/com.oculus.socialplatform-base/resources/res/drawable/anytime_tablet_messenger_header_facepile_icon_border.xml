@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+            <stroke android:width="@dimen/abc_control_corner_material" android:color="?attr/ocPanelBackground"/>
+        </shape>
+    </item>
+</selector>

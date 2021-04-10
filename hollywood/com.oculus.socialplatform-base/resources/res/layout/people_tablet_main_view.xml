@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.people.views.PeopleTabletMainView xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/people_tablet_main_view_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.oculus.panelapp.people.views.PeopleSearchView android:id="@+id/people_search_view" android:tag="binding_1" android:background="@drawable/anytime_tablet_background_v2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.oculus.panelapp.people.views.PeopleView android:id="@+id/people_view" android:tag="binding_2" android:background="@drawable/anytime_tablet_background_v2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.oculus.panelapp.people.views.PeopleTabletMainView>

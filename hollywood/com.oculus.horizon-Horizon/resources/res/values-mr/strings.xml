@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">प्रतिमा डाउनलोड करताना अनपेक्षित त्रुटी.</string>
+    <string name="com_facebook_internet_permission_error_message">वेबदृश्य लॉग इन आवश्यकता इंटरनेट परवानगी</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest त्रुटी</string>
+    <string name="com_facebook_loading">लोड होत आहे...</string>
+    <string name="status_bar_notification_info_overflow">९९९+</string>
+</resources>

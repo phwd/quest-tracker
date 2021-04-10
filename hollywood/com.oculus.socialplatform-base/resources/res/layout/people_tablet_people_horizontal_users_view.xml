@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/horizontal_recycler" android:tag="layout/people_tablet_people_horizontal_users_view_0" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/abc_dialog_padding_material" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>

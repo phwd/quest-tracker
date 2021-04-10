@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oculusprv="http://schemas.android.com/apk/com.oculus.os.platform.internal" android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/oculus_lock_pin_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="10sp" android:layout_marginTop="8dp" android:layout_marginBottom="24dp">
+        <View android:gravity="center" android:id="@+id/pin_bubble_0" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_1" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_2" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_3" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_4" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_5" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_6" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+        <View android:gravity="center" android:id="@+id/pin_bubble_7" android:background="@drawable/filled_bubble" android:visibility="gone" android:layout_width="@dimen/bubble_diameter" android:layout_height="@dimen/bubble_diameter"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keypad_button_row_margin_bottom">
+        <Button android:id="@+id/button1" android:text="@string/pin_button_1" style="@style/PinButton"/>
+        <Button android:id="@+id/button2" android:text="@string/pin_button_2" style="@style/PinButton"/>
+        <Button android:id="@+id/button3" android:layout_marginRight="0dp" android:text="@string/pin_button_3" style="@style/PinButton"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keypad_button_row_margin_bottom">
+        <Button android:id="@+id/button4" android:text="@string/pin_button_4" style="@style/PinButton"/>
+        <Button android:id="@+id/button5" android:text="@string/pin_button_5" style="@style/PinButton"/>
+        <Button android:id="@+id/button6" android:layout_marginRight="0dp" android:text="@string/pin_button_6" style="@style/PinButton"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keypad_button_row_margin_bottom">
+        <Button android:id="@+id/button7" android:text="@string/pin_button_7" style="@style/PinButton"/>
+        <Button android:id="@+id/button8" android:text="@string/pin_button_8" style="@style/PinButton"/>
+        <Button android:id="@+id/button9" android:layout_marginRight="0dp" android:text="@string/pin_button_9" style="@style/PinButton"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+        <View android:id="@+id/placeholder_button" android:visibility="invisible" style="@style/PinButton"/>
+        <Button android:id="@+id/button0" android:text="@string/pin_button_0" style="@style/PinButton"/>
+        <ImageButton android:id="@+id/buttonDelete" android:background="@drawable/keypad_button_selector" android:layout_marginRight="0dp" android:src="@drawable/keyboard_back_outline_24" android:contentDescription="@string/pin_button_delete" style="@style/PinButton"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/buttonEnter" android:background="@drawable/enter_button_selector" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/arrow_right_filled_24" android:contentDescription="@string/pin_button_enter"/>
+    </LinearLayout>
+</LinearLayout>

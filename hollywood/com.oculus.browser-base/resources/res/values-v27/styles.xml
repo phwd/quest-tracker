@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="0_resource_name_obfuscated_RES_2132017426" parent="@style/0_resource_name_obfuscated_RES_2132017249">
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017847" parent="@style/0_resource_name_obfuscated_RES_2132017250">
+        <item name="android:navigationBarColor">@color/0_resource_name_obfuscated_RES_2131099696</item>
+        <item name="?0x101056c">@bool/0_resource_name_obfuscated_RES_2131034119</item>
+        <item name="?0x101056d">@color/0_resource_name_obfuscated_RES_2131099697</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017858" parent="@style/0_resource_name_obfuscated_RES_2132017254">
+        <item name="android:navigationBarColor">@color/0_resource_name_obfuscated_RES_2131099696</item>
+        <item name="?0x101056c">@bool/0_resource_name_obfuscated_RES_2131034119</item>
+        <item name="?0x101056d">@color/0_resource_name_obfuscated_RES_2131099697</item>
+    </style>
+</resources>

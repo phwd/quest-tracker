@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textStyle="bold" android:gravity="center" android:id="@+id/enterprise_cast_to_browser_pin_digit" android:tag="layout/enterprise_cast_to_browser_pin_digit_0" android:background="@drawable/enterprise_cast_to_browser_digit_bg" android:layout_width="64dp" android:layout_height="64dp" style="@style/H1"/>

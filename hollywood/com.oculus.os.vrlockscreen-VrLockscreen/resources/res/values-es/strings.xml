@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pantalla de bloqueo en VR</string>
+    <string name="back">Volver</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Borrar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="forgot_pattern">¿Olvidaste el patrón?</string>
+    <string name="lockscreen_confirm_for_removal">Dibuja tu patrón de desbloqueo para confirmar la eliminación.</string>
+    <string name="lockscreen_confirm_help">Vuelve a dibujar tu patrón para confirmarlo. Recuerda el patrón. Si lo olvidas, deberás restablecer el dispositivo a los valores de fábrica.</string>
+    <string name="lockscreen_confirm_lock">Confirmar patrón de desbloqueo</string>
+    <string name="lockscreen_patterm_mismatch">Los patrones no coinciden. Inténtalo de nuevo.</string>
+    <string name="lockscreen_remove_lock">Eliminar patrón de desbloqueo</string>
+    <string name="lockscreen_secure_owner_account">Para proteger tu cuenta en este dispositivo, configura un patrón de desbloqueo. Deberás dibujar el patrón cada vez que quieras acceder a tu cuenta en este dispositivo.</string>
+    <string name="lockscreen_secure_secondary_account">Para proteger tu cuenta en este dispositivo, configura un patrón de desbloqueo. Deberás dibujar el patrón cada vez que quieras acceder a tu cuenta en este dispositivo.</string>
+    <string name="lockscreen_set_pattern">Configurar patrón de desbloqueo</string>
+    <string name="lockscreen_set_pattern_hint">Protege tu cuenta en este dispositivo.</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Ahora no</string>
+</resources>

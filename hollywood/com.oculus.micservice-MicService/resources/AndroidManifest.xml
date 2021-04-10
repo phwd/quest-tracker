@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.micservice" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application android:label="MicService" android:persistent="true" android:process="com.oculus.micservice_notificationproxy" android:allowBackup="false" android:extractNativeLibs="true" android:directBootAware="true">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <receiver android:name=".BootReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".MicService" android:exported="false"/>
+    </application>
+</manifest>

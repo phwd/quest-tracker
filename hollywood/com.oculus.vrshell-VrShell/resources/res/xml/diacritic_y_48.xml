@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_popup_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ỳ" custom:keyOutputText="ỳ" custom:shiftKeyLabel="Ỳ" custom:shiftKeyOutputText="Ỳ"/>
+        <Key custom:keyLabel="y" custom:keyOutputText="y" custom:shiftKeyLabel="Y" custom:shiftKeyOutputText="Y"/>
+        <Key custom:keyLabel="ÿ" custom:keyOutputText="ÿ" custom:shiftKeyLabel="Ÿ" custom:shiftKeyOutputText="Ÿ"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ŷ" custom:keyOutputText="ŷ" custom:shiftKeyLabel="Ŷ" custom:shiftKeyOutputText="Ŷ"/>
+        <Key custom:keyLabel="ý" custom:keyOutputText="ý" custom:shiftKeyLabel="Ý" custom:shiftKeyOutputText="Ý"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:isExitKey="true" custom:keyLabel="j" custom:keyOutputText="j" custom:shiftKeyLabel="J" custom:shiftKeyOutputText="J" custom:textColor="@color/keyboard_key_text"/>
+    </Row>
+</Keyboard>

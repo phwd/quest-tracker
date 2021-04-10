@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="0_resource_name_obfuscated_RES_2132017233" parent="@style/0_resource_name_obfuscated_RES_2132017314">
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017240" parent="@style/0_resource_name_obfuscated_RES_2132017315">
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017314" parent="@style/0_resource_name_obfuscated_RES_2132017312">
+        <item name="0_resource_name_obfuscated_RES_2130968755">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017315" parent="@style/0_resource_name_obfuscated_RES_2132017313">
+        <item name="0_resource_name_obfuscated_RES_2130968755">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017316" parent="@style/0_resource_name_obfuscated_RES_2132017326">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017383" parent="@style/0_resource_name_obfuscated_RES_2132017316">
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132018065" parent="@android:style/Widget">
+        <item name="android:background">?attr/0_resource_name_obfuscated_RES_2130968762</item>
+        <item name="android:stateListAnimator">@animator/0_resource_name_obfuscated_RES_2130837504</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

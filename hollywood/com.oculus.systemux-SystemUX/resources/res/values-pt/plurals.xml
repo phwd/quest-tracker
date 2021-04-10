@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Grupo de %1$s · %2$d pessoa</item>
+        <item quantity="other">Grupo de %1$s · %2$d pessoas</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d amigo</item>
+        <item quantity="other">%1$d amigos</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="other">%1$d amigos no Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s aceita somente até %2$d pessoa.</item>
+        <item quantity="other">%1$s aceita somente até %2$d pessoas.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s aceita somente até %2$d pessoa. Selecione um novo aplicativo para continuar.</item>
+        <item quantity="other">%1$s aceita somente até %2$d pessoas. Selecione um novo aplicativo para continuar.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d lugar disponível</item>
+        <item quantity="other">%1$d lugares disponíveis</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">%1$d segundo restante para iniciar o espelhamento...</item>
+        <item quantity="other">%1$d segundos restantes para iniciar o espelhamento...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">Há %1$d pessoa no grupo</item>
+        <item quantity="other">Há %1$d pessoas no grupo</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%1$d pessoa foi convidada</item>
+        <item quantity="other">%1$d pessoas foram convidadas</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">%1$d de %2$d aplicativos permitidos</item>
+    </plurals>
+</resources>

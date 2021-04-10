@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VrSkjermlås</string>
+    <string name="back">Tilbake</string>
+    <string name="cancel">Avbryt</string>
+    <string name="clear">Fjern</string>
+    <string name="confirm">Bekreft</string>
+    <string name="forgot_pattern">Glemt mønster?</string>
+    <string name="lockscreen_confirm_for_removal">Tegn låsemønsteret ditt for å bekrefte fjerning.</string>
+    <string name="lockscreen_confirm_help">Tegn mønsteret på nytt for å bekrefte. Husk dette mønsteret. Hvis du glemmer det, må du tilbakestille enheten til fabrikkinnstillinger.</string>
+    <string name="lockscreen_confirm_lock">Bekreft låsemønster</string>
+    <string name="lockscreen_patterm_mismatch">Mønstrene stemmer ikke overens. Prøv på nytt</string>
+    <string name="lockscreen_remove_lock">Fjern låsemønster</string>
+    <string name="lockscreen_secure_owner_account">Du kan sikre kontoen din på denne enheten ved å angi et låsemønster. Du må tegne dette mønsteret hver gang du ønsker å få tilgang til kontoen din på denne enheten.</string>
+    <string name="lockscreen_secure_secondary_account">Du kan sikre kontoen din på denne enheten ved å angi et låsemønster. Du må tegne dette mønsteret hver gang du ønsker å få tilgang til kontoen din på denne enheten.</string>
+    <string name="lockscreen_set_pattern">Angi låsemønster</string>
+    <string name="lockscreen_set_pattern_hint">Sikre kontoen din på denne enheten.</string>
+    <string name="next">Neste</string>
+    <string name="skip">Ikke nå</string>
+</resources>

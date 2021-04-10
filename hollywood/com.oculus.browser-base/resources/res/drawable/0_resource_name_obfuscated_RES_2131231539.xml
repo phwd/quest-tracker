@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230754">
+    <target android:name="cloud1_animation_group" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230755"/>
+    <target android:name="cloud2_animation_group" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230756"/>
+    <target android:name="cloud3_animation_group" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230757"/>
+    <target android:name="cloud4_animation_group" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230758"/>
+    <target android:name="sync_arrows_rotation_group" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230759"/>
+    <target android:name="blue_dot_rotation_group" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230760"/>
+</animated-vector>

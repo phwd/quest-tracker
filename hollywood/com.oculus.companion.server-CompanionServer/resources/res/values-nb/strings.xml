@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Dette vil logge deg ut av oculus.com!</string>
+    <string name="app_name">Tilhørende tjener</string>
+    <string name="app_short_name">Tilhørende</string>
+    <string name="permdesc_companionService">Lar appen sende intensjoner til den tilhørende tjenesten.</string>
+    <string name="permlab_companionService">sende intensjoner til tilhørende tjeneste</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Kontroller fra tredjepart</string>
+</resources>

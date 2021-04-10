@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Votre casque chauffe. Nous vous recommandons de faire une pause de quelques minutes pour permettre à votre casque de refroidir.</string>
+    <string name="fan_malfunction">La ventilateur de votre appareil ne fonctionne pas correctement. Il se peut que votre casque surchauffe ou qu’il fasse preuve d’un comportement anormal en raison d’une ventilation insuffisante. Veuillez contacter le service client Oculus https://support.oculus.com pour de l’aide.</string>
+    <string name="notification_dismiss">Appuyez pour ignorer cette notification</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">ALERTE SYSTÈME</string>
+    <string name="temp_critical">Votre casque chauffe et va s’éteindre. Pour réduire les risques de blessures, enlevez votre casque et laissez-le refroidir avant de continuer à l’utiliser.</string>
+</resources>

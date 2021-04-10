@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Party van %1$s · %2$d persoon</item>
+        <item quantity="other">Party van %1$s · %2$d mensen</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d vriend</item>
+        <item quantity="other">%1$d vrienden</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d vriend op Oculus</item>
+        <item quantity="other">%1$d vrienden op Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s biedt slechts ondersteuning voor maximaal %2$d persoon.</item>
+        <item quantity="other">%1$s biedt slechts ondersteuning voor maximaal %2$d mensen.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s biedt slechts ondersteuning voor maximaal %2$d persoon. Selecteer een nieuwe app om door te gaan.</item>
+        <item quantity="other">%1$s biedt slechts ondersteuning voor maximaal %2$d mensen. Selecteer een nieuwe app om door te gaan.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d plaats beschikbaar</item>
+        <item quantity="other">%1$d plaatsen beschikbaar</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">Nog %1$d seconde om te starten met casten...</item>
+        <item quantity="other">Nog %1$d seconden om te starten met casten…</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">%1$d persoon is in de party</item>
+        <item quantity="other">%1$d mensen zijn in de party</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%1$d persoon is uitgenodigd</item>
+        <item quantity="other">%1$d mensen zijn uitgenodigd</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">%1$d van %2$d app toegestaan</item>
+        <item quantity="other">%1$d van %2$d apps toegestaan</item>
+    </plurals>
+</resources>

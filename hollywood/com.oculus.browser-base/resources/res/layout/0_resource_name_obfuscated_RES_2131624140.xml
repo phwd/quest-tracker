@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="fill_horizontal" android:orientation="vertical" android:id="@+id/dropdown_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165490" style="@style/0_resource_name_obfuscated_RES_2132017439"/>
+    <FrameLayout android:id="@+id/dropdown_footer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

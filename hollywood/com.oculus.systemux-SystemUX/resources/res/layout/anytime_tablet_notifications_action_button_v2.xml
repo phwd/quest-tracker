@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/button" android:tag="layout/anytime_tablet_notifications_action_button_v2_0" android:background="@drawable/ocbutton_primary" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>

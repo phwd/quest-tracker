@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="string" name="app_label" id="2130771968" />
+    <public type="string" name="vr_browser_panel_app" id="2130771969" />
+    <public type="string" name="vr_shell_pkg_name" id="2130771970" />
+</resources>

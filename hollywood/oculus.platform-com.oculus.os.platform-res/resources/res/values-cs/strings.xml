@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Nakreslete gesto pro odemknutí</string>
+    <string name="lockscreen_enter_pin">PIN zařízení</string>
+    <string name="lockscreen_try_again">Zkuste to znovu</string>
+    <string name="pattern_too_short">Propojte aspoň 4 body.</string>
+    <string name="permdesc_accessMrSensorData">Povolte aplikaci přístup k datům snímače smíšené reality, včetně kalibrace fotoaparátu a obrázků.</string>
+    <string name="permdesc_access_handtracking_data">Povolit aplikaci přístup ke sledování ruky</string>
+    <string name="permgroupdesc_handtracking">přístup k datům ze sledování pohybů rukou</string>
+    <string name="permgroupdesc_sensorData">přístup k datům snímače</string>
+    <string name="permgrouplab_handtracking">Sledování ruky</string>
+    <string name="permgrouplab_sensorData">Data snímače</string>
+    <string name="permlab_accessMrSensorData">přístup k datům snímače smíšené reality</string>
+    <string name="permlab_access_handtracking_data">přístup k datům ze sledování pohybů rukou</string>
+    <string name="pin_button_delete">Odstranit</string>
+    <string name="pin_button_enter">Zadat</string>
+    <string name="reset_unlock_pattern_msg">Pokud chcete resetovat svoje odemykací gesto, postupujte následovně:</string>
+    <string name="reset_unlock_pattern_step_1">1. Spusťte v mobilu aplikaci Oculus.</string>
+    <string name="reset_unlock_pattern_step_2">2. Otevřete stránku nastavení, klepněte na název headsetu a počkejte na připojení.</string>
+    <string name="reset_unlock_pattern_step_3">3. Klepněte na Další nastavení &gt; Gesto pro odemknutí.</string>
+    <string name="reset_unlock_pattern_title">Zresetování gesta pro odemknutí</string>
+</resources>

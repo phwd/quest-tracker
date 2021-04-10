@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oculus.ocui.OCTextView android:gravity="center" android:id="@+id/active_call_bar_title" android:tag="layout/anytime_bar_active_call_bar_simple_v2_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/Body2"/>
+    <com.oculus.ocui.OCButton android:id="@+id/active_call_button" android:tag="layout/anytime_bar_active_call_bar_simple_v2_1" android:background="@drawable/anytime_bar_active_call_bar_simple_background_v2" android:layout_width="0dp" android:layout_height="20dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</merge>

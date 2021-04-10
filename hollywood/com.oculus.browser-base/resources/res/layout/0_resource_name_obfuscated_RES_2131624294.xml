@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.IncognitoNewTabPageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ntp_content" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951875">
+    <org.chromium.chrome.browser.ntp.NewTabPageScrollView android:id="@+id/ntp_scrollview" android:background="@color/0_resource_name_obfuscated_RES_2131100128" android:fadingEdgeLength="9dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="false" android:requiresFadingEdge="vertical">
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624181"/>
+    </org.chromium.chrome.browser.ntp.NewTabPageScrollView>
+</org.chromium.chrome.browser.ntp.IncognitoNewTabPageView>

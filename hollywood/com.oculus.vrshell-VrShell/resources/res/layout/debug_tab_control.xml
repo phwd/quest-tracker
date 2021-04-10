@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.ControlTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_control" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Close Panel"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_exit_shell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Exit VR Shell"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_crash_shell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Crash VR Shell"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_send_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Send Test Notification"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_setup_guardian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Enter Guardian Setup"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_clear_all_maps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Clear all saved maps"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_graphql" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="GraphQL"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_enter_local_account_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Enter Local Account Mode"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_exit_local_account_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Exit Local Account Mode"/>
+    </LinearLayout>
+</com.oculus.panelapp.debug.ControlTab>

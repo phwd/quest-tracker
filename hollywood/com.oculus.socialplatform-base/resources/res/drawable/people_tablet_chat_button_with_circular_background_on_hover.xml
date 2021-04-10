@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/people_tablet_button_background"/>
+    <item android:gravity="center" android:height="@dimen/abc_dialog_padding_material" android:width="@dimen/abc_dialog_padding_material" android:drawable="@drawable/oc_icon_chat_filled_24_d2d2d2"/>
+</layer-list>

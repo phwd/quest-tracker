@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Concluído</string>
+    <string name="otg_failure_message">Carrega a bateria dos teus óculos até 60%% ou mais e tenta novamente.</string>
+    <string name="otg_failure_title">Não é possível ligar ao USB</string>
+    <string name="reformat_usb">Reformatar USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Reformatar esta unidade USB vai eliminar todos os dados armazenados atualmente.</string>
+    <string name="storage_format_confirm_title">Tens a certeza?</string>
+    <string name="storage_launcher_accept">Continuar</string>
+    <string name="storage_launcher_format_message">Para usar esta unidade USB com os teus óculos, tem de ser reformatada.</string>
+    <string name="storage_launcher_format_title">Unidade não suportada</string>
+    <string name="storage_launcher_gallery_message">Queres abrir a Oculus Gallery para explorares os conteúdos do disco?</string>
+    <string name="storage_launcher_gallery_title">Armazenamento externo</string>
+    <string name="storage_launcher_refuse">Cancelar</string>
+    <string name="storage_wizard_error_body">Erro: ^1</string>
+    <string name="storage_wizard_error_title">Não foi possível formatar ^1</string>
+    <string name="storage_wizard_format_progress_body">Não removas ^1 enquanto está a formatar.</string>
+    <string name="storage_wizard_format_progress_title">A formatar ^1...</string>
+    <string name="storage_wizard_ready_external_body">^1 está pronto para usar com fotos e outros conteúdos multimédia.</string>
+    <string name="storage_wizard_ready_title">^1 está pronto</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.anytimeui.v2.tablet.loading.LoadingDots xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/container" android:tag="layout/anytime_tablet_loading_dots_v2_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <include android:id="@+id/loading_dot_1" layout="@layout/anytime_tablet_loading_dot"/>
+    <include android:id="@+id/loading_dot_2" layout="@layout/anytime_tablet_loading_dot"/>
+    <include android:id="@+id/loading_dot_3" layout="@layout/anytime_tablet_loading_dot"/>
+</com.oculus.panelapp.anytimeui.v2.tablet.loading.LoadingDots>

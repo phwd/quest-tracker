@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231196"/>
+    <item android:state_enabled="true" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231262"/>
+    <item android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231260"/>
+</selector>

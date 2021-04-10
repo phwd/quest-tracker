@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">V nejbližší době headset připojte.</string>
+    <string name="battery_critical_title">Headset je téměř úplně vybitý</string>
+    <string name="battery_low_text">Připojte headset.</string>
+    <string name="battery_low_title">Headset je skoro vybitý</string>
+    <string name="controller_critical_battery_text">Vyměňte baterii ovladače.</string>
+    <string name="controller_critical_battery_title">Baterie ovladače je téměř úplně vybitá</string>
+    <string name="controller_disconnected_text">Zkontrolujte baterii, jděte s ovladačem blíž nebo se obraťte na podporu Oculus.</string>
+    <string name="controller_disconnected_title">Ovladač nejde najít.</string>
+    <string name="controller_firmware_update_failed_text">Obraťte se na Oculus Support s žádostí o pomoc.</string>
+    <string name="controller_firmware_update_failed_title">Ovladač nejde akutalizovat</string>
+    <string name="controller_firmware_update_progress_text">Průběh aktualizace: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Úspěšně aktualizováno.</string>
+    <string name="controller_firmware_update_title">Probíhá aktualizace ovladače</string>
+    <string name="controller_low_battery_text">Vyměňte baterii</string>
+    <string name="controller_low_battery_title">Baterie ovladače je skoro vybitá</string>
+    <string name="dual_controller_both_controller_disconnected_title">Ovladače nenalezeny</string>
+    <string name="dual_controller_both_controller_low_battery_title">Baterie ovladače je skoro vybitá</string>
+    <string name="dual_controller_disconnected_text">Pokud problém přetrvává, zkontrolujte baterii nebo kontaktujte podporu Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Levý ovladač nalezen</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Chyba aktualizace levého ovladače</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Probíhá aktualizace levého ovladače</string>
+    <string name="dual_controller_left_controller_low_battery_title">Baterie levého ovladače je skoro vybitá</string>
+    <string name="dual_controller_low_battery_text">Vyměňte baterii</string>
+    <string name="dual_controller_right_controller_disconnected_title">Pravý ovladač nalezen</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Chyba aktualizace pravého ovladače</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Probíhá aktualizace pravého ovladače</string>
+    <string name="dual_controller_right_controller_low_battery_title">Baterie pravého ovladače je skoro vybitá</string>
+    <string name="notification_header">Systém Oculus</string>
+    <string name="safe_volume_warning_text_1">Dlouhodobý poslech při vysoké hlasitosti může poškodit váš sluch.</string>
+    <string name="safe_volume_warning_text_2">Když tlačítko stisknete znovu, tak se upozornění dočasně zavře.</string>
+    <string name="safe_volume_warning_title">Hlasitost byla zvýšena nad doporučenou úroveň</string>
+    <string name="vrui_gaze_input_instruction_text">Pohybujte hlavou a stisknutím tlačítka hlasitosti proveďte výběr.</string>
+    <string name="vrui_gaze_input_instruction_title">Sledování ruky a ovladače byly deaktivovány</string>
+    <string name="wifi_disconnected_text">Problém můžete odstranit v nastavení.</string>
+    <string name="wifi_disconnected_title">Headset přišel o připojení k Wi-Fi</string>
+</resources>

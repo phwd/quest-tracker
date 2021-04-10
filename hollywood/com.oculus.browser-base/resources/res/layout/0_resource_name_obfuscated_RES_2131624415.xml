@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/title" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131165603" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131165603" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952997" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165602" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165602" style="@style/0_resource_name_obfuscated_RES_2132017531"/>
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout android:id="@+id/radio_button_group" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@+id/radio_button_chrome_ntp" android:layout_width="match_parent" android:layout_height="wrap_content" app:primaryText="@string/0_resource_name_obfuscated_RES_2131952995"/>
+        <org.chromium.components.browser_ui.widget.RadioButtonWithEditText android:id="@+id/radio_button_uri_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952996" android:inputType="textUri"/>
+    </org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>
+</LinearLayout>

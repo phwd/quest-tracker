@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165617" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165617">
+    <View android:background="@color/0_resource_name_obfuscated_RES_2131099905" android:layout_width="match_parent" style="@style/0_resource_name_obfuscated_RES_2132017439"/>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131165621" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131165621" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.chromium.components.browser_ui.widget.RoundedCornerImageView android:id="@+id/infobar_footer_profile_pic" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:ellipsize="middle" android:id="@+id/infobar_footer_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165621"/>
+    </LinearLayout>
+</LinearLayout>

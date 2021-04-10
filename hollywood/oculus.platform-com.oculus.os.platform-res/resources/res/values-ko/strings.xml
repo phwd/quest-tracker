@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">잠금 해제 패턴 그리기</string>
+    <string name="lockscreen_enter_pin">기기 PIN</string>
+    <string name="lockscreen_try_again">다시 시도해주세요</string>
+    <string name="pattern_too_short">최소 4개 이상의 점을 연결하세요.</string>
+    <string name="permdesc_accessMrSensorData">앱에서 카메라 보정 및 이미지를 포함하여 혼합 현실 센서 데이터에 액세스하도록 허용합니다.</string>
+    <string name="permdesc_access_handtracking_data">앱에서 핸드 트래킹 데이터에 액세스하도록 허용</string>
+    <string name="permgroupdesc_handtracking">핸드 트래킹 데이터 액세스</string>
+    <string name="permgroupdesc_sensorData">센서 데이터 액세스</string>
+    <string name="permgrouplab_handtracking">핸드 트래킹</string>
+    <string name="permgrouplab_sensorData">센서 데이터</string>
+    <string name="permlab_accessMrSensorData">혼합 현실 센서 데이터 액세스</string>
+    <string name="permlab_access_handtracking_data">핸드 트래킹 데이터 액세스</string>
+    <string name="pin_button_delete">삭제</string>
+    <string name="pin_button_enter">입력</string>
+    <string name="reset_unlock_pattern_msg">잠금 해제 패턴을 재설정하려면 다음 단계를 따르세요:</string>
+    <string name="reset_unlock_pattern_step_1">1. 모바일 기기에서 Oculus 앱을 엽니다.</string>
+    <string name="reset_unlock_pattern_step_2">2. 설정 페이지를 열고 헤드셋 이름을 누른 다음 연결될 때까지 기다립니다.</string>
+    <string name="reset_unlock_pattern_step_3">3. 설정 더 보기 &gt; 잠금 해제 패턴을 누릅니다.</string>
+    <string name="reset_unlock_pattern_title">잠금 해제 패턴 재설정</string>
+</resources>

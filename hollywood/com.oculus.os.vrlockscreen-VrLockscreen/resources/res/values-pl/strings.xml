@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ekran blokady VR</string>
+    <string name="back">Wstecz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="clear">Wyczyść</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="forgot_pattern">Nie pamiętasz wzoru?</string>
+    <string name="lockscreen_confirm_for_removal">Narysuj wzór odblokowania, aby potwierdzić usunięcie.</string>
+    <string name="lockscreen_confirm_help">Narysuj ponownie wzór, aby potwierdzić. Zapamiętaj ten wzór. Jeśli go zapomnisz, będzie konieczne przywrócenie urządzenia do ustawień fabrycznych.</string>
+    <string name="lockscreen_confirm_lock">Potwierdź wzór odblokowania</string>
+    <string name="lockscreen_patterm_mismatch">Wzory są niezgodne. Spróbuj ponownie.</string>
+    <string name="lockscreen_remove_lock">Usuń wzór odblokowania</string>
+    <string name="lockscreen_secure_owner_account">Możesz zabezpieczyć swoje konto na tym urządzeniu, ustawiając wzór odblokowania. Za każdym razem będzie trzeba narysować ten wzór, aby uzyskać dostęp do konta na urządzeniu.</string>
+    <string name="lockscreen_secure_secondary_account">Możesz zabezpieczyć swoje konto na tym urządzeniu, ustawiając wzór odblokowania. Za każdym razem będzie trzeba narysować ten wzór, aby uzyskać dostęp do konta na urządzeniu.</string>
+    <string name="lockscreen_set_pattern">Ustaw wzór odblokowania</string>
+    <string name="lockscreen_set_pattern_hint">Zabezpiecz swoje konto na tym urządzeniu.</string>
+    <string name="next">Dalej</string>
+    <string name="skip">Nie teraz</string>
+</resources>

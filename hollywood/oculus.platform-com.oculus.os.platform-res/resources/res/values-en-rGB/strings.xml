@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pattern_too_short">Please connect at least four dots.</string>
+    <string name="permlab_accessMrSensorData">access mixed-reality sensor data</string>
+    <string name="reset_unlock_pattern_step_2">2. Open the Settings page, tap your headset\'s name and wait for it to connect.</string>
+</resources>

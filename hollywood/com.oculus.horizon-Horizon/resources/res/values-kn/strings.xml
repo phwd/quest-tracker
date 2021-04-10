@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">ಚಿತ್ರವನ್ನು ಡೌನ್‌ಲೋಡ್‌ ಮಾಡುವಾಗ ಅನಿರೀಕ್ಷಿತ ದೋಷ ಕಂಡುಬಂದಿದೆ.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView ಲಾಗಿನ್‌ಗೆ ಇಂಟರ್ನೆಟ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest ದೋಷ</string>
+    <string name="com_facebook_loading">ಲೋಡ್‌ ಆಗುತ್ತಿದೆ...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

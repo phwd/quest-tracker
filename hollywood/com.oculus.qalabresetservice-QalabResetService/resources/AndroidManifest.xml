@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.qalabresetservice" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <application android:enabled="true" android:allowBackup="false" android:extractNativeLibs="true" android:directBootAware="true">
+        <receiver android:name=".BootReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".QalabResetService">
+            <intent-filter>
+                <action android:name="com.oculus.qalab.HEARTBEAT"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

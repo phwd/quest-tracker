@@ -1,0 +1,18 @@
+package com.oculus.mobileconfig.init;
+
+import com.facebook.annotations.Generated;
+import com.facebook.inject.AbstractProvider;
+import com.facebook.inject.BundledAndroidModule;
+import com.facebook.mobileconfig.factory.module.MobileConfigFactoryModule;
+import com.oculus.auth.credentials.CredentialsModule;
+import com.oculus.errorreporting.interfaces.InterfacesModule;
+import com.oculus.locale.LocaleModule;
+import com.oculus.xanalytics.OculusXAnalyticsModule;
+
+@Generated({"By: InjectorProcessor"})
+public class MobileConfigInitAutoProvider extends AbstractProvider<MobileConfigInit> {
+    @Override // javax.inject.Provider
+    public MobileConfigInit get() {
+        return new MobileConfigInit(this, BundledAndroidModule._UL__ULSEP_com_facebook_inject_Lazy_ULLT_android_content_Context_ULGT__ULSEP_com_facebook_inject_ForAppContext_ULSEP_ACCESS_METHOD(this), OculusXAnalyticsModule._UL__ULSEP_com_facebook_inject_Lazy_ULLT_com_facebook_xanalytics_XAnalyticsProvider_ULGT__ULSEP_ACCESS_METHOD(this), MobileConfigInitModule._UL__ULSEP_com_facebook_inject_Lazy_ULLT_android_content_pm_PackageInfo_ULGT__ULSEP_ACCESS_METHOD(this), MobileConfigFactoryModule._UL__ULSEP_javax_inject_Provider_ULLT_com_facebook_mobileconfig_factory_MobileConfig_ULGT__ULSEP_ACCESS_METHOD(this), CredentialsModule._UL__ULSEP_javax_inject_Provider_ULLT_com_oculus_auth_credentials_Credentials_ULGT__ULSEP_ACCESS_METHOD(this), LocaleModule._UL__ULSEP_javax_inject_Provider_ULLT_java_util_Locale_ULGT__ULSEP_ACCESS_METHOD(this), InterfacesModule._UL__ULSEP_com_facebook_inject_Lazy_ULLT_com_oculus_errorreporting_interfaces_IErrorReporter_ULGT__ULSEP_ACCESS_METHOD(this));
+    }
+}

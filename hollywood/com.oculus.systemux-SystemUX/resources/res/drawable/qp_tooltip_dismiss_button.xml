@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/qp_dismiss_button_background_size" android:width="@dimen/qp_dismiss_button_size"/>
+                    <solid android:color="@color/icon_backing_on_exit"/>
+                </shape>
+            </item>
+            <item android:height="@dimen/qp_dismiss_button_size" android:width="@dimen/qp_dismiss_button_size" android:left="@dimen/qp_dismiss_button_position" android:top="@dimen/qp_dismiss_button_position">
+                <bitmap android:src="@drawable/oc_icon_close_filled_24_c7c7c7" android:foregroundGravity="center" android:alpha="@dimen/ocopacity_enabled_opacity"/>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_hovered="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/qp_dismiss_button_background_size" android:width="@dimen/qp_dismiss_button_background_size"/>
+                    <solid android:color="@color/icon_backing_on_exit"/>
+                </shape>
+            </item>
+            <item android:height="@dimen/qp_dismiss_button_size" android:width="@dimen/qp_dismiss_button_size" android:left="@dimen/qp_dismiss_button_position" android:top="@dimen/qp_dismiss_button_position">
+                <bitmap android:src="@drawable/oc_icon_close_filled_24_f0f0f0" android:foregroundGravity="center"/>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/qp_dismiss_button_background_size" android:width="@dimen/qp_dismiss_button_background_size"/>
+                    <solid android:color="@color/icon_backing_on_exit"/>
+                </shape>
+            </item>
+            <item android:height="@dimen/qp_dismiss_button_size" android:width="@dimen/qp_dismiss_button_size" android:left="@dimen/qp_dismiss_button_position" android:top="@dimen/qp_dismiss_button_position">
+                <bitmap android:src="@drawable/oc_icon_close_filled_24_c7c7c7" android:foregroundGravity="center" android:alpha="@dimen/ocopacity_enabled_opacity"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,28 @@
+{
+  "contents": [
+    {
+      "key": "system_force_application_focus_awareness",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    },
+    {
+      "key": "force_application_focus_awareness",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "mouse_sensitivity",
+      "type": "double",
+      "default": "3",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    }
+  ]
+}

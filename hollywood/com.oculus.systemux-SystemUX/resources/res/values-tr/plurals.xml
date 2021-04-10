@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="other">%1$s&apos;in ekibi · %2$d kişi</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="other">%1$d Arkadaş</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="other">Oculus&apos;ta %1$d Arkadaş</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="other">%1$s en fazla %2$d kişi destekliyor.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="other">%1$s en fazla %2$d kişi destekliyor. Devam etmek için yeni bir uygulama seç.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">%1$d boş yer</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="other">Yansıtmanın başlamasına %1$d saniye kaldı...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="other">%1$d kişi ekipte</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%1$d kişi davet edildi</item>
+        <item quantity="other">%1$d kişi davet edildi.</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">%1$d / %2$d uygulamaya izin veriliyor</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+package com.oculus.appmanager.info.model;
+
+public enum RequestOrigin {
+    UNKNOWN,
+    LIBRARY_PROVIDER,
+    ROADBLOCK,
+    NUX360,
+    LIBRARY,
+    REMOTE_INSTALL,
+    REMOTE_UNINSTALL,
+    STORE,
+    TV,
+    AUTOUPDATE,
+    DUMPER,
+    PLATFORM_SDK,
+    TWILIGHT,
+    PACIFIC_SETUP,
+    HOME_LIBRARY,
+    APP_LAUNCH_PROMPT,
+    STORAGE_MANAGER,
+    NOTIFICATION,
+    SETTINGS,
+    ENTERPRISE,
+    UNOFFICIAL_APP_PROMPT,
+    GAMING_ACTIVITY,
+    TEST_PROVIDER
+}

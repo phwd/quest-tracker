@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.selectable_list.SelectableListLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/selectable_list" android:background="@color/0_resource_name_obfuscated_RES_2131099774" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>

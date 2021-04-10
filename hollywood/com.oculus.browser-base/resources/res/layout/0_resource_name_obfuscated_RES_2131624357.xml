@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.BoundedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/payment_request" android:background="@color/0_resource_name_obfuscated_RES_2131100145" app:maxWidthLandscape="@dimen/0_resource_name_obfuscated_RES_2131166020" app:maxWidthPortrait="@dimen/0_resource_name_obfuscated_RES_2131166020">
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624363"/>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624364"/>
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView android:id="@+id/option_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/payment_container_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017745" android:id="@+id/retry_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624358"/>
+</org.chromium.components.browser_ui.widget.BoundedLinearLayout>

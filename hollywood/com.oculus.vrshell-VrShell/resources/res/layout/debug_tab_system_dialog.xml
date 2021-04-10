@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.SystemDialogTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_system_dialog" style="@style/SystemDialogTab">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/dialog_flow_button" android:text="Show Dialog Flow" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/disabled_button_dialog_button" android:text="Show Dialog with Disabled Text Buttons" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/dangerous_button_dialog_button" android:text="Show Dialog with Dangerous Primary Button" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/back_button_dialog_button" android:text="Show Dialog with Back Button" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/icon_button_dialog_button" android:text="Show Dialog with Icon Button" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/information_box_dialog_button" android:text="Show Dialog with Information Box" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/list_dialog_button" android:text="Show Dialog with List" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/list_selection_change_listener_dialog_button" android:text="Show Dialog with Selection Change Listener List" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/video_dialog_button" android:text="Show Dialog with Hero Video" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/hero_image_dialog_button" android:text="Show Dialog with Hero Image" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/scroll_to_bottom_dialog_button" android:text="Show Dialog That Requires Scroll To Bottom" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/progress_bar_dialog_button" android:text="Show Dialog with Progress Bar" style="@style/SystemDialogButton"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/progress_spinner_dialog_button" android:text="Show Dialog with Progress Spinner" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/full_feature_dialog_button" android:text="Show Dialog with All Features" style="@style/SystemDialogButton"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/auto_action_dialog_button" android:text="Show Dialog with Auto-Action Delay (Dismiss)" style="@style/SystemDialogButton"/>
+    </LinearLayout>
+</com.oculus.panelapp.debug.SystemDialogTab>

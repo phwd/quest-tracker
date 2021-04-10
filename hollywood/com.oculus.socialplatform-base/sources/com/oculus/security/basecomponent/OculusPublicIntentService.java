@@ -1,0 +1,40 @@
+package com.oculus.security.basecomponent;
+
+import X.AbstractC03010kk;
+import X.AbstractIntentServiceC02740jl;
+import X.AnonymousClass0VF;
+import X.AnonymousClass0lg;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import com.facebook.ultralight.Eager;
+import com.facebook.ultralight.Inject;
+
+@SuppressLint({"EndpointWithoutSwitchOff"})
+public abstract class OculusPublicIntentService extends AbstractIntentServiceC02740jl {
+    @Inject
+    @Eager
+    public OculusIntentLogger mOculusIntentLogger;
+
+    public static final void _UL_injectMe(Context context, OculusPublicIntentService oculusPublicIntentService) {
+        _UL_staticInjectMe(AnonymousClass0VF.get(context), oculusPublicIntentService);
+    }
+
+    public static final void _UL_staticInjectMe(AnonymousClass0lg r0, OculusPublicIntentService oculusPublicIntentService) {
+        oculusPublicIntentService.mOculusIntentLogger = OculusIntentLogger._UL__ULSEP_com_oculus_security_basecomponent_OculusIntentLogger_ULSEP_ACCESS_METHOD(r0);
+    }
+
+    @Override // X.AbstractIntentServiceC02740jl
+    public AbstractC03010kk getIntentLogger() {
+        return this.mOculusIntentLogger;
+    }
+
+    @Override // X.AbstractIntentServiceC02740jl
+    public void onCreate() {
+        super.onCreate();
+        _UL_injectMe(this, this);
+    }
+
+    public OculusPublicIntentService(String str) {
+        super(str);
+    }
+}

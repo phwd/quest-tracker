@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotificationProxy</string>
+    <string name="battery_critical_text">Please plug in your headset soon.</string>
+    <string name="battery_critical_title">Headset power is very low</string>
+    <string name="battery_low_text">Please plug in your headset.</string>
+    <string name="battery_low_title">Headset power is low</string>
+    <string name="controller_critical_battery_text">Please replace controller battery now.</string>
+    <string name="controller_critical_battery_title">Controller battery critical</string>
+    <string name="controller_disconnected_text">Check the battery, move the controller closer, or contact Oculus Support.</string>
+    <string name="controller_disconnected_title">We couldn\'t find your controller</string>
+    <string name="controller_firmware_update_failed_text">Please contact Oculus Support for assistance.</string>
+    <string name="controller_firmware_update_failed_title">We couldn\'t update your controller</string>
+    <string name="controller_firmware_update_progress_text">Update progress: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Update succeeded.</string>
+    <string name="controller_firmware_update_title">Controller update in progress</string>
+    <string name="controller_low_battery_text">Please replace battery soon.</string>
+    <string name="controller_low_battery_title">Controller battery low</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controllers Not Found</string>
+    <string name="dual_controller_both_controller_low_battery_title">Controller Batteries Low</string>
+    <string name="dual_controller_disconnected_text">If the problem persists, please check the battery or contact Oculus Support.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Left Controller Not Found</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Left Controller Update Error</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Left Controller Update in Progress</string>
+    <string name="dual_controller_left_controller_low_battery_title">Left Controller Battery Low</string>
+    <string name="dual_controller_low_battery_text">Please replace battery soon.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Right Controller Not Found</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Right Controller Update Error</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Right Controller Update in Progress</string>
+    <string name="dual_controller_right_controller_low_battery_title">Right Controller Battery Low</string>
+    <string name="notification_header">Oculus System</string>
+    <string name="safe_volume_warning_text_1">Listening at high volume for long periods may damage your hearing.</string>
+    <string name="safe_volume_warning_text_2">Press the button again to temporarily disable this warning.</string>
+    <string name="safe_volume_warning_title">Volume raised above recommended level</string>
+    <string name="vrui_gaze_input_instruction_text">Move your head then press a headset volume button to select.</string>
+    <string name="vrui_gaze_input_instruction_title">Hand tracking and controllers disabled</string>
+    <string name="wifi_disconnected_text">Please go to Settings to troubleshoot.</string>
+    <string name="wifi_disconnected_title">Headset Wi-Fi connection lost</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" style="@style/0_resource_name_obfuscated_RES_2132017451">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/menu_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tint="@color/0_resource_name_obfuscated_RES_2131099824"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017708" android:gravity="center_vertical" android:id="@+id/menu_item_text" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1"/>
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/menu_item_end_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tint="@color/0_resource_name_obfuscated_RES_2131099824"/>
+</LinearLayout>

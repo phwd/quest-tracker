@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:paddingTop="24dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952761" android:paddingStart="24dp" android:paddingEnd="24dp" style="@style/0_resource_name_obfuscated_RES_2132017164"/>
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Your headset is getting hot. We recommend pausing for a few minutes to allow your headset to cool down.</string>
+    <string name="fan_malfunction">The cooling fan on your device is not functioning properly. \10\10Your headset may overheat or experience abnormal behavior due to insufficent cooling. \10\10Please contact Oculus Customer Support https://support.oculus.com for assistance.</string>
+    <string name="notification_dismiss">Tap to dismiss this notification</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTEM ALERT</string>
+    <string name="temp_critical">Your headset temperature is rising and will power off.\10\10To reduce the risk of personal injury, remove your headset and let it cool down before continuing use.</string>
+</resources>

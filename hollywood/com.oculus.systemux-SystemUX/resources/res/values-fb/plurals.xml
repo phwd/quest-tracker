@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">[%1$s&apos;s party · %2$d person#090a2dc1dc8b8a77bbdf884aa330972a:1]</item>
+        <item quantity="other">[%1$s&apos;s party · %2$d people#04b4a2958b4ac83e0a9df47ef82c6480:1]</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">[%1$d Friend#b5e3c52c09c501bc3914067eebb7d931:1]</item>
+        <item quantity="other">[%1$d Friends#794b906bfed8322ced2e53c335d99833:1]</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">[%1$d Friend on Oculus#8c3086f7c3b1015f605f6211113d0177:1]</item>
+        <item quantity="other">[%1$d Friends on Oculus#595d9933b39d97ff351d1aa64046d566:1]</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">[%1$s only supports up to %2$d person.#8d8aa6070237257c91142e1bb0706da8:1]</item>
+        <item quantity="other">[%1$s only supports up to %2$d people.#752e3ca7d783f9fedb4039e1922bc685:1]</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">[%1$s only supports up to %2$d person. Select a new app to continue.#4bc2dbb9a972f1b906b1a4363ec05669:1]</item>
+        <item quantity="other">[%1$s only supports up to %2$d people. Select a new app to continue.#523ce134b1fc1e2a81e8d2ece10b320b:1]</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">[%1$d spot available#f50cdc902af45baefac88ee6c68de26c:1]</item>
+        <item quantity="other">[%1$d spots available#84de42f5649cc2e3ba1cf956f1911741:1]</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">[%1$d second left to start casting...#240b5d1acfa2ba719792b912873f75ac:1]</item>
+        <item quantity="other">[%1$d seconds left to start casting...#a671250fd1fe91e2530353ce2588c090:1]</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">[%1$d person is in the party#2eac9e472682f13cc572a9e159208156:1]</item>
+        <item quantity="other">[%1$d people are in the party#23323747f9d5712d6cf1bf96e458f48e:1]</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">[%1$d person has been invited#bdc84603fbd17298c1b8815f070f3d5c:1]</item>
+        <item quantity="other">[%1$d people have been invited#237e113db3f90e4ca83cc4acb68685b1:1]</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">[%1$d of %2$d app allowed#c5ce79543b84e7b6438311b4881b7a2e:1]</item>
+        <item quantity="other">[%1$d of %2$d apps allowed#674606e217b03a1ec4793cd7126cc7dc:1]</item>
+    </plurals>
+</resources>

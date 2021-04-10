@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWrongPattern">#ffff3737</color>
+    <color name="empty_bubble_border">#515151</color>
+    <color name="filled_bubble_color">#024abe</color>
+    <color name="filled_bubble_error_color">#801717</color>
+    <color name="neutrals_gray_9">#151515</color>
+    <color name="pin_button_normal">#1affffff</color>
+    <color name="pin_button_pressed">#4dffffff</color>
+    <color name="pin_button_text_color">#f0f0f0</color>
+    <color name="title_font_color">#f0f0f0</color>
+</resources>

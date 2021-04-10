@@ -1,0 +1,13 @@
+package com.facebook.quicklog.identifiers;
+
+public class GemstoneMatchingHome {
+    public static final int GEMSTONE_HOME_RN_INITIAL_LOAD_TTRC_ANDROID = 26021685;
+    public static final int GEMSTONE_HOME_RN_INITIAL_LOAD_TTRC_IOS = 26032816;
+    public static final int GEMSTONE_MATCHING_HOME_INITIAL_LOAD_ANDROID = 26017794;
+    public static final int GEMSTONE_MATCHING_HOME_INITIAL_LOAD_IOS = 26017793;
+    public static final short MODULE_ID = 397;
+
+    public static String getMarkerName(int i) {
+        return i != 1 ? i != 2 ? i != 3893 ? i != 15024 ? "UNDEFINED_QPL_EVENT" : "GEMSTONE_MATCHING_HOME_GEMSTONE_HOME_RN_INITIAL_LOAD_TTRC_IOS" : "GEMSTONE_MATCHING_HOME_GEMSTONE_HOME_RN_INITIAL_LOAD_TTRC_ANDROID" : "GEMSTONE_MATCHING_HOME_GEMSTONE_MATCHING_HOME_INITIAL_LOAD_ANDROID" : "GEMSTONE_MATCHING_HOME_GEMSTONE_MATCHING_HOME_INITIAL_LOAD_IOS";
+    }
+}

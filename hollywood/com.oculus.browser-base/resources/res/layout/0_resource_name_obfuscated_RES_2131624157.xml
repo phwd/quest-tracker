@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <org.chromium.components.browser_ui.widget.LoadingView android:id="@+id/loading" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131165552" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/0_resource_name_obfuscated_RES_2131165553" android:minHeight="@dimen/0_resource_name_obfuscated_RES_2131165553"/>
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952527"/>
+</LinearLayout>

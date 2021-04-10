@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">%1$d ትርን ሰብስብ።</item>
+        <item quantity="other">ከ%1$d ትሮች ጋር የትር ቡድንን ሰብስብ።</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">%1$d ትርን ሰብስብ።</item>
+        <item quantity="other">የ%1$s ትር ቡድንን ከ%2$d ትሮች ጋር ሰብስብ።</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d ኦዲዮ ፋይል</item>
+        <item quantity="other">%d ኦዲዮ ፋይሎች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d ፋይል</item>
+        <item quantity="other">%d ፋይሎች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d ምስል</item>
+        <item quantity="other">%d ምስሎች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d ገጽ</item>
+        <item quantity="other">%d ገጾች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d ቪዲዮ</item>
+        <item quantity="other">%d ቪዲዮዎች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">1 የተመረጠ ንጥልን አስወግድ</item>
+        <item quantity="other">%d የተመረጡ ንጥሎችን አስወግድ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">1 የተመረጠ ንጥል አጋራ</item>
+        <item quantity="other">%d የተመረጡ ንጥሎችን አጋራ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">ከቡድን %1$d የተመረጠ ትርን ያስወግዱ።</item>
+        <item quantity="other">ከቡድን %1$d የተመረጡ ትሮችን ያስወግዱ።</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">%1$d የተመረጠ ትር ቦድን</item>
+        <item quantity="other">%1$d የተመረጡ ትሮችን ቦድን</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">የተመረጠ %1$d ትር ዝጋ</item>
+        <item quantity="other">የተመረጡ %1$d ትሮችን ዝጋ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d ትርን ይክፈቱ፣ ትሮችን ለመቀየር መታ ያድርጉ</item>
+        <item quantity="other">%1$d ትሮችን ይክፈቱ፣ ትሮችን ለመቀየር መታ ያድርጉ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d ዕልባት</item>
+        <item quantity="other">%1$d ዕልባቶች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d ትር</item>
+        <item quantity="other">%1$d ትሮች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ 1 ተጨማሪ)</item>
+        <item quantity="other">(+ %d ተጨማሪ)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">1 ኩኪ ታግዷል</item>
+        <item quantity="other">%d ኩኪዎች ታግደዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">ፋይልን በማውረድ ላይ።</item>
+        <item quantity="other">%d ፋይሎች በማውረድ ላይ።</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d ሰዓ</item>
+        <item quantity="other">%d ሰዓቶች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">%1$dፋይል ወርዷል</item>
+        <item quantity="other">%1$d ፋይሎች ወርደዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">1 ውርድ ተጠናቅቋል</item>
+        <item quantity="other">%d ውርዶች ተጠናቅቀዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">1 ውርድ አልተሳካም።</item>
+        <item quantity="other">%d ውርዶች አልተሳኩም።</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 ውርድን በመጠባበቅ ላይ</item>
+        <item quantity="other">%d ውርዶችን በመጠባበቅ ላይ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">1 ውርድ መርሐግብት ተይዞለታል።</item>
+        <item quantity="other">%d ውርዶች መርሐግብር ተይዞላቸዋል።</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">ከ%d ቀን በፊት</item>
+        <item quantity="other">ከ%d ቀኖች በፊት</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">ከ%d ሰዓት በፊት</item>
+        <item quantity="other">ከ%d ሰዓቶች በፊት</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">ከ%d ደቂቃ በፊት</item>
+        <item quantity="other">ከ%d ደቂቃዎች በፊት</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Chrome ዝግጁ ሲሆን ገጽዎን ይጭነዋል</item>
+        <item quantity="other">Chrome ዝግጁ ሲሆን ገጾችዎን ይጭነዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">በጥቅም ላይ ያለ 1 ኩኪ</item>
+        <item quantity="other">%d ጥቅም ላይ የዋሉ ኩኪዎች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">%1$s፣ %2$s፣ እና %3$s ተጨማሪ ተፈቅደዋል</item>
+        <item quantity="other">%1$s፣ %2$s እና %3$s ተጨማሪ ተፈቅደዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">%1$s፣ %2$s፣ እና %3$s ተጨማሪ ታግደዋል</item>
+        <item quantity="other">%1$s፣ %2$s እና %3$s ተጨማሪ ታግደዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s፣ %2$s፣ እና %3$s ተጨማሪ</item>
+        <item quantity="other">%1$s፣ %2$s፣ እና %3$s ተጨማሪ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d የተጠለፈ የይለፍ ቃል</item>
+        <item quantity="other">%d የተጠለፉ የይለፍ ቃላት</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… እና %2$s ተጨማሪ</item>
+        <item quantity="other">%1$s… እና %2$s ተጨማሪ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… እና %2$s ተጨማሪ</item>
+        <item quantity="other">%1$s… እና %2$s ተጨማሪ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… እና %2$s ተጨማሪ</item>
+        <item quantity="other">%1$s… እና %2$s ተጨማሪ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… እና %2$s ተጨማሪ</item>
+        <item quantity="other">%1$s… እና %2$s ተጨማሪ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">እርስዎ %1$d ገጽ አለዎት</item>
+        <item quantity="other">እርስዎ %1$d ገጾች አሉዎት</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d ያልተነበበ ገጽ</item>
+        <item quantity="other">%1$d ያልተነበቡ ገጾች</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">1 የተጠለፈ የይለፍ ቃል</item>
+        <item quantity="other">%d የተጠለፉ የይለፍ ቃላት</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">ከ1 ቀን በፊት ተፈትሿል</item>
+        <item quantity="other">ከ%d ቀኖች በፊት ተፈትሿል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">ከ1 ሰዓት በፊት ተፈትሿል</item>
+        <item quantity="other">ከ%d ሰዓቶች በፊት ተፈትሿል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">ከ1 ደቂቃ በፊት ተፈትሿል</item>
+        <item quantity="other">ከ%d ደቂቃዎች በፊት ተፈትሿል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 ተመርጧል</item>
+        <item quantity="other">%d ተመርጠዋል</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">የሲግናል ጥንካሬ ደረጃ፦ %d አሞሌ</item>
+        <item quantity="other">የሲግናል ጥንካሬ ደረጃ፦ %d አሞሌዎች</item>
+    </plurals>
+</resources>

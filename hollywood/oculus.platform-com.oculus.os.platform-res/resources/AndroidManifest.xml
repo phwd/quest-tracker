@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:sharedUserLabel="@string/platform_system_label" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" coreApp="true" package="oculus.platform" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <application android:allowBackup="false" android:extractNativeLibs="true"/>
+    <protected-broadcast android:name="oculus.lockscreen.action.STATE_CHANGED"/>
+    <protected-broadcast android:name="com.oculus.action.THIRD_PARTY_PACKAGE_STARTED"/>
+    <protected-broadcast android:name="com.oculus.intent.action.battery_overheat"/>
+    <protected-broadcast android:name="com.oculus.intent.action.external_temp_overheat_warning"/>
+    <protected-broadcast android:name="com.oculus.intent.action.fan_malfunction"/>
+    <protected-broadcast android:name="com.samsung.intent.action.HMT_CONNECTED"/>
+    <protected-broadcast android:name="com.oculus.intent.action.MOUNT_STATE_CHANGED"/>
+    <permission android:name="com.oculus.permission.RECEIVE_THIRD_PARTY_PACKAGE_STARTED" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.WRITE_ONLINE_CALIBRATION" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.READ_ONLINE_CALIBRATION" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.SECURE_TRACKING_SERVICE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.RECORD_AUDIO_BACKGROUND" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.SET_THREAD_POLICY" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.STATUS_BAR_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.ACCESS_CAMERA_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.SET_FOREGROUND_PANEL_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.USE_RESERVED_CORE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.ALWAYS_CAPTURE_MIC_AUDIO_INPUT" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.PRIORITY_CAPTURE_MIC_AUDIO_INPUT" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.UPDATE_SECURITY_PRINCIPAL" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.oculus.permission.WRITE_SETTINGS" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.READ_SETTINGS" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.GET_WINDOW_LAYOUT" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.CONNECT_TO_DUMPSYSPROXY" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.INTERACT_ACROSS_USERS" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.MANAGE_LOCKSCREEN" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.CREATE_SURFACE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.COLLECT_BUG_REPORT" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.SUBMIT_BUG_REPORT" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.ALLOW_UID_HIGH_PRIORITY" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.ALLOW_TID_MAXIMUM_PRIORITY" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.WRITE_GKS" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.READ_CONTROLLER_STATUS" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.MODIFY_CONTROLLER_STATUS" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.YADI_QUEUE_DOWNLOAD" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.YADI_QUEUE_INSTALL" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.INSTALL_LICENSE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.VERIFY_USER_ACTION" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.QUERY_LICENSE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.REVOKE_LICENSE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.UNREVOKE_LICENSE" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.REGISTER_LICENSE_SIGNER" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.RESET" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.RESTART" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.oculus.permission.ACCESS_TRACKING_ENV" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.COLOCATION_API_READ_MAP" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.COLOCATION_API_WRITE_MAP" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.COLOCATION_API_GET_MAP_UUID" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.XRS_STREAM" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.XRS_OBSERVE_STATE" android:protectionLevel="normal|signature"/>
+    <permission-group android:label="@string/permgrouplab_handtracking" android:name="oculus.permission-group.HANDTRACKING" android:description="@string/permgroupdesc_handtracking"/>
+    <permission android:label="@string/permlab_access_handtracking_data" android:name="com.oculus.permission.HANDTRACKING_DATA" android:protectionLevel="dangerous" android:permissionGroup="oculus.permission-group.HANDTRACKING" android:description="@string/permdesc_access_handtracking_data"/>
+    <permission android:name="com.oculus.permission.USE_ANCHOR_API" android:protectionLevel="normal"/>
+    <permission android:name="com.oculus.permission.IMPORT_EXPORT_IOT_MAP_DATA" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.VOICE_ASSISTANT_MIC_DATA" android:protectionLevel="normal|signature"/>
+    <permission android:name="com.oculus.permission.HANDLE_SYSTEM_KEYS" android:protectionLevel="normal|signature|system"/>
+    <permission-group android:label="@string/permgrouplab_sensorData" android:name="oculus.permission-group.SENSOR_DATA" android:description="@string/permgroupdesc_sensorData"/>
+    <permission android:label="@string/permlab_accessMrSensorData" android:name="com.oculus.permission.ACCESS_MR_SENSOR_DATA" android:protectionLevel="dangerous" android:permissionGroup="oculus.permission-group.SENSOR_DATA" android:description="@string/permdesc_accessMrSensorData" android:permissionFlags="20"/>
+    <permission android:name="com.oculus.permission.UPDATE_TELEMETRY_SESSIONS" android:protectionLevel="normal|signature"/>
+</manifest>

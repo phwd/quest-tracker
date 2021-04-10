@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Varslingsproxy</string>
+    <string name="battery_critical_text">Koble snart til VR-brillene dine.</string>
+    <string name="battery_critical_title">VR-brillene har svært lite batteri</string>
+    <string name="battery_low_text">Koble til VR-brillene.</string>
+    <string name="battery_low_title">VR-brillene har lite batteri</string>
+    <string name="controller_critical_battery_text">Skift batteri i kontrolleren nå.</string>
+    <string name="controller_critical_battery_title">Kontrollerens batteristatus er kritisk</string>
+    <string name="controller_disconnected_text">Sjekk batteriet, flytt kontrolleren nærmere eller kontakt Oculus-støtten.</string>
+    <string name="controller_disconnected_title">Vi kunne ikke finne kontrolleren</string>
+    <string name="controller_firmware_update_failed_text">Kontakt Oculus for assistanse.</string>
+    <string name="controller_firmware_update_failed_title">Vi kunne ikke oppdatere kontrolleren</string>
+    <string name="controller_firmware_update_progress_text">Oppdateringsfremdrift: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Oppdatering fullført.</string>
+    <string name="controller_firmware_update_title">Kontroller oppdateres</string>
+    <string name="controller_low_battery_text">Batteriet må snart skiftes ut.</string>
+    <string name="controller_low_battery_title">Kontrolleren har lite batteri</string>
+    <string name="dual_controller_both_controller_disconnected_title">Fant ikke kontrollerne</string>
+    <string name="dual_controller_both_controller_low_battery_title">Kontrolleren har lavt batterinivå</string>
+    <string name="dual_controller_disconnected_text">Hvis problemet vedvarer, kontrollerer du batteriet eller kontakter Oculus-støtten.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Fant ikke venstre kontroller</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Oppdateringsfeil for venstre kontroller</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Venstre kontroller oppdateres</string>
+    <string name="dual_controller_left_controller_low_battery_title">Venstre kontroller har lavt batterinivå</string>
+    <string name="dual_controller_low_battery_text">Batteriet må snart skiftes ut.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Fant ikke høyre kontroller</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Oppdateringsfeil for høyre kontroller</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Høyre kontroller oppdateres</string>
+    <string name="dual_controller_right_controller_low_battery_title">Høyre kontroller har lavt batterinivå</string>
+    <string name="notification_header">Oculus-system</string>
+    <string name="safe_volume_warning_text_1">Hvis du lytter på høyt volum i lange perioder, kan hørselen din bli skadet.</string>
+    <string name="safe_volume_warning_text_2">Trykk på knappen på nytt for å deaktivere denne advarselen midlertidig.</string>
+    <string name="safe_volume_warning_title">Volumet er høyere enn anbefalt lydstyrke</string>
+    <string name="vrui_gaze_input_instruction_text">Beveg hodet ditt, og trykk deretter på VR-brillens volumknappp for å velge.</string>
+    <string name="vrui_gaze_input_instruction_title">Håndsporing og kontrollere er deaktivert</string>
+    <string name="wifi_disconnected_text">Gå til innstillinger for å feilsøke.</string>
+    <string name="wifi_disconnected_title">Wi-Fi-tilkoblingen til VR-brillene ble brutt</string>
+</resources>

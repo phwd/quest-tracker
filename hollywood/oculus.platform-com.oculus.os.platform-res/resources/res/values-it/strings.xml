@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Disegna la sequenza di sblocco</string>
+    <string name="lockscreen_enter_pin">PIN del dispositivo</string>
+    <string name="lockscreen_try_again">Riprova</string>
+    <string name="pattern_too_short">Collega almeno 4 punti.</string>
+    <string name="permdesc_accessMrSensorData">Consente all\'app di accedere ai dati del sensore di realtà mista, tra cui la calibrazione della fotocamera e le immagini.</string>
+    <string name="permdesc_access_handtracking_data">Consenti all\'app di accedere ai dati del tracking delle mani</string>
+    <string name="permgroupdesc_handtracking">accedere ai dati del tracking delle mani</string>
+    <string name="permgroupdesc_sensorData">accesso ai dati del sensore</string>
+    <string name="permgrouplab_handtracking">Tracking delle mani</string>
+    <string name="permgrouplab_sensorData">Dati del sensore</string>
+    <string name="permlab_accessMrSensorData">accesso ai dati del sensore di realtà mista</string>
+    <string name="permlab_access_handtracking_data">accedere ai dati del tracking delle mani</string>
+    <string name="pin_button_delete">Elimina</string>
+    <string name="pin_button_enter">Inserisci</string>
+    <string name="reset_unlock_pattern_msg">Per reimpostare la sequenza di sblocco, segui questi passaggi:</string>
+    <string name="reset_unlock_pattern_step_1">1. Apri l\'app Oculus sul tuo dispositivo mobile.</string>
+    <string name="reset_unlock_pattern_step_2">2. Apri la pagina Impostazioni, tocca il nome del visore e aspetta che si connetta.</string>
+    <string name="reset_unlock_pattern_step_3">3. Tocca Altre impostazioni &gt; Sequenza di sblocco.</string>
+    <string name="reset_unlock_pattern_title">Reimposta la sequenza di sblocco</string>
+</resources>

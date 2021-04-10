@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280145276" android:versionName="27.0.0.38.512" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.updater" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25"/>
+    <uses-feature android:glEsVersion="20000" android:required="true"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.oculus.permission.CONNECT_TO_DUMPSYSPROXY"/>
+    <uses-permission android:name="com.oculus.permission.COLLECT_SYSTEM_LOGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <protected-broadcast android:name="com.oculus.updater.STATE_NOTIFICATION"/>
+    <permission android:name="com.oculus.updater.core.os.OTA_OPERATION" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.oculus.permission.SYSTEM_PLATFORM_SDK"/>
+    <application android:label="@string/app_name" android:icon="@drawable/app_icon" android:name="com.oculus.updater.OculusUpdaterApplication" android:persistent="true" android:debuggable="false" android:allowBackup="false" android:directBootAware="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.facebook.build_rule" android:value="updater_arm64_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1616477179000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <service android:name="com.oculus.mobileconfig.updater.MobileConfigUpdaterJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.updater.OculusUpdaterDumpService" android:exported="false" android:singleUser="true"/>
+        <receiver android:name="com.oculus.updater.core.boot.BootCompletedReceiver" android:enabled="true" android:exported="true" android:singleUser="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.updater.core.os.OSUpdateService" android:permission="com.oculus.updater.core.os.OTA_OPERATION" android:exported="true" android:singleUser="true"/>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

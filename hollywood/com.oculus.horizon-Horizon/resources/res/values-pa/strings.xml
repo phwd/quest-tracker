@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">ਕਿਸੇ ਤਸਵੀਰ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰਨ ਵੇਲੇ ਅਗਿਆਤ ਤਰੁੱਟੀ ਹੋ ਗਈ।</string>
+    <string name="com_facebook_internet_permission_error_message">WebView ਲੌਗ ਨੂੰ ਇੰਟਰਨੈੱਟ ਅਨੁਮਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest ਤਰੁੱਟੀ</string>
+    <string name="com_facebook_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

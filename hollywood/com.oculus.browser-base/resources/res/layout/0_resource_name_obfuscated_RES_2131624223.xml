@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/check" android:background="@drawable/0_resource_name_obfuscated_RES_2131231391" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center" app:layout_gravity="center" app:tint="@color/0_resource_name_obfuscated_RES_2131099821"/>
+    <org.chromium.ui.widget.ChromeImageView android:layout_gravity="center" android:id="@+id/circle" android:background="@null" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/0_resource_name_obfuscated_RES_2131230916" app:tint="@null"/>
+</merge>

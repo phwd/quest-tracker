@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">[%1$sb#ae83935f5010269b8370aa13ea1a75e2:1]</string>
+    <string name="shorten_billions_capitalized">[%1$sB#46c9d7667a01bf7f4a640f26c716b34b:1]</string>
+    <string name="shorten_hundred_millions">[%1$s00M#1eb2d34df4398514d1ae12aea44d5e6e:1]</string>
+    <string name="shorten_millions">[%1$sm#43194de4c967562dad7a7250b4d02e7f:1]</string>
+    <string name="shorten_millions_capitalized">[%1$sM#44a9440a33fbcdd1edb0f81931fd62f6:1]</string>
+    <string name="shorten_ten_thousands">[%1$s0K#428ff50e98453f93b483064dd16f6f28:1]</string>
+    <string name="shorten_thousands">[%1$sk#14386dd3d508936f141bf537087c5ae9:1]</string>
+    <string name="shorten_thousands_capitalized">[%1$sK#5cf7f7360dabba96c33b5bf1cfee3b6c:1]</string>
+</resources>

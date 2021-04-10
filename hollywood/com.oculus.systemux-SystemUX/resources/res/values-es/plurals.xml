@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Grupo de %1$s · %2$d persona</item>
+        <item quantity="other">Grupo de %1$s · %2$d personas</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d amigo</item>
+        <item quantity="other">%1$d amigos</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d amigo en Oculus</item>
+        <item quantity="other">%1$d amigos en Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s solo admite %2$d persona.</item>
+        <item quantity="other">%1$s solo admite hasta %2$d personas.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s solo admite %2$d persona. Selecciona una app nueva para continuar.</item>
+        <item quantity="other">%1$s solo admite hasta %2$d personas. Selecciona una app nueva para continuar.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d lugar disponible</item>
+        <item quantity="other">%1$d lugares disponibles</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">Queda %1$d segundo para que comience la transmisión...</item>
+        <item quantity="other">Quedan %1$d segundos para que comience la transmisión...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">Hay %1$d persona en el grupo</item>
+        <item quantity="other">Hay %1$d personas en el grupo</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">Se invitó a %1$d persona</item>
+        <item quantity="other">Se invitó a %1$d personas</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">%1$d de %2$d app permitida</item>
+        <item quantity="other">%1$d de %2$d apps permitidas</item>
+    </plurals>
+</resources>

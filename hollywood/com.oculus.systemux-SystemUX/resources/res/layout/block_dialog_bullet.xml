@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textStyle="bold" android:gravity="top|center_vertical|center_horizontal|center" android:tag="layout/block_dialog_bullet_0" android:layout_width="@dimen/block_dialog_icon_size" android:layout_height="@dimen/block_dialog_icon_size" android:text="●"/>

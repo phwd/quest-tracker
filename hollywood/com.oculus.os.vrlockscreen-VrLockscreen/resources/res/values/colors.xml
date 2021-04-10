@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialogBackground">#323436</color>
+    <color name="disabled_button_text">#59dedede</color>
+    <color name="disabled_button_tint">#59ffffff</color>
+    <color name="enabled_button_text">#dedede</color>
+    <color name="enabled_button_tint">#ffff</color>
+    <color name="oculusButtonDisabledAlpha">#59000000</color>
+    <color name="oculusButtonPrimary">#004ab9</color>
+    <color name="oculusButtonPrimaryHover">#317bef</color>
+    <color name="oculusButtonPrimaryPressed">#004ab9</color>
+    <color name="oculusButtonSecondary">#47494a</color>
+    <color name="oculusButtonSecondaryHovered">#707173</color>
+    <color name="oculusButtonSecondaryPressed">#47494a</color>
+    <color name="oculusButtonTertiary">#00000000</color>
+    <color name="oculusButtonTertiaryHovered">#47494a</color>
+    <color name="oculusButtonTertiaryPressed">#00000000</color>
+</resources>

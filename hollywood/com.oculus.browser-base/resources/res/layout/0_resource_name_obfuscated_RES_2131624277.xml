@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="@integer/0_resource_name_obfuscated_RES_2131492899" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624279"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/mtrl_calendar_main_pane" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/mtrl_calendar_frame" android:paddingLeft="@dimen/0_resource_name_obfuscated_RES_2131165770" android:paddingRight="@dimen/0_resource_name_obfuscated_RES_2131165770" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131165769" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165770" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165770"/>
+        <include android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165767" layout="@layout/0_resource_name_obfuscated_RES_2131624276"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Virtuaalilasit ylikuumenevat. Suosittelemme pitämään tauon, jolloin virtuaalilasit ehtivät jäähtyä.</string>
+    <string name="fan_malfunction">Laitteesi tuuletin ei toimi kunnolla. Virtuaalilasisi saattavat ylikuumentua tai toimia poikkeavalla tavalla puutteellisen viilennyksen takia. Ota yhteyttä Oculuksen asiakastukeen https://support.oculus.com.</string>
+    <string name="notification_dismiss">Ohita ilmoitus napauttamalla.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">JÄRJESTELMÄVAROITUS</string>
+    <string name="temp_critical">Virtuaalilasien lämpötila on nousussa, ja ne sammutetaan. Poista virtuaalilasit päästäsi turvallisuussyistä ja anna niiden jäähtyä ennen käytön jatkamista.</string>
+</resources>

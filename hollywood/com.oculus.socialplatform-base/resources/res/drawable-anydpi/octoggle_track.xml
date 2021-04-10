@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_checked="true">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/abc_dialog_padding_material" android:width="@dimen/abc_action_bar_stacked_max_height"/>
+                    <solid android:color="?attr/ocControlBackgroundActive"/>
+                    <corners android:radius="@dimen/messenger_reactions_pill_radius"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/abc_dialog_padding_material" android:width="@dimen/abc_action_bar_stacked_max_height"/>
+                    <solid android:color="?attr/ocControlBackgroundInactive"/>
+                    <corners android:radius="@dimen/messenger_reactions_pill_radius"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/abc_dialog_padding_material" android:width="@dimen/abc_action_bar_stacked_max_height"/>
+                    <solid android:color="?attr/ocPressedOverlay"/>
+                    <corners android:radius="@dimen/messenger_reactions_pill_radius"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/abc_dialog_padding_material" android:width="@dimen/abc_action_bar_stacked_max_height"/>
+                    <solid android:color="?attr/ocHoverOverlay"/>
+                    <corners android:radius="@dimen/messenger_reactions_pill_radius"/>
+                </shape>
+            </item>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+</layer-list>

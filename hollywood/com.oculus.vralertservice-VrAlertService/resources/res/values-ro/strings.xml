@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Casca se încălzeşte. Îşi recomandăm să faci o pauză de câteva minute pentru a lăsa casca să se răcească.</string>
+    <string name="fan_malfunction">Ventilatorul de răcire al dispozitivului nu funcţionează corect. Casca se poate supraîncălzi sau poate reacţiona anormal în urma răcirii insuficiente. Pentru ajutor, te rugăm să iei legătura cu Serviciul Oculus de Asistenţă clienţi https://support.oculus.com.</string>
+    <string name="notification_dismiss">Atinge pentru a închide această notificare</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">ALERTĂ SISTEM</string>
+    <string name="temp_critical">Temperatura căştii este în creştere, iar casca se va opri. Pentru a reduce riscul de rănire fizică, scoate casca şi las-o să se răcească înainte de a o folosi din nou.</string>
+</resources>

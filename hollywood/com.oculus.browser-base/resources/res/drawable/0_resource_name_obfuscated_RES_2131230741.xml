@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:name="ic_check" android:pathData="M4.12,12.705 l4.88,4.88 l11.295,-11.29" android:strokeColor="@color/0_resource_name_obfuscated_RES_2131099813" android:strokeWidth="2"/>
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus System Utilities</string>
+    <string name="notification_os_update_complete">System update downloaded successfully. Restart for the changes to take effect.</string>
+    <string name="notification_os_update_error">There was a network error when downloading the update. Please check your network connection.</string>
+    <string name="shorten_billions">%1$sb</string>
+    <string name="shorten_billions_capitalized">%1$sB</string>
+    <string name="shorten_hundred_millions">%1$s00M</string>
+    <string name="shorten_millions">%1$sm</string>
+    <string name="shorten_millions_capitalized">%1$sM</string>
+    <string name="shorten_ten_thousands">%1$s0K</string>
+    <string name="shorten_thousands">%1$sk</string>
+    <string name="shorten_thousands_capitalized">%1$sK</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

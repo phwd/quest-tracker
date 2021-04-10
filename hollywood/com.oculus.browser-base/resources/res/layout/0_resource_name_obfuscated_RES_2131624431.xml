@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tab.SadTabView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="outsideOverlay" android:background="#f7f7f7" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+        <ImageView android:layout_gravity="start" android:id="@+id/sad_tab_image" android:paddingBottom="26dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/0_resource_name_obfuscated_RES_2131231518"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017703" android:layout_gravity="start" android:id="@+id/sad_tab_title" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.4"/>
+        <TextView android:id="@+id/sad_tab_suggestions_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017551"/>
+        <TextView android:id="@+id/sad_tab_suggestions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16dp" style="@style/0_resource_name_obfuscated_RES_2132017551"/>
+        <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@+id/sad_tab_message" android:paddingBottom="22dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017551"/>
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="end" android:id="@+id/sad_tab_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="222dp" style="@style/0_resource_name_obfuscated_RES_2132017432"/>
+    </LinearLayout>
+</org.chromium.chrome.browser.tab.SadTabView>

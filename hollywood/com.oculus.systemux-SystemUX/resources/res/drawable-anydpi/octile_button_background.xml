@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/ocbutton_border_radius"/>
+                    <solid android:color="?attr/ocPrimaryButton"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/ocbutton_border_radius"/>
+                    <solid android:color="?attr/ocSecondaryButton"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/ocbutton_border_radius"/>
+                    <solid android:color="?attr/ocPressedOverlay"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape>
+                    <corners android:radius="@dimen/ocbutton_border_radius"/>
+                    <solid android:color="?attr/ocHoverOverlay"/>
+                </shape>
+            </item>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+</layer-list>

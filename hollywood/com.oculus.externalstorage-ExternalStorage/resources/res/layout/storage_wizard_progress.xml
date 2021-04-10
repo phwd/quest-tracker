@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/storage_wizard_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal"/>
+    <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/storage_wizard_body" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

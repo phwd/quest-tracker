@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105908" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.oculus.handsnuxresources" platformBuildVersionCode="280105908" platformBuildVersionName="27.0.0.42.507">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21"/>
+    <application android:allowBackup="false" android:supportsRtl="true">
+        <activity android:name="com.oculus.handsnuxresources.MainActivity" android:excludeFromRecents="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_17_39"/>
+    </application>
+</manifest>

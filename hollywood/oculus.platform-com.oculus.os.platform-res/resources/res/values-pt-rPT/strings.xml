@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Desenha o padrão de desbloqueio</string>
+    <string name="lockscreen_enter_pin">PIN do dispositivo</string>
+    <string name="lockscreen_try_again">Tenta novamente</string>
+    <string name="pattern_too_short">Liga pelo menos 4 pontos.</string>
+    <string name="permdesc_accessMrSensorData">Permite que a app aceda a dados do sensor de realidade mista, incluindo a calibração e as imagens da câmara.</string>
+    <string name="permdesc_access_handtracking_data">Permite que a app aceda aos dados de deteção das mãos</string>
+    <string name="permgroupdesc_handtracking">Aceder aos dados de detação das mãos</string>
+    <string name="permgroupdesc_sensorData">aceder a dados do sensor</string>
+    <string name="permgrouplab_handtracking">Deteção das mãos</string>
+    <string name="permgrouplab_sensorData">Dados do sensor</string>
+    <string name="permlab_accessMrSensorData">aceder aos dados do sensor de realidade mista</string>
+    <string name="permlab_access_handtracking_data">Aceder aos dados de detação das mãos</string>
+    <string name="pin_button_delete">Eliminar</string>
+    <string name="pin_button_enter">Inserir</string>
+    <string name="reset_unlock_pattern_msg">Para repores o teu padrão de desbloqueio, segue estes passos:</string>
+    <string name="reset_unlock_pattern_step_1">1. Abre a tua app Oculus no teu dispositivo móvel.</string>
+    <string name="reset_unlock_pattern_step_2">2. Abre a página de Definições, toca no nome dos teus óculos e espera até que seja estabelecida ligação.</string>
+    <string name="reset_unlock_pattern_step_3">3. Toca em Mais definições &gt; Padrão de desbloqueio.</string>
+    <string name="reset_unlock_pattern_title">Repor padrão de desbloqueio</string>
+</resources>

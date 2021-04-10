@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="anytime_ui_layers">
+        <item>@array/main</item>
+        <item>@array/dialog</item>
+        <item>@array/hand1</item>
+        <item>@array/hand2</item>
+        <item>@array/tablet</item>
+        <item>@array/tabletNav</item>
+        <item>@array/tabletContent</item>
+        <item>@array/tooltip</item>
+        <item>@array/toast</item>
+    </array>
+    <array name="dialog">
+        <item>name:dialog</item>
+    </array>
+    <array name="hand1">
+        <item>name:hand1</item>
+    </array>
+    <array name="hand2">
+        <item>name:hand2</item>
+    </array>
+    <array name="library_layers">
+        <item>@array/library_main</item>
+    </array>
+    <array name="library_main">
+        <item>name:#main</item>
+        <item>ZeroCopyTW</item>
+    </array>
+    <array name="main">
+        <item>name:#main</item>
+    </array>
+    <array name="party_invite_accept_modal_with_activity">
+        <item>[HideMiddleButtonOnLoad]</item>
+        <item>[TitleBottomMargin=6]</item>
+    </array>
+    <array name="system_dialog_with_smaller_title">
+        <item>[Title=85%]</item>
+    </array>
+    <array name="tablet">
+        <item>name:tablet</item>
+        <item>ZeroCopyTW</item>
+    </array>
+    <array name="tabletContent">
+        <item>name:tabletContent</item>
+        <item>ZeroCopyTW</item>
+    </array>
+    <array name="tabletNav">
+        <item>name:tabletNav</item>
+        <item>ZeroCopyTW</item>
+    </array>
+    <array name="toast">
+        <item>name:toast</item>
+    </array>
+    <array name="tooltip">
+        <item>name:tooltip</item>
+    </array>
+    <array name="video_capture_restricted_apps">
+        <item>com.netflix.ninja.vr</item>
+        <item>com.hulu.huluvr</item>
+        <item>com.oculus.streamingsdk</item>
+        <item>com.oculus.cinema</item>
+        <item>com.oculus.venues</item>
+        <item>com.amazon.asxr</item>
+    </array>
+</resources>

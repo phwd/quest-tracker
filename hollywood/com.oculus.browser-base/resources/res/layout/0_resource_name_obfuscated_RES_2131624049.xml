@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/confirm_oma_download" android:stretchColumns="1" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <TableRow>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:padding="3dp" android:text="@string/0_resource_name_obfuscated_RES_2131952977"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:id="@+id/oma_download_name" android:padding="3dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:padding="3dp" android:text="@string/0_resource_name_obfuscated_RES_2131952981"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:id="@+id/oma_download_vendor" android:padding="3dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:padding="3dp" android:text="@string/0_resource_name_obfuscated_RES_2131952979"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:id="@+id/oma_download_size" android:padding="3dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:padding="3dp" android:text="@string/0_resource_name_obfuscated_RES_2131952980"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:id="@+id/oma_download_type" android:padding="3dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:padding="3dp" android:text="@string/0_resource_name_obfuscated_RES_2131952974"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:gravity="start" android:id="@+id/oma_download_description" android:padding="3dp"/>
+    </TableRow>
+</TableLayout>

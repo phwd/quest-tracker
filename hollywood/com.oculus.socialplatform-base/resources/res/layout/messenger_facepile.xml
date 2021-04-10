@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/messenger_facepile_thread_icon" android:tag="layout/messenger_facepile_0" android:layout_width="@dimen/anytime_tablet_common_rectangular_button_height_v2" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/facepile_right_icon" android:tag="binding_1" android:layout_width="@dimen/messenger_tablet_leftbar_thread_list_item_facepile_icon_size" android:layout_height="@dimen/messenger_tablet_leftbar_thread_list_item_facepile_icon_size"/>
+    <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/facepile_left_icon" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/facepile_left_icon_border" android:tag="binding_2" android:background="@drawable/anytime_tablet_messenger_threadlist_facepile_icon_border" android:visibility="gone" android:layout_width="@dimen/abc_dropdownitem_icon_width" android:layout_height="@dimen/abc_dropdownitem_icon_width"/>
+</FrameLayout>

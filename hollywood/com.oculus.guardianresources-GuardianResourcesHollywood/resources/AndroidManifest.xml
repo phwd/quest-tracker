@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105788" android:versionName="27.0.0.29.474" android:installLocation="internalOnly" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.guardianresources" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <application android:allowBackup="false" android:supportsRtl="true">
+        <meta-data android:name="internalVersionName" android:value="27.0.0.29.474.d671ba5b4135 2021_03_22_17_37"/>
+    </application>
+</manifest>

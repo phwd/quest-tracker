@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">Onverwagse fout met aflaai van \'n prent.</string>
+    <string name="com_facebook_internet_permission_error_message">Webaansig-aanmelding benodig INTERNET-toestemming</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest-fout</string>
+    <string name="com_facebook_loading">Laai tans...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

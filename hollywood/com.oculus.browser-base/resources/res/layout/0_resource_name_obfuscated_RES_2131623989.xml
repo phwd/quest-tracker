@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <ImageView android:id="@+id/icon" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="10dp"/>
+    <ProgressBar android:id="@+id/spinny" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp"/>
+    <org.chromium.components.browser_ui.widget.text.AlertDialogEditText android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017605" android:id="@+id/text" android:paddingTop="0dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="32dp" android:layout_marginTop="10dp" android:singleLine="true" android:inputType="text" android:layout_marginStart="48dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/app_info" android:paddingTop="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_marginStart="48dp">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017606" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/origin" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RatingBar android:id="@+id/control_rating" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="16dp" android:progressDrawable="@drawable/0_resource_name_obfuscated_RES_2131231516" android:minHeight="16dp" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" android:importantForAccessibility="no"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/play_logo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

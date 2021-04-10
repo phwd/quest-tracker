@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <ImageView android:id="@+id/account_image" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginEnd="16dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:gravity="top" android:id="@+id/account_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:gravity="top" android:id="@+id/account_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/account_selection_mark" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginStart="16dp"/>
+</LinearLayout>

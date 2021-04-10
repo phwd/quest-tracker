@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.TasksView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/task_surface_header" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/top_toolbar_placeholder" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166252" app:layout_scrollFlags="15"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/scroll_component_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/0_resource_name_obfuscated_RES_2131624161"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/trendy_terms_recycler_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+        </LinearLayout>
+        <HorizontalScrollView android:id="@+id/mv_tiles_container" android:background="@color/0_resource_name_obfuscated_RES_2131099774" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="1">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/mv_tiles_layout" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131166205" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </HorizontalScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/tab_switcher_title" android:background="@color/0_resource_name_obfuscated_RES_2131099774" android:paddingTop="8dp" android:paddingBottom="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="4dp" app:layout_scrollFlags="1">
+            <TextView android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/tab_switcher_title_description" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953644" android:singleLine="true" android:layout_weight="1" android:textAlignment="viewStart" android:paddingStart="6dp"/>
+            <TextView android:id="@+id/more_tabs" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-16dp" android:layout_marginBottom="-16dp" android:text="@string/0_resource_name_obfuscated_RES_2131953645" android:paddingEnd="12dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/carousel_tab_switcher_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131166155" app:layout_scrollFlags="1"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ViewStub android:id="@+id/incognito_description_container_layout_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624180" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/0_resource_name_obfuscated_RES_2131952013"/>
+    <FrameLayout android:id="@+id/tasks_surface_body" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/0_resource_name_obfuscated_RES_2131952013"/>
+</org.chromium.chrome.browser.tasks.TasksView>

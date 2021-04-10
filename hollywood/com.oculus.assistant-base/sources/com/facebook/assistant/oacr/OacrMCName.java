@@ -1,0 +1,10 @@
+package com.facebook.assistant.oacr;
+
+public enum OacrMCName {
+    RBC_RULES,
+    CONTACT_RANKING_ENABLED,
+    PRON_LEARNING_ENABLED,
+    CONTACT_RANKING_SCORE_FLOOR,
+    CONTACT_RANKING_ALPHA,
+    CONTACT_PHONEME_MATCHING_ENABLED
+}

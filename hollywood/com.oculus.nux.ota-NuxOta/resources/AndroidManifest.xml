@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.nux.ota" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.READ_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.oculus.companion.server.permission.SEND_INTENTS"/>
+    <permission android:name="com.oculus.nux.ota.permission.SEND_INTENTS" android:protectionLevel="normal|signature"/>
+    <protected-broadcast android:name="com.oculus.nux.ota.NUX_OTA_DOWNLOAD_HIGH_PRI_APPS"/>
+    <protected-broadcast android:name="com.oculus.nux.ota.NUX_OTA_PROGRESS_UPDATE"/>
+    <application android:allowBackup="false" android:extractNativeLibs="true" android:directBootAware="true" android:usesNonSdkApi="true">
+        <receiver android:name=".NuxOtaBootReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".NuxOtaService" android:exported="true" android:singleUser="true"/>
+        <service android:name=".NuxOtaIntentService" android:permission="com.oculus.nux.ota.permission.SEND_INTENTS" android:exported="true" android:singleUser="true"/>
+    </application>
+</manifest>

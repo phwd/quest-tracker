@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Færdig</string>
+    <string name="otg_failure_message">Oplad dit headsets batteriniveau til 60 %% eller mere, og prøv igen.</string>
+    <string name="otg_failure_title">Der kan ikke oprettes forbindelse til USB</string>
+    <string name="reformat_usb">Omformater USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Hvis dette USB-drev reformateres, slettes alle data, som er gemt på det.</string>
+    <string name="storage_format_confirm_title">Er du sikker?</string>
+    <string name="storage_launcher_accept">Fortsæt</string>
+    <string name="storage_launcher_format_message">For at bruge dette USB-drev sammen med dit headset, skal det reformateres.</string>
+    <string name="storage_launcher_format_title">Drev understøttes ikke</string>
+    <string name="storage_launcher_gallery_message">Vil du åbne Oculus Gallery for at udforske diskens indhold?</string>
+    <string name="storage_launcher_gallery_title">Ekstern lagerplads</string>
+    <string name="storage_launcher_refuse">Annuller</string>
+    <string name="storage_wizard_error_body">Fejl: ^1</string>
+    <string name="storage_wizard_error_title">^1 blev ikke formateret</string>
+    <string name="storage_wizard_format_progress_body">Fjern ikke ^1, mens det formateres.</string>
+    <string name="storage_wizard_format_progress_title">Formaterer ^1 ...</string>
+    <string name="storage_wizard_ready_external_body">^1 er klart til at blive brugt sammen med billeder og andre medier.</string>
+    <string name="storage_wizard_ready_title">^1 er klar</string>
+</resources>

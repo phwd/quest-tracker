@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131166087" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131166087" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+</FrameLayout>

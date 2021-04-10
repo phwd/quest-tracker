@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_checked="true">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/ocswitch_toggle_height" android:width="@dimen/ocswitch_toggle_width"/>
+                    <solid android:color="?attr/ocControlBackgroundActive"/>
+                    <corners android:radius="@dimen/ocswitch_toggle_border_radius"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/ocswitch_toggle_height" android:width="@dimen/ocswitch_toggle_width"/>
+                    <solid android:color="?attr/ocControlBackgroundInactive"/>
+                    <corners android:radius="@dimen/ocswitch_toggle_border_radius"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/ocswitch_toggle_height" android:width="@dimen/ocswitch_toggle_width"/>
+                    <solid android:color="?attr/ocPressedOverlay"/>
+                    <corners android:radius="@dimen/ocswitch_toggle_border_radius"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/ocswitch_toggle_height" android:width="@dimen/ocswitch_toggle_width"/>
+                    <solid android:color="?attr/ocHoverOverlay"/>
+                    <corners android:radius="@dimen/ocswitch_toggle_border_radius"/>
+                </shape>
+            </item>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+</layer-list>

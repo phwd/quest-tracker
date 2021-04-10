@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@+id/action_bar_bg" android:background="@color/0_resource_name_obfuscated_RES_2131100224" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166112"/>
+    <ViewStub android:id="@+id/action_bar_stub" android:background="@color/0_resource_name_obfuscated_RES_2131099830" android:inflatedId="@+id/action_bar" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166112"/>
+    <FrameLayout android:id="@+id/list_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166112">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/selectable_list_recycler_view" android:visibility="gone" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/empty_view_wrapper" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165429" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165429" style="@style/0_resource_name_obfuscated_RES_2132017403">
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:layout_gravity="center" android:id="@+id/empty_view" android:padding="@dimen/0_resource_name_obfuscated_RES_2131165315" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" app:leading="@dimen/0_resource_name_obfuscated_RES_2131166216"/>
+        </FrameLayout>
+        <org.chromium.components.browser_ui.widget.LoadingView android:layout_gravity="center" android:id="@+id/loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <org.chromium.components.browser_ui.widget.FadingShadowView android:id="@+id/shadow" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165268" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166112"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:layout_marginBottom="10dp">
+    <ToggleButton android:textSize="14sp" android:id="@+id/device_config_toggle_service_value_column" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:textOn="@string/debug_device_config_show_service_value_column" android:textOff="@string/debug_device_config_hide_service_value_column" android:textAllCaps="false" android:layout_marginEnd="10dp"/>
+    <Button android:id="@+id/device_config_refresh_list_btn" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_device_config_refresh_list" android:layout_marginEnd="10dp"/>
+    <Button android:id="@+id/device_config_clear_all_overrides_btn" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10dp"/>
+</LinearLayout>

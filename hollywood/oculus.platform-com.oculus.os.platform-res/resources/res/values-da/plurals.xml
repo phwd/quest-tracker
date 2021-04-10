@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockscreen_try_countdown">
+        <item quantity="one">Prøv igen om %1$d sekund</item>
+        <item quantity="other">Prøv igen om %1$d sekunder</item>
+    </plurals>
+</resources>

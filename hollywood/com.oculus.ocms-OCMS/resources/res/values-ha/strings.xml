@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">Biliyan %1$s</string>
+    <string name="shorten_billions_capitalized">Biliyan %1$s</string>
+    <string name="shorten_millions">Minti %1$s</string>
+    <string name="shorten_millions_capitalized">Minti %1$s</string>
+    <string name="shorten_ten_thousands">%1$s OK</string>
+    <string name="shorten_thousands">Dubu %1$s</string>
+    <string name="shorten_thousands_capitalized">Dubu %1$s</string>
+</resources>

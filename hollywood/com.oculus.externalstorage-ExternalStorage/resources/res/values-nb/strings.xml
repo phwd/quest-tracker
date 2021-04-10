@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Ferdig</string>
+    <string name="otg_failure_message">Lad VR-brillene til et batterinivå på 60 %% eller høyere og prøv på nytt.</string>
+    <string name="otg_failure_title">Kan ikke koble til USB</string>
+    <string name="reformat_usb">Omformater USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Hvis denne USB-stasjonen omformateres, slettes all data som er lagret på den.</string>
+    <string name="storage_format_confirm_title">Er du sikker?</string>
+    <string name="storage_launcher_accept">Fortsett</string>
+    <string name="storage_launcher_format_message">USB-stasjonen må omformateres hvis den skal brukes med VR-brillene dine.</string>
+    <string name="storage_launcher_format_title">Stasjonen støttes ikke</string>
+    <string name="storage_launcher_gallery_message">Vil du åpne Oculus Gallery for å utforske innholdet på denne disken?</string>
+    <string name="storage_launcher_gallery_title">Ekstern lagringsplass</string>
+    <string name="storage_launcher_refuse">Avbryt</string>
+    <string name="storage_wizard_error_body">Feil: ^1</string>
+    <string name="storage_wizard_error_title">Kunne ikke formatere ^1</string>
+    <string name="storage_wizard_format_progress_body">Ikke fjern ^1 mens det formateres.</string>
+    <string name="storage_wizard_format_progress_title">Formaterer ^1 ...</string>
+    <string name="storage_wizard_ready_external_body">^1 er klart til å brukes sammen med bilder og andre medier.</string>
+    <string name="storage_wizard_ready_title">^1 er klar</string>
+</resources>

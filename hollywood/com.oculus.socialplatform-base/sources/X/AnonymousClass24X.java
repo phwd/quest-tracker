@@ -1,0 +1,60 @@
+package X;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.List;
+import java.util.Map;
+
+/* renamed from: X.24X  reason: invalid class name */
+public final class AnonymousClass24X implements AnonymousClass12v {
+    public long A00 = 0;
+    public long A01 = 0;
+    public short A02 = 0;
+    public boolean A03 = false;
+    public byte[] A04;
+    public byte A05;
+    public int A06 = 0;
+    public int A07;
+    public int A08 = 0;
+    public long A09 = 0;
+    public C148325a A0A;
+    public C148825f A0B;
+    public C148124y A0C;
+    public C148525c A0D;
+    public AnonymousClass25Y A0E;
+    public AnonymousClass259 A0F;
+    public C149025n A0G;
+    public AnonymousClass1oG A0H;
+    public AnonymousClass1oD A0I;
+    public AnonymousClass24J A0J;
+    public AnonymousClass24Z A0K;
+    public AnonymousClass24N A0L;
+    public AnonymousClass1oB A0M;
+    public AnonymousClass1nn A0N;
+    public C147724u A0O;
+    public InputStream A0P;
+    public OutputStream A0Q;
+    public String A0R;
+    public String A0S;
+    public String A0T;
+    public List<AnonymousClass256> A0U;
+    public List<AnonymousClass256> A0V;
+    public List<AnonymousClass24P> A0W;
+    public Map<String, byte[]> A0X;
+    public short A0Y = 0;
+    public boolean A0Z = false;
+    public boolean A0a = false;
+    public boolean A0b;
+    public boolean A0c;
+    public boolean A0d = false;
+    public boolean A0e;
+    public boolean A0f;
+    public boolean A0g = false;
+    public boolean A0h;
+    public byte[] A0i;
+    public byte[] A0j;
+    public byte[] A0k;
+    public byte[] A0l;
+    public byte[] A0m;
+    public byte[] A0n;
+}

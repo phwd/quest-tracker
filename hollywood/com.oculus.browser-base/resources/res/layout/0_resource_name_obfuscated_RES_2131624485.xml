@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabSelectionEditorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/selectable_list" android:background="@color/0_resource_name_obfuscated_RES_2131099774" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951906"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/price_info_box" android:background="@drawable/0_resource_name_obfuscated_RES_2131231507" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginStart="4dp">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017782" android:id="@+id/current_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="10dp" android:layout_marginEnd="4dp"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017775" android:id="@+id/previous_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+</merge>

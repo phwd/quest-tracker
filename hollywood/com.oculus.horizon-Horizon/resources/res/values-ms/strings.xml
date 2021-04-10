@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">Ralat tidak dijangka ketika memuat turun imej.</string>
+    <string name="com_facebook_internet_permission_error_message">Log masuk WebView memerlukan kebenaran INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Ralat AndroidManifest</string>
+    <string name="com_facebook_loading">Memuatkan...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

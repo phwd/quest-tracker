@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp">
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="oval">
+                    <solid android:color="?attr/ocPressedOverlay"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape android:shape="oval">
+                    <solid android:color="?attr/ocHoverOverlay"/>
+                </shape>
+            </item>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+    <item android:left="14dp" android:top="14dp" android:right="14dp" android:bottom="14dp">
+        <selector>
+            <item android:state_checked="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="?attr/ocControlBackgroundActive"/>
+                    <corners android:radius="@dimen/abc_action_bar_elevation_material"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="?attr/ocControlBackgroundInactive"/>
+                    <corners android:radius="@dimen/abc_action_bar_elevation_material"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:left="14dp" android:top="14dp" android:right="14dp" android:bottom="14dp">
+        <selector>
+            <item android:state_checked="true">
+                <bitmap android:src="@drawable/oc_icon_check_alt_filled_24_f0f0f0" android:tint="?attr/ocControlIcon"/>
+            </item>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+</layer-list>

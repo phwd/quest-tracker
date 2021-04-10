@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_popup_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="t" custom:keyOutputText="t" custom:shiftKeyLabel="T" custom:shiftKeyOutputText="T"/>
+        <Key custom:keyLabel="þ" custom:keyOutputText="þ" custom:shiftKeyLabel="Þ" custom:shiftKeyOutputText="Þ"/>
+    </Row>
+</Keyboard>

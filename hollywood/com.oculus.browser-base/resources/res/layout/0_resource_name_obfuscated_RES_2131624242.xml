@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.MoreProgressButton xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952826" style="@style/0_resource_name_obfuscated_RES_2132017447"/>
+    <include android:id="@+id/progress_spinner" layout="@layout/0_resource_name_obfuscated_RES_2131624184"/>
+</org.chromium.components.browser_ui.widget.MoreProgressButton>

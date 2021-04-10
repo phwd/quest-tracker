@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Gotowe</string>
+    <string name="otg_failure_message">Naładuj baterię gogli do poziomu 60%% lub wyższego i spróbuj ponownie.</string>
+    <string name="otg_failure_title">Nie można połączyć przez USB</string>
+    <string name="reformat_usb">Formatuj napęd USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Formatowanie tego napędu USB spowoduje usunięcie wszystkich zawartych na nim danych.</string>
+    <string name="storage_format_confirm_title">Czy na pewno?</string>
+    <string name="storage_launcher_accept">Kontynuuj</string>
+    <string name="storage_launcher_format_message">Aby skorzystać z tego napędu USB w zestawie, należy go sformatować.</string>
+    <string name="storage_launcher_format_title">Nieobsługiwany napęd</string>
+    <string name="storage_launcher_gallery_message">Czy chcesz otworzyć galerię Oculus, aby przeglądać zawartość dysku?</string>
+    <string name="storage_launcher_gallery_title">Pamięć zewnętrzna</string>
+    <string name="storage_launcher_refuse">Anuluj</string>
+    <string name="storage_wizard_error_body">Błąd: ^1</string>
+    <string name="storage_wizard_error_title">Nie udało się sformatować obiektu ^1</string>
+    <string name="storage_wizard_format_progress_body">Nie usuwaj ^1 podczas formatowania.</string>
+    <string name="storage_wizard_format_progress_title">Formatowanie ^1…</string>
+    <string name="storage_wizard_ready_external_body">^1 jest gotowy do użytku ze zdjęciami i innymi multimediami.</string>
+    <string name="storage_wizard_ready_title">^1 jest gotowy</string>
+</resources>

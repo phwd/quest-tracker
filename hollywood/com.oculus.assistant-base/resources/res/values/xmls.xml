@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="assistant_preferences">r/ea.xml</xml>
+    <xml name="fb_network_security_config">r/d4.xml</xml>
+</resources>

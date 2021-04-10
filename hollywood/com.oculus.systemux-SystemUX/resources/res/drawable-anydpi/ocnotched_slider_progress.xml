@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:topRightRadius="@dimen/ocbutton_border_radius" android:bottomRightRadius="@dimen/ocbutton_border_radius"/>
+            <size android:height="@dimen/ocbutton_height" android:width="0dp"/>
+            <solid android:color="?attr/ocSliderBackground"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:topRightRadius="@dimen/ocbutton_border_radius" android:bottomRightRadius="@dimen/ocbutton_border_radius"/>
+                <size android:height="@dimen/ocbutton_height" android:width="0dp"/>
+                <solid android:color="?attr/ocPrimarySlider"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

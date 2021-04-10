@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105807" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.oculus.systemux" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.assistant.PANEL"/>
+    <uses-permission android:name="com.oculus.companion.server.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.horizon.auth"/>
+    <uses-permission android:name="com.oculus.permission.MANAGE_LOCKSCREEN"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.COLLECT_BUG_REPORT"/>
+    <uses-permission android:name="com.oculus.permission.SUBMIT_BUG_REPORT"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND"/>
+    <uses-permission android:name="com.oculus.updater.core.os.OTA_OPERATION"/>
+    <uses-permission android:name="com.oculus.vrshell.VrBroadcastReceiverPermission"/>
+    <uses-permission android:name="com.oculus.vrshell.VrNotificationServicePermission"/>
+    <uses-permission android:name="com.oculus.alpenglow.config.APP_INSTALLED"/>
+    <uses-permission android:name="com.oculus.alpenglow.config.APP_UNINSTALLED"/>
+    <uses-permission android:name="com.oculus.alpenglow.config.CONFIG_CHANGED"/>
+    <uses-permission android:name="com.oculus.alpenglow.config.FETCH_CONFIGURATION"/>
+    <uses-permission android:name="com.oculus.nux.ota.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.horizon.FBCONNECT_CONTENT_PROVIDER_READ_ACCESS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="com.oculus.horizon.notifications.receivers.RECEIVE_NOTIFICATION_DESTINATIONS"/>
+    <uses-permission android:name="com.oculus.systemdriver.DISPLAY_VR_NOTIFICATION"/>
+    <uses-permission android:name="com.oculus.userserver.USER_CHANGE_NOTIFICATIONS"/>
+    <uses-permission android:name="com.oculus.permission.XRS_OBSERVE_STATE"/>
+    <uses-permission android:name="com.oculus.assistant.BROADCAST_PERMISSION"/>
+    <uses-permission android:name="com.oculus.permission.MODIFY_CONTROLLER_STATUS"/>
+    <uses-permission android:name="com.oculus.permission.READ_CONTROLLER_STATUS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:label="SystemUX" android:name="com.oculus.systemux.SystemUXApplication" android:allowBackup="false" android:supportsRtl="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.horizon.fbpermission.FRIEND_LIST_CONTENT_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.socialplatform.fbpermission.FRIEND_LIST_CONTENT_PROVIDER" android:value=""/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.feature_set" android:value="SystemGK-V1"/>
+        <meta-data android:name="com.oculus.deviceconfig.PARAMS_MAP_PATH" android:value="assets/params_map.txt"/>
+        <service android:name="com.oculus.panelapp.notifications.NotificationsPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.panelapp.androiddialog.AndroidDialogPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.panelapp.dialog.DialogPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos"/>
+        </service>
+        <service android:name="com.oculus.panelapp.assistant.AssistantPanelService" android:process=":Assistant">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oculus.assistant.ACTIVATE_ASSISTANT"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="attention"/>
+        </service>
+        <service android:name="com.oculus.panelapp.bugreporter.BugReporterPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.panelapp.anytimeui.AnytimeUIAndroidPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+                <action android:name="com.oculus.assistant.ACTION_UI_CONTROL_SERVICE"/>
+                <action android:name="com.oculus.assistant.UI_LIFECYCLE_EVENT"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/anytime_ui_layers"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.panelapp.continuingeducation.ContinuingEducationPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.panelapp.library.LibraryPanelService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/library_layers"/>
+        </service>
+        <service android:name="com.oculus.systemux.SystemUXRoutesService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.systemux.routes.aidl.MAIN"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.oculus.systemux.SystemUXGatekeepersService" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.systemux.gatekeepers.aidl.MAIN"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.oculus.panelapp.anytimeui.broadcasts.AnytimeUIBroadcastReceiver" android:enabled="true" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.systemactivities.CAPTURE_STATE_UPDATE"/>
+                <action android:name="com.oculus.systemactivities.INSTANT_REPLAY_STATE_UPDATE"/>
+                <action android:name="com.oculus.systemactivities.LOCAL_STREAM_STATE_UPDATE"/>
+                <action android:name="com.oculus.vrshell.intent.action.UPDATE_APP_SCREENSHOT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oculus.intent.action.MOUNT_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.notifications.NotificationBroadcastReceiver" android:enabled="true" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.intent.action.NOTIF_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.vrshell.SystemUXBroadcastReceiver" android:enabled="true" android:process=":SystemUX">
+            <intent-filter>
+                <action android:name="com.oculus.systemux.action.SET_SCREENSHOT"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="oculus_preferences" android:resource="@raw/preferences_store_schema"/>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_17_38"/>
+        <meta-data android:name="com.oculus.socialplatform.fbpermission.MESSENGER_VR_ACCOUNTS_CONTENT_PROVIDER_READ_ONLY" android:value=""/>
+        <meta-data android:name="com.oculus.assistant.panel.version" android:value="9"/>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/action_bar_bg" android:background="@color/0_resource_name_obfuscated_RES_2131100224" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166112"/>
+    <org.chromium.chrome.browser.download.home.toolbar.DownloadHomeToolbar android:id="@+id/download_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166112" style="@style/0_resource_name_obfuscated_RES_2132017471"/>
+    <org.chromium.components.browser_ui.widget.FadingShadowView android:id="@+id/shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165268" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166112"/>
+</FrameLayout>

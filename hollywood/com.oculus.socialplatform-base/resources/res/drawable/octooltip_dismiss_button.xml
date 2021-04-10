@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/abc_dialog_padding_material" android:width="@dimen/abc_dialog_padding_material">
+        <bitmap android:src="@drawable/oc_icon_close_filled_24_c7c7c7" android:tint="?attr/ocIconButton" android:tintMode="src_in"/>
+    </item>
+    <item android:height="@dimen/messenger_tablet_message_bubble_profile_picture_diameter" android:width="@dimen/messenger_tablet_message_bubble_profile_picture_diameter" android:drawable="@drawable/ocbutton_borderless_circle"/>
+</layer-list>

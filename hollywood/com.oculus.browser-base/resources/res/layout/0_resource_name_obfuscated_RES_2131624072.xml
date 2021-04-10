@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017524">
+    <TextView android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017531"/>
+    <FrameLayout android:id="@android:id/widget_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

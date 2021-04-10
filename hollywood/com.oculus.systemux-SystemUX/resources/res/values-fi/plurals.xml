@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Käyttäjän %1$s ryhmä · %2$d ihminen</item>
+        <item quantity="other">Käyttäjän %1$s ryhmä · %2$d ihmistä</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d kaveri</item>
+        <item quantity="other">%1$d kaveria</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d kaveri Oculuksessa</item>
+        <item quantity="other">%1$d kaveria Oculuksessa</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="other">%1$s tukee enintään %2$d ihmistä.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="other">%1$s tukee enintään %2$d ihmistä. Jatka valitsemalla uusi sovellus.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d paikka saatavilla</item>
+        <item quantity="other">%1$d paikkaa saatavilla</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">%1$d sekunti lähetyksen alkuun…</item>
+        <item quantity="other">%1$d sekuntia lähetyksen alkuun…</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">Tässä ryhmässä on %1$d ihminen</item>
+        <item quantity="other">Tässä ryhmässä on %1$d ihmistä</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="other">%1$d ihmistä on kutsuttu</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">%1$d / %2$d sallittu sovellus</item>
+        <item quantity="other">%1$d / %2$d sallittua sovellusta</item>
+    </plurals>
+</resources>

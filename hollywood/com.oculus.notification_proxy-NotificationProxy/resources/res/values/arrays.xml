@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="blacklisted_vr_notifications">
+        <item>com.android.systemui|low_battery</item>
+        <item>com.oculus.companion.server|companion_blink</item>
+        <item>com.oculus.browser|DownloadNotificationService</item>
+        <item>com.oculus.horizon|null|-87117812</item>
+        <item>com.oculus.horizon|null|135234</item>
+    </array>
+    <array name="high_priority_notifications">
+        <item>com.android.notification_proxy|remote_disconnected</item>
+    </array>
+    <array name="whitelisted_vr_notifications">
+        <item>com.oculus.horizon</item>
+        <item>com.oculus.notification_proxy</item>
+        <item>com.oculus.os.logcollector</item>
+    </array>
+</resources>

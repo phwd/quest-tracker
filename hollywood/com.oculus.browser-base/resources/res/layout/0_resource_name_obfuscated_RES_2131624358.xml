@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.payments.ui.PaymentRequestBottomBar xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bottom_bar" android:background="@color/0_resource_name_obfuscated_RES_2131100145" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131166015" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131166015" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166014" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131166014">
+    <ImageView android:id="@+id/logo_name" android:layout_width="72dp" android:layout_height="20dp"/>
+    <ImageView android:id="@+id/logo" android:layout_width="20dp" android:layout_height="20dp"/>
+    <Space android:id="@+id/space" android:layout_width="0dp" android:layout_height="0dp"/>
+    <org.chromium.ui.widget.ButtonCompat android:id="@+id/button_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953176" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+    <org.chromium.ui.widget.ButtonCompat android:id="@+id/button_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953190" style="@style/0_resource_name_obfuscated_RES_2132017433"/>
+</org.chromium.chrome.browser.payments.ui.PaymentRequestBottomBar>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Headsettet ditt blir varmt. Vi anbefaler at du tar pause i noen minutter og lar headsettet kjøles ned.</string>
+    <string name="fan_malfunction">Kjøleviften på enheten din fungerer ikke som den skal. VR-brillene dine kan bli for varme eller oppleve unormal aktivitet på grunn av utilstrekkelig nedkjøling. Kontakt Oculus-kundestøtten på https://support.oculus.com for hjelp.</string>
+    <string name="notification_dismiss">Trykk for å fjerne dette varselet</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTEMVARSEL</string>
+    <string name="temp_critical">Headsettemperaturen stiger og vil slå seg av. Hvis du vil redusere risikoen for personskader, fjerner du headsettet og lar det kjøles ned før du fortsetter å bruke det.</string>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">Reduza %1$d separador.</item>
+        <item quantity="other">Reduza o grupo de separadores com %1$d separadores.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">Reduza %1$d separador.</item>
+        <item quantity="other">Reduza o grupo de separadores %1$s com %2$d separadores.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d ficheiro de áudio</item>
+        <item quantity="other">%d ficheiros de áudio</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d ficheiro</item>
+        <item quantity="other">%d ficheiros</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d imagem</item>
+        <item quantity="other">%d imagens</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d página</item>
+        <item quantity="other">%d páginas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">Remover 1 item selecionado</item>
+        <item quantity="other">Remover %d itens selecionados</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">Partilhar 1 item selecionado</item>
+        <item quantity="other">Partilhar %d itens selecionados</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">Remova %1$d separador selecionado do grupo.</item>
+        <item quantity="other">Remova %1$d separadores selecionados do grupo.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">Agrupar %1$d separador selecionado</item>
+        <item quantity="other">Agrupar %1$d separadores selecionados</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">Fechar %1$d separador selecionado</item>
+        <item quantity="other">Fechar %1$d separadores selecionados</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d separador aberto, toque para alternar entre separadores</item>
+        <item quantity="other">%1$d separadores abertos, toque para alternar entre separadores</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d marcador</item>
+        <item quantity="other">%1$d marcadores</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d separador</item>
+        <item quantity="other">%1$d separadores</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(mais 1)</item>
+        <item quantity="other">(mais %d)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">1 cookie bloqueado</item>
+        <item quantity="other">%d cookies bloqueados</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">A transferir o ficheiro…</item>
+        <item quantity="other">A transferir %d ficheiros…</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">%1$d ficheiro transferido</item>
+        <item quantity="other">%1$d ficheiros transferidos</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">1 transferência concluída.</item>
+        <item quantity="other">%d transferências concluídas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">1 transferência com falha.</item>
+        <item quantity="other">%d transferências com falha.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 transferência pendente.</item>
+        <item quantity="other">%d transferências pendentes.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">1 transferência programada.</item>
+        <item quantity="other">%d transferências programadas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">Há %d dia</item>
+        <item quantity="other">Há %d dias</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">Há %d hora</item>
+        <item quantity="other">Há %d horas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">Há %d minuto</item>
+        <item quantity="other">Há %d minutos</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">O Chrome irá carregar a página quando estiver pronta.</item>
+        <item quantity="other">O Chrome irá carregar as páginas quando estiverem prontas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">1 cookie em utilização</item>
+        <item quantity="other">%d cookies em utilização</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">%1$s, %2$s e mais %3$s permitidas.</item>
+        <item quantity="other">%1$s, %2$s e mais %3$s permitidas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">%1$s, %2$s e mais %3$s bloqueadas.</item>
+        <item quantity="other">%1$s, %2$s e mais %3$s bloqueadas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s e mais %3$s.</item>
+        <item quantity="other">%1$s, %2$s e mais %3$s.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d palavra-passe comprometida</item>
+        <item quantity="other">%d palavras-passe comprometidas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… e mais %2$s</item>
+        <item quantity="other">%1$s… e mais %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… e mais %2$s</item>
+        <item quantity="other">%1$s… e mais %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… e mais %2$s</item>
+        <item quantity="other">%1$s… e mais %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… e mais %2$s</item>
+        <item quantity="other">%1$s… e mais %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">Tem %1$d página.</item>
+        <item quantity="other">Tem %1$d páginas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d página não lida</item>
+        <item quantity="other">%1$d páginas não lidas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">1 palavra-passe comprometida.</item>
+        <item quantity="other">%d palavras-passe comprometidas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">Última verificação há 1 dia</item>
+        <item quantity="other">Última verificação há %d dias</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">Última verificação há 1 hora</item>
+        <item quantity="other">Última verificação há %d horas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">Última verificação há 1 minuto</item>
+        <item quantity="other">Última verificação há %d minutos</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 selecionado</item>
+        <item quantity="other">%d selecionados</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Nível de intensidade do sinal: %d barra</item>
+        <item quantity="other">Nível de intensidade do sinal: %d barras</item>
+    </plurals>
+</resources>

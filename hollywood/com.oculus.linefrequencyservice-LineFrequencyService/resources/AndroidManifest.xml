@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.linefrequencyservice" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.oculus.ocms.locationservices.permission.ACCESS"/>
+    <application android:label="LineFrequencyService" android:allowBackup="false" android:extractNativeLibs="true" android:directBootAware="true" android:usesNonSdkApi="true">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <service android:name=".LineFrequencyService" android:exported="true" android:singleUser="true"/>
+    </application>
+</manifest>

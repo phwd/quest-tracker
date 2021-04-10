@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230744">
+    <target android:name="arrow_clip" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230745"/>
+    <target android:name="arrow_blue" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230746"/>
+    <target android:name="bar" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230747"/>
+</animated-vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.chrome.browser.sync.settings.SyncErrorCardPreference android:key="sync_error_card" app:isPreferenceVisible="false"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953626" android:key="syncing_category" app:isPreferenceVisible="false"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953591" android:key="sync_everything"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953577" android:key="sync_autofill"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953578" android:key="sync_bookmarks"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953615" android:key="sync_payments_integration"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953592" android:key="sync_history"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953613" android:key="sync_passwords"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953617" android:key="sync_recent_tabs"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953618" android:key="sync_settings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231309" android:title="@string/0_resource_name_obfuscated_RES_2131953513" android:key="turn_off_sync" app:isPreferenceVisible="false"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953242" android:key="advanced_category" app:isPreferenceVisible="false"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/0_resource_name_obfuscated_RES_2131953504" android:key="google_activity_controls" android:summary="@string/0_resource_name_obfuscated_RES_2131953502"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/0_resource_name_obfuscated_RES_2131953582" android:key="encryption"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/0_resource_name_obfuscated_RES_2131953601" android:key="sync_manage_data"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953415" android:key="search_and_browse_category" app:isPreferenceVisible="false">
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/0_resource_name_obfuscated_RES_2131953729" android:key="url_keyed_anonymized_data" android:summary="@string/0_resource_name_obfuscated_RES_2131953728"/>
+    </PreferenceCategory>
+</PreferenceScreen>

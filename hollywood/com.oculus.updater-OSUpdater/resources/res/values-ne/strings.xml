@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">%1$s बिलियन</string>
+    <string name="shorten_billions_capitalized">%1$s बिलियन</string>
+    <string name="shorten_millions">%1$s म</string>
+    <string name="shorten_millions_capitalized">%1$s मिलियन</string>
+    <string name="shorten_ten_thousands">%1$s0 हजार</string>
+    <string name="shorten_thousands">%1$s हजार</string>
+    <string name="shorten_thousands_capitalized">%1$s हजार</string>
+    <string name="status_bar_notification_info_overflow">९९९+</string>
+</resources>

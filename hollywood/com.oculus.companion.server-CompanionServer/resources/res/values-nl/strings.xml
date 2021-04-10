@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Hiermee word je afgemeld bij oculus.com!</string>
+    <string name="app_name">Bijbehorende server</string>
+    <string name="app_short_name">Bijbehorend</string>
+    <string name="permdesc_companionService">Hiermee heeft de app toestemming om intenties naar de bijbehorende service te sturen.</string>
+    <string name="permlab_companionService">intenties naar de bijbehorende service te sturen</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Controller van derde partij</string>
+</resources>

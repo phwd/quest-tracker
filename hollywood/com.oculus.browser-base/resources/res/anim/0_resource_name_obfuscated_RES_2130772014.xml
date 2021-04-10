@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <objectAnimator android:duration="1000" android:valueFrom="@color/0_resource_name_obfuscated_RES_2131099822" android:valueTo="@color/0_resource_name_obfuscated_RES_2131099822" android:propertyName="fillColor"/>
+    <objectAnimator android:duration="300" android:valueFrom="@color/0_resource_name_obfuscated_RES_2131099946" android:valueTo="@color/0_resource_name_obfuscated_RES_2131099946" android:propertyName="fillColor"/>
+    <objectAnimator android:duration="2350" android:valueFrom="@color/0_resource_name_obfuscated_RES_2131099946" android:valueTo="@color/0_resource_name_obfuscated_RES_2131099946" android:propertyName="fillColor"/>
+    <objectAnimator android:duration="300" android:valueFrom="@color/0_resource_name_obfuscated_RES_2131099822" android:valueTo="@color/0_resource_name_obfuscated_RES_2131099822" android:propertyName="fillColor"/>
+</set>

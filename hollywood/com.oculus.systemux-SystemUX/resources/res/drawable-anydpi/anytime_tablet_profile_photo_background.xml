@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="96dp" android:width="96dp"/>
+            <solid android:color="@color/oc_white_a10"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="48dp" android:width="48dp" android:drawable="@drawable/oc_icon_profile_filled_48_d2d2d2"/>
+</layer-list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Διακομιστής μεσολάβησης ειδοποιήσεων</string>
+    <string name="battery_critical_text">Συνδέστε τη συσκευή σας άμεσα.</string>
+    <string name="battery_critical_title">Πολύ χαμηλή ισχύς συσκευής</string>
+    <string name="battery_low_text">Συνδέστε τη συσκευή σας.</string>
+    <string name="battery_low_title">Χαμηλή ισχύς συσκευής</string>
+    <string name="controller_critical_battery_text">Αντικαταστήστε την μπαταρία του χειριστηρίου τώρα.</string>
+    <string name="controller_critical_battery_title">Οριακά χαμηλή φόρτιση μπαταρίας χειριστηρίου</string>
+    <string name="controller_disconnected_text">Ελέγξτε την μπαταρία, μετακινήστε το χειριστήριο πιο κοντά ή επικοινωνήστε με την Υποστήριξη της Oculus.</string>
+    <string name="controller_disconnected_title">Δεν ήταν δυνατός ο εντοπισμός του χειριστηρίου</string>
+    <string name="controller_firmware_update_failed_text">Επικοινωνήστε με την Υποστήριξη της Oculus για βοήθεια.</string>
+    <string name="controller_firmware_update_failed_title">Δεν ήταν δυνατή η ενημέρωση του χειριστηρίου</string>
+    <string name="controller_firmware_update_progress_text">Εξέλιξη ενημέρωσης: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Επιτυχής ενημέρωση.</string>
+    <string name="controller_firmware_update_title">Ενημέρωση χειριστηρίου σε εξέλιξη</string>
+    <string name="controller_low_battery_text">Αντικαταστήστε την μπαταρία άμεσα.</string>
+    <string name="controller_low_battery_title">Χαμηλή φόρτιση μπαταρίας χειριστηρίου</string>
+    <string name="dual_controller_both_controller_disconnected_title">Δεν εντοπίστηκαν τα χειριστήρια</string>
+    <string name="dual_controller_both_controller_low_battery_title">Χαμηλή φόρτιση μπαταριών χειριστηρίου</string>
+    <string name="dual_controller_disconnected_text">Αν δεν λυθεί το πρόβλημα, ελέγξτε την μπαταρία ή επικοινωνήστε με την Υποστήριξη της Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Δεν εντοπίστηκε το αριστερό χειριστήριο</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Σφάλμα ενημέρωσης αριστερού χειριστηρίου</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Ενημέρωση αριστερού χειριστηρίου σε εξέλιξη</string>
+    <string name="dual_controller_left_controller_low_battery_title">Χαμηλή φόρτιση μπαταρίας αριστερού χειριστηρίου</string>
+    <string name="dual_controller_low_battery_text">Αντικαταστήστε την μπαταρία άμεσα.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Δεν εντοπίστηκε το δεξί χειριστήριο</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Σφάλμα ενημέρωσης δεξιού χειριστηρίου</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Ενημέρωση δεξιού χειριστηρίου σε εξέλιξη</string>
+    <string name="dual_controller_right_controller_low_battery_title">Χαμηλή φόρτιση μπαταρίας δεξιού χειριστηρίου</string>
+    <string name="notification_header">Σύστημα Oculus</string>
+    <string name="safe_volume_warning_text_1">Η ακρόαση σε υψηλή ένταση για παρατεταμένα χρονικά διαστήματα μπορεί να προκαλέσει προβλήματα στην ακοή σας.</string>
+    <string name="safe_volume_warning_text_2">Πατήστε ξανά το κουμπί για να απενεργοποιήσετε προσωρινά αυτήν την προειδοποίηση.</string>
+    <string name="safe_volume_warning_title">Αύξηση της έντασης ήχου πάνω από το προτεινόμενο επίπεδο</string>
+    <string name="vrui_gaze_input_instruction_text">Κουνήστε το κεφάλι σας και έπειτα πατήστε ένα από τα κουμπιά ρύθμισης της έντασης ήχου για να κάνετε μια επιλογή.</string>
+    <string name="vrui_gaze_input_instruction_title">Η παρακολούθηση χεριών και τα χειριστήρια έχουν απενεργοποιηθεί</string>
+    <string name="wifi_disconnected_text">Για να λύσετε το πρόβλημα, ανατρέξτε στις Ρυθμίσεις.</string>
+    <string name="wifi_disconnected_title">Διακοπή σύνδεση Wi-Fi συσκευής</string>
+</resources>

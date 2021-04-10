@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <layer-list>
+            <item android:height="8dp" android:width="8dp" android:top="29dp" android:start="43dp">
+                <shape android:shape="oval">
+                    <size android:height="8dp" android:width="8dp"/>
+                    <solid android:color="?attr/ocBadge"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

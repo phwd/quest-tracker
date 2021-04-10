@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Tegn låsemønster</string>
+    <string name="lockscreen_enter_pin">Enhets-PIN</string>
+    <string name="lockscreen_try_again">Prøv på nytt</string>
+    <string name="pattern_too_short">Koble sammen minst 4 punkter.</string>
+    <string name="permdesc_accessMrSensorData">Lar appen få tilgang til blandet realitetssensordata, inkludert kamerakalibrering og bilder.</string>
+    <string name="permdesc_access_handtracking_data">Gi appen tilgang til håndsporingsdata</string>
+    <string name="permgroupdesc_handtracking">tilgang til håndsporingsdata</string>
+    <string name="permgroupdesc_sensorData">se sensordata</string>
+    <string name="permgrouplab_handtracking">Håndsporing</string>
+    <string name="permgrouplab_sensorData">Sensordata</string>
+    <string name="permlab_accessMrSensorData">få tilgang til blandede realitetssensordata</string>
+    <string name="permlab_access_handtracking_data">tilgang til håndsporingsdata</string>
+    <string name="pin_button_delete">Slett</string>
+    <string name="pin_button_enter">Skriv inn</string>
+    <string name="reset_unlock_pattern_msg">Følg disse trinnene for å tilbakestille låsemønsteret:</string>
+    <string name="reset_unlock_pattern_step_1">1. Åpne Oculus-appen på mobilenheten din.</string>
+    <string name="reset_unlock_pattern_step_2">2. Åpne Innstillinger-siden, trykk på navnet på VR-brillene dine, og vent til de er tilkoblet.</string>
+    <string name="reset_unlock_pattern_step_3">3. Trykk på Flere innstillinger &gt; Låsemønster.</string>
+    <string name="reset_unlock_pattern_title">Tilbakestill låsemønster</string>
+</resources>

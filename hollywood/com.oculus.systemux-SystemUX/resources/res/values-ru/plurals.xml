@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="few">Группа %1$s · %2$d человека</item>
+        <item quantity="other">Группа %1$s · %2$d человек</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d друг</item>
+        <item quantity="few">%1$d друга</item>
+        <item quantity="other">%1$d друзей</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d друг в Oculus</item>
+        <item quantity="few">%1$d друга в Oculus</item>
+        <item quantity="other">%1$d друзей в Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">&quot;%1$s&quot; поддерживает не больше %2$d человека.</item>
+        <item quantity="other">&quot;%1$s&quot; поддерживает не больше %2$d человек.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">&quot;%1$s&quot; поддерживает не больше %2$d человека. Для продолжения выберите другое приложение.</item>
+        <item quantity="other">&quot;%1$s&quot; поддерживает не больше %2$d человек. Для продолжения выберите другое приложение.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">Осталось мест: %1$d</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">%1$d секунда до начала трансляции…</item>
+        <item quantity="few">%1$d секунды до начала трансляции…</item>
+        <item quantity="other">%1$d секунд до начала трансляции…</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="few">%1$d человека в группе</item>
+        <item quantity="other">%1$d человек в группе</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">Приглашен %1$d человек</item>
+        <item quantity="few">Приглашено %1$d человека</item>
+        <item quantity="other">Приглашено %1$d человек</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">Разрешенные приложения:%1$d из %2$d</item>
+    </plurals>
+</resources>

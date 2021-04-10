@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d lugar disponível</item>
+        <item quantity="other">%1$d lugares disponíveis</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%1$d outra pessoa</item>
+        <item quantity="other">%1$d outras pessoas</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">%1$d pessoa que bloqueaste está neste grupo</item>
+        <item quantity="other">%1$d pessoas que bloqueaste estão neste grupo</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 pessoa está pronta para viajar.</item>
+        <item quantity="other">%1$d pessoas estão prontas para viajar.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Convite partilhado com %1$s e %2$d outra pessoa.</item>
+        <item quantity="other">Convite partilhado com %1$s e %2$d outras pessoas.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Convite enviado para %1$s e %2$d outra pessoa.</item>
+        <item quantity="other">Convite enviado para %1$s e %2$d outras pessoas.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">há %1$d dia</item>
+        <item quantity="other">há %1$d dias</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">há %1$d hora</item>
+        <item quantity="other">há %1$d horas</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d amigo em comum</item>
+        <item quantity="other">%1$d amigos em comum</item>
+    </plurals>
+</resources>

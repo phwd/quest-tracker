@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165283" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165284" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165284">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:ellipsize="end" android:id="@+id/dropdown_label" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1" android:textAlignment="viewStart"/>
+    <ImageView android:id="@+id/dropdown_icon" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165287" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165282" android:scaleType="centerInside" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165286" android:layout_marginEnd="0dp"/>
+</LinearLayout>

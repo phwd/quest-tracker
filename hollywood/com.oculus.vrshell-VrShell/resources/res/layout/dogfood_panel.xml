@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.dogfood.DogfoodView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/dogfood_panel_title" android:text="Dogfood Panel" style="@style/DogfoodPanelTitleText"/>
+    <com.oculus.panelapp.dogfood.tabs.DogfoodTabHost android:id="@+id/dogfood_panel_tabhost" android:background="@color/colorDogfoodPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ScrollView android:layout_width="200dp" android:layout_height="wrap_content">
+                <TabWidget android:orientation="vertical" android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </ScrollView>
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="match_parent">
+                <include layout="@layout/dogfood_ota_tab"/>
+                <include layout="@layout/dogfood_reset_tab"/>
+                <include layout="@layout/dogfood_builds_tab"/>
+                <include layout="@layout/dogfood_assignments_tab"/>
+                <include layout="@layout/dogfood_developer_settings_tab"/>
+            </FrameLayout>
+        </LinearLayout>
+    </com.oculus.panelapp.dogfood.tabs.DogfoodTabHost>
+</com.oculus.panelapp.dogfood.DogfoodView>

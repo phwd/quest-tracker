@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">%1$s sitt treff · %2$d person</item>
+        <item quantity="other">%1$s sitt treff · %2$d personer</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d venn</item>
+        <item quantity="other">%1$d venner</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d venn på Oculus</item>
+        <item quantity="other">%1$d venner på Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s støtter bare opptil %2$d person.</item>
+        <item quantity="other">%1$s støtter bare opptil %2$d personer.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s støtter bare opptil %2$d person. Velg en annen app for å fortsette.</item>
+        <item quantity="other">%1$s støtter bare opptil %2$d personer. Velg en annen app for å fortsette.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d ledig plass</item>
+        <item quantity="other">%1$d ledige plasser</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="other">%1$d sekunder gjenstår for å starte strømmingen …</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="other">%1$d personer er på treffet</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%1$d person har blitt invitert</item>
+        <item quantity="other">%1$d personer har blitt invitert</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">%1$d av %2$d apper tillatt</item>
+    </plurals>
+</resources>

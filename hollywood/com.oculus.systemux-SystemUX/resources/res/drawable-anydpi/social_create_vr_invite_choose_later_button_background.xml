@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/social_create_vr_invite_border_radius"/>
+            <solid android:color="@color/oc_gray_60"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="24dp" android:width="24dp">
+        <bitmap android:src="@drawable/oc_icon_destination_filled_24_d2d2d2"/>
+    </item>
+</layer-list>

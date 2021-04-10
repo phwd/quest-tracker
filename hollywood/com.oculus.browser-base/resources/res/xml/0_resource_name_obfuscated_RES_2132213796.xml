@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231527" android:title="@string/0_resource_name_obfuscated_RES_2131951989" android:key="all_sites" android:fragment="org.chromium.components.browser_ui.site_settings.AllSiteSettings" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="cookies" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="device_location" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="camera" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="microphone" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="sensors" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="notifications" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="javascript" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="popups" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="ads" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="background_sync" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="automatic_downloads" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="protected_content" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="sound" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231532" android:title="@string/0_resource_name_obfuscated_RES_2131953877" android:key="use_storage" android:fragment="org.chromium.components.browser_ui.site_settings.AllSiteSettings" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="nfc" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="usb" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="clipboard" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="bluetooth" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="bluetooth_scanning" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="virtual_reality" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="augmented_reality" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="idle_detection" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+</PreferenceScreen>

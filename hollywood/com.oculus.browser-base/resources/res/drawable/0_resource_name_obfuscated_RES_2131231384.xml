@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="top|left|right|center_vertical|center_horizontal|fill_horizontal|center" android:src="@drawable/0_resource_name_obfuscated_RES_2131231380" android:tileMode="disabled"/>
+    </item>
+    <item android:drawable="@color/0_resource_name_obfuscated_RES_2131099974" android:top="@dimen/0_resource_name_obfuscated_RES_2131165619"/>
+</layer-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_popup_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="à" custom:keyOutputText="à" custom:shiftKeyLabel="À" custom:shiftKeyOutputText="À"/>
+        <Key custom:keyLabel="ā" custom:keyOutputText="ā" custom:shiftKeyLabel="Ā" custom:shiftKeyOutputText="Ā"/>
+        <Key custom:keyLabel="ä" custom:keyOutputText="ä" custom:shiftKeyLabel="Ä" custom:shiftKeyOutputText="Ä"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="â" custom:keyOutputText="â" custom:shiftKeyLabel="Â" custom:shiftKeyOutputText="Â"/>
+        <Key custom:keyLabel="a" custom:keyOutputText="a" custom:shiftKeyLabel="A" custom:shiftKeyOutputText="A"/>
+        <Key custom:keyLabel="á" custom:keyOutputText="á" custom:shiftKeyLabel="Á" custom:shiftKeyOutputText="Á"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="å" custom:keyOutputText="å" custom:shiftKeyLabel="Å" custom:shiftKeyOutputText="Å"/>
+        <Key custom:keyLabel="ã" custom:keyOutputText="ã" custom:shiftKeyLabel="Ã" custom:shiftKeyOutputText="Ã"/>
+        <Key custom:keyLabel="æ" custom:keyOutputText="æ" custom:shiftKeyLabel="Æ" custom:shiftKeyOutputText="Æ"/>
+    </Row>
+</Keyboard>

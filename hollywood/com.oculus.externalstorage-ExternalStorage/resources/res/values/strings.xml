@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Done</string>
+    <string name="otg_failure_message">Please charge your headset battery level to 60% or higher and try again.</string>
+    <string name="otg_failure_title">Can\'t Connect to USB</string>
+    <string name="reformat_usb">Reformat USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Reformatting this USB drive will erase all data currently stored on it.</string>
+    <string name="storage_format_confirm_title">Are you sure?</string>
+    <string name="storage_launcher_accept">Continue</string>
+    <string name="storage_launcher_format_message">To use this USB drive with your headset, it will need to be reformatted.</string>
+    <string name="storage_launcher_format_title">Drive Not Supported</string>
+    <string name="storage_launcher_gallery_message">Do you want to open Oculus Gallery to explore the content of the disk?</string>
+    <string name="storage_launcher_gallery_title">External Storage</string>
+    <string name="storage_launcher_refuse">Cancel</string>
+    <string name="storage_wizard_error_body">Error: ^1</string>
+    <string name="storage_wizard_error_title">Failed to format ^1</string>
+    <string name="storage_wizard_format_progress_body">Don’t remove the ^1 while it’s formatting.</string>
+    <string name="storage_wizard_format_progress_title">Formatting ^1…</string>
+    <string name="storage_wizard_ready_external_body">Your ^1 is all set to use with photos and other media.</string>
+    <string name="storage_wizard_ready_title">^1 is ready</string>
+</resources>

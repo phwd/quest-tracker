@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Xong</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_title">Bạn có chắc không?</string>
+    <string name="storage_launcher_accept">Tiếp tục</string>
+    <string name="storage_launcher_refuse">Hủy</string>
+</resources>

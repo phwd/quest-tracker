@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="100dp" android:width="100dp" android:viewportWidth="100" android:viewportHeight="100">
+    <path android:name="circle" android:fillColor="@color/0_resource_name_obfuscated_RES_2131100039" android:pathData="M 20,60 c 0,-11 9,-20 20,-20 l0, 20 l20,0 c 0,11 -9,20 -20,20 c -11,0 -20,-9 -20,-20"/>
+    <path android:name="square" android:fillColor="@color/0_resource_name_obfuscated_RES_2131100039" android:pathData="M 40,40 l0,-15 l35,0 l0,35 l-15,0 c 0,-11 -9,-20 -20,-20 C"/>
+    <path android:name="arc" android:fillColor="@color/0_resource_name_obfuscated_RES_2131100039" android:pathData="M 40,60 l 0,-20 c 11,0 20,9 20,20" android:fillAlpha="0"/>
+</vector>

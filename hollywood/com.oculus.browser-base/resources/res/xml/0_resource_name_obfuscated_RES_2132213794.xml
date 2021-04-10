@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953466" android:key="secure_dns_switch" android:summary="@string/0_resource_name_obfuscated_RES_2131953463"/>
+    <org.chromium.chrome.browser.privacy.secure_dns.SecureDnsProviderPreference android:key="secure_dns_provider" app:allowDividerBelow="false"/>
+</PreferenceScreen>

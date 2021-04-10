@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Βασικές υπηρεσίες Oculus για κινητά</string>
+    <string name="binary_check_notification_content">Οι εφαρμογές από άγνωστες πηγές μπορεί να θέσουν σε κίνδυνο τον λογαριασμό και τη συσκευή σας.</string>
+    <string name="binary_check_notification_title">Εγκατάσταση ανεπίσημης έκδοσης %1$s</string>
+    <string name="notifications_download_canceled_message">Η λήψη της εφαρμογής %1$s ακυρώθηκε</string>
+    <string name="notifications_download_canceled_title">Η λήψη ακυρώθηκε</string>
+    <string name="notifications_download_failed_message">Η λήψη της εφαρμογής %1$s απέτυχε</string>
+    <string name="notifications_download_failed_title">Αποτυχία λήψης</string>
+    <string name="notifications_download_in_progress_message">Λήψη %1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">Λήψη και εγκατάσταση εφαρμογών...</string>
+    <string name="notifications_head_install_failed_message">Αποτυχία εγκατάστασης</string>
+    <string name="notifications_head_installed_message">Εγκαταστάθηκε</string>
+    <string name="notifications_head_installing_message">Εγκατάσταση...</string>
+    <string name="notifications_install_failed_message">Η εγκατάσταση της εφαρμογής %1$s απέτυχε</string>
+    <string name="notifications_install_in_progress_message">Εγκατάσταση της εφαρμογής %1$s…</string>
+    <string name="notifications_install_succeeded_message">Η εφαρμογή %1$s εγκαταστάθηκε επιτυχώς στη βιβλιοθήκη σας.</string>
+    <string name="obb_display_title">%1$s (αρχείο επέκτασης)</string>
+    <string name="shorten_billions">%1$s δισ.</string>
+    <string name="shorten_billions_capitalized">%1$s δισ.</string>
+    <string name="shorten_millions">%1$s εκ.</string>
+    <string name="shorten_millions_capitalized">%1$s εκ.</string>
+    <string name="shorten_thousands">%1$s χιλ.</string>
+    <string name="shorten_thousands_capitalized">%1$s χιλ.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

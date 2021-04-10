@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Dette vil logge dig af oculus.com!</string>
+    <string name="app_name">Tilhørende server</string>
+    <string name="app_short_name">Tilhørende</string>
+    <string name="permdesc_companionService">Tillader appen at sende hensigter til den tilhørende tjeneste.</string>
+    <string name="permlab_companionService">send hensigter til tilhørende tjeneste</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Tredjepartscontroller</string>
+</resources>

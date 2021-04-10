@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">收合 %1$d 個分頁。</item>
+        <item quantity="other">收合包含 %1$d 個分頁的分頁群組。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">收合 %1$d 個分頁。</item>
+        <item quantity="other">收合包含 %2$d 個分頁的「%1$s」分頁群組。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d 個音訊檔案</item>
+        <item quantity="other">%d 個音訊檔案</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d 個檔案</item>
+        <item quantity="other">%d 個檔案</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d 張圖片</item>
+        <item quantity="other">%d 張圖片</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d 個網頁</item>
+        <item quantity="other">%d 個網頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d 部影片</item>
+        <item quantity="other">%d 部影片</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">移除 1 個選取的項目</item>
+        <item quantity="other">移除 %d 個選取的項目</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">分享 1 個選取的項目</item>
+        <item quantity="other">分享 %d 個選取的項目</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">從群組中移除 %1$d 個已選取的分頁。</item>
+        <item quantity="other">從群組中移除 %1$d 個已選取的分頁。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">將 %1$d個所選分頁加入群組</item>
+        <item quantity="other">將 %1$d個所選分頁加入群組</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">關閉 %1$d 個所選分頁</item>
+        <item quantity="other">關閉 %1$d 個所選分頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">已開啟 %1$d 個分頁，輕觸即可切換分頁</item>
+        <item quantity="other">已開啟 %1$d 個分頁，輕觸即可切換分頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d 個書籤</item>
+        <item quantity="other">%1$d 個書籤</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d 個分頁</item>
+        <item quantity="other">%1$d 個分頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(還有 1 個)</item>
+        <item quantity="other">(還有 %d 個)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">已封鎖 1 個 Cookie</item>
+        <item quantity="other">已封鎖 %d 個 Cookie</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">正在下載檔案。</item>
+        <item quantity="other">正在下載 %d 個檔案。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d 小時</item>
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">已下載 %1$d 個檔案</item>
+        <item quantity="other">已下載 %1$d 個檔案</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">已完成 1 項下載作業。</item>
+        <item quantity="other">已完成 %d 項下載作業。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">無法完成 1 項下載作業。</item>
+        <item quantity="other">無法完成 %d 項下載作業。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 項下載作業仍待處理。</item>
+        <item quantity="other">%d 項下載作業仍待處理。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">已排定 1 項下載作業。</item>
+        <item quantity="other">已排定 %d 項下載作業。</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">%d 天前</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">%d 小時前</item>
+        <item quantity="other">%d 小時前</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">%d 分鐘前</item>
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Chrome 準備就緒後將載入你的網頁</item>
+        <item quantity="other">Chrome 準備就緒後將載入你的網頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">目前使用 1 個 Cookie</item>
+        <item quantity="other">目前使用 %d 個 Cookie</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">已允許「%1$s」、「%2$s」和另外 %3$s 項權限</item>
+        <item quantity="other">已允許「%1$s」、「%2$s」和另外 %3$s 項權限</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">已封鎖「%1$s」、「%2$s」和另外 %3$s 項權限</item>
+        <item quantity="other">已封鎖「%1$s」、「%2$s」和另外 %3$s 項權限</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">「%1$s」、「%2$s」和另外 %3$s 項權限</item>
+        <item quantity="other">「%1$s」、「%2$s」和另外 %3$s 項權限</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">有 %d 組密碼遭外洩</item>
+        <item quantity="other">有 %d 組密碼遭外洩</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… 和另外 %2$s 個聯絡人</item>
+        <item quantity="other">%1$s… 和另外 %2$s 個聯絡人</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… 和另外 %2$s 種付款方式</item>
+        <item quantity="other">%1$s… 和另外 %2$s 種付款方式</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… 和另外 %2$s 個地址</item>
+        <item quantity="other">%1$s… 和另外 %2$s 個地址</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… 和另外 %2$s 種運送方式</item>
+        <item quantity="other">%1$s… 和另外 %2$s 種運送方式</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">你有 %1$d 個網頁</item>
+        <item quantity="other">你有 %1$d 個網頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d 個未讀取的網頁</item>
+        <item quantity="other">%1$d 個未讀取的網頁</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">有 1 組密碼遭外洩</item>
+        <item quantity="other">有 %d 組密碼遭外洩</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">已在 1 天前檢查</item>
+        <item quantity="other">已在 %d 天前檢查</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">已在 1 小時前檢查</item>
+        <item quantity="other">已在 %d 小時前檢查</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">已在 1 分鐘前檢查</item>
+        <item quantity="other">已在 %d 分鐘前檢查</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">已選取 1 個項目</item>
+        <item quantity="other">已選取 %d 個項目</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">訊號強度等級：%d 格</item>
+        <item quantity="other">訊號強度等級：%d 格</item>
+    </plurals>
+</resources>

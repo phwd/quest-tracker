@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:orientation="vertical" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@+id/summary" style="@style/0_resource_name_obfuscated_RES_2132017156"/>
+</LinearLayout>

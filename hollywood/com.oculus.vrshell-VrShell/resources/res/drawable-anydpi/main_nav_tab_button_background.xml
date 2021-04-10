@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/tabButtonPressed"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="1dp">
+                <shape>
+                    <size android:height="2dp"/>
+                    <solid android:color="@color/tabUnderlineSelected"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="0dp">
+                <shape>
+                    <size android:height="1dp"/>
+                    <solid android:color="@color/tabDivider"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true" android:state_hovered="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/tabButtonHover"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="1dp">
+                <shape>
+                    <size android:height="2dp"/>
+                    <solid android:color="@color/tabUnderlineSelected"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="0dp">
+                <shape>
+                    <size android:height="1dp"/>
+                    <solid android:color="@color/tabDivider"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/tabButtonPressed"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="1dp">
+                <shape>
+                    <size android:height="2dp"/>
+                    <solid android:color="@color/tabUnderlinePressed"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="0dp">
+                <shape>
+                    <size android:height="1dp"/>
+                    <solid android:color="@color/tabDivider"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_hovered="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/tabButtonHover"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="1dp">
+                <shape>
+                    <size android:height="2dp"/>
+                    <solid android:color="@color/tabUnderlineHover"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="0dp">
+                <shape>
+                    <size android:height="1dp"/>
+                    <solid android:color="@color/tabDivider"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/tabButtonSelected"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="1dp">
+                <shape>
+                    <size android:height="2dp"/>
+                    <solid android:color="@color/tabUnderlineSelected"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="0dp">
+                <shape>
+                    <size android:height="1dp"/>
+                    <solid android:color="@color/tabDivider"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/tabButton"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="1dp">
+                <shape>
+                    <size android:height="2dp"/>
+                    <solid android:color="@color/tabUnderline"/>
+                </shape>
+            </item>
+            <item android:gravity="bottom" android:bottom="0dp">
+                <shape>
+                    <size android:height="1dp"/>
+                    <solid android:color="@color/tabDivider"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

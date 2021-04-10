@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">完了</string>
+    <string name="otg_failure_message">ヘッドセットのバッテリーレベルが60%%以上になるまで充電して、もう一度実行してください。</string>
+    <string name="otg_failure_title">USBに接続できません</string>
+    <string name="reformat_usb">USBの再フォーマット</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">USBを再フォーマットすると、現在USBに保存済みの全データが削除されます。</string>
+    <string name="storage_format_confirm_title">よろしいですか？</string>
+    <string name="storage_launcher_accept">次へ</string>
+    <string name="storage_launcher_format_message">ヘッドセットでこのUSBドライブを使用するにはフォーマットが必要です。</string>
+    <string name="storage_launcher_format_title">ドライブがサポートされていません</string>
+    <string name="storage_launcher_gallery_message">Oculus Galleryを開いてディスクのコンテンツをチェックしますか？</string>
+    <string name="storage_launcher_gallery_title">外部ストレージ</string>
+    <string name="storage_launcher_refuse">キャンセル</string>
+    <string name="storage_wizard_error_body">エラー: ^1</string>
+    <string name="storage_wizard_error_title">^1をフォーマットできませんでした</string>
+    <string name="storage_wizard_format_progress_body">フォーマット中に^1を削除しないでください。</string>
+    <string name="storage_wizard_format_progress_title">^1をフォーマット中...</string>
+    <string name="storage_wizard_ready_external_body">^1で写真やその他のメディアで使用できるようになりました。</string>
+    <string name="storage_wizard_ready_title">^1の処理が完了しました</string>
+</resources>

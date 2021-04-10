@@ -1,0 +1,20 @@
+{
+  "contents": [
+    {
+      "key": "dogfood_panel_last_ota_build",
+      "type": "string",
+      "default": "",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true
+    },
+    {
+      "key": "dogfood_panel_last_assignments_hash",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true
+    }
+  ]
+}

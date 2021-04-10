@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">完成</string>
+    <string name="otg_failure_message">請為頭戴式裝置充電至 60%% 以上電量，然後再試一次。</string>
+    <string name="otg_failure_title">無法連線到 USB 隨身碟</string>
+    <string name="reformat_usb">重新格式化 USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">重新格式化此 USB 隨身碟會清除所有目前儲存的資料。</string>
+    <string name="storage_format_confirm_title">你確定嗎？</string>
+    <string name="storage_launcher_accept">繼續</string>
+    <string name="storage_launcher_format_message">若要讓頭戴式裝置搭配此 USB 隨身碟使用，則需重新格式化隨身碟。</string>
+    <string name="storage_launcher_format_title">不支援此隨身碟</string>
+    <string name="storage_launcher_gallery_message">是否要開啟 Oculus Gallery 以探索磁碟的內容？</string>
+    <string name="storage_launcher_gallery_title">外部儲存空間</string>
+    <string name="storage_launcher_refuse">取消</string>
+    <string name="storage_wizard_error_body">錯誤：^1</string>
+    <string name="storage_wizard_error_title">無法格式化^1</string>
+    <string name="storage_wizard_format_progress_body">請勿在格式化期間移除^1。</string>
+    <string name="storage_wizard_format_progress_title">正在格式化^1......</string>
+    <string name="storage_wizard_ready_external_body">你的^1已可使用相片和其他媒體。</string>
+    <string name="storage_wizard_ready_title">^1已可使用</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockscreen_try_countdown">
+        <item quantity="one">Încearcă din nou peste %1$d secundă</item>
+        <item quantity="other">Încearcă din nou peste %1$d secunde</item>
+    </plurals>
+</resources>

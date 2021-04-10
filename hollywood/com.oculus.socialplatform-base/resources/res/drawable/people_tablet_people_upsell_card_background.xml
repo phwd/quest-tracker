@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/people_tablet_people_user_card_background"/>
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="8dp"/>
+                    <solid android:color="?attr/ocPressedOverlay"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="8dp"/>
+                    <solid android:color="?attr/ocHoverOverlay"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

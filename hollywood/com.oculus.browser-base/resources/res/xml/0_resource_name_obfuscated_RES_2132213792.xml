@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/0_resource_name_obfuscated_RES_2131953383" app:allowDividerBelow="false"/>
+    <org.chromium.chrome.browser.safety_check.SafetyCheckElementPreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231329" android:title="@string/0_resource_name_obfuscated_RES_2131953402" android:key="updates" app:allowDividerBelow="false" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    <org.chromium.chrome.browser.safety_check.SafetyCheckElementPreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231346" android:title="@string/0_resource_name_obfuscated_RES_2131953391" android:key="passwords" app:allowDividerBelow="false" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    <org.chromium.chrome.browser.safety_check.SafetyCheckElementPreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231299" android:title="@string/0_resource_name_obfuscated_RES_2131953396" android:key="safe_browsing" app:allowDividerBelow="false" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+</PreferenceScreen>

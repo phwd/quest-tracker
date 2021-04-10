@@ -1,0 +1,313 @@
+{
+  "contents": [
+    {
+      "key": "debug_render_show_panel_mips",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turn on/off the rendering flag for showing mip map levels used when rendering a panel layer."
+    },
+    {
+      "key": "debug_render_visualize_swaps",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turn on/off the rendering flag for changing the color on the layer every time a new update is copied. This can be used to find invalidation issues."
+    },
+    {
+      "key": "debug_render_show_scene_mips",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on/off the mip color visualiztions for the 3D scene."
+    },
+    {
+      "key": "debug_log_surface_rendering_details",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on/off debug logging for 3D surfaces."
+    },
+    {
+      "key": "debug_increase_max_surface_limit_for_scene",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Increase the surface rendering limit from 32 to 100 for optimizing new scenes."
+    },
+    {
+      "key": "debug_ignore_environment_changes",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on/off the ability for panel apps to show a new environment."
+    },
+    {
+      "key": "debug_log_shell_to_panel_ipc",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on logging of Shell commands sent to panels."
+    },
+    {
+      "key": "debug_log_panel_to_shell_ipc",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on logging of Panel commands send to the Shell."
+    },
+    {
+      "key": "debug_ignore_device_mount_state",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns off application notification of HMD mounted/unmounted events."
+    },
+    {
+      "key": "debug_log_android_key_messages",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on logging of the Android key event messages from the MainActivity. This comes from either a Bluetooth keyboard or Joypad."
+    },
+    {
+      "key": "debug_disable_ipc_security",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns off the SecurityInvariant checks on the IPC parser allowing applications to use otherwise restricted commands. This is useful for testing exploring commands that require a security review."
+    },
+    {
+      "key": "debug_force_display_refresh_rate",
+      "type": "float",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces the configured display refresh rate to the specified value. Does not guarantee the compositor will grant the request."
+    },
+    {
+      "key": "debug_force_suggested_media_fps",
+      "type": "float",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces the media FPS rate to a given value that will be used to derive a display refresh rate."
+    },
+    {
+      "key": "debug_automation_view_ids",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on/off display of tooltips containing the automation view id for the hovered element."
+    },
+    {
+      "key": "debug_videosdk_debug_surface",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on/off a debug surface within the Video SDK to show a debug overlay."
+    },
+    {
+      "key": "debug_overlay_browser_experiment",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Allows the browser to open in the overlay."
+    },
+    {
+      "key": "debug_multiapp_enable_dragdrop",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Enable generalized drag drop."
+    },
+    {
+      "key": "debug_launch_apps_in_tablet_space",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": false,
+      "scope": "user",
+      "isOwner": false,
+      "ui_description": "Enable launching of apps in tablet space."
+    },
+    {
+      "key": "debug_multi_task_experimental_mode",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Controls various experimental features in multi-tasking mode."
+    },
+    {
+      "key": "debug_keyboard_remote_input",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces on the feature for keyboard allowing you to send text from your phone."
+    },
+    {
+      "key": "debug_keyboard_transcription",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces on the feature for transcription."
+    },
+    {
+      "key": "debug_keyboard_tracking_on",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces on the feature for tracked phsyical keyboards."
+    },
+    {
+      "key": "debug_keyboard_typeahead",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces on the feature for typeahead."
+    },
+    {
+      "key": "debug_allow_override_pixel_density",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Determines if the pixel density settings should be used to override the system default."
+    },
+    {
+      "key": "debug_override_display_density",
+      "type": "integer",
+      "default": "20",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_values": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+      "ui_description": "Sets the number of display pixels per visual degree."
+    },
+    {
+      "key": "debug_override_render_density",
+      "type": "float",
+      "default": "1.0",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_values": [1.0, 1.25, 1.50, 1.75, 2.0],
+      "ui_description": "Sets a scale factor for increasing the size of rendered textures."
+    },
+    {
+      "key": "debug_vrdesktop_enable_customization",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Determines if VRDesktop customization settings should be applied."
+    },
+    {
+      "key": "debug_vrdesktop_override_width",
+      "type": "integer",
+      "default": "1920",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Determines the VRDesktop initialization width."
+    },
+    {
+      "key": "debug_vrdesktop_override_height",
+      "type": "integer",
+      "default": "1080",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Determines the VRDesktop initialization height."
+    },
+    {
+      "key": "debug_vrdesktop_override_density",
+      "type": "integer",
+      "default": "160",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Determines the VRDesktop display density."
+    },
+    {
+      "key": "debug_vrdesktop_override_panel_shape",
+      "type": "integer",
+      "default": "2",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_values": [1, 2, 3],
+      "ui_description": "Determines the VRDesktop panel shape. (1 = flat, 2 = cylinder, 3 = cylinder portrait)"
+    },
+    {
+      "key": "debug_enable_pwa_multi_instance",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Turns on multi instance support for PWAs."
+    },
+    {
+      "key": "debug_force_render_layers_as_surfaces",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Force VR layers to render as surfaces instead. Does not impact Direct-to-timewarp layers."
+    },
+    {
+      "key": "debug_force_shell_video_player_drm",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true,
+      "ui_description": "Forces all content to play as if DRM protected. Used to debug DRM differences without access to DRM content."
+    }
+  ]
+}

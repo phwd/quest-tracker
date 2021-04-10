@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.firstrun.FirstRunView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165575" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/fre_main_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/title" android:text="@string/0_resource_name_obfuscated_RES_2131952376" style="@style/0_resource_name_obfuscated_RES_2132017437"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/fre_image_and_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165591">
+                <ImageView android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165581" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131230942"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/fre_content_wrapper" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165591" android:layout_weight="1" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165579" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165579">
+                    <org.chromium.ui.widget.TextViewWithClickableSpans android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:gravity="start" android:id="@+id/data_reduction_promo_summary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165591" android:lineSpacingMultiplier="1.4"/>
+                    <androidx.appcompat.widget.SwitchCompat android:id="@+id/enable_data_saver_switch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952365" android:lineSpacingMultiplier="1.4" android:showText="false" style="@style/0_resource_name_obfuscated_RES_2132017783"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <org.chromium.ui.widget.ButtonCompat android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/0_resource_name_obfuscated_RES_2131952908" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165576" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165576" style="@style/0_resource_name_obfuscated_RES_2132017433"/>
+</org.chromium.chrome.browser.firstrun.FirstRunView>

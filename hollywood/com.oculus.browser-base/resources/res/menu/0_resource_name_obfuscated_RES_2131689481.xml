@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/0_resource_name_obfuscated_RES_2131231025" android:id="@+id/action_delete_saved_password" android:title="@string/0_resource_name_obfuscated_RES_2131953094" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953093" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812" app:showAsAction="ifRoom"/>
+</menu>

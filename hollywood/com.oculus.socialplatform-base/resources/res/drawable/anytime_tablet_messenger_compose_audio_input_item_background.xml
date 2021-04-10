@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ocbutton_borderless_circle"/>
+    <item android:gravity="center" android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width" android:drawable="@drawable/oc_icon_microphone_on_filled_24_d2d2d2"/>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:layout_marginBottom="10dp">
+    <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/device_config_header_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/debug_device_config_name" android:layout_weight="0.3" android:layout_marginEnd="20dp"/>
+    <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/device_config_header_cached_value" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/debug_device_config_cached_value" android:layout_weight="0.3" android:layout_marginEnd="10dp"/>
+    <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/device_config_header_service_value" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/debug_device_config_service_value" android:layout_weight="0.3"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">In questo modo, uscirai da oculus.com!</string>
+    <string name="permdesc_companionService">Consente all\'app di inviare gli interessi a un servizio integrativo.</string>
+    <string name="permlab_companionService">inviare gli interessi a un servizio integrativo</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Controller di terzi</string>
+</resources>

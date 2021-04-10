@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.chrome.browser.datareduction.settings.DataReductionStatsPreference android:layout="@layout/0_resource_name_obfuscated_RES_2131624072" android:selectable="false" android:key="data_reduction_stats" app:allowDividerAbove="true"/>
+</PreferenceScreen>

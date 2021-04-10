@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Kilit Açma Desenini Çiz</string>
+    <string name="lockscreen_enter_pin">Cihaz PIN\'i</string>
+    <string name="lockscreen_try_again">Lütfen Tekrar Dene</string>
+    <string name="pattern_too_short">Lütfen en az 4 noktayı bağla.</string>
+    <string name="permdesc_accessMrSensorData">Uygulamaya kamera kalibrasyonu ve görseller dahil karma gerçeklik sensör verilerine erişimi verir.</string>
+    <string name="permdesc_access_handtracking_data">Uygulamanın el takibi verilerine erişmesine izin verir</string>
+    <string name="permgroupdesc_handtracking">el takibi verilerine erişim</string>
+    <string name="permgroupdesc_sensorData">sensör verilerine erişim</string>
+    <string name="permgrouplab_handtracking">El Takibi</string>
+    <string name="permgrouplab_sensorData">Sensör Verileri</string>
+    <string name="permlab_accessMrSensorData">karma gerçeklik sensör verilerine erişim</string>
+    <string name="permlab_access_handtracking_data">el takibi verilerine erişim</string>
+    <string name="pin_button_delete">Sil</string>
+    <string name="pin_button_enter">Gir</string>
+    <string name="reset_unlock_pattern_msg">Kilit açma desenini yenilemek için bu adımları izle:</string>
+    <string name="reset_unlock_pattern_step_1">1. Oculus uygulamanı mobil cihazında aç.</string>
+    <string name="reset_unlock_pattern_step_2">2. Ayarlar sayfasını aç, başlığının adına dokun ve bağlanmasını bekle.</string>
+    <string name="reset_unlock_pattern_step_3">3. Diğer Ayarlar &gt; Kilit Açma Deseni\'ne dokun.</string>
+    <string name="reset_unlock_pattern_title">Kilit Açma Desenini Yenile</string>
+</resources>

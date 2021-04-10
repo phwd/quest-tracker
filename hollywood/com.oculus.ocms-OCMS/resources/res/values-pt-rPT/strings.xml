@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">As apps de fontes desconhecidas podem colocar a tua conta e o teu dispositivo em risco.</string>
+    <string name="binary_check_notification_title">Foi instalada a app %1$s não oficial</string>
+    <string name="notifications_download_canceled_message">O descarregamento do \"%1$s\" foi cancelado</string>
+    <string name="notifications_download_canceled_title">Descarregamento cancelado</string>
+    <string name="notifications_download_failed_message">Impossível descarregar %1$s</string>
+    <string name="notifications_download_failed_title">Erro ao descarregar</string>
+    <string name="notifications_download_in_progress_message">A descarregar %1$s...</string>
+    <string name="notifications_downloading_and_installing_apps">A descarregar e a instalar apps...</string>
+    <string name="notifications_head_install_failed_message">Erro ao instalar</string>
+    <string name="notifications_head_installed_message">Instalado</string>
+    <string name="notifications_head_installing_message">A instalar</string>
+    <string name="notifications_install_failed_message">Impossível instalar %1$s</string>
+    <string name="notifications_install_in_progress_message">A instalar %1$s...</string>
+    <string name="notifications_install_succeeded_message">O %1$s foi instalado com sucesso na tua biblioteca.</string>
+    <string name="obb_display_title">%1$s (ficheiro de expansão)</string>
+    <string name="shorten_billions">%1$s mM</string>
+    <string name="shorten_billions_capitalized">%1$s mM</string>
+    <string name="shorten_hundred_millions">%1$s00 M</string>
+    <string name="shorten_millions">%1$s M</string>
+    <string name="shorten_millions_capitalized">%1$s M</string>
+    <string name="shorten_ten_thousands">%1$s0 mil</string>
+    <string name="shorten_thousands">%1$s m</string>
+    <string name="shorten_thousands_capitalized">%1$s m</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

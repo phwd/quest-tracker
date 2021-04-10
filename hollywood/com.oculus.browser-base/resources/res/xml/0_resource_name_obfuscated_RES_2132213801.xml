@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orderingFromXml="true">
+    <Preference android:title="Default categories" android:key="default_categories" android:fragment="org.chromium.chrome.browser.tracing.settings.TracingCategoriesSettings"/>
+    <Preference android:title="Disabled-by-default categories" android:key="non_default_categories" android:fragment="org.chromium.chrome.browser.tracing.settings.TracingCategoriesSettings"/>
+    <ListPreference android:persistent="false" android:title="Tracing mode" android:key="mode"/>
+    <org.chromium.components.browser_ui.settings.ButtonPreference android:key="start_recording"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:layout_width="match_parent" android:layout_height="wrap_content" android:key="tracing_status" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+</PreferenceScreen>

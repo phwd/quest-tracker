@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">படத்தைப் பதிவிறக்கும் போது பிழை ஏற்பட்டது.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView இல் உள்நுழைய இணைய அனுமதி தேவை</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest பிழை</string>
+    <string name="com_facebook_loading">ஏற்றுகிறது...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

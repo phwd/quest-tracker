@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/oc_icon_close_filled_24_f0f0f0" android:state_hovered="true"/>
+    <item android:state_pressed="true" android:drawable="@drawable/oc_icon_close_filled_24_ffffff"/>
+    <item android:drawable="@drawable/oc_icon_close_filled_24_c7c7c7"/>
+</selector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/deprecated_oc_red_2_fix_me"/>
+        </shape>
+    </item>
+    <item android:state_hovered="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/deprecated_oc_red_1_fix_me"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/deprecated_oc_red_3_fix_me"/>
+        </shape>
+    </item>
+</selector>

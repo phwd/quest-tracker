@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.accessibility.settings.TextScalePreference android:title="@string/0_resource_name_obfuscated_RES_2131952547" android:selectable="false" android:key="text_scale"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/0_resource_name_obfuscated_RES_2131952550" android:key="force_enable_zoom" android:summary="@string/0_resource_name_obfuscated_RES_2131952549"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/0_resource_name_obfuscated_RES_2131953301" android:key="reader_for_accessibility" android:summary="@string/0_resource_name_obfuscated_RES_2131953300"/>
+    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference android:title="@string/0_resource_name_obfuscated_RES_2131951918" android:key="accessibility_tab_switcher" android:summary="@string/0_resource_name_obfuscated_RES_2131951917"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131951847" android:key="captions"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131952609" android:key="image_descriptions" android:fragment="org.chromium.chrome.browser.image_descriptions.ImageDescriptionsSettings"/>
+</PreferenceScreen>

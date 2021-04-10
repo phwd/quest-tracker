@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165520" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165519" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131166037" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131166037">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017799" android:id="@+id/spinner_label" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatSpinner android:id="@+id/spinner" android:paddingLeft="0dp" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131166034" android:paddingRight="0dp" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131166034" android:layout_width="match_parent" android:layout_height="wrap_content" android:dropDownWidth="match_parent"/>
+    <View android:id="@+id/spinner_underline" style="@style/0_resource_name_obfuscated_RES_2132017525"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017699" android:id="@+id/spinner_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166039"/>
+</LinearLayout>

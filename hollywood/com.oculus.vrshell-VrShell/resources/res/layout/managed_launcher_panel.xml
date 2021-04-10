@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.managedlauncher.ManagedLauncherView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/managed_launcher_panel" android:background="@drawable/managed_launcher_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/managed_launcher_header_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="88dp" android:paddingStart="40dp">
+        <ImageView android:id="@+id/managed_launcher_company_icon" android:background="@drawable/ic_system_dialog_oculus_icon" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:layout_weight="0" android:paddingEnd="8dp"/>
+        <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/managed_launcher_panel_title" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+</com.oculus.panelapp.managedlauncher.ManagedLauncherView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.contacts_picker.ContactView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/content" style="@style/0_resource_name_obfuscated_RES_2132017448">
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624053"/>
+    </LinearLayout>
+</org.chromium.components.browser_ui.contacts_picker.ContactView>

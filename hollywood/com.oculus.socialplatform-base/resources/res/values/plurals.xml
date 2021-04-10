@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d spot available</item>
+        <item quantity="other">%1$d spots available</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%d other</item>
+        <item quantity="other">%d others</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">%d Person You&apos;ve Blocked Is in This Group</item>
+        <item quantity="other">%d People You&apos;ve Blocked Are in This Group</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 person is ready to travel.</item>
+        <item quantity="other">%d people are ready to travel.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Invite shared with %1$s and %2$d other person.</item>
+        <item quantity="other">Invite shared with %1$s and %2$d other people.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Invite sent to %1$s and %2$d other person.</item>
+        <item quantity="other">Invite sent to %1$s and %2$d other people.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="one">%dm</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%d mutual friend</item>
+        <item quantity="other">%d mutual friends</item>
+    </plurals>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280106181" android:versionName="3.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.oculus.firsttimenux" platformBuildVersionCode="280106181" platformBuildVersionName="3.0.0.42.507">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.oculus.companion.server.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.nux.ota.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.SUBMIT_BUG_REPORT"/>
+    <uses-permission android:name="com.oculus.permission.READ_CONTROLLER_STATUS"/>
+    <uses-permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND"/>
+    <permission android:label="oculus_notifications" android:name="oculus.render_notification"/>
+    <uses-permission android:name="oculus.render_notification"/>
+    <uses-feature android:glEsVersion="30000" android:required="true"/>
+    <application android:label="@string/app_name" android:name="com.oculus.firsttimenux.PanelApplication" android:allowBackup="false" android:supportsRtl="true">
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="oculus_preferences_firsttimenux" android:resource="@raw/preferences_store_schema"/>
+        <activity android:theme="@style/Theme.NoDisplay" android:label="@string/app_name" android:name="com.oculus.firsttimenux.PanelActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.oculus.firsttimenux.PanelService">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.is_default_service" android:value="true"/>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <meta-data android:name="internalVersionName" android:value="3.0.0.42.507.d671ba5b4135 2021_03_22_17_42"/>
+        <meta-data android:name="oculus_preferences" android:resource="@raw/user_manager_preferences"/>
+        <meta-data android:name="oculus_preferences_device_environment" android:resource="@raw/device_preferences"/>
+    </application>
+</manifest>

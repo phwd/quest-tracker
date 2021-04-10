@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Întâlnirea lui %1$s · %2$d persoană</item>
+        <item quantity="other">Întâlnirea lui %1$s · %2$d persoane</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d prieten</item>
+        <item quantity="other">%1$d prieteni</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d prieten pe Oculus</item>
+        <item quantity="other">%1$d prieteni pe Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s acceptă cel mult %2$d persoană.</item>
+        <item quantity="other">%1$s acceptă cel mult %2$d persoane.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s acceptă cel mult %2$d persoană. Selectează o altă aplicaţie pentru a continua.</item>
+        <item quantity="other">%1$s acceptă cel mult %2$d persoane. Selectează o altă aplicaţie pentru a continua.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d loc disponibil</item>
+        <item quantity="other">%1$d locuri disponibile</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">%1$d secundă până începe difuzarea...</item>
+        <item quantity="other">%1$d secunde până începe difuzarea...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">%1$d persoană este în întâlnire</item>
+        <item quantity="other">%1$d persoane sunt în întâlnire</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%1$d persoană a fost invitată</item>
+        <item quantity="other">%1$d persoane au fost invitate</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">%1$d din %2$d aplicaţie permisă</item>
+        <item quantity="other">%1$d din %2$d aplicaţii permise</item>
+    </plurals>
+</resources>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="zero">تصغير مجموعة علامات التبويب التي تحتوي على %1$d علامة تبويب</item>
+        <item quantity="one">تصغير علامة تبويب واحدة (%1$d)</item>
+        <item quantity="two">تصغير مجموعة علامات التبويب التي تحتوي على علامتَي تبويب (%1$d)</item>
+        <item quantity="few">تصغير مجموعة علامات التبويب التي تحتوي على %1$d علامات تبويب</item>
+        <item quantity="many">تصغير مجموعة علامات التبويب التي تحتوي على %1$d علامة تبويب</item>
+        <item quantity="other">تصغير مجموعة علامات التبويب التي تحتوي على %1$d علامة تبويب</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="zero">تصغير مجموعة علامات التبويب &quot;%1$s&quot; التي تحتوي على %2$d علامة تبويب</item>
+        <item quantity="one">تصغير علامة تبويب واحدة (%1$d)</item>
+        <item quantity="two">تصغير مجموعة علامات التبويب &quot;%1$s&quot; التي تحتوي على علامتَي تبويب (%2$d)</item>
+        <item quantity="few">تصغير مجموعة علامات التبويب &quot;%1$s&quot; التي تحتوي على %2$d علامات تبويب</item>
+        <item quantity="many">تصغير مجموعة علامات التبويب &quot;%1$s&quot; التي تحتوي على %2$d علامة تبويب</item>
+        <item quantity="other">تصغير مجموعة علامات التبويب &quot;%1$s&quot; التي تحتوي على %2$d علامة تبويب</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="zero">%d ملف صوتي</item>
+        <item quantity="one">ملف صوتي واحد (%d)</item>
+        <item quantity="two">ملفان صوتيان (%d)</item>
+        <item quantity="few">%d ملفات صوتية</item>
+        <item quantity="many">%d ملفًا صوتيًا</item>
+        <item quantity="other">%d ملف صوتي</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="zero">%d ملف</item>
+        <item quantity="one">ملف واحد (%d)</item>
+        <item quantity="two">ملفان (%d)</item>
+        <item quantity="few">%d ملفات</item>
+        <item quantity="many">%d ملفًا</item>
+        <item quantity="other">%d ملف</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="zero">%d صورة</item>
+        <item quantity="one">صورة واحدة (%d)</item>
+        <item quantity="two">صورتان (%d)</item>
+        <item quantity="few">%d صور</item>
+        <item quantity="many">%d صورةً</item>
+        <item quantity="other">%d صورة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="zero">%d صفحة</item>
+        <item quantity="one">صفحة واحدة (%d)</item>
+        <item quantity="two">صفحتان (%d)</item>
+        <item quantity="few">%d صفحات</item>
+        <item quantity="many">%d صفحةً</item>
+        <item quantity="other">%d صفحة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="zero">%d فيديو</item>
+        <item quantity="one">فيديو واحد (%d)</item>
+        <item quantity="two">فيديوهان (%d)</item>
+        <item quantity="few">%d فيديوهات</item>
+        <item quantity="many">%d فيديو</item>
+        <item quantity="other">%d فيديو</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="zero">إزالة %d عنصر محدد</item>
+        <item quantity="one">إزالة عنصر واحد محدد</item>
+        <item quantity="two">إزالة عنصرين (%d) محددين</item>
+        <item quantity="few">إزالة %d عناصر محددة</item>
+        <item quantity="many">إزالة %d عنصرًا محددًا</item>
+        <item quantity="other">إزالة %d عنصر محدد</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="zero">مشاركة %d عنصر محدد</item>
+        <item quantity="one">مشاركة عنصر واحد محدد</item>
+        <item quantity="two">مشاركة عنصرين (%d) محددين</item>
+        <item quantity="few">مشاركة %d عناصر محددة</item>
+        <item quantity="many">مشاركة %d عنصرًا محددًا</item>
+        <item quantity="other">مشاركة %d عنصر محدد</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="zero">إزالة %1$d علامة تبويب محدّدة من المجموعة</item>
+        <item quantity="one">إزالة علامة تبويب واحدة (%1$d) محدّدة من المجموعة</item>
+        <item quantity="two">إزالة علامتَي تبويب (%1$d) محدّدتَين من المجموعة</item>
+        <item quantity="few">إزالة %1$d علامات تبويب محدّدة من المجموعة</item>
+        <item quantity="many">إزالة %1$d علامة تبويب محدّدة من المجموعة</item>
+        <item quantity="other">إزالة %1$d علامة تبويب محدّدة من المجموعة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="zero">إضافة %1$d علامة تبويب محدّدة إلى مجموعة جديدة</item>
+        <item quantity="one">إضافة علامة تبويب محدّدة واحدة (%1$d) إلى مجموعة جديدة</item>
+        <item quantity="two">إضافة علامتَي تبويب محدّدتَين (%1$d) إلى مجموعة جديدة</item>
+        <item quantity="few">إضافة %1$d علامات تبويب محدّدة إلى مجموعة جديدة</item>
+        <item quantity="many">إضافة %1$d علامة تبويب محدّدة إلى مجموعة جديدة</item>
+        <item quantity="other">إضافة %1$d علامة تبويب محدّدة إلى مجموعة جديدة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="zero">إغلاق %1$d علامة تبويب محدّدة</item>
+        <item quantity="one">إغلاق علامة تبويب واحدة محدّدة (%1$d)</item>
+        <item quantity="two">إغلاق علامتَي تبويب محدّدتَين (%1$d)</item>
+        <item quantity="few">إغلاق %1$d علامات تبويب محدّدة</item>
+        <item quantity="many">إغلاق %1$d علامة تبويب محدّدة</item>
+        <item quantity="other">إغلاق %1$d علامة تبويب محدّدة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="zero">%1$d علامات تبويب مفتوحة، يُرجى النقر لتبديل علامات التبويب</item>
+        <item quantity="one">%1$d علامة تبويب مفتوحة، يُرجى النقر لتبديل علامات التبويب</item>
+        <item quantity="two">علامتا تبويب مفتوحتان%1$d، يُرجى النقر لتبديل علامات التبويب</item>
+        <item quantity="few">%1$d علامات تبويب مفتوحة، يُرجى النقر لتبديل علامات التبويب</item>
+        <item quantity="many">%1$d علامة تبويب مفتوحة، يُرجى النقر لتبديل علامات التبويب</item>
+        <item quantity="other">%1$d علامة تبويب مفتوحة، يُرجى النقر لتبديل علامات التبويب</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="zero">%1$d إشارات مرجعية</item>
+        <item quantity="one">إشارة مرجعية %1$d</item>
+        <item quantity="two">إشارتان مرجعيتان (%1$d)</item>
+        <item quantity="few">%1$d إشارات مرجعية</item>
+        <item quantity="many">%1$d إشارةً مرجعيةً</item>
+        <item quantity="other">%1$d إشارة مرجعية</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="zero">%1$d علامة تبويب</item>
+        <item quantity="one">علامة تبويب واحدة (%1$d)</item>
+        <item quantity="two">علامتا تبويب (%1$d)</item>
+        <item quantity="few">%1$d علامات تبويب</item>
+        <item quantity="many">%1$d علامة تبويب</item>
+        <item quantity="other">%1$d علامة تبويب</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="zero">(+ %d آخر)</item>
+        <item quantity="one">(+ 1 آخر)</item>
+        <item quantity="two">(+ اثنين (%d) آخرين)</item>
+        <item quantity="few">(+ %d أخرى)</item>
+        <item quantity="many">(+ %d آخر)</item>
+        <item quantity="other">(+ %d آخر)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="zero">تم حظر %d ملف تعريف ارتباط.</item>
+        <item quantity="one">تم حظر ملف تعريف ارتباط واحد.</item>
+        <item quantity="two">تم حظر ملفَّي تعريف ارتباط.</item>
+        <item quantity="few">تم حظر %d ملفات تعريف ارتباط.</item>
+        <item quantity="many">تم حظر %d ملف تعريف ارتباط.</item>
+        <item quantity="other">تم حظر %d ملف تعريف ارتباط.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="zero">جارٍ تنزيل %d ملف</item>
+        <item quantity="one">جارٍ تنزيل ملف واحد.</item>
+        <item quantity="two">جارٍ تنزيل ملفين (%d).</item>
+        <item quantity="few">جارٍ تنزيل %d ملفات.</item>
+        <item quantity="many">جارٍ تنزيل %d ملفًا.</item>
+        <item quantity="other">جارٍ تنزيل %d ملف.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="zero">%d ساعة</item>
+        <item quantity="one">ساعة واحدة (%d)</item>
+        <item quantity="two">ساعتان (%d)</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعةً</item>
+        <item quantity="other">%d ساعة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="zero">تم تنزيل %1$d ملفات</item>
+        <item quantity="one">تم تنزيل ملف %1$d</item>
+        <item quantity="two">تم تنزيل ملفين (%1$d)</item>
+        <item quantity="few">تم تنزيل %1$d ملفات</item>
+        <item quantity="many">تم تنزيل %1$d ملفًا</item>
+        <item quantity="other">تم تنزيل %1$d ملف</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="zero">اكتملت %d عملية تنزيل.</item>
+        <item quantity="one">اكتملت عملية تنزيل واحدة.</item>
+        <item quantity="two">اكتملت عمليتا تنزيل (%d).</item>
+        <item quantity="few">اكتملت %d عمليات تنزيل.</item>
+        <item quantity="many">اكتملت %d عملية تنزيل.</item>
+        <item quantity="other">اكتملت %d عملية تنزيل.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="zero">تعذَّر إتمام %d عملية تنزيل.</item>
+        <item quantity="one">تعذَّر إتمام عملية تنزيل واحدة.</item>
+        <item quantity="two">تعذَّر إتمام عمليتي تنزيل (%d).</item>
+        <item quantity="few">تعذَّر إتمام %d عمليات تنزيل.</item>
+        <item quantity="many">تعذَّر إتمام %d عملية تنزيل.</item>
+        <item quantity="other">تعذَّر إتمام %d عملية تنزيل.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="zero">هناك %d عملية تنزيل مُعلَّقة.</item>
+        <item quantity="one">هناك عملية تنزيل واحدة مُعلَّقة.</item>
+        <item quantity="two">هناك عمليتا تنزيل (%d) مُعلَّقتان.</item>
+        <item quantity="few">هناك %d عمليات تنزيل مُعلَّقة.</item>
+        <item quantity="many">هناك %d عملية تنزيل مُعلَّقة.</item>
+        <item quantity="other">هناك %d عملية تنزيل مُعلَّقة.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="zero">تمّت جدوَلة %d عملية تنزيل</item>
+        <item quantity="one">تمّت جدوَلة عملية تنزيل واحدة</item>
+        <item quantity="two">تمّت جدوَلة عمليتَي تنزيل</item>
+        <item quantity="few">تمّت جدوَلة %d عمليات تنزيل</item>
+        <item quantity="many">تمّت جدوَلة %d عملية تنزيل</item>
+        <item quantity="other">تمّت جدوَلة %d عملية تنزيل</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل يوم واحد (%d)</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="zero">قبل %d ساعة</item>
+        <item quantity="one">قبل ساعة واحدة (%d)</item>
+        <item quantity="two">قبل ساعتين (%d)</item>
+        <item quantity="few">قبل %d ساعات</item>
+        <item quantity="many">قبل %d ساعة</item>
+        <item quantity="other">قبل %d ساعة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل دقيقة واحدة (%d)</item>
+        <item quantity="two">قبل دقيقتين (%d)</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+        <item quantity="other">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="zero">‏لن يحمِّل Chrome أي صفحات عندما تصبح جاهزة</item>
+        <item quantity="one">‏سيحمِّل Chrome الصفحة عندما تصبح جاهزة</item>
+        <item quantity="two">‏سيحمِّل Chrome الصفحتين عندما تصبح جاهزتين</item>
+        <item quantity="few">‏سيحمِّل Chrome الصفحات عندما تصبح جاهزة</item>
+        <item quantity="many">‏سيحمِّل Chrome الصفحات عندما تصبح جاهزة</item>
+        <item quantity="other">‏سيحمِّل Chrome الصفحات عندما تصبح جاهزة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="zero">%d ملف تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="one">ملف تعريف ارتباط واحد قيد الاستخدام</item>
+        <item quantity="two">ملفا تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="few">%d ملفات تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="many">%d ملف تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="other">%d ملف تعريف ارتباط قيد الاستخدام</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="zero">تم السماح بالوصول إلى %1$s و%2$s و%3$s إذن آخر.</item>
+        <item quantity="one">تم السماح بالوصول إلى %1$s و%2$s وإذن واحد (%3$s) آخر.</item>
+        <item quantity="two">تم السماح بالوصول إلى %1$s و%2$s وإذنَين (%3$s) آخرَين.</item>
+        <item quantity="few">تم السماح بالوصول إلى %1$s و%2$s و%3$s أذونات أخرى.</item>
+        <item quantity="many">تم السماح بالوصول إلى %1$s و%2$s و%3$s إذنًا آخر.</item>
+        <item quantity="other">تم السماح بالوصول إلى %1$s و%2$s و%3$s إذن آخر.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="zero">تم حظر %1$s و%2$s و%3$s إذن آخر.</item>
+        <item quantity="one">تم حظر %1$s و%2$s وإذن واحد (%3$s) آخر.</item>
+        <item quantity="two">تم حظر %1$s و%2$s وإذنَين (%3$s) آخرَين.</item>
+        <item quantity="few">تم حظر %1$s و%2$s و%3$s أذونات أخرى.</item>
+        <item quantity="many">تم حظر %1$s و%2$s و%3$s إذنًا آخر.</item>
+        <item quantity="other">تم حظر %1$s و%2$s و%3$s إذن آخر.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="zero">%1$s و%2$s و%3$s إذن آخر</item>
+        <item quantity="one">%1$s و%2$s وإذن واحد (%3$s) آخر</item>
+        <item quantity="two">%1$s و%2$s وإذنان (%3$s) آخران</item>
+        <item quantity="few">%1$s و%2$s و%3$s أذونات أخرى</item>
+        <item quantity="many">%1$s و%2$s و%3$s إذنًا آخر</item>
+        <item quantity="other">%1$s و%2$s و%3$s إذن آخر</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="zero">%d كلمة مرور محتمَل تعرّضها للاختراق</item>
+        <item quantity="one">كلمة مرور واحدة محتمَل تعرّضها للاختراق</item>
+        <item quantity="two">كلمتا مرور محتمَل تعرّضهما للاختراق</item>
+        <item quantity="few">%d كلمات مرور محتمَل تعرّضها للاختراق</item>
+        <item quantity="many">%d كلمة مرور محتمَل تعرّضها للاختراق</item>
+        <item quantity="other">%d كلمة مرور محتمَل تعرّضها للاختراق</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="zero">‏%1$s… و%2$s جهة اتصال إضافية</item>
+        <item quantity="one">‏%1$s… وجهة اتصال إضافية واحدة %2$s</item>
+        <item quantity="two">‏%1$s… وجهتا اتصال إضافيتان (%2$s)</item>
+        <item quantity="few">‏%1$s… و%2$s جهات اتصال إضافية</item>
+        <item quantity="many">‏%1$s… و%2$s جهة اتصال إضافية</item>
+        <item quantity="other">‏%1$s… و%2$s جهة اتصال إضافية</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="zero">‏%1$s… و%2$s طريقة دفع إضافية</item>
+        <item quantity="one">‏%1$s… وطريقة دفع إضافية واحدة (%2$s)</item>
+        <item quantity="two">‏%1$s… وطريقتا دفع إضافيتان (%2$s)</item>
+        <item quantity="few">‏%1$s… و%2$s طرق دفع إضافية</item>
+        <item quantity="many">‏%1$s… و%2$s طريقة دفع إضافية</item>
+        <item quantity="other">‏%1$s… و%2$s طريقة دفع إضافية</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="zero">‏%1$s… و%2$s عنوان إضافي</item>
+        <item quantity="one">‏%1$s… وعنوان إضافي واحد (%2$s)</item>
+        <item quantity="two">‏%1$s… وعنوانان إضافيان (%2$s)</item>
+        <item quantity="few">‏%1$s… و%2$s عناوين إضافية</item>
+        <item quantity="many">‏%1$s… و%2$s عنوانًا إضافيًا</item>
+        <item quantity="other">‏%1$s… و%2$s عنوان إضافي</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="zero">‏%1$s… و%2$s خيار إضافي</item>
+        <item quantity="one">‏%1$s… وخيار إضافي واحد (%2$s)</item>
+        <item quantity="two">‏%1$s… وخياران إضافيان (%2$s)</item>
+        <item quantity="few">‏%1$s… و%2$s خيارات إضافية</item>
+        <item quantity="many">‏%1$s… و%2$s خيارًا إضافيًا</item>
+        <item quantity="other">‏%1$s… و%2$s خيار إضافي</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="zero">لديك %1$d صفحة.</item>
+        <item quantity="one">لديك صفحة واحدة (%1$d).</item>
+        <item quantity="two">لديك صفحتان (%1$d).</item>
+        <item quantity="few">لديك %1$d صفحات.</item>
+        <item quantity="many">لديك %1$d صفحة.</item>
+        <item quantity="other">لديك %1$d صفحة.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="zero">%1$d صفحة غير مقروءة</item>
+        <item quantity="one">صفحة واحدة (%1$d) غير مقروءة</item>
+        <item quantity="two">صفحتان (%1$d) غير مقروءتَين</item>
+        <item quantity="few">%1$d صفحات غير مقروءة</item>
+        <item quantity="many">%1$d صفحة غير مقروءة</item>
+        <item quantity="other">%1$d صفحة غير مقروءة</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="zero">%d كلمة مرور محتمَل تعرّضها للاختراق</item>
+        <item quantity="one">كلمة مرورٍ واحدة محتمَل تعرّضها للاختراق</item>
+        <item quantity="two">كلمتا مرورٍ محتمَل تعرّضهما للاختراق</item>
+        <item quantity="few">%d كلمات مرورٍ محتمَل تعرّضها للاختراق</item>
+        <item quantity="many">%d كلمة مرورٍ محتمَل تعرّضها للاختراق</item>
+        <item quantity="other">%d كلمة مرورٍ محتمَل تعرّضها للاختراق</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="zero">تمّ إجراء عملية التحقُّق قبل %d يوم.</item>
+        <item quantity="one">تمّ إجراء عملية التحقُّق قبل يوم واحد.</item>
+        <item quantity="two">تمّ إجراء عملية التحقُّق قبل يومَين.</item>
+        <item quantity="few">تمّ إجراء عملية التحقُّق قبل %d أيام.</item>
+        <item quantity="many">تمّ إجراء عملية التحقُّق قبل %d يومًا.</item>
+        <item quantity="other">تمّ إجراء عملية التحقُّق قبل %d يوم.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="zero">تمّ إجراء عملية التحقُّق قبل %d ساعة.</item>
+        <item quantity="one">تمّ إجراء عملية التحقُّق قبل ساعة واحدة.</item>
+        <item quantity="two">تمّ إجراء عملية التحقُّق قبل ساعتَين.</item>
+        <item quantity="few">تمّ إجراء عملية التحقُّق قبل %d ساعات.</item>
+        <item quantity="many">تمّ إجراء عملية التحقُّق قبل %d ساعة.</item>
+        <item quantity="other">تمّ إجراء عملية التحقُّق قبل %d ساعة.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="zero">تمّ إجراء عملية التحقُّق قبل %d دقيقة.</item>
+        <item quantity="one">تمّ إجراء عملية التحقُّق قبل دقيقة واحدة.</item>
+        <item quantity="two">تمّ إجراء عملية التحقُّق قبل دقيقتَين.</item>
+        <item quantity="few">تمّ إجراء عملية التحقُّق قبل %d دقائق.</item>
+        <item quantity="many">تمّ إجراء عملية التحقُّق قبل %d دقيقة.</item>
+        <item quantity="other">تمّ إجراء عملية التحقُّق قبل %d دقيقة.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="zero">تم اختيار %d عنصر</item>
+        <item quantity="one">تم اختيار عنصر واحد</item>
+        <item quantity="two">تم اختيار عنصرين (%d)</item>
+        <item quantity="few">تم اختيار %d عناصر</item>
+        <item quantity="many">تم اختيار %d عنصرًا</item>
+        <item quantity="other">تم اختيار %d عنصر</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="zero">مستوى قوة الإشارة: %d شريط</item>
+        <item quantity="one">مستوى قوة الإشارة: شريط واحد (%d)</item>
+        <item quantity="two">مستوى قوة الإشارة: شريطان (%d)</item>
+        <item quantity="few">مستوى قوة الإشارة: %d أشرطة</item>
+        <item quantity="many">مستوى قوة الإشارة: %d شريطًا</item>
+        <item quantity="other">مستوى قوة الإشارة: %d شريط</item>
+    </plurals>
+</resources>

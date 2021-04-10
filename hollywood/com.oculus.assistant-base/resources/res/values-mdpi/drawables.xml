@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_nux_check">r/s.png</drawable>
+    <drawable name="ic_nux_close">r/eq.png</drawable>
+    <drawable name="ic_stat_listening">r/r.png</drawable>
+    <drawable name="ic_voice_assistant">r/5.png</drawable>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Explore</string>
+    <string name="library_name">Device Utilities</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notifikationsproxy</string>
+    <string name="battery_critical_text">Tilslut snart dit headset.</string>
+    <string name="battery_critical_title">Der er meget lidt batteri på headsettet</string>
+    <string name="battery_low_text">Tilslut dit headset.</string>
+    <string name="battery_low_title">Der er ikke meget batteri på headsettet</string>
+    <string name="controller_critical_battery_text">Udskift batteriet i controlleren nu.</string>
+    <string name="controller_critical_battery_title">Controllers batteriniveau er kritisk</string>
+    <string name="controller_disconnected_text">Kontrollér batteriet, flyt controlleren tættere på, eller kontakt Oculus Support.</string>
+    <string name="controller_disconnected_title">Vi kunne ikke finde din controller</string>
+    <string name="controller_firmware_update_failed_text">Kontakt Oculus Support for at få hjælp.</string>
+    <string name="controller_firmware_update_failed_title">Vi kunne ikke opdatere din controller</string>
+    <string name="controller_firmware_update_progress_text">Opdateringsstatus: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Opdatering gennemført.</string>
+    <string name="controller_firmware_update_title">Opdatering af controller i gang</string>
+    <string name="controller_low_battery_text">Udskift snart batteriet.</string>
+    <string name="controller_low_battery_title">Controllerens batteriniveau er lavt</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controllere ikke fundet</string>
+    <string name="dual_controller_both_controller_low_battery_title">Controllerens batteriniveau er lavt</string>
+    <string name="dual_controller_disconnected_text">Hvis problemet vedvarer, skal du kontrollere batteriet eller kontakte Oculus Support.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Venstre controller ikke fundet</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Fejl under opdatering af venstre controller</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Opdatering af venstre controller i gang</string>
+    <string name="dual_controller_left_controller_low_battery_title">Venstre controllers batteriniveau er lavt</string>
+    <string name="dual_controller_low_battery_text">Udskift snart batteriet.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Højre controller ikke fundet</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Fejl under opdatering af højre controller</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Opdatering af højre controller i gang</string>
+    <string name="dual_controller_right_controller_low_battery_title">Højre controller batteriniveau er lavt</string>
+    <string name="notification_header">Oculus-system</string>
+    <string name="safe_volume_warning_text_1">Hvis du lytter ved høj lydstyrke i lange perioder, kan det skade din hørelse.</string>
+    <string name="safe_volume_warning_text_2">Tryk på knappen igen for at deaktivere denne advarsel midlertidigt.</string>
+    <string name="safe_volume_warning_title">Lydstyrke hævet over anbefalet niveau</string>
+    <string name="vrui_gaze_input_instruction_text">Bevæg dit hoved, og tryk herefter på headsettets volumeknap for at vælge.</string>
+    <string name="vrui_gaze_input_instruction_title">Håndsporing og controllere deaktiveret</string>
+    <string name="wifi_disconnected_text">Gå til Indstillinger for at udføre fejlfinding.</string>
+    <string name="wifi_disconnected_title">Headsettets wi-fi-forbindelse er blevet afbrudt</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/0_resource_name_obfuscated_RES_2131100224"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231417" android:left="@dimen/0_resource_name_obfuscated_RES_2131166101" android:top="@dimen/0_resource_name_obfuscated_RES_2131166102" android:right="@dimen/0_resource_name_obfuscated_RES_2131166101" android:bottom="@dimen/0_resource_name_obfuscated_RES_2131166102"/>
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.toolbar.top.ToolbarPhone xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166252">
+    <org.chromium.chrome.browser.toolbar.HomeButton android:id="@+id/home_button" android:visibility="gone" android:src="@drawable/0_resource_name_obfuscated_RES_2131230906" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951938" app:tint="@color/0_resource_name_obfuscated_RES_2131099829" style="@style/0_resource_name_obfuscated_RES_2132017972"/>
+    <org.chromium.chrome.browser.omnibox.LocationBarPhone android:layout_gravity="top" android:id="@+id/location_bar" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/toolbar_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/optional_button_stub" android:visibility="gone" android:layout="@layout/0_resource_name_obfuscated_RES_2131624323" android:inflatedId="@+id/optional_toolbar_button" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166257" style="@style/0_resource_name_obfuscated_RES_2132017972"/>
+        <org.chromium.chrome.browser.toolbar.top.ToggleTabStackButton android:layout_gravity="top" android:id="@+id/tab_switcher_button" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951947" android:paddingStart="8dp" app:menuMaxWidth="@dimen/0_resource_name_obfuscated_RES_2131166195" app:menuVerticalOverlapAnchor="false" style="@style/0_resource_name_obfuscated_RES_2132017972"/>
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624234"/>
+    </LinearLayout>
+</org.chromium.chrome.browser.toolbar.top.ToolbarPhone>

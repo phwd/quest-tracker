@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.assistant.AssistantView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:layout_width="800dp" android:layout_height="800dp"/>

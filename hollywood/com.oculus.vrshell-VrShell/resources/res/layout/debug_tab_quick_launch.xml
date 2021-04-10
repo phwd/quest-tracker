@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.QuickLaunchTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_quick_launch" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/quick_launch_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.oculus.panelapp.debug.QuickLaunchTab>

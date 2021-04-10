@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:tag="layout/anytime_tablet_library_system_apps_header_v2_0" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:justifyContent="3">
+    <include android:id="@+id/library_home_button" layout="@layout/anytime_tablet_library_system_app_button_v2"/>
+    <include android:id="@+id/library_store_button" layout="@layout/anytime_tablet_library_system_app_button_v2"/>
+    <include android:id="@+id/library_browser_button" layout="@layout/anytime_tablet_library_system_app_button_v2"/>
+    <include android:id="@+id/library_social_button" layout="@layout/anytime_tablet_library_system_app_button_v2"/>
+    <include android:id="@+id/library_tv_button" layout="@layout/anytime_tablet_library_system_app_button_v2"/>
+</com.google.android.flexbox.FlexboxLayout>

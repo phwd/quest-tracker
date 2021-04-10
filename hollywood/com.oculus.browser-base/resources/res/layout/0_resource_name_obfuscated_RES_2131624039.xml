@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="24dp" android:paddingEnd="24dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <TextView android:id="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    <RelativeLayout android:id="@+id/signed_out" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_below="@android:id/message">
+        <ImageView android:id="@+id/signed_out_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/0_resource_name_obfuscated_RES_2131231282"/>
+        <TextView android:id="@+id/signed_out_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@android:id/message" android:layout_centerInParent="true" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/signed_out_icon"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@+id/signed_out">
+        <ImageView android:id="@+id/offline_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/0_resource_name_obfuscated_RES_2131231273"/>
+        <TextView android:id="@+id/offline_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/offline_icon"/>
+    </RelativeLayout>
+</RelativeLayout>

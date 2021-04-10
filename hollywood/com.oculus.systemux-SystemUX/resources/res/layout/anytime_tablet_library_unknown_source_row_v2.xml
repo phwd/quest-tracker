@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/anytime_tablet_library_unknown_source_row_v2_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" android:minHeight="72dp" app:cardCornerRadius="8dp" app:cardElevation="0dp">
+    <com.oculus.ocui.OCButton android:id="@+id/app_row_button" android:background="@drawable/anytime_tablet_library_unknown_sources_app_button_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="24dp">
+        <ImageView android:id="@+id/app_menu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_vertical_default" android:layout_centerInParent="true"/>
+        <com.oculus.ocui.OCButton android:id="@+id/app_menu_button" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24dp" android:layout_marginEnd="48dp">
+        <com.oculus.ocui.OCTextView android:textSize="@dimen/octypography_body1_font_size" android:textColor="@color/oc_white" android:gravity="start" android:id="@+id/app_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp"/>
+        <com.oculus.ocui.OCTextView android:textSize="@dimen/octypography_body2_font_size" android:textColor="@color/oc_white" android:gravity="start" android:id="@+id/app_package_name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

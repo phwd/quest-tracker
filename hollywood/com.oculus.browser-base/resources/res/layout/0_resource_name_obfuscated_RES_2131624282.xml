@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/mtrl_picker_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/0_resource_name_obfuscated_RES_2131165801" style="?attr/0_resource_name_obfuscated_RES_2130969065"/>

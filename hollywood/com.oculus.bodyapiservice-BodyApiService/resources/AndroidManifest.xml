@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="272370443" android:versionName="27.0.0.0.442" android:installLocation="internalOnly" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.bodyapiservice" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23"/>
+    <application android:allowBackup="false" android:multiArch="true">
+        <service android:name="com.oculus.bodyapiservice.BodyApiService" android:exported="true" android:process="com.oculus.bodyapiservice"/>
+        <activity android:name="com.oculus.bodyapiservice.MainActivity" android:exported="true" android:process="com.oculus.bodyapiservice" android:excludeFromRecents="false" android:launchMode="singleTask" android:singleUser="true"/>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.0.442.3ceef3e9f110 2021_02_08_14_26"/>
+    </application>
+</manifest>

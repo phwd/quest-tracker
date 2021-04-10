@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeightSmall">
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/button_one" style="@style/0_resource_name_obfuscated_RES_2132017476"/>
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/button_two" style="@style/0_resource_name_obfuscated_RES_2132017476"/>
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/button_three" style="@style/0_resource_name_obfuscated_RES_2132017476"/>
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/button_four" style="@style/0_resource_name_obfuscated_RES_2132017476"/>
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/button_five" style="@style/0_resource_name_obfuscated_RES_2132017476"/>
+</LinearLayout>

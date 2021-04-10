@@ -1,0 +1,13 @@
+package com.facebook.quicklog.identifiers;
+
+public class GemstoneProfile {
+    public static final int GEMSTONE_PROFILE_INITIAL_LOAD_TTRC_ANDROID = 27394050;
+    public static final int GEMSTONE_PROFILE_INITIAL_LOAD_TTRC_IOS = 27394049;
+    public static final int GEMSTONE_SELF_PROFILE_INITIAL_LOAD_TTRC_ANDROID = 27394053;
+    public static final int GEMSTONE_SELF_PROFILE_INITIAL_LOAD_TTRC_IOS = 27394052;
+    public static final short MODULE_ID = 418;
+
+    public static String getMarkerName(int i) {
+        return i != 1 ? i != 2 ? i != 4 ? i != 5 ? "UNDEFINED_QPL_EVENT" : "GEMSTONE_PROFILE_GEMSTONE_SELF_PROFILE_INITIAL_LOAD_TTRC_ANDROID" : "GEMSTONE_PROFILE_GEMSTONE_SELF_PROFILE_INITIAL_LOAD_TTRC_IOS" : "GEMSTONE_PROFILE_GEMSTONE_PROFILE_INITIAL_LOAD_TTRC_ANDROID" : "GEMSTONE_PROFILE_GEMSTONE_PROFILE_INITIAL_LOAD_TTRC_IOS";
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:id="@+id/empty_storage" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/0_resource_name_obfuscated_RES_2131952913"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/0_resource_name_obfuscated_RES_2131231416" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166259" android:scaleY="-1"/>
+    <org.chromium.ui.widget.ButtonCompat android:id="@+id/clear_button" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953554" app:verticalInset="0dp" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="sequentially">
+    <objectAnimator android:interpolator="@anim/0_resource_name_obfuscated_RES_2130772002" android:duration="700" android:valueFrom="0" android:valueTo="-360" android:propertyName="rotation"/>
+    <objectAnimator android:interpolator="@anim/0_resource_name_obfuscated_RES_2130772002" android:duration="700" android:startOffset="1900" android:valueFrom="0" android:valueTo="-360" android:propertyName="rotation"/>
+    <objectAnimator android:interpolator="@anim/0_resource_name_obfuscated_RES_2130772002" android:duration="700" android:startOffset="1900" android:valueFrom="0" android:valueTo="-360" android:propertyName="rotation"/>
+    <objectAnimator android:interpolator="@anim/0_resource_name_obfuscated_RES_2130772002" android:duration="700" android:startOffset="1900" android:valueFrom="0" android:valueTo="-360" android:propertyName="rotation"/>
+</set>

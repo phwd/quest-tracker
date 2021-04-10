@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oculusprv="http://schemas.android.com/apk/com.oculus.os.platform.internal" android:orientation="vertical" android:background="@drawable/keypad_container" android:padding="@dimen/lockpin_padding_sides" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/lockscreen_width" android:layout_height="wrap_content">
+    <TextView android:id="@+id/title_textview" android:text="@string/lockscreen_enter_pin" style="@style/NewLockscreenTitle"/>
+    <oculus.internal.widget.OculusLockPinView android:layout_gravity="center" android:id="@+id/oculus_lock_pin_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

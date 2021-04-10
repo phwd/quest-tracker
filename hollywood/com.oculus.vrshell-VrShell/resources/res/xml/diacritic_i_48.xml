@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_popup_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ì" custom:keyOutputText="ì" custom:shiftKeyLabel="Ì" custom:shiftKeyOutputText="Ì"/>
+        <Key custom:keyLabel="i" custom:keyOutputText="i" custom:shiftKeyLabel="I" custom:shiftKeyOutputText="I"/>
+        <Key custom:keyLabel="ï" custom:keyOutputText="ï" custom:shiftKeyLabel="Ï" custom:shiftKeyOutputText="Ï"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="î" custom:keyOutputText="î" custom:shiftKeyLabel="Î" custom:shiftKeyOutputText="Î"/>
+        <Key custom:keyLabel="í" custom:keyOutputText="í" custom:shiftKeyLabel="Í" custom:shiftKeyOutputText="Í"/>
+        <Key custom:keyLabel="ī" custom:keyOutputText="ī" custom:shiftKeyLabel="Ī" custom:shiftKeyOutputText="Ī"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_notification" id="2130771968" />
+    <public type="id" name="current_charge" id="2130837504" />
+    <public type="id" name="limit_enabled" id="2130837505" />
+    <public type="id" name="limit_toggle_button" id="2130837506" />
+    <public type="id" name="quit_button" id="2130837507" />
+    <public type="id" name="view_container" id="2130837508" />
+    <public type="layout" name="activity" id="2130903040" />
+    <public type="string" name="app_label" id="2130968576" />
+    <public type="string" name="charge_limit_info" id="2130968577" />
+    <public type="string" name="charging" id="2130968578" />
+    <public type="string" name="current_charge" id="2130968579" />
+    <public type="string" name="disable_limit" id="2130968580" />
+    <public type="string" name="disabled" id="2130968581" />
+    <public type="string" name="discharging" id="2130968582" />
+    <public type="string" name="enable_limit" id="2130968583" />
+    <public type="string" name="quit_button_text" id="2130968584" />
+    <public type="string" name="service_label" id="2130968585" />
+    <public type="string" name="unable_to_charge" id="2130968586" />
+</resources>

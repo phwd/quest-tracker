@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.snippets.SectionHeaderView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/0_resource_name_obfuscated_RES_2131166134" android:paddingEnd="8dp">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017783" android:id="@+id/header_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAlignment="viewStart" android:paddingStart="6dp"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:id="@+id/header_status" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</org.chromium.chrome.browser.ntp.snippets.SectionHeaderView>

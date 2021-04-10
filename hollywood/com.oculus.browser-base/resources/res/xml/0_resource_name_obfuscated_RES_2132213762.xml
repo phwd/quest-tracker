@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131951965" android:key="accounts_category"/>
+    <Preference android:layout="@layout/0_resource_name_obfuscated_RES_2131624111"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131951963" android:key="parental_settings"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="parent_accounts"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131951960" android:selectable="false" android:key="child_content"/>
+    <Preference android:layout="@layout/0_resource_name_obfuscated_RES_2131624111" android:key="child_content_divider"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131951964" android:key="sign_out"/>
+    <Preference android:layout="@layout/0_resource_name_obfuscated_RES_2131624111" android:key="sign_out_divider"/>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="fill_horizontal" android:orientation="vertical" android:id="@+id/dropdown_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ListView android:id="@+id/dropdown_body_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165511" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165511" android:layout_weight="1" android:layout_marginVertical="@dimen/0_resource_name_obfuscated_RES_2131165511"/>
+    <View android:id="@+id/dropdown_body_footer_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165490" style="@style/0_resource_name_obfuscated_RES_2132017439"/>
+    <FrameLayout android:id="@+id/dropdown_footer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

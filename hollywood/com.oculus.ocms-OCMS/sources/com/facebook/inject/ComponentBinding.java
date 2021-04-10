@@ -1,0 +1,33 @@
+package com.facebook.inject;
+
+import com.google.inject.Key;
+
+public class ComponentBinding<T> {
+    private Class mDeclaringModule;
+    private Key<T> mKey;
+    private ComponentProvider<T> mProvider;
+
+    public void setModule(Class cls) {
+        this.mDeclaringModule = cls;
+    }
+
+    public Key<T> getKey() {
+        return this.mKey;
+    }
+
+    public void setKey(Key<T> key) {
+        this.mKey = key;
+    }
+
+    public ComponentProvider<T> getProvider() {
+        return this.mProvider;
+    }
+
+    public void setProvider(ComponentProvider<T> componentProvider) {
+        this.mProvider = componentProvider;
+    }
+
+    public String toString() {
+        return String.format("%s{declaringModuleName = %s, key = $s, provider = %s}", getClass().getSimpleName(), this.mDeclaringModule.getCanonicalName(), this.mKey, this.mProvider);
+    }
+}

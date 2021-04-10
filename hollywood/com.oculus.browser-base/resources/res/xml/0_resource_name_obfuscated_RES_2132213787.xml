@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/0_resource_name_obfuscated_RES_2131952943" android:key="content_suggestions" android:summary="@string/0_resource_name_obfuscated_RES_2131952941"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131952944" android:key="from_websites" android:fragment="org.chromium.components.browser_ui.site_settings.SingleCategorySettings"/>
+</PreferenceScreen>

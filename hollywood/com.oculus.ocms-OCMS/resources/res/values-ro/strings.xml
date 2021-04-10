@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">Aplicaţiile din surse necunoscute pot reprezenta un risc pentru contul şi dispozitivul tău.</string>
+    <string name="binary_check_notification_title">S-a instalat aplicaţia neoficială %1$s</string>
+    <string name="notifications_download_canceled_message">Descărcare aplicaţiei „%1$s” a fost anulată</string>
+    <string name="notifications_download_canceled_title">Descărcarea a fost anulată</string>
+    <string name="notifications_download_failed_message">Descărcarea „%1$s” nu e reuşit</string>
+    <string name="notifications_download_failed_title">Descărcarea nu a reuşit</string>
+    <string name="notifications_download_in_progress_message">Se descarcă %1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">Se descarcă şi se instalează aplicaţii...</string>
+    <string name="notifications_head_install_failed_message">Instalarea nu a reuşit</string>
+    <string name="notifications_head_installed_message">S-a instalat</string>
+    <string name="notifications_head_installing_message">Se instalează</string>
+    <string name="notifications_install_failed_message">Instalarea „%1$s” nu e reuşit</string>
+    <string name="notifications_install_in_progress_message">Se instalează %1$s…</string>
+    <string name="notifications_install_succeeded_message">Aplicaţia %1$s a fost instalată în biblioteca ta.</string>
+    <string name="obb_display_title">%1$s (fişier de extensie)</string>
+    <string name="shorten_billions">%1$smld</string>
+    <string name="shorten_billions_capitalized">%1$smld</string>
+    <string name="shorten_millions_capitalized">%1$sm</string>
+    <string name="shorten_thousands">%1$s mii</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

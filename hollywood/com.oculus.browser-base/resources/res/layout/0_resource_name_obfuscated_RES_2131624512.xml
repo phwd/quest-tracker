@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624510"/>
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017799" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/tile_view_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166247" android:lines="2" app:leading="@dimen/0_resource_name_obfuscated_RES_2131166218"/>
+</merge>

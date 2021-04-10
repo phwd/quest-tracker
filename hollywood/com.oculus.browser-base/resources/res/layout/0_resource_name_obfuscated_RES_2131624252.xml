@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/volume_item_container" android:paddingLeft="24dp" android:paddingRight="60dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165718" android:paddingStart="24dp" android:paddingEnd="60dp">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017732" android:gravity="start" android:id="@+id/mr_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/mr_volume_item_icon" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165719" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165719" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="?attr/0_resource_name_obfuscated_RES_2130969083" android:scaleType="fitCenter"/>
+            <androidx.mediarouter.app.MediaRouteVolumeSlider android:id="@+id/mr_volume_slider" android:layout_width="match_parent" android:layout_height="40dp" android:maxHeight="40dp" android:minHeight="40dp" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952851"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

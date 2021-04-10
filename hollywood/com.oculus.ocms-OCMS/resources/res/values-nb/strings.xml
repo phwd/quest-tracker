@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">Apper fra ukjente kilder kan sette kontoen og enheten din i fare.</string>
+    <string name="binary_check_notification_title">Uoffisielle %1$s er installert</string>
+    <string name="notifications_download_canceled_message">Nedlastingen er avbrutt for \"%1$s\"</string>
+    <string name="notifications_download_canceled_title">Nedlastingen er avbrutt</string>
+    <string name="notifications_download_failed_message">Kunne ikke laste ned %1$s</string>
+    <string name="notifications_download_failed_title">Nedlastingen mislyktes</string>
+    <string name="notifications_download_in_progress_message">Laster ned %1$s ...</string>
+    <string name="notifications_downloading_and_installing_apps">Laster ned og installerer apper ...</string>
+    <string name="notifications_head_install_failed_message">Installeringen mislyktes</string>
+    <string name="notifications_head_installed_message">Installert</string>
+    <string name="notifications_head_installing_message">Installerer</string>
+    <string name="notifications_install_failed_message">Kunne ikke installere %1$s</string>
+    <string name="notifications_install_in_progress_message">Installerer %1$s ...</string>
+    <string name="notifications_install_succeeded_message">%1$s ble installert i biblioteket ditt.</string>
+    <string name="notifications_progress_of_download_message">%1$d %%</string>
+    <string name="obb_display_title">%1$s (utvidelsesfil)</string>
+    <string name="shorten_billions">%1$s mrd.</string>
+    <string name="shorten_billions_capitalized">%1$s mrd.</string>
+    <string name="shorten_hundred_millions">%1$s00 mill.</string>
+    <string name="shorten_millions">%1$s mill.</string>
+    <string name="shorten_millions_capitalized">%1$s mill.</string>
+    <string name="shorten_ten_thousands">%1$s0 000</string>
+    <string name="shorten_thousands">%1$s k</string>
+    <string name="shorten_thousands_capitalized">%1$s k</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

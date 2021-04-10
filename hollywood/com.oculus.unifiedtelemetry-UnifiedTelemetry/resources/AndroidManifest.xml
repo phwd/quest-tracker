@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="280146951" android:versionName="27.0.0.38.512" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" coreApp="true" package="com.oculus.unifiedtelemetry" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <protected-broadcast android:name="com.facebook.analytics2.action.UPLOAD_JOB_RAN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.oculus.permission.UPDATE_TELEMETRY_SESSIONS"/>
+    <protected-broadcast android:name="com.oculus.intent.action.app_crash_dialog"/>
+    <uses-permission android:name="com.oculus.horizon.auth"/>
+    <application android:label="@string/app_name" android:name="com.oculus.unifiedtelemetry.UnifiedTelemetryApplication" android:persistent="true" android:debuggable="false" android:allowBackup="false" android:directBootAware="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.facebook.build_rule" android:value="unifiedtelemetry_arm64_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1616478089000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <service android:name="com.facebook.analytics2.logger.LollipopUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.AlarmBasedUploadService" android:exported="false"/>
+        <receiver android:name="com.facebook.analytics2.logger.HighPriUploadRetryReceiver" android:exported="false"/>
+        <service android:name="com.oculus.mobileconfig.updater.MobileConfigUpdaterJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.oculus.unifiedtelemetry.boot.UnifiedTelemetryServiceBootReceiver" android:enabled="true" android:exported="false" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.unifiedtelemetry.collectors.LowBatteryCheckService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <meta-data android:name="com.oculus.enable_strict_single_user" android:value="true"/>
+        <receiver android:name="com.oculus.unifiedtelemetry.credentialsmanager.UnifiedTelemetryAuthBroadcastReceiver" android:permission="com.oculus.horizon.auth" android:exported="true" android:singleUser="true">
+            <intent-filter>
+                <action android:name="com.oculus.auth.BROADCAST_LOGIN"/>
+                <action android:name="com.oculus.auth.BROADCAST_LOGOUT"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.oculus.horizon.fbpermission.AUTHSERVICE2" android:value=""/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <service android:name="com.oculus.unifiedtelemetry.unifiedlogging.SendDeviceInfoJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:directBootAware="true"/>
+        <receiver android:name="com.oculus.unifiedtelemetry.unifiedlogging.EventCacheFlushBroadcastReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.unifiedtelemetry.unifiedtelemetryservice.UnifiedTelemetryService" android:enabled="true" android:singleUser="true" android:directBootAware="true"/>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

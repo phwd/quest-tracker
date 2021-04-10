@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="16dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="32dp" android:minHeight="36dp" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:id="@+id/cc_details_masked" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:gravity="center_horizontal" android:id="@+id/cc_month_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952060" android:width="50sp" android:maxLength="2" android:inputType="number" android:imeOptions="actionNext"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952061"/>
+        <EditText android:gravity="center_horizontal" android:id="@+id/cc_year_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952062" android:width="50sp" android:maxLength="2" android:inputType="number" android:imeOptions="actionDone"/>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017657" android:gravity="start" android:id="@+id/error_message" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

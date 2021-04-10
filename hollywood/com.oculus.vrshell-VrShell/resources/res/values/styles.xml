@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonPrimary" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/oc_text</item>
+        <item name="android:background">@drawable/button_background_primary</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="DebugPanelControllerRepairingButton">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="DebugPanelTitleText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/deprecated_oc_white_fix_me</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:shadowColor">@color/shell_gray_2a</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="DogfoodPanelTitleText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/deprecated_oc_white_fix_me</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:shadowColor">@color/shell_gray_2a</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="KeyboardPanelTheme" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MainNavTabText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/oc_text</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="NoAnimAndTitleBar" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+    <style name="PanelAppTheme" parent="@style/NoAnimAndTitleBar">
+        <item name="android:buttonStyle">@style/ButtonPrimary</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="SystemDialogButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="SystemDialogTab">
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@color/colorDebugPanelBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SystemTooltipColumn">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SystemTooltipHost">
+        <item name="android:background">@color/systemTooltipHostBackground</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+    <style name="SystemTooltipTab">
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@color/systemTooltipTabBackground</item>
+        <item name="android:paddingBottom">35dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Text" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/oc_text</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+</resources>

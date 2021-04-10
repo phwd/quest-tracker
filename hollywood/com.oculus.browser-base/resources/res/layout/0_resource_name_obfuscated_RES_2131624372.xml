@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017524">
+        <org.chromium.chrome.browser.signin.ui.PersonalizedSigninPromoView android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/signin_promo_view_container" android:background="@drawable/0_resource_name_obfuscated_RES_2131230981" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+                <include layout="@layout/0_resource_name_obfuscated_RES_2131624369"/>
+            </FrameLayout>
+            <include layout="@layout/0_resource_name_obfuscated_RES_2131624367"/>
+        </org.chromium.chrome.browser.signin.ui.PersonalizedSigninPromoView>
+    </FrameLayout>
+    <TextView android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@android:id/widget_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

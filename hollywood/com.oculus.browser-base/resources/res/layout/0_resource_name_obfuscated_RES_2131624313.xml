@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/status_bar_latest_event_content" android:layout_width="match_parent" android:layout_height="64dp">
+    <include android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165917" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165916" layout="@layout/0_resource_name_obfuscated_RES_2131624311"/>
+    <include android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/0_resource_name_obfuscated_RES_2131624312"/>
+    <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/media_actions" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <include android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginRight="6dp" android:layout_marginEnd="6dp" layout="@layout/0_resource_name_obfuscated_RES_2131624305"/>
+    <ImageView android:id="@+id/end_padder" android:layout_width="6dp" android:layout_height="match_parent"/>
+</LinearLayout>

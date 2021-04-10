@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.mediarouter.app.MediaRouteButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/cast_controller_media_route_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017409"/>

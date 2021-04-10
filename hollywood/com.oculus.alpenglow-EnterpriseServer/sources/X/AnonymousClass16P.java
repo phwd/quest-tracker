@@ -1,0 +1,60 @@
+package X;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.List;
+import java.util.Map;
+
+/* renamed from: X.16P  reason: invalid class name */
+public final class AnonymousClass16P implements AnonymousClass0qA {
+    public long A00 = 0;
+    public long A01 = 0;
+    public short A02 = 0;
+    public boolean A03 = false;
+    public byte[] A04;
+    public byte A05;
+    public int A06 = 0;
+    public int A07;
+    public int A08 = 0;
+    public long A09 = 0;
+    public C100417q A0A;
+    public C100817u A0B;
+    public C098716w A0C;
+    public C100517r A0D;
+    public C100017k A0E;
+    public AnonymousClass17D A0F;
+    public AnonymousClass182 A0G;
+    public AbstractC099817i A0H;
+    public C098316s A0I;
+    public AnonymousClass10h A0J;
+    public AnonymousClass16V A0K;
+    public AnonymousClass16I A0L;
+    public AbstractC099517e A0M;
+    public AnonymousClass16K A0N;
+    public C098516u A0O;
+    public InputStream A0P;
+    public OutputStream A0Q;
+    public String A0R;
+    public String A0S;
+    public String A0T;
+    public List<AnonymousClass179> A0U;
+    public List<AnonymousClass179> A0V;
+    public List<AnonymousClass178> A0W;
+    public Map<String, byte[]> A0X;
+    public short A0Y = 0;
+    public boolean A0Z = false;
+    public boolean A0a = false;
+    public boolean A0b;
+    public boolean A0c;
+    public boolean A0d = false;
+    public boolean A0e;
+    public boolean A0f;
+    public boolean A0g = false;
+    public boolean A0h;
+    public byte[] A0i;
+    public byte[] A0j;
+    public byte[] A0k;
+    public byte[] A0l;
+    public byte[] A0m;
+    public byte[] A0n;
+}

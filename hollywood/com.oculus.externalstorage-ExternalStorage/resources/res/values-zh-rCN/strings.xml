@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">完成</string>
+    <string name="otg_failure_message">请把头戴设备电池电量充至 60%% 以上并重试。</string>
+    <string name="otg_failure_title">无法连接 USB</string>
+    <string name="reformat_usb">重新格式化 USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">重新格式化此 U 盘后，其中储存的所有数据都将被删除。</string>
+    <string name="storage_format_confirm_title">确定吗？</string>
+    <string name="storage_launcher_accept">继续</string>
+    <string name="storage_launcher_format_message">如需为头戴设备使用此 U 盘，请 U 盘重新格式化。</string>
+    <string name="storage_launcher_format_title">不支持磁盘</string>
+    <string name="storage_launcher_gallery_message">要打开 Oculus 图库并探索磁盘内容吗？</string>
+    <string name="storage_launcher_gallery_title">外部存储空间</string>
+    <string name="storage_launcher_refuse">取消</string>
+    <string name="storage_wizard_error_body">错误：^1</string>
+    <string name="storage_wizard_error_title">无法格式化^1</string>
+    <string name="storage_wizard_format_progress_body">格式化过程中请不要移除^1</string>
+    <string name="storage_wizard_format_progress_title">正在格式化^1…</string>
+    <string name="storage_wizard_ready_external_body">你可以使用^1中的照片和其他媒体文件了。</string>
+    <string name="storage_wizard_ready_title">^1设置完毕</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.modaldialog.ModalDialogView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:maxWidthLandscape="@dimen/0_resource_name_obfuscated_RES_2131165218" app:maxWidthPortrait="@dimen/0_resource_name_obfuscated_RES_2131165219">
+    <include android:id="@+id/title_container" layout="@layout/0_resource_name_obfuscated_RES_2131624239"/>
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView android:id="@+id/modal_dialog_scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/scrollable_title_container" android:visibility="gone" layout="@layout/0_resource_name_obfuscated_RES_2131624239"/>
+            <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/message" app:leading="20sp" style="@style/0_resource_name_obfuscated_RES_2132017155"/>
+        </LinearLayout>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+    <FrameLayout android:id="@+id/custom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <org.chromium.components.browser_ui.widget.DualControlLayout android:id="@+id/button_bar" android:paddingTop="?attr/0_resource_name_obfuscated_RES_2130968853" android:paddingBottom="?attr/0_resource_name_obfuscated_RES_2130968853" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr/0_resource_name_obfuscated_RES_2130968852" android:paddingEnd="?attr/0_resource_name_obfuscated_RES_2130968852" app:buttonAlignment="1" app:stackedMargin="@dimen/0_resource_name_obfuscated_RES_2131165310">
+        <org.chromium.ui.widget.ButtonCompat android:id="@+id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/0_resource_name_obfuscated_RES_2130968682"/>
+        <org.chromium.ui.widget.ButtonCompat android:id="@+id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/0_resource_name_obfuscated_RES_2130968680"/>
+    </org.chromium.components.browser_ui.widget.DualControlLayout>
+</org.chromium.components.browser_ui.modaldialog.ModalDialogView>

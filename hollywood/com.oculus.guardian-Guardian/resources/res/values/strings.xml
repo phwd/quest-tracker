@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_passthrough_environment_activated">Reality Tuner is set to Full Passthrough</string>
+    <string name="toast_3dof_activated">Tracking off, Guardian disabled</string>
+    <string name="toast_passthrough_ondemand_intro">Double tap the left or right side of your headset to turn off passthrough</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

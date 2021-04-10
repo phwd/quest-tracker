@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.oculus.ocui.OCTextView android:id="@+id/system_dialog_standard_layout_title" android:text="Set the title" style="@style/SystemDialogTitleText"/>
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/system_dialog_standard_layout_gear_btn" android:visibility="gone" android:layout_marginRight="24dp" style="@style/ButtonGear"/>
+        </LinearLayout>
+        <com.oculus.ocui.OCTextView android:id="@+id/system_dialog_standard_layout_content" android:text="Set the content" style="@style/SystemDialogContentText"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/system_dialog_standard_custom_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.oculus.ocui.OCTextView android:gravity="center_horizontal" android:id="@+id/system_dialog_standard_layout_callout" android:visibility="gone" android:text="" style="@style/SystemDialogCalloutText"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/system_dialog_button_bar_container" style="@style/DialogButtonBar">
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/system_dialog_standard_layout_button_cancel" android:layout_marginRight="@dimen/dialog_button_margin" android:text="Set the cancel button" style="@style/DialogButtonSecondary"/>
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/system_dialog_standard_layout_button_middle" android:layout_marginRight="@dimen/dialog_button_margin" android:text="Set the middle button" style="@style/DialogButtonPrimary"/>
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/system_dialog_standard_layout_button_accept" android:text="Set the accept button" style="@style/DialogButtonPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

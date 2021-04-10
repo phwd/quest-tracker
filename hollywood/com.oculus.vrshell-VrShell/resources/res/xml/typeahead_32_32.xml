@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="0dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="132dp" custom:verticalGap="0dp">
+    <Row>
+        <Key custom:codes="-14" custom:keyEdgeFlags="left" custom:keyLabel="​"/>
+        <Key custom:codes="-14" custom:keyLabel="​"/>
+        <Key custom:codes="-14" custom:keyEdgeFlags="right" custom:keyLabel="​"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.tabs.GatekeepersTab xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/debug_tab_gatekeepers" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:orientation="horizontal" android:id="@+id/feature_flag_filter" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <view android:id="@+id/feature_flag_filter_edittext" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Filter settings" android:maxLines="1" class="com.oculus.panelapp.debug.tabs.FilteredSettingsTab$FilterEditText"/>
+        <Button android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/feature_flag_filter_clear" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="✖️"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/debug_feature_flag_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="Changes may require a restart of Shell to take effect."/>
+</com.oculus.panelapp.debug.tabs.GatekeepersTab>

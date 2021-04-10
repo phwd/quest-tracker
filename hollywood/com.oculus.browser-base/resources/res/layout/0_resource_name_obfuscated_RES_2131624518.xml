@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.contacts_picker.TopView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/explanation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="12dp" android:layout_marginStart="15dp" android:layout_marginEnd="16dp"/>
+    <org.chromium.components.browser_ui.widget.WrappingLayout android:orientation="horizontal" android:id="@+id/chip_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/explanation" android:paddingStart="15dp" app:horizontalSpacing="8dp">
+        <org.chromium.ui.widget.ChipView android:gravity="center" android:id="@+id/icon_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017584"/>
+        <org.chromium.ui.widget.ChipView android:gravity="center" android:id="@+id/names_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017584"/>
+        <org.chromium.ui.widget.ChipView android:gravity="center" android:id="@+id/address_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017584"/>
+        <org.chromium.ui.widget.ChipView android:gravity="center" android:id="@+id/email_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017584"/>
+        <org.chromium.ui.widget.ChipView android:gravity="center" android:id="@+id/tel_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017584"/>
+    </org.chromium.components.browser_ui.widget.WrappingLayout>
+    <LinearLayout android:id="@+id/content" android:visibility="gone" android:layout_below="@+id/chip_container" style="@style/0_resource_name_obfuscated_RES_2132017448">
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624034"/>
+    </LinearLayout>
+</org.chromium.components.browser_ui.contacts_picker.TopView>

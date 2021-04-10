@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_hundred_millions">%1$s ร้อยล้าน</string>
+    <string name="shorten_ten_thousands">%1$s หมื่น</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,20 @@
+{
+    "contents": [
+      {
+        "key": "local_account_mode_enabled",
+        "type": "boolean",
+        "default": "false",
+        "hasWritePermission": false,
+        "scope": "system",
+        "isOwner": false
+      },
+      {
+        "key": "pairing_code",
+        "type": "string",
+        "default": "",
+        "hasWritePermission": true,
+        "scope": "user",
+        "isOwner": false
+      }
+    ]
+  }

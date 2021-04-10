@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:duplicateParentState="true" style="@style/AssistantInAppToastWrapperSize">
+    <com.oculus.notifications.view.assistant.NotificationAssistantView android:id="@+id/assistant_in_app_content" style="@style/AssistantInAppToast">
+        <LinearLayout style="@style/AssistantInAppToastContentWrapper">
+            <FrameLayout style="@style/AssistantInAppToastIconBackground">
+                <View android:id="@+id/assistant_in_app_icon" style="@style/AssistantInAppToastIconImage"/>
+            </FrameLayout>
+            <TextView android:id="@+id/assistant_in_app_text" android:text="Notification Text goes here. It can be multiple lines." style="@style/AssistantInAppToastText"/>
+        </LinearLayout>
+    </com.oculus.notifications.view.assistant.NotificationAssistantView>
+</FrameLayout>

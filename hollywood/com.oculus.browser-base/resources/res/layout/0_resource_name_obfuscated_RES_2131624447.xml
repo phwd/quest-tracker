@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/selectable_tab_list_card_item" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/selected_view_below_lollipop" android:background="@drawable/0_resource_name_obfuscated_RES_2131231524" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <org.chromium.chrome.browser.tasks.tab_management.SelectableTabGridView android:id="@+id/content_view" android:background="@drawable/0_resource_name_obfuscated_RES_2131231503" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

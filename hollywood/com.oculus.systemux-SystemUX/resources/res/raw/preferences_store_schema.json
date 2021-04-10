@@ -1,0 +1,148 @@
+{
+  "contents": [
+    {
+      "key": "app_sharing_upsell_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "aui_onboarding_tutorial_state",
+      "type": "string",
+      "default": "not_started",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "hand_tracking_override_frequency",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    },
+    {
+      "key": "multi_user_accounts_nux_pref_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "multi_user_beta_enabled_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    },
+    {
+      "key": "multi_user_lock_pattern_prompt_seen_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "system_force_application_focus_awareness",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    },
+    {
+      "key": "force_application_focus_awareness",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "mouse_sensitivity",
+      "type": "double",
+      "default": "3",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true
+    },
+    {
+      "key": "passthrough_hands_contrast",
+      "type": "double",
+      "default": "12.0",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": true
+    },
+    {
+      "key": "debug_launch_apps_in_tablet_space",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true
+    },
+    {
+      "key": "experimental_120hz_support_enabled",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": true
+    },
+    {
+      "key": "debug_overlay_browser_experiment",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "intrusion_detection_enabled",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "intrusion_detection_alert_sensitivity",
+      "type": "double",
+      "default": "5",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "intrusion_detection_area_sensitivity",
+      "type": "double",
+      "default": "5",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "intrusion_detection_boundary_sensitivity",
+      "type": "double",
+      "default": "5",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "intrusion_detection_floor_height",
+      "type": "double",
+      "default": "13",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    }
+  ]
+}

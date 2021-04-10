@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/prev" android:contentDescription="@null" style="@style/MediaButton.Previous"/>
+        <ImageButton android:id="@+id/rew" android:contentDescription="@null" style="@style/MediaButton.Rew"/>
+        <ImageButton android:id="@+id/pause" android:contentDescription="@null" style="@style/MediaButton.Play"/>
+        <ImageButton android:id="@+id/ffwd" android:contentDescription="@null" style="@style/MediaButton.Ffwd"/>
+        <ImageButton android:id="@+id/next" android:contentDescription="@null" style="@style/MediaButton.Next"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/mediacontroller_progress_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/0_resource_name_obfuscated_RES_2131099712" android:layout_gravity="center_horizontal" android:id="@+id/time_current" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp" android:paddingEnd="4dp"/>
+        <SeekBar android:id="@+id/mediacontroller_progress_bar" android:layout_width="0dp" android:layout_height="32dp" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/0_resource_name_obfuscated_RES_2131099712" android:layout_gravity="center_horizontal" android:id="@+id/time" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp" android:paddingEnd="4dp"/>
+    </LinearLayout>
+</LinearLayout>

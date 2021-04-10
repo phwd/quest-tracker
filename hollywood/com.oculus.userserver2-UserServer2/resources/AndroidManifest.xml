@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280146954" android:versionName="27.0.0.38.512" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" coreApp="true" package="com.oculus.userserver2" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="com.oculus.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission android:name="com.oculus.userserver.USER_CHANGE_NOTIFICATIONS"/>
+    <permission android:name="com.oculus.userserver.MANAGE_USERS" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:label="@string/app_name" android:name="com.oculus.userserver.app.UserServerApplication" android:debuggable="false" android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.facebook.build_rule" android:value="userserver_arm64_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1616478105000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <receiver android:name="com.oculus.common.packagescache.PackagesCacheReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.oculus.horizon.fbpermission.AUTHSERVICE2" android:value=""/>
+        <service android:name="com.oculus.userserver.managerservice.OculusUserManagerService" android:exported="true" android:singleUser="true" android:directBootAware="true"/>
+        <service android:name="com.oculus.userserver.managerservice.OculusUserManagerIntentService" android:permission="com.oculus.userserver.MANAGE_USERS" android:exported="true" android:singleUser="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.oculus.userserver.CREATE_USER_AND_SWITCH"/>
+                <action android:name="com.oculus.userserver.REMOVE_USER"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.oculus.userserver.managerservice.SharingProvider" android:exported="true" android:authorities="com.oculus.userserver.sharingmanager" android:singleUser="true" android:directBootAware="true"/>
+        <receiver android:name="com.oculus.userserver.managerservice.OculusUserBootReceiver" android:enabled="true" android:exported="false" android:singleUser="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.userserver.managerservice.UserSyncJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:singleUser="true" android:directBootAware="true"/>
+        <receiver android:name="com.oculus.userserver.usercleaner.UserCleanerBootReceiver" android:enabled="true" android:exported="true" android:singleUser="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.userserver.usercleaner.UserCleanerJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:singleUser="true"/>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

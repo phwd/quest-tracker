@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:tag="layout/file_previewer_toolbar_0" android:background="@drawable/file_picker_preview_background" android:layout_width="match_parent" android:layout_height="50dp"/>
+    <com.oculus.ocui.OCTextView android:textSize="@dimen/octypography_h2_font_size" android:textStyle="bold" android:textColor="?attr/ocPrimaryText" android:gravity="center" android:id="@+id/title" android:tag="layout/file_previewer_toolbar_1" android:layout_width="match_parent" android:layout_height="50dp" android:text="@string/file_previewer_title"/>
+</merge>

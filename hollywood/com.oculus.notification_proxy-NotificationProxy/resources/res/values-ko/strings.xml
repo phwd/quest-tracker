@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">잠시 후 헤드셋을 연결하세요.</string>
+    <string name="battery_critical_title">헤드셋 전원이 매우 부족합니다</string>
+    <string name="battery_low_text">헤드셋을 연결하세요.</string>
+    <string name="battery_low_title">헤드셋 전원이 부족합니다</string>
+    <string name="controller_critical_battery_text">지금 바로 컨트롤러 배터리를 교체해주세요.</string>
+    <string name="controller_critical_battery_title">컨트롤러 배터리 매우 부족</string>
+    <string name="controller_disconnected_text">배터리를 확인하거나, 컨트롤러를 가까운 곳으로 이동하거나, Oculus 지원에 문의하세요.</string>
+    <string name="controller_disconnected_title">컨트롤러를 찾을 수 없습니다</string>
+    <string name="controller_firmware_update_failed_text">Oculus 지원에 문의하여 도움을 받으세요.</string>
+    <string name="controller_firmware_update_failed_title">컨트롤러를 업데이트할 수 없습니다</string>
+    <string name="controller_firmware_update_progress_text">업데이트 진행 상태: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">업데이트가 완료되었습니다.</string>
+    <string name="controller_firmware_update_title">컨트롤러 업데이트 진행 중</string>
+    <string name="controller_low_battery_text">배터리를 교체해주세요.</string>
+    <string name="controller_low_battery_title">컨트롤러 배터리 부족</string>
+    <string name="dual_controller_both_controller_disconnected_title">컨트롤러를 찾을 수 없음</string>
+    <string name="dual_controller_both_controller_low_battery_title">컨트롤러 배터리 부족</string>
+    <string name="dual_controller_disconnected_text">문제가 지속되면 배터리를 확인하거나 Oculus 지원에 문의하세요.</string>
+    <string name="dual_controller_left_controller_disconnected_title">왼쪽 컨트롤러를 찾을 수 없음</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">왼쪽 컨트롤러 업데이트 오류</string>
+    <string name="dual_controller_left_controller_firmware_update_title">왼쪽 컨트롤러 업데이트 진행 중</string>
+    <string name="dual_controller_left_controller_low_battery_title">왼쪽 컨트롤러 배터리 부족</string>
+    <string name="dual_controller_low_battery_text">배터리를 교체해주세요.</string>
+    <string name="dual_controller_right_controller_disconnected_title">오른쪽 컨트롤러를 찾을 수 없음</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">오른쪽 컨트롤러 업데이트 오류</string>
+    <string name="dual_controller_right_controller_firmware_update_title">오른쪽 컨트롤러 업데이트 진행 중</string>
+    <string name="dual_controller_right_controller_low_battery_title">오른쪽 컨트롤러 배터리 부족</string>
+    <string name="notification_header">Oculus 시스템</string>
+    <string name="safe_volume_warning_text_1">큰 볼륨으로 오래 사용할 경우 청각이 손상될 수 있습니다.</string>
+    <string name="safe_volume_warning_text_2">이 경고를 일시적으로 해제하려면 버튼을 다시 누르세요.</string>
+    <string name="safe_volume_warning_title">볼륨을 권장 수준 이상으로 높였습니다</string>
+    <string name="vrui_gaze_input_instruction_text">머리를 움직인 다음 헤드셋 볼륨 버튼을 눌러 선택하세요.</string>
+    <string name="vrui_gaze_input_instruction_title">핸드 트래킹 및 컨트롤러가 비활성화됨</string>
+    <string name="wifi_disconnected_text">문제를 해결하려면 설정으로 이동하세요.</string>
+    <string name="wifi_disconnected_title">헤드셋 Wi-Fi 연결 끊김</string>
+</resources>

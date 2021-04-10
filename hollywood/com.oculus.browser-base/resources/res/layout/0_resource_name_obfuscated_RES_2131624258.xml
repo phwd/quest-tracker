@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/parentPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624260"/>
+    <FrameLayout android:id="@+id/contentPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+        <View android:layout_gravity="top" android:id="@+id/scrollIndicatorUp" android:background="?attr/0_resource_name_obfuscated_RES_2130968753" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <androidx.core.widget.NestedScrollView android:id="@+id/scrollView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <android.widget.Space android:id="@+id/textSpacerNoTitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165221"/>
+                <TextView android:id="@android:id/message" android:paddingLeft="?attr/0_resource_name_obfuscated_RES_2130968827" android:paddingRight="?attr/0_resource_name_obfuscated_RES_2130968827" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/0_resource_name_obfuscated_RES_2130969051"/>
+                <android.widget.Space android:id="@+id/textSpacerNoButtons" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165221"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_gravity="bottom" android:id="@+id/scrollIndicatorDown" android:background="?attr/0_resource_name_obfuscated_RES_2130968753" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/customPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+        <FrameLayout android:id="@+id/custom" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/0_resource_name_obfuscated_RES_2131624259"/>
+</androidx.appcompat.widget.AlertDialogLayout>

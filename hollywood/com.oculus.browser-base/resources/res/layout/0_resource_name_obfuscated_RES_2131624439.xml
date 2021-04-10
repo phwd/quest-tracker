@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/text_container" android:background="@drawable/0_resource_name_obfuscated_RES_2131231418" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="0.9">
+    <TextView android:gravity="center_vertical" android:id="@+id/title" android:layout_width="0dp" android:layout_height="48dp" android:hint="@string/0_resource_name_obfuscated_RES_2131953428" android:singleLine="true" android:layout_weight="1" android:textAlignment="viewStart" android:paddingStart="12dp" style="@style/0_resource_name_obfuscated_RES_2132017735"/>
+    <ImageView android:id="@+id/microphone_icon" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131230889" android:scaleType="centerInside" android:tint="@color/0_resource_name_obfuscated_RES_2131099812" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951943"/>
+</LinearLayout>

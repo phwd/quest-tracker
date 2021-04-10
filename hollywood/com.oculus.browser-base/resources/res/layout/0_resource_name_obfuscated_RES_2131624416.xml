@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@+id/extended_metrics" android:layout_width="match_parent" android:layout_height="wrap_content" app:descriptionText="@string/0_resource_name_obfuscated_RES_2131952815" app:primaryText="@string/0_resource_name_obfuscated_RES_2131952816"/>
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@+id/basic_metrics" android:layout_width="match_parent" android:layout_height="wrap_content" app:descriptionText="@string/0_resource_name_obfuscated_RES_2131952812" app:primaryText="@string/0_resource_name_obfuscated_RES_2131952813"/>
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@+id/no_metrics" android:layout_width="match_parent" android:layout_height="wrap_content" app:descriptionText="@string/0_resource_name_obfuscated_RES_2131952817" app:primaryText="@string/0_resource_name_obfuscated_RES_2131952818"/>
+</org.chromium.components.browser_ui.widget.RadioButtonWithDescriptionLayout>

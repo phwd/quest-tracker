@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d διαθέσιμη θέση</item>
+        <item quantity="other">%1$d διαθέσιμες θέσεις</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="other">%1$d ακόμη</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">%1$d άτομο που έχετε μπλοκάρει συμμετέχει σε αυτή την ομάδα</item>
+        <item quantity="other">%1$d άτομα που έχετε μπλοκάρει συμμετέχουν σε αυτή την ομάδα</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 άτομο είναι έτοιμο να ταξιδέψει.</item>
+        <item quantity="other">%1$d άτομα είναι έτοιμα να ταξιδέψουν.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Η πρόσκληση κοινοποιήθηκε στον χρήστη %1$s και %2$d ακόμη άτομο.</item>
+        <item quantity="other">Η πρόσκληση κοινοποιήθηκε στον χρήστη %1$s και %2$d ακόμη άτομα.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Η πρόσκληση κοινοποιήθηκε στον χρήστη %1$s και %2$d ακόμη άτομο.</item>
+        <item quantity="other">Η πρόσκληση στάλθηκε στον χρήστη %1$s και %2$d ακόμη άτομα.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">%1$d ημέρα πριν</item>
+        <item quantity="other">%1$d ημέρες πριν</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">%1$d ώρα πριν</item>
+        <item quantity="other">%1$d ώρες πριν</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d λεπ.</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d κοινός φίλος</item>
+        <item quantity="other">%1$d κοινοί φίλοι</item>
+    </plurals>
+</resources>

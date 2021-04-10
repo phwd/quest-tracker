@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.anytimeui.dialogs.QuestShowTaskbarDialog xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vrshell="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:background="@drawable/quest_show_task_bar_dialog_background" android:padding="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="12dp" android:src="@drawable/ic_system_dialog_oculus_logo"/>
+    <com.oculus.ocui.OCTextView android:textSize="@dimen/octypography_body1_font_size" android:textColor="?attr/ocPrimaryText" android:id="@+id/text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" android:text="@string/quest_show_taskbar_dialog_description" android:layout_weight="1"/>
+</com.oculus.panelapp.anytimeui.dialogs.QuestShowTaskbarDialog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231289"/>
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="14dp" android:thickness="0dp">
+            <stroke android:width="2dp" android:color="@android:color/white"/>
+        </shape>
+    </item>
+</layer-list>

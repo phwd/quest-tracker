@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus Core 移动服务</string>
+    <string name="binary_check_notification_content">来源不明的应用可能会导致你的帐户和设备面临风险。</string>
+    <string name="binary_check_notification_title">安装了非官方的%1$s</string>
+    <string name="notifications_download_canceled_message">已取消下载“%1$s”</string>
+    <string name="notifications_download_canceled_title">已取消下载</string>
+    <string name="notifications_download_failed_message">无法下载“%1$s”</string>
+    <string name="notifications_download_failed_title">下载失败</string>
+    <string name="notifications_download_in_progress_message">正在下载%1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">正在下载并安装应用…</string>
+    <string name="notifications_head_install_failed_message">安装失败</string>
+    <string name="notifications_head_installed_message">已安装</string>
+    <string name="notifications_head_installing_message">正在安装</string>
+    <string name="notifications_install_failed_message">无法安装“%1$s”</string>
+    <string name="notifications_install_in_progress_message">正在安装%1$s…</string>
+    <string name="notifications_install_succeeded_message">%1$s已成功安装到你的资源库。</string>
+    <string name="obb_display_title">%1$s（扩展文件）</string>
+    <string name="shorten_billions">%1$s十亿</string>
+    <string name="shorten_billions_capitalized">%1$s十亿</string>
+    <string name="shorten_hundred_millions">%1$s亿</string>
+    <string name="shorten_millions">%1$s百万</string>
+    <string name="shorten_millions_capitalized">%1$s百万</string>
+    <string name="shorten_ten_thousands">%1$s万</string>
+    <string name="shorten_thousands">%1$s千</string>
+    <string name="shorten_thousands_capitalized">%1$s千</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

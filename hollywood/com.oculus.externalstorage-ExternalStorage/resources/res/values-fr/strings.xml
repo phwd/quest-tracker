@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Terminé</string>
+    <string name="otg_failure_message">Veuillez recharger la batterie de votre casque jusqu’à 60 %% ou plus, puis réessayer.</string>
+    <string name="otg_failure_title">Connexion USB impossible</string>
+    <string name="reformat_usb">Reformater la clé USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Le reformatage de cette clé USB effacera toutes les données qu’elle contient actuellement.</string>
+    <string name="storage_format_confirm_title">Veuillez confirmer</string>
+    <string name="storage_launcher_accept">Continuer</string>
+    <string name="storage_launcher_format_message">Pour utiliser cette clé USB avec votre casque, vous devrez la reformater.</string>
+    <string name="storage_launcher_format_title">Clé non compatible</string>
+    <string name="storage_launcher_gallery_message">Voulez-vous ouvrir Oculus Gallery pour parcourir le contenu du disque ?</string>
+    <string name="storage_launcher_gallery_title">Stockage externe</string>
+    <string name="storage_launcher_refuse">Annuler</string>
+    <string name="storage_wizard_error_body">Erreur : ^1</string>
+    <string name="storage_wizard_error_title">Impossible de formater ^1</string>
+    <string name="storage_wizard_format_progress_body">Ne pas supprimer le ^1 pendant le formatage.</string>
+    <string name="storage_wizard_format_progress_title">Formatage de la ^1...</string>
+    <string name="storage_wizard_ready_external_body">Vous pouvez maintenant utiliser votre ^1 pour les photos et les autres médias.</string>
+    <string name="storage_wizard_ready_title">Vous pouvez utiliser ^1</string>
+</resources>

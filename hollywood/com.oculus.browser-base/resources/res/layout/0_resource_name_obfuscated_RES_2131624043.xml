@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@+id/text" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165357" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165357"/>
+    <FrameLayout android:id="@+id/gradient_border" android:background="@drawable/0_resource_name_obfuscated_RES_2131230929" android:padding="1dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="3dp" android:layout_below="@+id/text" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165357" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165357">
+        <View android:id="@+id/gradient" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <SeekBar android:id="@+id/seek_bar" android:layout_width="match_parent" android:layout_height="75dp" android:progressDrawable="@android:color/transparent" android:thumb="@drawable/0_resource_name_obfuscated_RES_2131230928" android:layout_below="@+id/text" android:translationY="25dp"/>
+</RelativeLayout>

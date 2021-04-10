@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+    <LinearLayout android:orientation="vertical" style="@style/0_resource_name_obfuscated_RES_2132017155">
+        <org.chromium.components.browser_ui.widget.text.AlertDialogEditText android:id="@+id/passphrase" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131953583" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionNext"/>
+        <org.chromium.components.browser_ui.widget.text.AlertDialogEditText android:id="@+id/confirm_passphrase" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131953584" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionDone"/>
+        <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@+id/custom_passphrase_instructions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" android:text="@string/0_resource_name_obfuscated_RES_2131953580"/>
+    </LinearLayout>
+</ScrollView>

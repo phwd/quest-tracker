@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="top|left|right|center_vertical|center_horizontal|fill_horizontal|center" android:src="@drawable/0_resource_name_obfuscated_RES_2131231579"/>
+    </item>
+    <item>
+        <bitmap android:gravity="top|left|right|center_vertical|center_horizontal|fill_horizontal|center" android:src="@drawable/0_resource_name_obfuscated_RES_2131231578"/>
+    </item>
+</transition>

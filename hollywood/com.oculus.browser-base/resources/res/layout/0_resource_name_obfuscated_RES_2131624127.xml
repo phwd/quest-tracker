@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.home.list.view.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/0_resource_name_obfuscated_RES_2131099789" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <org.chromium.components.browser_ui.widget.async_image.AsyncImageView android:layout_gravity="center" android:id="@+id/thumbnail" android:background="@color/0_resource_name_obfuscated_RES_2131100037" android:layout_width="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_aspectRatio="100%" style="@style/0_resource_name_obfuscated_RES_2132017167"/>
+    <org.chromium.chrome.browser.download.home.view.SelectionView android:id="@+id/selection" style="@style/0_resource_name_obfuscated_RES_2132017428"/>
+</org.chromium.chrome.browser.download.home.list.view.AspectRatioFrameLayout>

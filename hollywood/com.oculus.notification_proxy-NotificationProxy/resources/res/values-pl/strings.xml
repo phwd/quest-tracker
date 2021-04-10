@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Podłącz wkrótce gogle.</string>
+    <string name="battery_critical_title">Bardzo niski poziom naładowania baterii zestawu</string>
+    <string name="battery_low_text">Podłącz gogle.</string>
+    <string name="battery_low_title">Niski poziom naładowania baterii zestawu</string>
+    <string name="controller_critical_battery_text">Wymień teraz baterię kontrolera.</string>
+    <string name="controller_critical_battery_title">Krytyczny poziom baterii kontrolera</string>
+    <string name="controller_disconnected_text">Sprawdź baterię, przybliż kontroler lub skontaktuj się z działem pomocy Oculus.</string>
+    <string name="controller_disconnected_title">Nie można znaleźć kontrolera</string>
+    <string name="controller_firmware_update_failed_text">Aby uzyskać pomoc, skontaktuj się z działem pomocy Oculus.</string>
+    <string name="controller_firmware_update_failed_title">Nie można zaktualizować kontrolera</string>
+    <string name="controller_firmware_update_progress_text">Postęp aktualizacji: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Aktualizacja powiodła się.</string>
+    <string name="controller_firmware_update_title">Aktualizacja kontrolera w toku</string>
+    <string name="controller_low_battery_text">Wymień niedługo baterię.</string>
+    <string name="controller_low_battery_title">Niski poziom baterii kontrolera</string>
+    <string name="dual_controller_both_controller_disconnected_title">Nie znaleziono kontrolerów</string>
+    <string name="dual_controller_both_controller_low_battery_title">Niski poziom baterii kontrolera</string>
+    <string name="dual_controller_disconnected_text">Jeśli problem nie ustąpi, sprawdź baterię lub skontaktuj się z działem pomocy Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Nie znaleziono lewego kontrolera</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Błąd aktualizacji lewego kontrolera</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Aktualizacja lewego kontrolera w toku</string>
+    <string name="dual_controller_left_controller_low_battery_title">Niski poziom baterii lewego kontrolera</string>
+    <string name="dual_controller_low_battery_text">Wymień niedługo baterię.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Nie znaleziono prawego kontrolera</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Błąd aktualizacji prawego kontrolera</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Aktualizacja prawego kontrolera w toku</string>
+    <string name="dual_controller_right_controller_low_battery_title">Niski poziom baterii prawego kontrolera</string>
+    <string name="notification_header">System Oculus</string>
+    <string name="safe_volume_warning_text_1">Słuchanie głośnego dźwięku przez długi czas może uszkodzić słuch.</string>
+    <string name="safe_volume_warning_text_2">Naciśnij przycisk ponownie, aby tymczasowo wyłączyć to ostrzeżenie.</string>
+    <string name="safe_volume_warning_title">Poziom głośności został zwiększony powyżej zalecanego</string>
+    <string name="vrui_gaze_input_instruction_text">Poruszaj głową, a następnie naciśnij przycisk głośności na goglach, aby wybrać.</string>
+    <string name="vrui_gaze_input_instruction_title">Funkcja śledzenia dłoni i kontrolery są wyłączone</string>
+    <string name="wifi_disconnected_text">Aby rozwiązać problemy, przejdź do Ustawień.</string>
+    <string name="wifi_disconnected_title">Utracono połączenie Wi-Fi z goglami</string>
+</resources>

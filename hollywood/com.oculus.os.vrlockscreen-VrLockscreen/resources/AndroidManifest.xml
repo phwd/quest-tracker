@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" coreApp="true" package="com.oculus.os.vrlockscreen" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <permission android:label="Launch the Lock Screen" android:name="com.oculus.permission.LAUNCH_LOCK_SCREEN" android:protectionLevel="signatureOrSystem"/>
+    <application android:allowBackup="false" android:extractNativeLibs="true">
+        <activity android:theme="@style/Theme.LockscreenFullscreen" android:name=".LockscreenActivity" android:permission="com.oculus.permission.LAUNCH_LOCK_SCREEN" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"/>
+    </application>
+</manifest>

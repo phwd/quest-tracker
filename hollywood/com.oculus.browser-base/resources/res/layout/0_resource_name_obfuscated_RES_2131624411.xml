@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/permission_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/tab_line" android:layout_width="match_parent" android:importantForAccessibility="no" style="@style/0_resource_name_obfuscated_RES_2132017588"/>
+        <org.chromium.ui.widget.ChromeImageView android:layout_gravity="center_horizontal" android:id="@+id/camera_icon" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="112dp" android:scaleType="center" android:importantForAccessibility="no" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131230910"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/qrcode_permission_image" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/0_resource_name_obfuscated_RES_2131953295" android:drawablePadding="24dp" android:lineHeight="20dp"/>
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center_horizontal" android:id="@+id/ask_for_permission" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/0_resource_name_obfuscated_RES_2131953294" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+    </LinearLayout>
+</ScrollView>

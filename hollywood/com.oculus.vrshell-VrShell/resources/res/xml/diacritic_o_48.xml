@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_popup_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="õ" custom:keyOutputText="õ" custom:shiftKeyLabel="Õ" custom:shiftKeyOutputText="Õ"/>
+        <Key custom:keyLabel="o" custom:keyOutputText="o" custom:shiftKeyLabel="O" custom:shiftKeyOutputText="O"/>
+        <Key custom:keyLabel="ô" custom:keyOutputText="ô" custom:shiftKeyLabel="Ô" custom:shiftKeyOutputText="Ô"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ó" custom:keyOutputText="ó" custom:shiftKeyLabel="Ó" custom:shiftKeyOutputText="Ó"/>
+        <Key custom:keyLabel="ò" custom:keyOutputText="ò" custom:shiftKeyLabel="Ò" custom:shiftKeyOutputText="Ò"/>
+        <Key custom:keyLabel="œ" custom:keyOutputText="œ" custom:shiftKeyLabel="Œ" custom:shiftKeyOutputText="Œ"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ő" custom:keyOutputText="ő" custom:shiftKeyLabel="Ő" custom:shiftKeyOutputText="Ő"/>
+        <Key custom:keyLabel="ø" custom:keyOutputText="ø" custom:shiftKeyLabel="Ø" custom:shiftKeyOutputText="Ø"/>
+        <Key custom:keyLabel="ö" custom:keyOutputText="ö" custom:shiftKeyLabel="Ö" custom:shiftKeyOutputText="Ö"/>
+    </Row>
+</Keyboard>

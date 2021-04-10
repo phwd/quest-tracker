@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="2130837504" />
+    <public type="raw" name="hand_left" id="2130903040" />
+    <public type="raw" name="hand_right" id="2130903041" />
+    <public type="raw" name="vrdriver_preference_store_schema" id="2130903042" />
+    <public type="string" name="remote_recenter_warning_text" id="2130968576" />
+</resources>

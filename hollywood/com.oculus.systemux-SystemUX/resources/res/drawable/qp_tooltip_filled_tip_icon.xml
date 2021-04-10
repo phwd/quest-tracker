@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/oc_blue_50"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/oc_icon_tips_filled_24_c7c7c7" android:left="@dimen/tooltip_icon_radius" android:top="@dimen/tooltip_icon_radius" android:right="@dimen/tooltip_icon_radius" android:bottom="@dimen/tooltip_icon_radius"/>
+</layer-list>

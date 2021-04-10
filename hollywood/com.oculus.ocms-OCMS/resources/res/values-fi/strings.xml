@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">Tuntemattomista lähteistä peräisin olevat sovellukset saattavat asettaa laitteesi ja tilisi alttiiksi uhille.</string>
+    <string name="binary_check_notification_title">Epävirallinen %1$s asennettu</string>
+    <string name="notifications_download_canceled_message">Sovelluksen %1$s lataus peruutettiin</string>
+    <string name="notifications_download_canceled_title">Lataus peruutettu</string>
+    <string name="notifications_download_failed_message">Sovellusta %1$s ei voitu ladata</string>
+    <string name="notifications_download_failed_title">Lataus epäonnistui</string>
+    <string name="notifications_download_in_progress_message">Ladataan sovellusta %1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">Ladataan ja asennetaan sovelluksia…</string>
+    <string name="notifications_head_install_failed_message">Asennus epäonnistui</string>
+    <string name="notifications_head_installed_message">Asennettu</string>
+    <string name="notifications_head_installing_message">Asennetaan</string>
+    <string name="notifications_install_failed_message">Sovellusta %1$s ei voitu asentaa</string>
+    <string name="notifications_install_in_progress_message">Asennetaan sovellusta %1$s…</string>
+    <string name="notifications_install_succeeded_message">%1$s asennettiin kirjastoosi.</string>
+    <string name="notifications_progress_of_download_message">%1$d %%</string>
+    <string name="obb_display_title">%1$s (laajennustiedosto)</string>
+    <string name="shorten_billions">%1$s mrd.</string>
+    <string name="shorten_billions_capitalized">%1$s mrd.</string>
+    <string name="shorten_hundred_millions">%1$s sataa miljoonaa</string>
+    <string name="shorten_millions">%1$s miljoonaa</string>
+    <string name="shorten_millions_capitalized">%1$s milj.</string>
+    <string name="shorten_ten_thousands">%1$s kymmentä tuhatta</string>
+    <string name="shorten_thousands">%1$s tuhatta</string>
+    <string name="shorten_thousands_capitalized">%1$s t</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

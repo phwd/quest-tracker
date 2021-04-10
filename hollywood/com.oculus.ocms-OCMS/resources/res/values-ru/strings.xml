@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ключевые мобильные сервисы Oculus</string>
+    <string name="binary_check_notification_content">Приложения из неизвестных источников могут подвергнуть опасности ваш аккаунт и устройство.</string>
+    <string name="binary_check_notification_title">Установлено неофициальное приложение \"%1$s\"</string>
+    <string name="notifications_download_canceled_message">Скачивание приложения \"%1$s\" отменено</string>
+    <string name="notifications_download_canceled_title">Скачивание отменено</string>
+    <string name="notifications_download_failed_message">Не удалось скачать приложение «%1$s»</string>
+    <string name="notifications_download_failed_title">Не удалось скачать</string>
+    <string name="notifications_download_in_progress_message">Скачивание приложения %1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">Скачивание и установка приложений…</string>
+    <string name="notifications_head_install_failed_message">Не удалось установить</string>
+    <string name="notifications_head_installed_message">Установлено</string>
+    <string name="notifications_head_installing_message">Установка</string>
+    <string name="notifications_install_failed_message">Не удалось установить приложение «%1$s»</string>
+    <string name="notifications_install_in_progress_message">Установка приложения «%1$s»...</string>
+    <string name="notifications_install_succeeded_message">Приложение %1$s установлено в вашу библиотеку.</string>
+    <string name="notifications_progress_of_download_message">%1$d %%</string>
+    <string name="obb_display_title">%1$s (файл расширения)</string>
+    <string name="shorten_billions">%1$s млрд</string>
+    <string name="shorten_billions_capitalized">%1$s млрд</string>
+    <string name="shorten_hundred_millions">%1$s00 млн</string>
+    <string name="shorten_millions">%1$s млн</string>
+    <string name="shorten_millions_capitalized">%1$s млн</string>
+    <string name="shorten_ten_thousands">%1$s0 тыс.</string>
+    <string name="shorten_thousands">%1$s тыс.</string>
+    <string name="shorten_thousands_capitalized">%1$s тыс.</string>
+    <string name="status_bar_notification_info_overflow">&gt;999</string>
+</resources>

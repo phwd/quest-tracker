@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">すぐにヘッドセットを接続してください。</string>
+    <string name="battery_critical_title">ヘッドセットのバッテリー残量が非常に少なくなっています</string>
+    <string name="battery_low_text">ヘッドセットを電源に接続してください。</string>
+    <string name="battery_low_title">ヘッドセットのバッテリー残量が少なくなっています</string>
+    <string name="controller_critical_battery_text">コントローラーのバッテリーを交換してください。</string>
+    <string name="controller_critical_battery_title">コントローラーのバッテリー残量が非常に少なくなっています</string>
+    <string name="controller_disconnected_text">バッテリーを確認するか、コントローラーを近くに移動するか、Oculusサポートにお問い合わせください。</string>
+    <string name="controller_disconnected_title">コントローラーが見つかりません</string>
+    <string name="controller_firmware_update_failed_text">Oculusサポートまでお問い合わせください。</string>
+    <string name="controller_firmware_update_failed_title">コントローラーをアップデートできませんでした</string>
+    <string name="controller_firmware_update_progress_text">アップデートの進行状況: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">アップデートが完了しました。</string>
+    <string name="controller_firmware_update_title">コントローラーをアップデート中</string>
+    <string name="controller_low_battery_text">すぐに電池を交換してください。</string>
+    <string name="controller_low_battery_title">コントローラーのバッテリー残量が低下しています</string>
+    <string name="dual_controller_both_controller_disconnected_title">コントローラーが見つかりません</string>
+    <string name="dual_controller_both_controller_low_battery_title">コントローラーのバッテリー残量低下</string>
+    <string name="dual_controller_disconnected_text">問題が解決しない場合は、バッテリーを確認するかOculusサポートまでお問い合わせください。</string>
+    <string name="dual_controller_left_controller_disconnected_title">左コントローラーが見つかりません</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">左コントローラーをアップデートできませんでした</string>
+    <string name="dual_controller_left_controller_firmware_update_title">左コントローラーをアップデート中</string>
+    <string name="dual_controller_left_controller_low_battery_title">左コントローラーのバッテリー残量低下</string>
+    <string name="dual_controller_low_battery_text">すぐに電池を交換してください。</string>
+    <string name="dual_controller_right_controller_disconnected_title">右コントローラーが見つかりません</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">右コントローラーをアップデートできませんでした</string>
+    <string name="dual_controller_right_controller_firmware_update_title">右コントローラーをアップデート中</string>
+    <string name="dual_controller_right_controller_low_battery_title">右コントローラーのバッテリー残量低下</string>
+    <string name="notification_header">Oculusシステム</string>
+    <string name="safe_volume_warning_text_1">大音量で長時間聴くことで、聴力が損なわれる場合があります。</string>
+    <string name="safe_volume_warning_text_2">この警告を一時的にオフにするには、もう一度ボタンを押してください。</string>
+    <string name="safe_volume_warning_title">音量が推奨レベルを超えています</string>
+    <string name="vrui_gaze_input_instruction_text">頭を動かしてから、ヘッドセットの音量ボタンを押して選択してください。</string>
+    <string name="vrui_gaze_input_instruction_title">ジェスチャーコントロールとコントローラーが無効です</string>
+    <string name="wifi_disconnected_text">トラブルシューティングを行うには、[設定]に移動してください。</string>
+    <string name="wifi_disconnected_title">ヘッドセットのWi-Fi接続が失われました</string>
+</resources>

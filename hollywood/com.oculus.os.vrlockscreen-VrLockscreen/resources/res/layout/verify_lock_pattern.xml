@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/multi_user_panel_background" android:paddingLeft="@dimen/multi_user_panel_padding" android:paddingTop="@dimen/multi_user_panel_padding_top" android:paddingRight="@dimen/multi_user_panel_padding" android:paddingBottom="@dimen/multi_user_panel_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.oculus.os.vrlockscreen.VerifyNewLockPatternView android:id="@+id/verify_lock_pattern_view" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:layout_gravity="center" android:id="@+id/forgot_pattern_btn" android:text="@string/forgot_pattern" style="@style/MultiUserButtonSecondary"/>
+    <Button android:layout_gravity="center" android:id="@+id/cancel_button" android:visibility="gone" android:text="@string/cancel" style="@style/MultiUserButtonTertiary"/>
+</LinearLayout>

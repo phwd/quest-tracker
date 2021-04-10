@@ -1,0 +1,12 @@
+{
+    "contents": [
+      {
+        "key": "hmd_pairing_code",
+        "type": "string",
+        "default": "",
+        "hasWritePermission": true,
+        "scope": "system",
+        "isOwner": false
+      }
+    ]
+}

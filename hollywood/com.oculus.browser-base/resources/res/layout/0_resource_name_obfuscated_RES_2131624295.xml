@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.ntp.NewTabPageLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ntp_content" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131166252" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/logo_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/cryptid_holder" android:layout="@layout/0_resource_name_obfuscated_RES_2131624292" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165403" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165402"/>
+        <org.chromium.chrome.browser.ntp.LogoView android:layout_gravity="center_horizontal" android:id="@+id/search_provider_logo" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165928" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165929" android:layout_marginBottom="23dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    </FrameLayout>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624161"/>
+    <FrameLayout android:id="@+id/query_tiles" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+    <View android:id="@+id/ntp_middle_spacer" android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0"/>
+    <ViewStub android:id="@+id/explore_sites_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624159" android:inflatedId="@+id/explore_sites" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+    <ViewStub android:id="@+id/tile_grid_placeholder_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624298" android:inflatedId="@+id/tile_grid_placeholder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <ViewStub android:id="@+id/video_iph_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624536" android:inflatedId="@+id/video_iph_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+    <View android:id="@+id/no_search_logo_spacer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</org.chromium.chrome.browser.ntp.NewTabPageLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false" android:zAdjustment="top">
+    <alpha android:interpolator="@android:interpolator/linear" android:duration="150" android:fillBefore="false" android:fillAfter="true" android:startOffset="100" android:fromAlpha="1" android:toAlpha="0" android:fillEnabled="true"/>
+    <translate android:interpolator="@anim/0_resource_name_obfuscated_RES_2130771980" android:duration="250" android:fillBefore="true" android:fillAfter="true" android:fromYDelta="0%" android:toYDelta="8%" android:fillEnabled="true"/>
+</set>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/url_action_container" android:layout_width="wrap_content" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166252" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165671">
+        <org.chromium.ui.widget.ChromeImageButton android:id="@+id/delete_button" android:visibility="invisible" android:src="@drawable/0_resource_name_obfuscated_RES_2131230885" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951936" style="@style/0_resource_name_obfuscated_RES_2132017454"/>
+        <org.chromium.ui.widget.ChromeImageButton android:id="@+id/mic_button" android:visibility="invisible" android:src="@drawable/0_resource_name_obfuscated_RES_2131230889" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951943" style="@style/0_resource_name_obfuscated_RES_2132017454"/>
+        <org.chromium.ui.widget.ChromeImageButton android:id="@+id/bookmark_button" android:visibility="gone" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951870" style="@style/0_resource_name_obfuscated_RES_2132017454"/>
+        <org.chromium.ui.widget.ChromeImageButton android:id="@+id/save_offline_button" android:visibility="gone" android:src="@drawable/0_resource_name_obfuscated_RES_2131231065" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952481" android:nextFocusForward="@+id/menu_button" style="@style/0_resource_name_obfuscated_RES_2132017454"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.DeviceTab xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/debug_tab_device" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/list_item_host" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </ScrollView>
+</com.oculus.panelapp.debug.DeviceTab>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_item_component">
+    <com.oculus.panelapp.assistant.dialogs.components.RemoteImageViewComponent android:id="@+id/icon" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toRightOf="@+id/icon" app:layout_constraintRight_toLeftOf="@+id/chevron" app:layout_constraintTop_toTopOf="0" app:layout_goneMarginLeft="0dp" app:layout_goneMarginRight="0dp">
+        <com.oculus.ocui.OCTextView android:id="@+id/text_primary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_item_component_primary_label"/>
+        <com.oculus.ocui.OCTextView android:id="@+id/text_secondary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_item_component_secondary_label"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/chevron" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/oc_icon_chevron_right_filled_24_d2d2d2" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+package com.google.common.base;
+
+import com.facebook.common.build.config.BuildConfig;
+import com.google.common.annotations.GwtCompatible;
+
+@GwtCompatible(emulated = BuildConfig.IS_INTERNAL_BUILD)
+abstract class ExtraObjectsMethodsForWeb {
+    ExtraObjectsMethodsForWeb() {
+    }
+}

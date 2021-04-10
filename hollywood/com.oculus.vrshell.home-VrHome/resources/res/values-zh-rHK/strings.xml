@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus 大廳</string>
+    <string name="shorten_billions">%1$sB</string>
+    <string name="shorten_hundred_millions">%1$s億</string>
+    <string name="shorten_millions">%1$sM</string>
+    <string name="shorten_ten_thousands">%1$s萬</string>
+    <string name="shorten_thousands">%1$sK</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

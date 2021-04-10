@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/topPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/title_template" style="?attr/0_resource_name_obfuscated_RES_2130969054">
+        <ImageView android:id="@android:id/icon" style="?attr/0_resource_name_obfuscated_RES_2130969053"/>
+        <androidx.appcompat.widget.DialogTitle android:id="@+id/alertTitle" style="?attr/0_resource_name_obfuscated_RES_2130969055"/>
+    </LinearLayout>
+    <android.widget.Space android:id="@+id/titleDividerNoCustom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165222"/>
+</LinearLayout>

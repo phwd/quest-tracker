@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Гарнитура слишком нагрелась. Советуем сделать паузу на несколько минут, чтобы дать ей остыть.</string>
+    <string name="fan_malfunction">На вашем устройстве плохо работает вентилятор кулера. Из-за недостаточного охлаждения гарнитура может перегреваться или реагировать некорректно. Обратитесь за помощью в службу поддержки клиентов Oculus на сайте https://support.oculus.com.</string>
+    <string name="notification_dismiss">Коснитесь, чтобы убрать уведомление</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">СИСТЕМНОЕ ПРЕДУПРЕЖДЕНИЕ</string>
+    <string name="temp_critical">Гарнитура слишком нагрелась и будет выключена. Чтобы не получить травму, снимите гарнитуру и дайте ей остыть.</string>
+</resources>

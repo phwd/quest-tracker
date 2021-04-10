@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/0_resource_name_obfuscated_RES_2131100183" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953418">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <org.chromium.chrome.browser.firstrun.FirstRunChooserView android:fadingEdgeLength="48dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false" android:requiresFadingEdge="vertical">
+            <LinearLayout android:orientation="vertical" android:id="@+id/scrolling_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017703" android:gravity="bottom" android:id="@+id/chooser_title" android:background="@color/0_resource_name_obfuscated_RES_2131100184" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131166125" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953418" android:importantForAccessibility="no" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166125" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131166125"/>
+                <View style="@style/0_resource_name_obfuscated_RES_2132017439"/>
+                <org.chromium.components.browser_ui.widget.RadioButtonLayout android:id="@+id/default_search_engine_dialog_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="12dp" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131166125"/>
+            </LinearLayout>
+        </org.chromium.chrome.browser.firstrun.FirstRunChooserView>
+    </FrameLayout>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:padding="@dimen/0_resource_name_obfuscated_RES_2131166125" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953417"/>
+    <org.chromium.ui.widget.ButtonCompat android:layout_gravity="end" android:id="@+id/button_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/0_resource_name_obfuscated_RES_2131952972" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165576" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165576" android:layout_marginStart="16dp" android:layout_marginEnd="22dp" style="@style/0_resource_name_obfuscated_RES_2132017433"/>
+</LinearLayout>

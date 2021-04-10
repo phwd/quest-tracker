@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+                    <solid android:color="@color/oc_blue_70"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+                    <solid android:color="@color/oc_white_a10"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+                    <solid android:color="@color/oc_blue_70"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+                    <solid android:color="@color/oc_white_a10"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_hovered="true">
+        <layer-list>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+                    <solid android:color="@color/oc_blue_70"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+                    <solid android:color="@color/oc_white_a20"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/abc_select_dialog_padding_start_material" android:thickness="@dimen/social_tablet_side_nav_profile_icon_stroke_width">
+            <solid android:color="@color/oc_blue_70"/>
+        </shape>
+    </item>
+</selector>

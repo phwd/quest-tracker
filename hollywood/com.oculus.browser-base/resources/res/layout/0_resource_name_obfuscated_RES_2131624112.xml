@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017590">
+        <com.google.android.material.tabs.TabItem android:id="@+id/files_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952443"/>
+        <com.google.android.material.tabs.TabItem android:id="@+id/prefetch_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952441"/>
+    </com.google.android.material.tabs.TabLayout>
+    <FrameLayout android:id="@+id/content_container" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tabs"/>
+    <ImageView android:layout_below="@+id/tabs" android:importantForAccessibility="no" style="@style/0_resource_name_obfuscated_RES_2132017587"/>
+</RelativeLayout>

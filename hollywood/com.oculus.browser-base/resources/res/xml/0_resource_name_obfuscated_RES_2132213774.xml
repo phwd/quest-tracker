@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.download.settings.DownloadLocationPreference android:title="@string/0_resource_name_obfuscated_RES_2131952498" android:key="location_change" android:positiveButtonText="@string/0_resource_name_obfuscated_RES_2131952408" android:negativeButtonText="@null"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/0_resource_name_obfuscated_RES_2131952428" android:key="download_later_prompt_enabled" android:summaryOn="@string/0_resource_name_obfuscated_RES_2131953650" android:summaryOff="@string/0_resource_name_obfuscated_RES_2131953649"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/0_resource_name_obfuscated_RES_2131952439" android:key="location_prompt_enabled" android:summaryOn="@string/0_resource_name_obfuscated_RES_2131953650" android:summaryOff="@string/0_resource_name_obfuscated_RES_2131953649"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/0_resource_name_obfuscated_RES_2131952485" android:key="prefetching_enabled"/>
+</PreferenceScreen>

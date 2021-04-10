@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Váš headset je moc teplý. Doporučujeme dát si na pár minut pauzu, ať vychladne.</string>
+    <string name="fan_malfunction">Větrák vašeho zařízení nefunguje správně. Kvůli nedostatečnému chlazení se váš headset může přehřívat nebo se nemusí chovat standardně. S žádostí o pomoc se obraťte na zákaznickou podporu Oculus https://support.oculus.com.</string>
+    <string name="notification_dismiss">Klepnutím toto upozornění zavřete.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTÉMOVÉ UPOZORNĚNÍ</string>
+    <string name="temp_critical">Teplota vašeho headsetu stoupá, tak se vypne. Aby se předešlo zranění, tak headset sundejte a nechte ho vychladnout.</string>
+</resources>

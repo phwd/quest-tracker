@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:left="@dimen/ocswitch_toggle_knob_margin" android:right="@dimen/ocswitch_toggle_knob_margin">
+        <shape android:shape="oval">
+            <size android:height="@dimen/ocswitch_toggle_knob_size" android:width="@dimen/ocswitch_toggle_knob_size"/>
+            <solid android:color="?attr/ocControlIcon"/>
+        </shape>
+    </item>
+</layer-list>

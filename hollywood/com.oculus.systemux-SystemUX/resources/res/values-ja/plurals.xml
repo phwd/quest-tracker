@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="other">%1$sのパーティー · 参加者%2$d人</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="other">友達%1$d人</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="other">Oculusの友達%1$d人</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="other">%1$sを利用できるのは最大%2$d人です。</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="other">%1$sを利用できるのは最大%2$d人です。新しいアプリを選択してください。</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">参加枠残り%1$d</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="other">ミラーリング開始まで残り%1$d秒...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="other">%1$d人がパーティーに参加しています</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="other">%1$d人が招待されました</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">%2$d件中%1$d件のアプリが許可されました</item>
+    </plurals>
+</resources>

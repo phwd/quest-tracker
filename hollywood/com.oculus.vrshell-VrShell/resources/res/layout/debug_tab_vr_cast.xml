@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.VrCastTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_vrcast" android:background="@color/colorDebugPanelBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/vrcast_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Start"/>
+    <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/vrcast_refresh_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Refresh" android:layout_toRightOf="@+id/vrcast_start_button"/>
+    <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/vrcast_teardown_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Teardown" android:layout_toRightOf="@+id/vrcast_refresh_button"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/vrcast_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/vrcast_refresh_button"/>
+    <RelativeLayout android:id="@+id/vrcast_connect_view" android:background="#ff222222" android:visibility="gone" android:layout_width="300dp" android:layout_height="250dp" android:layout_centerInParent="true">
+        <ProgressBar android:id="@+id/vrcast_connect_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <TextView android:textSize="16sp" android:textColor="#ffdddddd" android:id="@+id/vrcast_device_info_text" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="16sp" android:textColor="#ffdddddd" android:id="@+id/vrcast_device_status_text" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/vrcast_device_info_text" android:layout_centerHorizontal="true"/>
+        <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/vrcast_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Cancel" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</com.oculus.panelapp.debug.VrCastTab>

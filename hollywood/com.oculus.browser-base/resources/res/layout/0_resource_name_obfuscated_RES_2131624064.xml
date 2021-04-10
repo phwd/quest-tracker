@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/contextual_search_term_view" style="@style/0_resource_name_obfuscated_RES_2132017417">
+    <TextView android:layout_gravity="bottom" android:id="@+id/contextual_search_term" android:background="@color/0_resource_name_obfuscated_RES_2131100139" android:layout_width="match_parent" android:layout_marginStart="7dp" android:layout_marginEnd="7dp" style="@style/0_resource_name_obfuscated_RES_2132017416"/>
+</FrameLayout>

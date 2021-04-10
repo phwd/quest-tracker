@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">%1$s ဘီလ်ံ</string>
+    <string name="shorten_billions_capitalized">%1$s ဘီလ်ံ</string>
+    <string name="shorten_hundred_millions">%1$s၀၀ သန္း</string>
+    <string name="shorten_millions">%1$s သန္း</string>
+    <string name="shorten_millions_capitalized">%1$s သန္း</string>
+    <string name="shorten_ten_thousands">%1$s၀ ေသာင္း</string>
+    <string name="shorten_thousands">%1$s ေထာင္</string>
+    <string name="shorten_thousands_capitalized">%1$s ေထာင္</string>
+</resources>

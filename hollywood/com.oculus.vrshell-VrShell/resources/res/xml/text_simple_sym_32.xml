@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyLabel="~" custom:keyOutputText="~"/>
+        <Key custom:keyLabel="!" custom:keyOutputText="!"/>
+        <Key custom:keyLabel="@" custom:keyOutputText="@"/>
+        <Key custom:keyLabel="#" custom:keyOutputText="#"/>
+        <Key custom:keyLabel="$" custom:keyOutputText="$"/>
+        <Key custom:keyLabel="%" custom:keyOutputText="%"/>
+        <Key custom:keyLabel="^" custom:keyOutputText="^"/>
+        <Key custom:keyLabel="&amp;" custom:keyOutputText="&amp;"/>
+        <Key custom:keyLabel="*" custom:keyOutputText="*"/>
+        <Key custom:keyLabel="(" custom:keyOutputText="("/>
+        <Key custom:keyLabel=")" custom:keyOutputText=")"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="`" custom:keyOutputText="`"/>
+        <Key custom:keyLabel="." custom:keyOutputText="."/>
+        <Key custom:keyLabel="&quot;" custom:keyOutputText="&quot;"/>
+        <Key custom:keyLabel="&apos;" custom:keyOutputText="&apos;"/>
+        <Key custom:keyLabel="," custom:keyOutputText=","/>
+        <Key custom:keyLabel="-" custom:keyOutputText="-"/>
+        <Key custom:keyLabel="?" custom:keyOutputText="?"/>
+        <Key custom:keyLabel=":" custom:keyOutputText=":"/>
+        <Key custom:keyLabel=";" custom:keyOutputText=";"/>
+        <Key custom:keyLabel="{" custom:keyOutputText="{"/>
+        <Key custom:keyLabel="}" custom:keyOutputText="}"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-7" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_keyboard_outline_24"/>
+        <Key custom:keyLabel="+" custom:keyOutputText="+"/>
+        <Key custom:keyLabel="_" custom:keyOutputText="_"/>
+        <Key custom:keyLabel="=" custom:keyOutputText="="/>
+        <Key custom:keyLabel="|" custom:keyOutputText="|"/>
+        <Key custom:keyLabel="/" custom:keyOutputText="/"/>
+        <Key custom:keyLabel="\\" custom:keyOutputText="\\"/>
+        <Key custom:keyLabel="&lt;" custom:keyOutputText="&lt;"/>
+        <Key custom:keyLabel="&gt;" custom:keyOutputText="&gt;"/>
+        <Key custom:keyLabel="[" custom:keyOutputText="["/>
+        <Key custom:keyLabel="]" custom:keyOutputText="]"/>
+        <Key custom:codes="-2" custom:keyHeight="65dp" custom:keyLabel="go"/>
+    </Row>
+    <Row>
+        <Key custom:codes="1,-7" custom:keyIcon="@drawable/ic_keyboard_space_outline_24" custom:keyOutputText=" " custom:keyWidth="spanDefaultKeys_12"/>
+    </Row>
+</Keyboard>

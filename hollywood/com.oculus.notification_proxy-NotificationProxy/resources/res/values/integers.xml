@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_notification_duration_seconds">5</integer>
+    <integer name="def_notification_external_renderer">1</integer>
+    <integer name="def_notification_fixed_to_view">1</integer>
+    <integer name="def_notification_min_level">1</integer>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Conecta las gafas pronto.</string>
+    <string name="battery_critical_title">La batería de los auriculares es muy baja</string>
+    <string name="battery_low_text">Conecta las gafas.</string>
+    <string name="battery_low_title">El nivel de carga de las gafas es bajo</string>
+    <string name="controller_critical_battery_text">Cambia las pilas del controlador ahora.</string>
+    <string name="controller_critical_battery_title">Nivel crítico de la batería del controlador</string>
+    <string name="controller_disconnected_text">Comprueba el nivel de batería, acerca el controlador o ponte en contacto con el servicio de ayuda de Oculus.</string>
+    <string name="controller_disconnected_title">No hemos encontrado tu controlador</string>
+    <string name="controller_firmware_update_failed_text">Ponte en contacto con el servicio de ayuda de Oculus para obtener asistencia.</string>
+    <string name="controller_firmware_update_failed_title">No hemos podido actualizar el controlador</string>
+    <string name="controller_firmware_update_progress_text">Progreso de la actualización: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Actualización completada.</string>
+    <string name="controller_firmware_update_title">Actualización del controlador en curso</string>
+    <string name="controller_low_battery_text">Cambia las pilas en breve.</string>
+    <string name="controller_low_battery_title">Batería del controlador baja</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controladores no encontrados</string>
+    <string name="dual_controller_both_controller_low_battery_title">Nivel de batería del controlador bajo</string>
+    <string name="dual_controller_disconnected_text">Si continúa el problema, revisa la batería o contacta con el servicio de ayuda de Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Controlador izquierdo no encontrado</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Error al actualizar el controlador izquierdo</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Actualización del controlador izquierdo en curso</string>
+    <string name="dual_controller_left_controller_low_battery_title">Nivel de batería del controlador izquierdo bajo</string>
+    <string name="dual_controller_low_battery_text">Cambia las pilas en breve.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Controlador derecho no encontrado</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Error al actualizar el controlador derecho</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Actualización del controlador derecho en curso</string>
+    <string name="dual_controller_right_controller_low_battery_title">Nivel de batería del controlador derecho bajo</string>
+    <string name="notification_header">Sistema de Oculus</string>
+    <string name="safe_volume_warning_text_1">El volumen demasiado alto puede ocasionar daños auditivos.</string>
+    <string name="safe_volume_warning_text_2">Pulsa el botón de nuevo para inhabilitar este aviso de forma temporal.</string>
+    <string name="safe_volume_warning_title">El volumen supera el nivel recomendado</string>
+    <string name="vrui_gaze_input_instruction_text">Mueve la cabeza y luego pulsa el botón de volumen de las gafas para seleccionar.</string>
+    <string name="vrui_gaze_input_instruction_title">Seguimiento de manos y controladores desactivados</string>
+    <string name="wifi_disconnected_text">Ve a la configuración para solucionar el problema.</string>
+    <string name="wifi_disconnected_title">Se ha perdido la conexión Wi-Fi de las gafas</string>
+</resources>

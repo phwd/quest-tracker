@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">Kunja kichupo %1$d.</item>
+        <item quantity="other">Kunja kikundi chenye vichupo %1$d.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">Kunja kichupo %1$d.</item>
+        <item quantity="other">Kunja kikundi cha %1$s chenye vichupo %2$d.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">Faili %d ya sauti</item>
+        <item quantity="other">Faili %d za sauti</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">Faili %d</item>
+        <item quantity="other">Faili %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">Picha %d</item>
+        <item quantity="other">Picha %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">Ukurasa %d</item>
+        <item quantity="other">Kurasa %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">Video %d</item>
+        <item quantity="other">Video %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">Ondoa kipengee 1 kilichochaguliwa</item>
+        <item quantity="other">Ondoa vipengee %d vilivyochaguliwa</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">Shiriki kipengee 1 kilichochaguliwa</item>
+        <item quantity="other">Shiriki vipengee %d vilivyochaguliwa</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">Ondoa kichupo %1$d kilichochaguliwa kwenye kikundi.</item>
+        <item quantity="other">Ondoa vichupo %1$d vilivyochaguliwa kwenye kikundi.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">Panga kichupo %1$d kilichochaguliwa</item>
+        <item quantity="other">Panga pamoja vichupo %1$d vilivyochaguliwa</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">Funga kichupo %1$d ulichochagua</item>
+        <item quantity="other">Funga vichupo %1$d ulivyochagua</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">Umefungua kichupo %1$d, gusa ili ubadilishe vichupo</item>
+        <item quantity="other">Umefungua vichupo %1$d, gusa ili ubadilishe vichupo</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">Alamisho %1$d</item>
+        <item quantity="other">Alamisho %1$d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">Kichupo %1$d</item>
+        <item quantity="other">Vichupo %1$d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ 1 zaidi)</item>
+        <item quantity="other">(+ %d zaidi)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">Kidakuzi kimoja kimezuiwa</item>
+        <item quantity="other">Vidakuzi %d vimezuiwa</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">Inapakua faili.</item>
+        <item quantity="other">Inapakua faili %d.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">Saa %d</item>
+        <item quantity="other">Saa %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">Umepakua faili %1$d</item>
+        <item quantity="other">Umepakua faili %1$d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">Imemaliza kupakua faili 1.</item>
+        <item quantity="other">Imemaliza kupakua faili %d.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">Imeshindwa kupakua 1.</item>
+        <item quantity="other">Imeshindwa kupakua faili %d.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">Inasubiri kupakua faili 1.</item>
+        <item quantity="other">Inasubiri kupakua faili %d.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">Faili moja imeratibiwa kupakuliwa.</item>
+        <item quantity="other">Faili %d zimeratibiwa kupakuliwa.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">Siku %d iliyopita</item>
+        <item quantity="other">Siku %d zilizopita</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">Saa %d iliyopita</item>
+        <item quantity="other">Saa %d zilizopita</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">Dakika %d iliyopita</item>
+        <item quantity="other">Dakika %d zilizopita</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Chrome itapakia ukurasa wako ukiwa tayari</item>
+        <item quantity="other">Chrome itapakia kurasa zako zikiwa tayari</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">Kidakuzi kimoja kinatumika</item>
+        <item quantity="other">Vidakuzi %d vinatumika</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">Umeruhusu %1$s, %2$s na nyingine%3$s</item>
+        <item quantity="other">Umeruhusu %1$s, %2$s na nyingine%3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">Umezuia %1$s, %2$s na nyingine %3$s</item>
+        <item quantity="other">Umezuia %1$s, %2$s na nyingine %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s na nyingine %3$s</item>
+        <item quantity="other">%1$s, %2$s na nyingine %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">Nenosiri %d limeathiriwa</item>
+        <item quantity="other">Manenosiri %d yameathiriwa</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… na %2$s zaidi</item>
+        <item quantity="other">%1$s… na %2$s zaidi</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… na %2$s zaidi</item>
+        <item quantity="other">%1$s… na %2$s zaidi</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… na %2$s zaidi</item>
+        <item quantity="other">%1$s… na %2$s zaidi</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… na %2$s zaidi</item>
+        <item quantity="other">%1$s… na %2$s zaidi</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">Una ukurasa %1$d</item>
+        <item quantity="other">Una kurasa %1$d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">Ukurasa %1$d ambao hujausoma</item>
+        <item quantity="other">Kurasa %1$d ambazo hujazisoma</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">Nenosiri moja limeathiriwa</item>
+        <item quantity="other">Manenosiri %d yameathiriwa</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">Ilikaguliwa siku moja iliyopita</item>
+        <item quantity="other">Ilikaguliwa siku %d zilizopita</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">Ilikaguliwa saa moja iliyopita</item>
+        <item quantity="other">Ilikaguliwa saa %d zilizopita</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">Imekaguliwa dakika moja iliyopita</item>
+        <item quantity="other">Imekaguliwa dakika %d zilizopita</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">Umechagua 1</item>
+        <item quantity="other">Umechagua %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Kiwango cha Udhibiti wa Mawimbi: upau %d</item>
+        <item quantity="other">Kiwango cha Udhibiti wa Mawimbi: pau %d</item>
+    </plurals>
+</resources>

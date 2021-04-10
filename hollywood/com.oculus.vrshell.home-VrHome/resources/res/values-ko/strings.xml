@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus 홈</string>
+    <string name="shorten_billions">%1$s십억</string>
+    <string name="shorten_billions_capitalized">%1$s십억</string>
+    <string name="shorten_hundred_millions">%1$s억</string>
+    <string name="shorten_millions">%1$s백만</string>
+    <string name="shorten_millions_capitalized">%1$s백만</string>
+    <string name="shorten_ten_thousands">%1$s만</string>
+    <string name="shorten_thousands">%1$s천</string>
+    <string name="shorten_thousands_capitalized">%1$s천</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

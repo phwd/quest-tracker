@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Rita låsmönstret</string>
+    <string name="lockscreen_enter_pin">Enhetens PIN-kod</string>
+    <string name="lockscreen_try_again">Försök igen</string>
+    <string name="pattern_too_short">Koppla ihop minst fyra punkter.</string>
+    <string name="permdesc_accessMrSensorData">Gör så att appen får åtkomst till mixed reality-sensordata, inklusive kamerakalibrering och bilder.</string>
+    <string name="permdesc_access_handtracking_data">Tillåter appen att få åtkomst till handspårningsdata</string>
+    <string name="permgroupdesc_handtracking">åtkomst till handspårningsdata</string>
+    <string name="permgroupdesc_sensorData">få åtkomst till sensordata</string>
+    <string name="permgrouplab_handtracking">Handspårning</string>
+    <string name="permgrouplab_sensorData">Sensordata</string>
+    <string name="permlab_accessMrSensorData">få åtkomst till mixed reality-sensordata</string>
+    <string name="permlab_access_handtracking_data">åtkomst till handspårningsdata</string>
+    <string name="pin_button_delete">Ta bort</string>
+    <string name="pin_button_enter">Ange</string>
+    <string name="reset_unlock_pattern_msg">Följ de här stegen för att återställa ditt låsmönster:</string>
+    <string name="reset_unlock_pattern_step_1">1. Öppna Oculus-appen på din mobila enhet.</string>
+    <string name="reset_unlock_pattern_step_2">2. Öppna sidan Inställningar, tryck på headsetets namn och vänta på att det ansluts.</string>
+    <string name="reset_unlock_pattern_step_3">3. Tryck på Fler inställningar &gt; Låsmönster.</string>
+    <string name="reset_unlock_pattern_title">Återställ låsmönstret</string>
+</resources>

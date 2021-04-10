@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockscreen_try_countdown">
+        <item quantity="one">Réessayez dans %1$d seconde</item>
+        <item quantity="other">Réessayez dans %1$d secondes</item>
+    </plurals>
+</resources>

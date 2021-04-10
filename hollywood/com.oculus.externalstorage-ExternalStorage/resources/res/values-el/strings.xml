@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Τέλος</string>
+    <string name="otg_failure_message">Φορτίστε την μπαταρία της συσκευής στο 60%%, ή περισσότερο, και προσπαθήστε ξανά.</string>
+    <string name="otg_failure_title">Αποτυχία σύνδεσης USB</string>
+    <string name="reformat_usb">Αναδιαμόρφωση USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Η αναδιαμόρφωση της μονάδας USB θα διαγράψει όλα τα δεδομένα που έχετε αποθηκεύσει σε αυτήν.</string>
+    <string name="storage_format_confirm_title">Είστε σίγουροι;</string>
+    <string name="storage_launcher_accept">Συνέχεια</string>
+    <string name="storage_launcher_format_message">Για να χρησιμοποιήσετε αυτή τη μονάδα USB με τη συσκευή σας, θα πρέπει να την επαναδιαμορφώσετε.</string>
+    <string name="storage_launcher_format_title">Μη υποστηριζόμενη μονάδα</string>
+    <string name="storage_launcher_gallery_message">Θέλετε να ανοίξετε το Oculus Gallery για να δείτε το περιεχόμενο του δίσκου;</string>
+    <string name="storage_launcher_gallery_title">Εξωτερικός χώρος αποθήκευσης</string>
+    <string name="storage_launcher_refuse">Ακύρωση</string>
+    <string name="storage_wizard_error_body">Σφάλμα: ^1</string>
+    <string name="storage_wizard_error_title">Αποτυχία διαμόρφωσης ^1</string>
+    <string name="storage_wizard_format_progress_body">Μην αποσυνδέσετε τη μονάδα ^1 όσο βρίσκεστε σε εξέλιξη η διαδικασία διαμόρφωσής της.</string>
+    <string name="storage_wizard_format_progress_title">Διαμόρφωση ^1...</string>
+    <string name="storage_wizard_ready_external_body">Το ^1 είναι έτοιμο για την αποθήκευση φωτογραφιών και άλλων μέσων.</string>
+    <string name="storage_wizard_ready_title">Η μονάδα ^1 είναι έτοιμη</string>
+</resources>

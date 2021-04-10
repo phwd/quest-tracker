@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/oc_gray_80"/>
+            <size android:height="176dp" android:width="@dimen/octablet_full_width"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="90dp" android:width="150dp" android:drawable="@drawable/anytime_tablet_destination_ui_image_placeholder_logo_background"/>
+    <item android:drawable="@drawable/anytime_tablet_destination_ui_image_placeholder_foreground"/>
+</layer-list>

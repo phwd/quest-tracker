@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/button" android:tag="layout/settings_navigation_action_view_0" android:duplicateParentState="true" android:layout_width="@dimen/ocbutton_round_height" android:layout_height="@dimen/ocbutton_round_height"/>

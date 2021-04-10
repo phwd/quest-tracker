@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/selected_view_below_lollipop" android:background="@drawable/0_resource_name_obfuscated_RES_2131231524" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/content_view" android:background="@drawable/0_resource_name_obfuscated_RES_2131231503" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624241"/>
+    </LinearLayout>
+</merge>

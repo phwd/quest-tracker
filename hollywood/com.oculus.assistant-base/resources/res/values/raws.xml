@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="oculus_assistant_empty_transcript">r/he.m4a</raw>
+    <raw name="oculus_assistant_empty_transcript_loud">r/ds.m4a</raw>
+    <raw name="oculus_assistant_listening">r/eg.m4a</raw>
+    <raw name="oculus_assistant_listening_loud">r/x.m4a</raw>
+    <raw name="oculus_assistant_stop_listening">r/fn.m4a</raw>
+    <raw name="oculus_assistant_stop_listening_loud">r/bd.m4a</raw>
+    <raw name="tts_close_nux">r/e8.mp3</raw>
+    <raw name="tts_double_press_feedback_instruction">r/cx.mp3</raw>
+    <raw name="tts_double_tap_instruction">r/ga.mp3</raw>
+    <raw name="tts_double_tap_take_a_photo_error">r/bx.mp3</raw>
+    <raw name="tts_double_tap_timeout">r/ch.mp3</raw>
+    <raw name="tts_double_tap_what_time_is_it_error">r/e3.mp3</raw>
+    <raw name="tts_privacy_instruction">r/fr.mp3</raw>
+    <raw name="tts_silence_close_nux">r/fm.mp3</raw>
+    <raw name="tts_silence_first_error">r/cc.mp3</raw>
+    <raw name="tts_take_a_photo_incorrect_command">r/di.mp3</raw>
+    <raw name="tts_take_a_photo_instruction">r/3.mp3</raw>
+    <raw name="tts_take_a_photo_unknown_command">r/g1.mp3</raw>
+    <raw name="tts_taking_photo_1_2_3">r/gh.mp3</raw>
+    <raw name="tts_voice_command_skip_on_error">r/k.mp3</raw>
+    <raw name="tts_wake_work_intro_instruction">r/el.mp3</raw>
+    <raw name="tts_welcome_instruction">r/dl.mp3</raw>
+    <raw name="tts_what_can_i_say_instruction">r/ba.mp3</raw>
+    <raw name="tts_what_time_is_it_incorrect_command">r/gl.mp3</raw>
+    <raw name="tts_what_time_is_it_instruction">r/cl.mp3</raw>
+    <raw name="tts_what_time_is_it_unknown_command">r/2.mp3</raw>
+</resources>

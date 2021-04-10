@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:duplicateParentState="true" style="@style/NotificationViewWrapperBackground">
+    <FrameLayout style="@style/NotificationViewWrapperSize">
+        <com.oculus.notifications.view.NotificationView android:id="@+id/notification_content" style="@style/NotificationView">
+            <LinearLayout style="@style/NotificationViewContentWrapper">
+                <FrameLayout style="@style/NotificationViewIcon">
+                    <View android:id="@+id/notif_icon_background" style="@style/NotificationViewIconBackground"/>
+                    <View android:id="@+id/notif_icon_glyph" style="@style/NotificationViewIconGlyph"/>
+                    <View android:id="@+id/notif_icon_image" style="@style/NotificationViewIconImage"/>
+                </FrameLayout>
+                <LinearLayout style="@style/NotificationViewTextWrapper">
+                    <TextView android:id="@+id/notif_app" style="@style/NotificationViewApp"/>
+                    <TextView android:id="@+id/notif_title" style="@style/NotificationViewTitle"/>
+                    <TextView android:id="@+id/notif_text" style="@style/NotificationViewText"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.oculus.notifications.view.NotificationView>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.ControllerRepairingTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_controller_repairing" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="24dp" android:paddingEnd="24dp">
+        <TextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/controller_repairing_line1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/controller_repairing_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PAIR" android:layout_marginEnd="12dp" style="@style/DebugPanelControllerRepairingButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.oculus.panelapp.debug.ControllerRepairingTab>

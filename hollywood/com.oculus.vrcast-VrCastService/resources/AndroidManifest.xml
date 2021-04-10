@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.vrcast" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <application android:label="VrCastService" android:allowBackup="false" android:extractNativeLibs="true" android:usesNonSdkApi="true">
+        <service android:name=".VrCastService" android:exported="true">
+            <meta-data android:name="com.oculus.persistent_service" android:value="true"/>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/clock_tooltip_wrapper" android:tag="layout/anytime_bar_status_view_v2_0" android:paddingTop="10dp" android:layout_width="100dp" android:layout_height="44dp" android:paddingStart="11dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.oculus.ocui.OCTextView android:textColor="?attr/ocSecondaryText" android:layout_gravity="center_vertical" android:id="@+id/status_clock_time_text" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="24dp" style="@style/Body1"/>
+        <tag android:value="@string/anytime_bar_datetime_tooltip_v2" android:id="@+id/tooltip_text"/>
+        <tag android:value="tooltip_id=anytime_bar_datetime_tooltip,tooltip_position=top,tooltip_color=gray" android:id="@+id/tooltip_data"/>
+    </LinearLayout>
+    <com.oculus.ocui.OCButton android:id="@+id/status_wifi_button" android:tag="layout/anytime_bar_status_view_v2_2" android:background="@drawable/ocbutton_borderless_circle" android:layout_width="@dimen/anytime_bar_icon_button_size" android:layout_height="@dimen/anytime_bar_icon_button_size" android:layout_marginTop="8dp" android:layout_marginEnd="4dp" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <tag android:value="@string/anytime_bar_status_wifi_button_title_tooltip_v2" android:id="@+id/tooltip_text"/>
+        <tag android:value="tooltip_id=anytime_bar_status_wifi_button,tooltip_position=right,tooltip_color=gray" android:id="@+id/tooltip_data"/>
+    </com.oculus.ocui.OCButton>
+    <ImageView android:id="@+id/status_wifi_icon" android:tag="layout/anytime_bar_status_view_v2_3" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="center" app:layout_constraintBottom_toBottomOf="@+id/status_wifi_button" app:layout_constraintEnd_toEndOf="@+id/status_wifi_button" app:layout_constraintStart_toStartOf="@+id/status_wifi_button" app:layout_constraintTop_toTopOf="@+id/status_wifi_button"/>
+    <com.oculus.ocui.OCButton android:id="@+id/status_party_icon" android:tag="layout/anytime_bar_status_view_v2_4" android:background="@drawable/anytime_bar_status_party_v2" android:layout_width="39dp" android:layout_height="18dp" android:layout_marginTop="14dp" android:foregroundGravity="center" android:layout_marginEnd="2dp" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <tag android:value="@string/anytime_tablet_social_active_party_indicator_tooltip" android:id="@+id/tooltip_text"/>
+        <tag android:value="tooltip_id=anytime_tablet_social_active_party_indicator,tooltip_position=top,tooltip_color=gray" android:id="@+id/tooltip_data"/>
+    </com.oculus.ocui.OCButton>
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/battery_left_controller" android:tag="layout/anytime_bar_status_view_v2_5" android:layout_width="36dp" android:layout_height="44dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0">
+        <ImageView android:id="@+id/icon_battery_left_controller" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="6dp" android:src="@drawable/oc_icon_touch_2_left_filled_24_a5a5a5"/>
+        <include android:id="@+id/battery_dots_left_controller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" layout="@layout/anytime_bar_status_battery_dots_view_v2"/>
+        <tag android:value="@string/anytime_bar_status_left_controller_battery_not_connected_tooltip_v2" android:id="@+id/tooltip_text"/>
+        <tag android:value="tooltip_id=anytime_bar_status_battery_left_controller,tooltip_position=top,tooltip_color=gray" android:id="@+id/tooltip_data"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/battery_headset" android:tag="layout/anytime_bar_status_view_v2_6" android:layout_width="36dp" android:layout_height="44dp" app:layout_constraintBottom_toBottomOf="@+id/battery_left_controller" app:layout_constraintEnd_toStartOf="@+id/battery_right_controller" app:layout_constraintStart_toEndOf="@+id/battery_left_controller">
+        <ImageView android:id="@+id/icon_battery_headset" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="6dp" android:src="@drawable/oc_icon_headset_filled_24_a5a5a5"/>
+        <include android:id="@+id/battery_dots_headset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" layout="@layout/anytime_bar_status_battery_dots_view_v2"/>
+        <tag android:value="@string/anytime_bar_status_headset_battery_tooltip_v2" android:id="@+id/tooltip_text"/>
+        <tag android:value="tooltip_id=anytime_bar_status_battery_headset,tooltip_position=top,tooltip_color=gray" android:id="@+id/tooltip_data"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/battery_right_controller" android:tag="layout/anytime_bar_status_view_v2_7" android:layout_width="36dp" android:layout_height="44dp" android:layout_marginEnd="6dp" app:layout_constraintBottom_toBottomOf="@+id/battery_left_controller" app:layout_constraintRight_toRightOf="0">
+        <ImageView android:id="@+id/icon_battery_right_controller" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="6dp" android:src="@drawable/oc_icon_touch_2_right_filled_24_a5a5a5"/>
+        <include android:id="@+id/battery_dots_right_controller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" layout="@layout/anytime_bar_status_battery_dots_view_v2"/>
+        <tag android:value="@string/anytime_bar_status_right_controller_battery_not_connected_tooltip_v2" android:id="@+id/tooltip_text"/>
+        <tag android:value="tooltip_id=anytime_bar_status_battery_right_controller,tooltip_position=top,tooltip_color=gray" android:id="@+id/tooltip_data"/>
+    </LinearLayout>
+</merge>

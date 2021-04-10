@@ -1,0 +1,146 @@
+package com.adobe.xmp.impl;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class ByteBuffer {
+    private byte[] buffer;
+    private String encoding;
+    private int length;
+
+    public ByteBuffer(int initialCapacity) {
+        this.encoding = null;
+        this.buffer = new byte[initialCapacity];
+        this.length = 0;
+    }
+
+    public ByteBuffer(byte[] buffer2) {
+        this.encoding = null;
+        this.buffer = buffer2;
+        this.length = buffer2.length;
+    }
+
+    public ByteBuffer(byte[] buffer2, int length2) {
+        this.encoding = null;
+        if (length2 > buffer2.length) {
+            throw new ArrayIndexOutOfBoundsException("Valid length exceeds the buffer length.");
+        }
+        this.buffer = buffer2;
+        this.length = length2;
+    }
+
+    public ByteBuffer(InputStream in) throws IOException {
+        this.encoding = null;
+        this.length = 0;
+        this.buffer = new byte[16384];
+        while (true) {
+            int read = in.read(this.buffer, this.length, 16384);
+            if (read > 0) {
+                this.length += read;
+                if (read == 16384) {
+                    ensureCapacity(this.length + 16384);
+                } else {
+                    return;
+                }
+            } else {
+                return;
+            }
+        }
+    }
+
+    public ByteBuffer(byte[] buffer2, int offset, int length2) {
+        this.encoding = null;
+        if (length2 > buffer2.length - offset) {
+            throw new ArrayIndexOutOfBoundsException("Valid length exceeds the buffer length.");
+        }
+        this.buffer = new byte[length2];
+        System.arraycopy(buffer2, offset, this.buffer, 0, length2);
+        this.length = length2;
+    }
+
+    public InputStream getByteStream() {
+        return new ByteArrayInputStream(this.buffer, 0, this.length);
+    }
+
+    public int length() {
+        return this.length;
+    }
+
+    public byte byteAt(int index) {
+        if (index < this.length) {
+            return this.buffer[index];
+        }
+        throw new IndexOutOfBoundsException("The index exceeds the valid buffer area");
+    }
+
+    public int charAt(int index) {
+        if (index < this.length) {
+            return this.buffer[index] & 255;
+        }
+        throw new IndexOutOfBoundsException("The index exceeds the valid buffer area");
+    }
+
+    public void append(byte b) {
+        ensureCapacity(this.length + 1);
+        byte[] bArr = this.buffer;
+        int i = this.length;
+        this.length = i + 1;
+        bArr[i] = b;
+    }
+
+    public void append(byte[] bytes, int offset, int len) {
+        ensureCapacity(this.length + len);
+        System.arraycopy(bytes, offset, this.buffer, this.length, len);
+        this.length += len;
+    }
+
+    public void append(byte[] bytes) {
+        append(bytes, 0, bytes.length);
+    }
+
+    public void append(ByteBuffer anotherBuffer) {
+        append(anotherBuffer.buffer, 0, anotherBuffer.length);
+    }
+
+    public String getEncoding() {
+        if (this.encoding == null) {
+            if (this.length < 2) {
+                this.encoding = "UTF-8";
+            } else if (this.buffer[0] == 0) {
+                if (this.length < 4 || this.buffer[1] != 0) {
+                    this.encoding = "UTF-16BE";
+                } else if ((this.buffer[2] & 255) == 254 && (this.buffer[3] & 255) == 255) {
+                    this.encoding = "UTF-32BE";
+                } else {
+                    this.encoding = "UTF-32";
+                }
+            } else if ((this.buffer[0] & 255) < 128) {
+                if (this.buffer[1] != 0) {
+                    this.encoding = "UTF-8";
+                } else if (this.length < 4 || this.buffer[2] != 0) {
+                    this.encoding = "UTF-16LE";
+                } else {
+                    this.encoding = "UTF-32LE";
+                }
+            } else if ((this.buffer[0] & 255) == 239) {
+                this.encoding = "UTF-8";
+            } else if ((this.buffer[0] & 255) == 254) {
+                this.encoding = "UTF-16";
+            } else if (this.length < 4 || this.buffer[2] != 0) {
+                this.encoding = "UTF-16";
+            } else {
+                this.encoding = "UTF-32";
+            }
+        }
+        return this.encoding;
+    }
+
+    private void ensureCapacity(int requestedLength) {
+        if (requestedLength > this.buffer.length) {
+            byte[] oldBuf = this.buffer;
+            this.buffer = new byte[(oldBuf.length * 2)];
+            System.arraycopy(oldBuf, 0, this.buffer, 0, oldBuf.length);
+        }
+    }
+}

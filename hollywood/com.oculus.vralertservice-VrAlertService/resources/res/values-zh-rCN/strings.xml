@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">你的头戴设备温度不断升高，建议你休息几分钟，让头戴设备冷却下来。</string>
+    <string name="fan_malfunction">设备的冷却扇未正常运转。头戴设备可能会因为冷却不足而温度过高，或出现异常。请联系 Oculus 客户支持：https://support.oculus.com，获取帮助。</string>
+    <string name="notification_dismiss">轻触关闭通知</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">系统警示</string>
+    <string name="temp_critical">你的头戴设备温度正在不断上升，即将关闭。请取下头戴设备，待其冷却以后再使用，降低个人受伤的风险。</string>
+</resources>

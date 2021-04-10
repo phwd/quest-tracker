@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="abc_ic_menu_copy_mtrl_am_alpha">r/m9.png</drawable>
+    <drawable name="abc_ic_menu_cut_mtrl_alpha">r/n5.png</drawable>
+    <drawable name="abc_spinner_mtrl_am_alpha">r/ed.9.png</drawable>
+</resources>

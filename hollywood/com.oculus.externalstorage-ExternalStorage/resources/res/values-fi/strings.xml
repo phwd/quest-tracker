@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Valmis</string>
+    <string name="otg_failure_message">Lataa virtuaalilasien akku ainakin 60 prosenttiin ja yritä uudelleen.</string>
+    <string name="otg_failure_title">USB-yhteyttä ei voi muodostaa</string>
+    <string name="reformat_usb">Alusta USB uudelleen</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">USB-aseman uudelleen alustaminen poistaa kaikki siihen tallennetut tiedot.</string>
+    <string name="storage_format_confirm_title">Oletko varma?</string>
+    <string name="storage_launcher_accept">Jatka</string>
+    <string name="storage_launcher_format_message">Jos haluat käyttää tätä USB-asemaa virtuaalilasien kanssa, asema on alustettava uudelleen.</string>
+    <string name="storage_launcher_format_title">Levyasemaa ei tueta</string>
+    <string name="storage_launcher_gallery_message">Haluatko avata Oculus-gallerian ja tarkastella levyn sisältöä?</string>
+    <string name="storage_launcher_gallery_title">Ulkoinen tallennusväline</string>
+    <string name="storage_launcher_refuse">Peruuta</string>
+    <string name="storage_wizard_error_body">Virhe: ^1</string>
+    <string name="storage_wizard_error_title">Kohteen ^1 muotoilu ei onnistu</string>
+    <string name="storage_wizard_format_progress_body">Älä poista kohdetta ^1, kun sen muotoilu on kesken.</string>
+    <string name="storage_wizard_format_progress_title">Muotoillaan kohdetta ^1…</string>
+    <string name="storage_wizard_ready_external_body">^1 on valmis käytettäväksi kuvien ja muun median kanssa.</string>
+    <string name="storage_wizard_ready_title">^1 on valmis</string>
+</resources>

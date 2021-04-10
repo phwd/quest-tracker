@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d posto disponibile</item>
+        <item quantity="other">%1$d posti disponibili</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%1$d altra persona</item>
+        <item quantity="other">altri %1$d</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">In questo gruppo è presente %1$d persona che hai bloccato</item>
+        <item quantity="other">In questo gruppo sono presenti %1$d persone che hai bloccato</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 persona è pronta a viaggiare.</item>
+        <item quantity="other">%1$d persone sono pronte a viaggiare.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Invito inviato con %1$s e %2$d altra persona.</item>
+        <item quantity="other">Invito condiviso con %1$s e altre %2$d persone.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Invito inviato a %1$s e %2$d altra persona.</item>
+        <item quantity="other">Invito inviato a %1$s e altre %2$d persone.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">%1$d giorno fa</item>
+        <item quantity="other">%1$d giorni fa</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">%1$d ora fa</item>
+        <item quantity="other">%1$d ore fa</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d amicizia in comune</item>
+        <item quantity="other">%1$d amici in comune</item>
+    </plurals>
+</resources>

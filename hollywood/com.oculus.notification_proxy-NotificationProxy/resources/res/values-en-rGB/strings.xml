@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notification Proxy</string>
+    <string name="controller_critical_battery_text">Please replace the controller battery now.</string>
+    <string name="controller_disconnected_text">Check the battery, move the controller closer or contact Oculus Support.</string>
+    <string name="controller_firmware_update_success_text">Update successful</string>
+    <string name="controller_low_battery_text">Please replace the battery soon.</string>
+    <string name="dual_controller_low_battery_text">Please replace the battery soon.</string>
+    <string name="safe_volume_warning_text_1">Listening at high volumes for long periods may damage your hearing.</string>
+    <string name="vrui_gaze_input_instruction_text">Move your head, then press a headset volume button to select.</string>
+</resources>

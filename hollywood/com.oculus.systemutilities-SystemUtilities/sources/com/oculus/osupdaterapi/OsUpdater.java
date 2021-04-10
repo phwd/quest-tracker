@@ -1,0 +1,50 @@
+package com.oculus.osupdaterapi;
+
+import android.content.Context;
+import android.os.Handler;
+
+public final class OsUpdater {
+    private final OsUpdaterImpl mOsUpdaterImpl;
+
+    public interface OtaUpdateProgressCallback {
+        void onComplete();
+
+        void onError(String str);
+
+        void onProgress(float f);
+    }
+
+    public interface UpdaterOtaAvailabilityCallback {
+        void onReceive(UpdaterOtaAvailability updaterOtaAvailability);
+    }
+
+    public enum UpdaterState {
+        STATE_UNKNOWN,
+        STATE_READY_TO_CHECK_FOR_OTA,
+        STATE_WAITING_FOR_REBOOT,
+        STATE_UPDATE_IN_PROGRESS,
+        STATE_OTA_DISABLED_BY_USER,
+        STATE_NOT_ALLOWED_BY_SYSTEM,
+        STATE_DEVICE_NOT_CONFIGURED_FOR_AB_UPDATES,
+        STATE_WIFI_DISABLED
+    }
+
+    public OsUpdater(Context context) {
+        if (context == null) {
+            throw new NullPointerException("Received Null Context");
+        }
+        this.mOsUpdaterImpl = new OsUpdaterImpl(context);
+    }
+
+    public void checkIfUpdatesAreAvailable(boolean isFullUpdate, Handler handler, UpdaterOtaAvailabilityCallback otaAvailabilityCallback) {
+        this.mOsUpdaterImpl.checkIfUpdatesAreAvailable(isFullUpdate, handler, otaAvailabilityCallback);
+    }
+
+    public void downloadUpdateIfAvailable(boolean isFullUpdate, Handler handler, UpdaterOtaAvailabilityCallback otaAvailabilityCallback, OtaUpdateProgressCallback updateProgressCallback) {
+        this.mOsUpdaterImpl.downloadUpdateIfAvailable(isFullUpdate, handler, otaAvailabilityCallback, updateProgressCallback);
+    }
+
+    public void rebootAndApplyUpdate() {
+        this.mOsUpdaterImpl.rebootAndApplyUpdate();
+    }
+}

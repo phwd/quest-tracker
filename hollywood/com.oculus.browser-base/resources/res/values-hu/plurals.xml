@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">%1$d lap összecsukása.</item>
+        <item quantity="other">%1$d lapot tartalmazó lapcsoport összecsukása.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">%1$d lap összecsukása.</item>
+        <item quantity="other">A következő, %2$d lapot tartalmazó lapcsoport összecsukása: %1$s.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d hangfájl</item>
+        <item quantity="other">%d hangfájl</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d fájl</item>
+        <item quantity="other">%d fájl</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d kép</item>
+        <item quantity="other">%d kép</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d oldal</item>
+        <item quantity="other">%d oldal</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d videó</item>
+        <item quantity="other">%d videó</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">1 kijelölt elem eltávolítása</item>
+        <item quantity="other">%d kijelölt elem eltávolítása</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">1 kijelölt elem megosztása</item>
+        <item quantity="other">%d kijelölt elem megosztása</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">%1$d kiválasztott lap eltávolítása a csoportból.</item>
+        <item quantity="other">%1$d kiválasztott lap eltávolítása a csoportból.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">%1$d kijelölt lap csoportba helyezése</item>
+        <item quantity="other">%1$d kijelölt lap csoportba helyezése</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">%1$d kijelölt lap bezárása</item>
+        <item quantity="other">%1$d kijelölt lap bezárása</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d megnyitott lap. A lapok között koppintással válthat.</item>
+        <item quantity="other">%1$d megnyitott lap. A lapok között koppintással válthat.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d könyvjelző</item>
+        <item quantity="other">%1$d könyvjelző</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d lap</item>
+        <item quantity="other">%1$d lap</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ 1 további)</item>
+        <item quantity="other">(+ %d további)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">1 cookie letiltva</item>
+        <item quantity="other">%d cookie letiltva</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">Fájl letöltése…</item>
+        <item quantity="other">%d fájl letöltése…</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d órája</item>
+        <item quantity="other">%d órája</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">%1$d fájl letöltve</item>
+        <item quantity="other">%1$d fájl letöltve</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">1 letöltés befejeződött.</item>
+        <item quantity="other">%d letöltés befejeződött.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">1 letöltés nem sikerült.</item>
+        <item quantity="other">%d letöltés nem sikerült.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 letöltés függőben.</item>
+        <item quantity="other">%d letöltés függőben.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">1 ütemezett letöltés.</item>
+        <item quantity="other">%d ütemezett letöltés.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">%d napja</item>
+        <item quantity="other">%d napja</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">%d órája</item>
+        <item quantity="other">%d órája</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">%d perce</item>
+        <item quantity="other">%d perce</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">A Chrome betölti az oldalt, amint lehetséges</item>
+        <item quantity="other">A Chrome betölti az oldalakat, amint lehetséges</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">1 cookie van használatban</item>
+        <item quantity="other">%d cookie van használatban</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">%1$s, %2$s és további %3$s engedélyezve</item>
+        <item quantity="other">%1$s, %2$s és további %3$s engedélyezve</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">%1$s, %2$s és további %3$s letiltva</item>
+        <item quantity="other">%1$s, %2$s és további %3$s letiltva</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s és további %3$s</item>
+        <item quantity="other">%1$s, %2$s és további %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d jelszó, amelyhez illetéktelenül hozzáfértek</item>
+        <item quantity="other">%d jelszó, amelyhez illetéktelenül hozzáfértek</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… és további %2$s</item>
+        <item quantity="other">%1$s… és további %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… és további %2$s</item>
+        <item quantity="other">%1$s… és további %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… és további %2$s</item>
+        <item quantity="other">%1$s… és további %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… és további %2$s</item>
+        <item quantity="other">%1$s… és további %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">%1$d oldal van a listán</item>
+        <item quantity="other">%1$d oldal van a listán</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d olvasatlan oldal</item>
+        <item quantity="other">%1$d olvasatlan oldal</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">1 jelszó, amelyhez illetéktelenül hozzáfértek</item>
+        <item quantity="other">%d jelszó, amelyhez illetéktelenül hozzáfértek</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">1 napja ellenőrizve</item>
+        <item quantity="other">%d napja ellenőrizve</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">1 órája ellenőrizve</item>
+        <item quantity="other">%d órája ellenőrizve</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">1 perce ellenőrizve</item>
+        <item quantity="other">%d perce ellenőrizve</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 elem kijelölve</item>
+        <item quantity="other">%d elem kijelölve</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Jelerősség szintje: %d sáv</item>
+        <item quantity="other">Jelerősség szintje: %d sáv</item>
+    </plurals>
+</resources>

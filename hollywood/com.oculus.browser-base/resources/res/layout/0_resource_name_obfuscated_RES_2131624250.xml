@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="32dp">
+    <ImageView android:id="@+id/mr_chooser_route_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="24dp" android:layout_marginEnd="24dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017731" android:ellipsize="marquee" android:gravity="start" android:id="@+id/mr_chooser_route_name" android:layout_width="match_parent" android:layout_height="32dp" android:singleLine="true" android:textAlignment="viewStart"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017732" android:ellipsize="marquee" android:gravity="start" android:id="@+id/mr_chooser_route_desc" android:layout_width="match_parent" android:layout_height="24dp" android:singleLine="true" android:textAlignment="viewStart"/>
+    </LinearLayout>
+</LinearLayout>

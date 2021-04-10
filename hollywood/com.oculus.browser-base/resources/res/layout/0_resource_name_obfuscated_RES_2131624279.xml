@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165782">
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@+id/mtrl_picker_header" android:paddingLeft="@dimen/0_resource_name_obfuscated_RES_2131165779" android:paddingRight="@dimen/0_resource_name_obfuscated_RES_2131165779" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165782" android:baselineAligned="false" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165779" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165779" style="?attr/0_resource_name_obfuscated_RES_2130969063">
+        <FrameLayout android:id="@+id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/0_resource_name_obfuscated_RES_2131165785" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165785">
+            <include layout="@layout/0_resource_name_obfuscated_RES_2131624282"/>
+            <include layout="@layout/0_resource_name_obfuscated_RES_2131624281"/>
+        </FrameLayout>
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624283"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165781" style="?attr/0_resource_name_obfuscated_RES_2130969062"/>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockscreen_try_countdown">
+        <item quantity="one">Probeer het over %1$d seconde opnieuw</item>
+        <item quantity="other">Probeer het over %1$d seconden opnieuw</item>
+    </plurals>
+</resources>

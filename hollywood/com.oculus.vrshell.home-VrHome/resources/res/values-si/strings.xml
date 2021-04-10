@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">බි%1$s</string>
+    <string name="shorten_billions_capitalized">බි%1$s</string>
+    <string name="shorten_hundred_millions">බිලියන%1$sක්</string>
+    <string name="shorten_millions">මිලි %1$s</string>
+    <string name="shorten_millions_capitalized">මිලි %1$s</string>
+    <string name="shorten_ten_thousands">%1$s0 දහසක්</string>
+    <string name="shorten_thousands_capitalized">%1$sදහසක්</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

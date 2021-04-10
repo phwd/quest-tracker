@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <shape>
+                    <padding android:left="8dp"/>
+                    <padding android:right="8dp"/>
+                    <padding android:top="8dp"/>
+                    <padding android:bottom="8dp"/>
+                    <corners android:radius="@dimen/messenger_tablet_image_bubble_min_height"/>
+                    <solid android:color="@color/button_secondary_backing"/>
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <shape>
+                    <padding android:left="8dp"/>
+                    <padding android:right="8dp"/>
+                    <padding android:top="8dp"/>
+                    <padding android:bottom="8dp"/>
+                    <corners android:radius="@dimen/messenger_tablet_image_bubble_min_height"/>
+                    <solid android:color="?attr/ocPrimaryButton"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape>
+                    <padding android:left="8dp"/>
+                    <padding android:right="8dp"/>
+                    <padding android:top="8dp"/>
+                    <padding android:bottom="8dp"/>
+                    <corners android:radius="@dimen/messenger_tablet_image_bubble_min_height"/>
+                    <solid android:color="?attr/ocPrimaryButton"/>
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <padding android:left="8dp"/>
+                    <padding android:right="8dp"/>
+                    <padding android:top="8dp"/>
+                    <padding android:bottom="8dp"/>
+                    <corners android:radius="@dimen/messenger_tablet_image_bubble_min_height"/>
+                    <solid android:color="?attr/ocSecondaryButton"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

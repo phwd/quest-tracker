@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Skupinka %1$s · %2$d člověk</item>
+        <item quantity="few">Skupinka %1$s · %2$d lidé</item>
+        <item quantity="other">Skupinka %1$s · %2$d lidí</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d přítel</item>
+        <item quantity="few">%1$d přátelé</item>
+        <item quantity="other">%1$d přátel</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d přítel ve službě Oculus</item>
+        <item quantity="few">%1$d přátelé ve službě Oculus</item>
+        <item quantity="other">%1$d přátel ve službě Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s podporuje maximálně %2$d člověka.</item>
+        <item quantity="few">%1$s podporuje maximálně %2$d lidi.</item>
+        <item quantity="other">%1$s podporuje maximálně %2$d lidí.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s podporuje maximálně %2$d člověka. Vyberte novou aplikaci.</item>
+        <item quantity="few">%1$s podporuje maximálně %2$d lidi. Vyberte novou aplikaci.</item>
+        <item quantity="other">%1$s podporuje maximálně %2$d lidí. Vyberte novou aplikaci.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d dostupné místo</item>
+        <item quantity="few">%1$d dostupná místa</item>
+        <item quantity="other">%1$d dostupných míst</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="other">Do začátku vysílání zbývá %1$d s...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">Ve skupince je %1$d člověk</item>
+        <item quantity="few">Ve skupince jsou %1$d lidé</item>
+        <item quantity="other">Ve skupince je %1$d lidí</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">Pozvaný je %1$d člověk</item>
+        <item quantity="few">Pozvaní jsou %1$d lidé</item>
+        <item quantity="other">Pozvaných je %1$d lidí</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">Povolena %1$d aplikace z %2$d</item>
+        <item quantity="few">Povoleny %1$d aplikace z %2$d</item>
+        <item quantity="other">Povoleno %1$d aplikací z %2$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">ยุบ %1$d แท็บ</item>
+        <item quantity="other">ยุบกลุ่มแท็บที่มีแท็บอยู่ %1$d แท็บ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">ยุบ %1$d แท็บ</item>
+        <item quantity="other">ยุบกลุ่มแท็บ %1$s ที่มีแท็บอยู่ %2$d แท็บ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">ไฟล์เสียง %d ไฟล์</item>
+        <item quantity="other">ไฟล์เสียง %d ไฟล์</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d ไฟล์</item>
+        <item quantity="other">%d ไฟล์</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d ภาพ</item>
+        <item quantity="other">%d ภาพ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d หน้า</item>
+        <item quantity="other">%d หน้า</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">วิดีโอ %d รายการ</item>
+        <item quantity="other">วิดีโอ %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">นำ 1 รายการที่เลือกออก</item>
+        <item quantity="other">นำ %d รายการที่เลือกออก</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">แชร์ 1 รายการที่เลือก</item>
+        <item quantity="other">แชร์ %d รายการที่เลือก</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">นำแท็บที่เลือก %1$d แท็บออกจากกลุ่ม</item>
+        <item quantity="other">นำแท็บที่เลือก %1$d แท็บออกจากกลุ่ม</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">จัดกลุ่มแท็บที่เลือก %1$d แท็บ</item>
+        <item quantity="other">จัดกลุ่มแท็บที่เลือก %1$d แท็บ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">ปิดแท็บที่เลือก %1$d แท็บ</item>
+        <item quantity="other">ปิดแท็บที่เลือก %1$d แท็บ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">เปิดแท็บไว้ %1$d แท็บ แตะเพื่อเปลี่ยนแท็บ</item>
+        <item quantity="other">เปิดแท็บไว้ %1$d แท็บ แตะเพื่อเปลี่ยนแท็บ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">บุ๊กมาร์ก %1$d รายการ</item>
+        <item quantity="other">บุ๊กมาร์ก %1$d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d แท็บ</item>
+        <item quantity="other">%1$d แท็บ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(อีก 1 รายการ)</item>
+        <item quantity="other">(อีก %d รายการ)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">บล็อกคุกกี้ 1 รายการ</item>
+        <item quantity="other">บล็อกคุกกี้ %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">กำลังดาวน์โหลดไฟล์</item>
+        <item quantity="other">กำลังดาวน์โหลด %d ไฟล์</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d ชม.</item>
+        <item quantity="other">%d ชม.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">ดาวน์โหลดแล้ว %1$d ไฟล์</item>
+        <item quantity="other">ดาวน์โหลดแล้ว %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">การดาวน์โหลด 1 รายการเสร็จสมบูรณ์</item>
+        <item quantity="other">การดาวน์โหลด %d รายการเสร็จสมบูรณ์</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">การดาวน์โหลดล้มเหลว 1 รายการ</item>
+        <item quantity="other">การดาวน์โหลดล้มเหลว %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">การดาวน์โหลดที่รอดำเนินการ 1 รายการ</item>
+        <item quantity="other">การดาวน์โหลดที่รอดำเนินการ %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">กำหนดเวลาการดาวน์โหลดแล้ว 1 รายการ</item>
+        <item quantity="other">กำหนดเวลาการดาวน์โหลดแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">%d วันที่ผ่านมา</item>
+        <item quantity="other">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">%d นาทีที่ผ่านมา</item>
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Chrome จะโหลดหน้าเว็บเมื่อพร้อม</item>
+        <item quantity="other">Chrome จะโหลดหน้าเว็บเมื่อพร้อม</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">ใช้คุกกี้อยู่ 1 รายการ</item>
+        <item quantity="other">ใช้คุกกี้อยู่ %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">อนุญาตให้เข้าถึง%1$s %2$s และอีก %3$s รายการ</item>
+        <item quantity="other">อนุญาตให้เข้าถึง%1$s %2$s และอีก %3$s รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">บล็อกการเข้าถึง%1$s %2$s และอีก %3$s รายการไว้</item>
+        <item quantity="other">บล็อกการเข้าถึง%1$s %2$s และอีก %3$s รายการไว้</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s %2$s และอีก %3$s รายการ</item>
+        <item quantity="other">%1$s %2$s และอีก %3$s รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">มีรหัสผ่านที่ถูกละเมิด %d รายการ</item>
+        <item quantity="other">มีรหัสผ่านที่ถูกละเมิด %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… และอีก %2$s รายการ</item>
+        <item quantity="other">%1$s… และอีก %2$s รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… และอีก %2$s วิธี</item>
+        <item quantity="other">%1$s… และอีก %2$s วิธี</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… และอีก %2$s แห่ง</item>
+        <item quantity="other">%1$s… และอีก %2$s แห่ง</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… และอีก %2$s ตัวเลือก</item>
+        <item quantity="other">%1$s… และอีก %2$s ตัวเลือก</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">คุณมี %1$d หน้า</item>
+        <item quantity="other">คุณมี %1$d หน้า</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">ยังไม่อ่าน %1$d หน้า</item>
+        <item quantity="other">ยังไม่อ่าน %1$d หน้า</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">มีรหัสผ่านที่ถูกละเมิด 1 รายการ</item>
+        <item quantity="other">มีรหัสผ่านที่ถูกละเมิด %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">ตรวจสอบเมื่อ 1 วันที่ผ่านมา</item>
+        <item quantity="other">ตรวจสอบเมื่อ %d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">ตรวจสอบเมื่อ 1 ชั่วโมงที่ผ่านมา</item>
+        <item quantity="other">ตรวจสอบเมื่อ %d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">ตรวจสอบเมื่อ 1 นาทีที่ผ่านมา</item>
+        <item quantity="other">ตรวจสอบเมื่อ %d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">เลือก 1 รายการ</item>
+        <item quantity="other">เลือก %d รายการ</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">ระดับความแรงของสัญญาณ: %d แถบ</item>
+        <item quantity="other">ระดับความแรงของสัญญาณ: %d แถบ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tela de bloqueio de VR</string>
+    <string name="back">Voltar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Limpar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="forgot_pattern">Esqueceu o padrão?</string>
+    <string name="lockscreen_confirm_for_removal">Desenhe seu padrão de desbloqueio para confirmar a remoção.</string>
+    <string name="lockscreen_confirm_help">Desenhe seu padrão novamente para confirmar. Lembre-se desse padrão. Se você esquecê-lo, precisará fazer uma redefinição de fábrica neste dispositivo.</string>
+    <string name="lockscreen_confirm_lock">Confirmar padrão de desbloqueio</string>
+    <string name="lockscreen_patterm_mismatch">Os padrões não correspondem. Tente novamente.</string>
+    <string name="lockscreen_remove_lock">Remover padrão de desbloqueio</string>
+    <string name="lockscreen_secure_owner_account">Você pode proteger sua conta neste dispositivo configurando um padrão de desbloqueio. Você precisará desenhar esse padrão todas as vezes que quiser acessar sua conta neste dispositivo.</string>
+    <string name="lockscreen_secure_secondary_account">Você pode proteger sua conta neste dispositivo configurando um padrão de desbloqueio. Você precisará desenhar esse padrão todas as vezes que quiser acessar sua conta neste dispositivo.</string>
+    <string name="lockscreen_set_pattern">Definir padrão de desbloqueio</string>
+    <string name="lockscreen_set_pattern_hint">Proteja sua conta neste dispositivo.</string>
+    <string name="next">Avançar</string>
+    <string name="skip">Agora não</string>
+</resources>

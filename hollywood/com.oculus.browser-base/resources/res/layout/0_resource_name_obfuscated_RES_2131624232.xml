@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="14sp" android:textColor="@android:color/white" android:ellipsize="start" android:gravity="center" android:id="@+id/material_tooltip_text" android:background="@drawable/0_resource_name_obfuscated_RES_2131231405" android:minHeight="32dp" android:singleLine="true" android:fontFamily="sans-serif"/>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:key="do_not_track_switch" android:summaryOn="@string/0_resource_name_obfuscated_RES_2131953650" android:summaryOff="@string/0_resource_name_obfuscated_RES_2131953649"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/0_resource_name_obfuscated_RES_2131952406" app:allowDividerBelow="false"/>
+</PreferenceScreen>

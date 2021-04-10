@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">%1$d Tab minimieren</item>
+        <item quantity="other">Tabgruppe mit %1$d Tabs minimieren</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">%1$d Tab minimieren</item>
+        <item quantity="other">Tabgruppe &quot;%1$s&quot; mit %2$d Tabs minimieren</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d Audiodatei</item>
+        <item quantity="other">%d Audiodateien</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d Datei</item>
+        <item quantity="other">%d Dateien</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d Bild</item>
+        <item quantity="other">%d Bilder</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d Seite</item>
+        <item quantity="other">%d Seiten</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d Video</item>
+        <item quantity="other">%d Videos</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">1 ausgewähltes Element entfernen</item>
+        <item quantity="other">%d ausgewählte Elemente entfernen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">1 ausgewähltes Element teilen</item>
+        <item quantity="other">%d ausgewählte Elemente teilen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">%1$d ausgewählten Tab aus der Gruppe entfernen</item>
+        <item quantity="other">%1$d ausgewählte Tabs aus der Gruppe entfernen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">%1$d ausgewählten Tab gruppieren</item>
+        <item quantity="other">%1$d ausgewählte Tabs gruppieren</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">%1$d ausgewählten Tab schließen</item>
+        <item quantity="other">%1$d ausgewählte Tabs schließen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d geöffneter Tab, zum Wechseln der Tabs tippen</item>
+        <item quantity="other">%1$d geöffnete Tabs, zum Wechseln der Tabs tippen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d Lesezeichen</item>
+        <item quantity="other">%1$d Lesezeichen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d Tab</item>
+        <item quantity="other">%1$d Tabs</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ 1 weitere)</item>
+        <item quantity="other">(+ %d weitere)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">Ein Cookie blockiert</item>
+        <item quantity="other">%d Cookies blockiert</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">Datei wird heruntergeladen.</item>
+        <item quantity="other">%d Dateien werden heruntergeladen.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">%1$d Datei heruntergeladen</item>
+        <item quantity="other">%1$d Dateien heruntergeladen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">1 Download abgeschlossen.</item>
+        <item quantity="other">%d Downloads abgeschlossen.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">1 Download fehlgeschlagen.</item>
+        <item quantity="other">%d Downloads fehlgeschlagen.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 Download ausstehend.</item>
+        <item quantity="other">%d Downloads ausstehend.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">1 Download geplant.</item>
+        <item quantity="other">%d Downloads geplant.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">Vor %d Tag</item>
+        <item quantity="other">Vor %d Tagen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">Vor %d Stunde</item>
+        <item quantity="other">Vor %d Stunden</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">vor %d Minute</item>
+        <item quantity="other">vor %d Minuten</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Chrome lädt Ihre Seite, sobald diese bereit ist</item>
+        <item quantity="other">Chrome lädt Ihre Seiten, sobald diese bereit sind</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">1 verwendeter Cookie</item>
+        <item quantity="other">%d verwendete Cookies</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">%1$s, %2$s und %3$s weitere zugelassen</item>
+        <item quantity="other">%1$s, %2$s und %3$s weitere zugelassen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">%1$s, %2$s und %3$s weitere blockiert</item>
+        <item quantity="other">%1$s, %2$s und %3$s weitere blockiert</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s und %3$s weitere</item>
+        <item quantity="other">%1$s, %2$s und %3$s weitere</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d gehacktes Passwort</item>
+        <item quantity="other">%d gehackte Passwörter</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… und %2$s weitere</item>
+        <item quantity="other">%1$s… und %2$s weitere</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… und %2$s weitere</item>
+        <item quantity="other">%1$s… und %2$s weitere</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… und %2$s weitere</item>
+        <item quantity="other">%1$s… und %2$s weitere</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… und %2$s weitere</item>
+        <item quantity="other">%1$s… und %2$s weitere</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">Sie haben noch %1$d Seite</item>
+        <item quantity="other">Sie haben noch %1$d Seiten</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d ungelesene Seite</item>
+        <item quantity="other">%1$d ungelesene Seiten</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">1 gehacktes Passwort</item>
+        <item quantity="other">%d gehackte Passwörter</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">Zuletzt geprüft: vor 1 Tag</item>
+        <item quantity="other">Zuletzt geprüft: vor %d Tagen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">Zuletzt geprüft: vor 1 Stunde</item>
+        <item quantity="other">Zuletzt geprüft: vor %d Stunden</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">Zuletzt geprüft: vor 1 Minute</item>
+        <item quantity="other">Zuletzt geprüft: vor %d Minuten</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 ausgewählt</item>
+        <item quantity="other">%d ausgewählt</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Signalstärke: %d Balken</item>
+        <item quantity="other">Signalstärke: %d Balken</item>
+    </plurals>
+</resources>

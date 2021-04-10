@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListPreference android:entries="@array/server_types" android:title="@string/overrideServerEndpoint_title" android:key="@string/overrideServerEndpoint" android:defaultValue="PRODUCTION" android:entryValues="@array/server_types_values"/>
+    <EditTextPreference android:title="@string/voice_interaction_endpoint_title" android:key="@string/voice_interaction_endpoint"/>
+    <SwitchPreference android:title="@string/use_override_endpoint_title" android:key="@string/use_override_endpoint"/>
+    <EditTextPreference android:title="@string/transcription_endpoint_title" android:key="@string/transcription_endpoint"/>
+    <SwitchPreference android:title="@string/use_override_transcription_endpoint_title" android:key="@string/use_override_transcription_endpoint"/>
+    <EditTextPreference android:title="@string/custom_headers_title" android:key="@string/custom_headers"/>
+    <SwitchPreference android:title="@string/audiologging" android:key="audiologging"/>
+    <PreferenceCategory android:title="MobileConfig Override">
+        <SwitchPreference android:title="Enable Override" android:key="enable_mc_override"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Enable OACR" android:key="mc_enable_oacr" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Disable NS" android:key="mc_disable_noise_supression" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Don&apos;t Re-enable NS" android:key="mc_dont_reenable_noise_suppression" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Enable Audio Ducking" android:key="mc_audio_ducking_eabled" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Enable Server Side &apos;What Can I Do&apos;" android:key="mc_server_side_what_can_i_do" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Enable New Help Screen" android:key="mc_simplified_help_screen_enabled" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Disable In-Game Voice Commands" android:key="mc_ingame_voice_commands_disabled" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Use Native voice service" android:key="mc_use_native_voice_service" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Assistant Service Enabled" android:key="mc_enabled" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Voice Commands Disabled" android:key="mc_voice_commands_disabled" android:entryValues="@array/mc_bool_override_values"/>
+        <ListPreference android:entries="@array/mc_bool_override" android:title="Transcription Enabled" android:key="mc_enable_transcription" android:entryValues="@array/mc_bool_override_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

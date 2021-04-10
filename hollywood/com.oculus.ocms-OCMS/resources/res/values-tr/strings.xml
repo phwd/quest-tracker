@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus Core Mobil Hizmetler</string>
+    <string name="binary_check_notification_content">Bilinmeyen kaynaklardan yüklenen uygulamalar, hesabını ve cihazını tehlikeye sokabilir.</string>
+    <string name="binary_check_notification_title">Gayriresmi %1$s Yüklendi</string>
+    <string name="notifications_download_canceled_message">\"%1$s\" için indirme iptal edildi</string>
+    <string name="notifications_download_canceled_title">İndirme iptal edildi</string>
+    <string name="notifications_download_failed_message">\"%1$s\" indirilemedi</string>
+    <string name="notifications_download_failed_title">İndirilemedi</string>
+    <string name="notifications_download_in_progress_message">%1$s indiriliyor...</string>
+    <string name="notifications_downloading_and_installing_apps">Uygulamalar İndiriliyor ve Yükleniyor...</string>
+    <string name="notifications_head_install_failed_message">Yüklenemedi</string>
+    <string name="notifications_head_installed_message">Yüklendi</string>
+    <string name="notifications_head_installing_message">Yükleniyor</string>
+    <string name="notifications_install_failed_message">\"%1$s\" yüklenemedi</string>
+    <string name="notifications_install_in_progress_message">%1$s yükleniyor...</string>
+    <string name="notifications_install_succeeded_message">%1$s kütüphanene başarıyla yüklendi.</string>
+    <string name="notifications_progress_of_download_message">%%%1$d</string>
+    <string name="obb_display_title">%1$s (Genişletme dosyası)</string>
+    <string name="shorten_billions">%1$smlr</string>
+    <string name="shorten_billions_capitalized">%1$sMlr</string>
+    <string name="shorten_millions">%1$smln</string>
+    <string name="shorten_ten_thousands">%1$s0B</string>
+    <string name="shorten_thousands">%1$s bin</string>
+    <string name="shorten_thousands_capitalized">%1$sB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

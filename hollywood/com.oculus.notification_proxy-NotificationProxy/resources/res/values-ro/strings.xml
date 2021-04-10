@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Te rugăm să conectezi casca la o priză în curând.</string>
+    <string name="battery_critical_title">Bateria căştii este descărcată</string>
+    <string name="battery_low_text">Te rugăm să conectezi casca la o priză.</string>
+    <string name="battery_low_title">Bateria căştii este aproape descărcată</string>
+    <string name="controller_critical_battery_text">Te rugăm să schimbi bateria controlerului acum.</string>
+    <string name="controller_critical_battery_title">Bateria controlerului este descărcată</string>
+    <string name="controller_disconnected_text">Verifică bateria, mută controlerul mai aproape sau ia legătura cu Asistenţa Oculus.</string>
+    <string name="controller_disconnected_title">Nu am găsit controlerul</string>
+    <string name="controller_firmware_update_failed_text">Pentru ajutor, te rugăm să iei legătura cu Asistenţa Oculus.</string>
+    <string name="controller_firmware_update_failed_title">Controlerul nu a putut fi actualizat</string>
+    <string name="controller_firmware_update_progress_text">Progres actualizare: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Actualizare reuşită.</string>
+    <string name="controller_firmware_update_title">Controlerul se actualizează</string>
+    <string name="controller_low_battery_text">Te rugăm să schimbi bateria în curând.</string>
+    <string name="controller_low_battery_title">Bateria controlerului este aproape descărcată</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controlerele nu au fost găsite</string>
+    <string name="dual_controller_both_controller_low_battery_title">Bateriile controlerului sunt aproape descărcate</string>
+    <string name="dual_controller_disconnected_text">Dacă problema nu se rezolvă, te rugăm să verifici bateria sau să iei legătura cu Asistenţa Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Controlerul stânga nu a fost găsit</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Eroare la actualizarea controlerului stânga</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Actualizarea controlerului dreapta este în desfăşurare</string>
+    <string name="dual_controller_left_controller_low_battery_title">Bateria controlerului stânga este aproape descărcată</string>
+    <string name="dual_controller_low_battery_text">Te rugăm să schimbi bateria în curând.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Controlerul dreapta nu a fost găsit</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Eroare la actualizarea controlerului dreapta</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Actualizarea controlerului dreapta este în desfăşurare</string>
+    <string name="dual_controller_right_controller_low_battery_title">Bateria controlerului dreapta este aproape descărcată</string>
+    <string name="notification_header">Sistemul Oculus</string>
+    <string name="safe_volume_warning_text_1">Dacă asculţi mult timp la volum ridicat, auzul îţi poate fi afectat.</string>
+    <string name="safe_volume_warning_text_2">Apasă din nou butonul pentru a dezactiva temporar această avertizare.</string>
+    <string name="safe_volume_warning_title">Volumul este mai mare decât nivelul recomandat</string>
+    <string name="vrui_gaze_input_instruction_text">Mişcă-ţi capul, iar apoi apasă un buton de volum de pe cască pentru a selecta.</string>
+    <string name="vrui_gaze_input_instruction_title">Urmărirea mâinilor şi controlerele sunt dezactivate</string>
+    <string name="wifi_disconnected_text">Te rugăm să mergi la setări pentru a remedia problemele.</string>
+    <string name="wifi_disconnected_title">S-a pierdut conexiunea căştii la Wi-Fi</string>
+</resources>

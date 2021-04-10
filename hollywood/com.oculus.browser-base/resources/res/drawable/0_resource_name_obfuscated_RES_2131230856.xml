@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230855">
+    <target android:name="circle" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230724"/>
+    <target android:name="square" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230725"/>
+    <target android:name="arc" android:animation="@drawable/0_resource_name_obfuscated_RES_2131230726"/>
+</animated-vector>

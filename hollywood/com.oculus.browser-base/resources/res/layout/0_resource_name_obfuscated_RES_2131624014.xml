@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:minHeight="@dimen/0_resource_name_obfuscated_RES_2131165299">
+    <ScrollView android:id="@+id/scroll_view" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131166252" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <org.chromium.chrome.browser.bookmarks.BookmarkTextInputLayout android:id="@+id/folder_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:hint="@string/0_resource_name_obfuscated_RES_2131953662" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" app:emptyErrorMessage="@string/0_resource_name_obfuscated_RES_2131952126">
+                <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none|text|textCapSentences|textAutoCorrect" android:imeOptions="flagNoExtractUi"/>
+            </org.chromium.chrome.browser.bookmarks.BookmarkTextInputLayout>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="4dp" android:text="@string/0_resource_name_obfuscated_RES_2131952134" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/parent_folder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="32dp" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166252" style="@style/0_resource_name_obfuscated_RES_2132017471"/>
+    <View android:id="@+id/shadow" android:background="@drawable/0_resource_name_obfuscated_RES_2131230871" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165296" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166252"/>
+</merge>

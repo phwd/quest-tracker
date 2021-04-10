@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_vertical" android:id="@+id/cast_frame_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200dp">
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/cast_background_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:alpha="0.7" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017667" android:gravity="center" android:layout_gravity="center" android:id="@+id/cast_screen_title" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    <org.chromium.third_party.android.media.MediaController android:layout_gravity="bottom" android:id="@+id/cast_media_controller" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

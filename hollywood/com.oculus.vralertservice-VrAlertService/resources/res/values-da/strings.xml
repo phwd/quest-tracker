@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Dit headset bliver varmt. Vi anbefaler at holde en pause i et par minutter for at give dit headset mulighed for at køle ned.</string>
+    <string name="fan_malfunction">Køleventilatoren i din enhed fungerer ikke, som den skal. Dit headset kan blive overophedet og kan fremvise en unormal adfærd på grund af utiltrækkelig afkøling. Kontakt Oculus-kundesupport på https://support.oculus.com for at få hjælp.</string>
+    <string name="notification_dismiss">Tryk for at afvise denne notifikation</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTEMADVARSEL</string>
+    <string name="temp_critical">Temperaturen på dit headset stiger og det vil blive slukket. For at reducere risikoen for personskade, skal du fjerne dit headset og lade de køle ned, før du fortsætter med at bruge det.</string>
+</resources>

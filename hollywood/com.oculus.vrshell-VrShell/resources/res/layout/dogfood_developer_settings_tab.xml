@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.dogfood.tabs.DogfoodDeveloperSettingsTab xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/dogfood_developer_settings_tab" android:paddingLeft="26dp" android:paddingTop="26dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="Developer Settings"/>
+    <TableLayout android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TableRow>
+            <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:padding="3dp" android:text="ADB Setting:"/>
+            <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:gravity="left" android:id="@+id/dogfood_developer_settings_adb" android:padding="3dp" android:text=""/>
+            <com.oculus.vrshell.panels.views.ShellButton android:enabled="false" android:gravity="right" android:id="@+id/dogfood_developer_settings_adb_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unavailable"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:padding="3dp" android:text="MTP Dialog:"/>
+            <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:gravity="left" android:id="@+id/dogfood_developer_settings_mtp" android:padding="3dp" android:text=""/>
+            <com.oculus.vrshell.panels.views.ShellButton android:enabled="false" android:gravity="right" android:id="@+id/dogfood_developer_settings_mtp_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unavailable"/>
+        </TableRow>
+    </TableLayout>
+</com.oculus.panelapp.dogfood.tabs.DogfoodDeveloperSettingsTab>

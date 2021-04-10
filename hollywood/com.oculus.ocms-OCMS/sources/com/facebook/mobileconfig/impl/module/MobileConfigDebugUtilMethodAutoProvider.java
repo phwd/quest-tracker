@@ -1,0 +1,14 @@
+package com.facebook.mobileconfig.impl.module;
+
+import com.facebook.annotations.Generated;
+import com.facebook.inject.AbstractProvider;
+import com.facebook.mobileconfig.factory.module.MobileConfigFactoryModule;
+import com.facebook.mobileconfig.impl.MobileConfigDebugUtil;
+
+@Generated({"By: InjectorProcessor"})
+public class MobileConfigDebugUtilMethodAutoProvider extends AbstractProvider<MobileConfigDebugUtil> {
+    @Override // javax.inject.Provider
+    public MobileConfigDebugUtil get() {
+        return MobileConfigFactoryImplModule.provideMobileConfigDebugUtil(MobileConfigFactoryModule._UL__ULSEP_javax_inject_Provider_ULLT_com_facebook_mobileconfig_factory_MobileConfig_ULGT__ULSEP_ACCESS_METHOD(this), MobileConfigFactoryModule._UL__ULSEP_javax_inject_Provider_ULLT_com_facebook_mobileconfig_factory_MobileConfig_ULGT__ULSEP_com_facebook_mobileconfig_factory_module_SessionlessMC_ULSEP_ACCESS_METHOD(this), MobileConfigFactoryImplModule._UL__ULSEP_javax_inject_Provider_ULLT_com_facebook_mobileconfig_impl_MobileConfigManagerSingletonHolder_ULGT__ULSEP_ACCESS_METHOD(this), MobileConfigFactoryImplModule._UL__ULSEP_javax_inject_Provider_ULLT_com_facebook_mobileconfig_impl_MobileConfigManagerSingletonHolder_ULGT__ULSEP_ACCESS_METHOD(this));
+    }
+}

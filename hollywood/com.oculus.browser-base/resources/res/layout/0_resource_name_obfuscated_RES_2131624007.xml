@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="16dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="32dp" android:minHeight="36dp" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/cc_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:labelFor="@+id/cc_name_edit">
+        <EditText android:id="@+id/cc_name_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952023" android:inputType="textCapWords" android:imeOptions="actionDone" android:imeActionLabel="@string/0_resource_name_obfuscated_RES_2131952063"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <ImageView android:layout_gravity="center" android:id="@+id/cc_name_tooltip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131230887" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952723"/>
+</LinearLayout>

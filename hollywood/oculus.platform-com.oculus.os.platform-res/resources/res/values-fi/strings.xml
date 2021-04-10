@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Piirrä avauskuvio</string>
+    <string name="lockscreen_enter_pin">Laitteen PIN-koodi</string>
+    <string name="lockscreen_try_again">Yritä uudelleen</string>
+    <string name="pattern_too_short">Yhdistä vähintään neljä pistettä.</string>
+    <string name="permdesc_accessMrSensorData">Antaa sovelluksen käyttää yhdistetyn todellisuuden anturien tietoja, esimerkiksi kameran kalibrointi- ja kuvatietoja.</string>
+    <string name="permdesc_access_handtracking_data">Antaa sovellukselle luvan käyttää kädenseurantatietoja</string>
+    <string name="permgroupdesc_handtracking">avaa käsiseurannan tiedot</string>
+    <string name="permgroupdesc_sensorData">käyttää anturien tietoja</string>
+    <string name="permgrouplab_handtracking">Käsiseuranta</string>
+    <string name="permgrouplab_sensorData">Anturitiedot</string>
+    <string name="permlab_accessMrSensorData">käyttää yhdistetyn todellisuuden anturien tietoja</string>
+    <string name="permlab_access_handtracking_data">avaa käsiseurannan tiedot</string>
+    <string name="pin_button_delete">Poista</string>
+    <string name="pin_button_enter">Anna</string>
+    <string name="reset_unlock_pattern_msg">Nollaa lukituskuvio näin:</string>
+    <string name="reset_unlock_pattern_step_1">1. Avaa Oculus-sovellus mobiililaitteellasi.</string>
+    <string name="reset_unlock_pattern_step_2">2. Avaa asetussivu, napauta virtuaalilasien nimeä ja odota yhteyden muodostumista.</string>
+    <string name="reset_unlock_pattern_step_3">3. Napauta Lisäasetukset &gt; Avauskuvio.</string>
+    <string name="reset_unlock_pattern_title">Vaihda avauskuvio</string>
+</resources>

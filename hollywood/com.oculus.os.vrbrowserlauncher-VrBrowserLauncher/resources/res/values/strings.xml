@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Oculus Browser</string>
+    <string name="vr_browser_panel_app">com.oculus.browser</string>
+    <string name="vr_shell_pkg_name">com.oculus.vrshell</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <org.chromium.ui.widget.TextViewWithClickableSpans android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/text" android:paddingTop="10dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952198" android:lineSpacingExtra="6sp"/>
+</LinearLayout>

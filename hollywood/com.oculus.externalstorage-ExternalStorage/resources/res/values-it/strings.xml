@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Fine</string>
+    <string name="otg_failure_message">Carica la batteria del tuo visore almeno al 60%% e riprova.</string>
+    <string name="otg_failure_title">Collegamento tramite USB non riuscito</string>
+    <string name="reformat_usb">Riformatta l\'unità USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">La riformattazione di questa unità USB comporterà la cancellazione di tutti i dati attualmente archiviati su di essa.</string>
+    <string name="storage_format_confirm_title">Confermi la scelta?</string>
+    <string name="storage_launcher_accept">Continua</string>
+    <string name="storage_launcher_format_message">Per usare questa unità USB con il tuo visore, dovrà essere riformattata.</string>
+    <string name="storage_launcher_format_title">Unità non supportata</string>
+    <string name="storage_launcher_gallery_message">Vuoi aprire Oculus Gallery per esplorare il contenuto del disco?</string>
+    <string name="storage_launcher_gallery_title">Archiviazione esterna</string>
+    <string name="storage_launcher_refuse">Annulla</string>
+    <string name="storage_wizard_error_body">Errore: ^1</string>
+    <string name="storage_wizard_error_title">Formattazione di ^1 non riuscita</string>
+    <string name="storage_wizard_format_progress_body">Non rimuovere l\'unità ^1 mentre la formattazione è in corso.</string>
+    <string name="storage_wizard_format_progress_title">Formattazione di ^1...</string>
+    <string name="storage_wizard_ready_external_body">La tua unità ^1 è pronta per l\'uso con foto e altri contenuti multimediali.</string>
+    <string name="storage_wizard_ready_title">L\'unità ^1 è pronta</string>
+</resources>

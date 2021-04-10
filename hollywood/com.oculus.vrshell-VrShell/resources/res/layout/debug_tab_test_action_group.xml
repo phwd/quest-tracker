@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.TestActionGroupTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_test_action_group" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Control" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_control"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cast" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_vr_cast"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Controller Re-pairing" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_controller_pair"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Copresence" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_copresence"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="System Dialog" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_system_dialog"/>
+    </LinearLayout>
+</com.oculus.panelapp.debug.TestActionGroupTab>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">Apps van onbekende bronnen kunnen een risico zijn voor je account en apparaat.</string>
+    <string name="binary_check_notification_title">Niet-officiële %1$s geïnstalleerd</string>
+    <string name="notifications_download_canceled_message">Download geannuleerd voor %1$s</string>
+    <string name="notifications_download_canceled_title">Download geannuleerd</string>
+    <string name="notifications_download_failed_message">%1$s kan niet worden gedownload</string>
+    <string name="notifications_download_failed_title">Download mislukt</string>
+    <string name="notifications_download_in_progress_message">%1$s downloaden...</string>
+    <string name="notifications_downloading_and_installing_apps">Apps downloaden en installeren...</string>
+    <string name="notifications_head_install_failed_message">Installatie mislukt</string>
+    <string name="notifications_head_installed_message">Geïnstalleerd</string>
+    <string name="notifications_head_installing_message">Installeren</string>
+    <string name="notifications_install_failed_message">%1$s kan niet worden geïnstalleerd</string>
+    <string name="notifications_install_in_progress_message">%1$s installeren...</string>
+    <string name="notifications_install_succeeded_message">%1$s is geïnstalleerd in je bibliotheek.</string>
+    <string name="obb_display_title">%1$s (uitbreidingsbestand)</string>
+    <string name="shorten_billions">%1$s mld.</string>
+    <string name="shorten_billions_capitalized">%1$s mld.</string>
+    <string name="shorten_hundred_millions">%1$s00 miljoen</string>
+    <string name="shorten_millions">%1$s mln.</string>
+    <string name="shorten_millions_capitalized">%1$s mln.</string>
+    <string name="shorten_ten_thousands">%1$s0 duizend</string>
+    <string name="shorten_thousands">%1$s duizend</string>
+    <string name="shorten_thousands_capitalized">%1$s duizend</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

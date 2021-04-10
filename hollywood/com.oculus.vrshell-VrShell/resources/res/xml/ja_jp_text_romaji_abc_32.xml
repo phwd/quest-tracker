@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:codes="-16" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_arrow_left_circle_outline_24" custom:keyWidth="48dp"/>
+        <DynamicKeyArea custom:id="@+id/conversion_key_area" custom:keyWidth="spanDefaultKeys_11"/>
+        <Key custom:codes="-17" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_arrow_right_circle_outline_24" custom:keyWidth="48dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyLabel="あいう" custom:keyWidth="48dp" custom:keyboard="@xml/ja_jp_text_default_32" custom:textSize="14sp"/>
+        <Key custom:keyLabel="a" custom:keyOutputText="a" custom:shiftKeyLabel="A" custom:shiftKeyOutputText="A"/>
+        <Key custom:keyLabel="b" custom:keyOutputText="b" custom:shiftKeyLabel="B" custom:shiftKeyOutputText="B"/>
+        <Key custom:keyLabel="c" custom:keyOutputText="c" custom:shiftKeyLabel="C" custom:shiftKeyOutputText="C"/>
+        <Key custom:keyLabel="d" custom:keyOutputText="d" custom:shiftKeyLabel="D" custom:shiftKeyOutputText="D"/>
+        <Key custom:keyLabel="e" custom:keyOutputText="e" custom:shiftKeyLabel="E" custom:shiftKeyOutputText="E"/>
+        <Key custom:keyLabel="f" custom:keyOutputText="f" custom:shiftKeyLabel="F" custom:shiftKeyOutputText="F"/>
+        <Key custom:keyLabel="g" custom:keyOutputText="g" custom:shiftKeyLabel="G" custom:shiftKeyOutputText="G"/>
+        <Key custom:keyLabel="h" custom:keyOutputText="h" custom:shiftKeyLabel="H" custom:shiftKeyOutputText="H"/>
+        <Key custom:keyLabel="i" custom:keyOutputText="i" custom:shiftKeyLabel="I" custom:shiftKeyOutputText="I"/>
+        <Key custom:keyLabel="j" custom:keyOutputText="j" custom:shiftKeyLabel="J" custom:shiftKeyOutputText="J"/>
+        <Key custom:keyLabel="k" custom:keyOutputText="k" custom:shiftKeyLabel="K" custom:shiftKeyOutputText="K"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_back_outline_24" custom:keyWidth="48dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-1" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_uppercase_arrow_outline_24" custom:keyWidth="48dp" custom:shiftKeyIcon="@drawable/ic_uppercase_arrow_filled_24"/>
+        <Key custom:keyLabel="l" custom:keyOutputText="l" custom:shiftKeyLabel="L" custom:shiftKeyOutputText="L"/>
+        <Key custom:keyLabel="m" custom:keyOutputText="m" custom:shiftKeyLabel="M" custom:shiftKeyOutputText="M"/>
+        <Key custom:keyLabel="n" custom:keyOutputText="n" custom:shiftKeyLabel="N" custom:shiftKeyOutputText="N"/>
+        <Key custom:keyLabel="o" custom:keyOutputText="o" custom:shiftKeyLabel="O" custom:shiftKeyOutputText="O"/>
+        <Key custom:keyLabel="p" custom:keyOutputText="p" custom:shiftKeyLabel="P" custom:shiftKeyOutputText="P"/>
+        <Key custom:keyLabel="q" custom:keyOutputText="q" custom:shiftKeyLabel="Q" custom:shiftKeyOutputText="Q"/>
+        <Key custom:keyLabel="r" custom:keyOutputText="r" custom:shiftKeyLabel="R" custom:shiftKeyOutputText="R"/>
+        <Key custom:keyLabel="s" custom:keyOutputText="s" custom:shiftKeyLabel="S" custom:shiftKeyOutputText="S"/>
+        <Key custom:keyLabel="t" custom:keyOutputText="t" custom:shiftKeyLabel="T" custom:shiftKeyOutputText="T"/>
+        <Key custom:keyLabel="u" custom:keyOutputText="u" custom:shiftKeyLabel="U" custom:shiftKeyOutputText="U"/>
+        <Key custom:keyLabel="v" custom:keyOutputText="v" custom:shiftKeyLabel="V" custom:shiftKeyOutputText="V"/>
+        <Key custom:codes="-15" custom:keyEdgeFlags="right" custom:keyLabel="空白" custom:keyOutputText=" " custom:keyWidth="48dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyLabel="^_^" custom:keyWidth="48dp" custom:keyboard="@xml/ja_jp_kaomoji_32"/>
+        <Key custom:keyLabel="w" custom:keyOutputText="w" custom:shiftKeyLabel="W" custom:shiftKeyOutputText="W"/>
+        <Key custom:keyLabel="x" custom:keyOutputText="x" custom:shiftKeyLabel="X" custom:shiftKeyOutputText="X"/>
+        <Key custom:keyLabel="y" custom:keyOutputText="y" custom:shiftKeyLabel="Y" custom:shiftKeyOutputText="Y"/>
+        <Key custom:keyLabel="z" custom:keyOutputText="z" custom:shiftKeyLabel="Z" custom:shiftKeyOutputText="Z"/>
+        <Key custom:keyLabel="(" custom:keyOutputText="(" custom:shiftKeyLabel="&lt;" custom:shiftKeyOutputText="&lt;"/>
+        <Key custom:keyLabel=")" custom:keyOutputText=")" custom:shiftKeyLabel="&gt;" custom:shiftKeyOutputText="&gt;"/>
+        <Key custom:keyLabel="[" custom:keyOutputText="[" custom:shiftKeyLabel="{" custom:shiftKeyOutputText="{"/>
+        <Key custom:keyLabel="]" custom:keyOutputText="]" custom:shiftKeyLabel="}" custom:shiftKeyOutputText="}"/>
+        <Key custom:keyLabel="｢" custom:keyOutputText="｢" custom:shiftKeyLabel="`" custom:shiftKeyOutputText="`"/>
+        <Key custom:keyLabel="｣" custom:keyOutputText="｣" custom:shiftKeyLabel="&quot;" custom:shiftKeyOutputText="&quot;"/>
+        <Key custom:keyLabel="&apos;" custom:keyOutputText="&apos;"/>
+        <Key custom:codes="-2" custom:keyEdgeFlags="right" custom:keyHeight="65dp" custom:keyIcon="@drawable/ic_arrow_right_outline_24" custom:keyWidth="48dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:id="@+id/activate_emoji_keyboard" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_emoji_outline_24" custom:keyWidth="48dp" custom:keyboard="@xml/emoji_0_32"/>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="1" custom:keyOutputText="1" custom:shiftKeyLabel="!" custom:shiftKeyOutputText="!"/>
+        <Key custom:keyLabel="2" custom:keyOutputText="2" custom:shiftKeyLabel="@" custom:shiftKeyOutputText="@"/>
+        <Key custom:keyLabel="3" custom:keyOutputText="3" custom:shiftKeyLabel="#" custom:shiftKeyOutputText="#"/>
+        <Key custom:keyLabel="4" custom:keyOutputText="4" custom:shiftKeyLabel="$" custom:shiftKeyOutputText="$"/>
+        <Key custom:keyLabel="5" custom:keyOutputText="5" custom:shiftKeyLabel="%" custom:shiftKeyOutputText="%"/>
+        <Key custom:keyLabel="6" custom:keyOutputText="6" custom:shiftKeyLabel="^" custom:shiftKeyOutputText="^"/>
+        <Key custom:keyLabel="7" custom:keyOutputText="7" custom:shiftKeyLabel="&amp;" custom:shiftKeyOutputText="&amp;"/>
+        <Key custom:keyLabel="8" custom:keyOutputText="8" custom:shiftKeyLabel="*" custom:shiftKeyOutputText="*"/>
+        <Key custom:keyLabel="9" custom:keyOutputText="9" custom:shiftKeyLabel="･" custom:shiftKeyOutputText="･"/>
+        <Key custom:keyLabel="0" custom:keyOutputText="0" custom:shiftKeyLabel="\\" custom:shiftKeyOutputText="\\"/>
+        <Key custom:keyLabel="*" custom:keyOutputText="*" custom:shiftKeyLabel="|" custom:shiftKeyOutputText="|"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_world_outline_24" custom:keyWidth="48dp" custom:keyboard="@xml/language_selector_32"/>
+        <Key custom:keyLabel="-" custom:keyOutputText="-"/>
+        <Key custom:keyLabel="_" custom:keyOutputText="_"/>
+        <Key custom:keyLabel="^" custom:keyOutputText="^" custom:shiftKeyLabel="+" custom:shiftKeyOutputText="+"/>
+        <Key custom:keyLabel="&amp;" custom:keyOutputText="&amp;" custom:shiftKeyLabel="=" custom:shiftKeyOutputText="="/>
+        <Key custom:keyLabel="@" custom:keyOutputText="@" custom:shiftKeyLabel="☆" custom:shiftKeyOutputText="☆"/>
+        <Key custom:keyLabel="#" custom:keyOutputText="#" custom:shiftKeyLabel="¥" custom:shiftKeyOutputText="¥"/>
+        <Key custom:keyLabel="/" custom:keyOutputText="/" custom:shiftKeyLabel="?" custom:shiftKeyOutputText="?"/>
+        <Key custom:keyLabel=";" custom:keyOutputText=";" custom:shiftKeyLabel="～" custom:shiftKeyOutputText="～"/>
+        <Key custom:keyLabel=":" custom:keyOutputText=":" custom:shiftKeyLabel="…" custom:shiftKeyOutputText="…"/>
+        <Key custom:keyLabel="," custom:keyOutputText=","/>
+        <Key custom:keyLabel="." custom:keyOutputText="."/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24" custom:keyWidth="48dp"/>
+    </Row>
+</Keyboard>

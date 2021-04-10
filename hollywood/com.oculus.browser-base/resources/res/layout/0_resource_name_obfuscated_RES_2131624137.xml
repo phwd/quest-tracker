@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/error_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/0_resource_name_obfuscated_RES_2131953341"/>
+    </LinearLayout>
+</ScrollView>

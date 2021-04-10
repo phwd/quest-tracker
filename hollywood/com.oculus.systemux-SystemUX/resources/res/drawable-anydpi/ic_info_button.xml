@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:height="@dimen/icon_button_size_v2" android:width="@dimen/icon_button_size_v2">
+        <bitmap android:src="@drawable/oc_icon_info_filled_24_ffffff" android:alpha="@color/alpha_80"/>
+    </item>
+    <item android:height="@dimen/icon_button_size_v2" android:width="@dimen/icon_button_size_v2" android:drawable="@drawable/oc_icon_info_filled_24_f0f0f0" android:state_hovered="true"/>
+    <item android:height="@dimen/icon_button_size_v2" android:width="@dimen/icon_button_size_v2">
+        <bitmap android:src="@drawable/oc_icon_info_filled_24_ffffff" android:alpha="@color/alpha_60"/>
+    </item>
+</selector>

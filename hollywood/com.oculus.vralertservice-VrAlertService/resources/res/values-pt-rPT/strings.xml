@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Os teus óculos estão a sobreaquecer. Recomendamos que suspendas uns minutos para os deixares arrefecer.</string>
+    <string name="fan_malfunction">A ventoinha de refrigeração do teu dispositivo não está a funcionar corretamente. Os teus óculos podem sobreaquecer ou podem ter um comportamento anormal devido a refrigeração insuficiente. Entra em contacto com o apoio ao cliente do Oculus em https://support.oculus.com para obteres assistência.</string>
+    <string name="notification_dismiss">Toca para ignorares esta notificação</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">AVISO DO SISTEMA</string>
+    <string name="temp_critical">A temperatura dos teus óculos está a aumentar e vai fazê-los desligar. Para reduzires o risco de danos pessoais, remove os teus óculos e deixa que arrefeçam antes de voltares a usá-los.</string>
+</resources>

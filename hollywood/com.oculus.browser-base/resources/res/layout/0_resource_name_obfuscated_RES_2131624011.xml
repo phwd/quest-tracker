@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/0_resource_name_obfuscated_RES_2131100182" android:paddingTop="20dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624106"/>
+    <org.chromium.components.browser_ui.widget.DualControlLayout android:id="@+id/button_bar" android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" app:buttonAlignment="1" app:stackedMargin="@dimen/0_resource_name_obfuscated_RES_2131165310">
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="end" android:id="@+id/allow" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017432"/>
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="end" android:id="@+id/block" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+    </org.chromium.components.browser_ui.widget.DualControlLayout>
+</LinearLayout>

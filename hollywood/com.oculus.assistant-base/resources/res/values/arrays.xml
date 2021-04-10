@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mc_bool_override">
+        <item>default</item>
+        <item>On</item>
+        <item>Off</item>
+    </array>
+    <array name="mc_bool_override_values">
+        <item>default</item>
+        <item>true</item>
+        <item>false</item>
+    </array>
+    <array name="server_types">
+        <item>PRODUCTION</item>
+        <item>STAGING</item>
+        <item>LOCAL</item>
+        <item>INTERNAL</item>
+    </array>
+    <array name="server_types_values">
+        <item>PRODUCTION</item>
+        <item>STAGING</item>
+        <item>LOCAL</item>
+        <item>INTERNAL</item>
+    </array>
+</resources>

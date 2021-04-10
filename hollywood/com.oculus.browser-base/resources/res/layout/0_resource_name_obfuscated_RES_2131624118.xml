@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/0_resource_name_obfuscated_RES_2131099774" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624241"/>
+</FrameLayout>

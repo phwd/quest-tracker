@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/0_resource_name_obfuscated_RES_2131165706" android:paddingStart="19dp" android:paddingEnd="24dp">
+    <ListView android:id="@+id/device_picker_list" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131165706" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:dividerHeight="0dp" android:layout_weight="1"/>
+</LinearLayout>

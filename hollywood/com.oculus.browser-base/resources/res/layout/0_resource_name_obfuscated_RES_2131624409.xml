@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="1" app:tabIndicatorFullWidth="true" app:tabPaddingEnd="20dp" app:tabPaddingStart="20dp" style="@style/0_resource_name_obfuscated_RES_2132017590">
+        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953299"/>
+        <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953296"/>
+    </com.google.android.material.tabs.TabLayout>
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/close_button" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166250" android:src="@drawable/0_resource_name_obfuscated_RES_2131230883" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952233" app:tint="@color/0_resource_name_obfuscated_RES_2131099829" style="@style/0_resource_name_obfuscated_RES_2132017972"/>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/qrcode_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/tab_layout"/>
+</RelativeLayout>

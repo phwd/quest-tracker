@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabSelectionEditorToolbar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <org.chromium.ui.widget.ButtonCompat android:enabled="false" android:layout_gravity="end" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953634" style="@style/0_resource_name_obfuscated_RES_2132017811"/>
+</org.chromium.chrome.browser.tasks.tab_management.TabSelectionEditorToolbar>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">%1$d자리 남음</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="other">외 %1$d명</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="other">회원님이 차단한 사람 %1$d명이 이 그룹 멤버입니다</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="other">%1$d명이 기다리고 있습니다.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="other">%1$s님 외 %2$d명에게 초대를 공유했습니다.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="other">%1$s님 외 %2$d명에게 초대를 보냈습니다.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="other">%1$d일 전</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="other">%1$d시간 전</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="other">함께 아는 친구 %1$d명</item>
+    </plurals>
+</resources>

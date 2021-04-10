@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017796" android:gravity="center" android:id="@+id/toast_text" android:background="@drawable/0_resource_name_obfuscated_RES_2131230937" android:minHeight="44dp"/>

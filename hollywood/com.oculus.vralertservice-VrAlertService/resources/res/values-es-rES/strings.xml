@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Las gafas se están calentando. Te recomendamos dejar de usarlo durante unos minutos para que se enfríe.</string>
+    <string name="fan_malfunction">El ventilador de refrigeración de tu dispositivo no funciona correctamente. Las gafas podrían recalentarse o no funcionar debidamente a causa de una refrigeración insuficiente. Ponte en contacto con el servicio de atención al cliente de Oculus (https://support.oculus.com) para recibir ayuda.</string>
+    <string name="notification_dismiss">Toca para ignorar esta notificación</string>
+    <string name="system_alert">ALERTA DEL SISTEMA</string>
+    <string name="temp_critical">Las gafas se apagarán porque la temperatura está aumentando. Para reducir el riesgo de sufrir lesiones corporales, quítate las gafas y deja que se enfríen antes de seguir usándolas</string>
+</resources>

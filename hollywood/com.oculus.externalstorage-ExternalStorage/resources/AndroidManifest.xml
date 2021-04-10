@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.externalstorage" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <application android:label="ExternalStorage" android:allowBackup="false" android:extractNativeLibs="false" android:directBootAware="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:usesNonSdkApi="true">
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.externalstorage.StorageLauncherActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <receiver android:name="com.oculus.externalstorage.OtgReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"/>
+                <action android:name="android.os.storage.action.DISK_SCANNED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.externalstorage.StorageWizardError" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/StorageWizardFormatConfirm.Dialog.Alert" android:name="com.oculus.externalstorage.StorageWizardFormatConfirm" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.externalstorage.StorageWizardFormatProgress" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.externalstorage.StorageWizardReady" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+        <uses-library android:name="android.test.base" android:required="false"/>
+    </application>
+</manifest>

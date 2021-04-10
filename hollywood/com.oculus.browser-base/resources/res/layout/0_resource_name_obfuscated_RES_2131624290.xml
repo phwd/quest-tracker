@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.gesturenav.NavigationSheetView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ListView android:id="@+id/navigation_entries" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131165907" android:paddingBottom="@dimen/0_resource_name_obfuscated_RES_2131165906" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="0dp"/>
+</org.chromium.chrome.browser.gesturenav.NavigationSheetView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Steek je headset snel in.</string>
+    <string name="battery_critical_title">Headset is bijna leeg</string>
+    <string name="battery_low_text">Steek je headset in.</string>
+    <string name="battery_low_title">Batterijniveau headset is laag</string>
+    <string name="controller_critical_battery_text">Vervang nu de batterij van de controller.</string>
+    <string name="controller_critical_battery_title">Batterijniveau controller is kritiek</string>
+    <string name="controller_disconnected_text">Controleer de batterij, plaats de controller dichterbij of neem contact op met Oculus Support.</string>
+    <string name="controller_disconnected_title">We kunnen je controller niet vinden</string>
+    <string name="controller_firmware_update_failed_text">Neem contact op met Oculus Support voor ondersteuning.</string>
+    <string name="controller_firmware_update_failed_title">We kunnen je controller niet bijwerken</string>
+    <string name="controller_firmware_update_progress_text">Updatevoortgang: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Update is verwerkt.</string>
+    <string name="controller_firmware_update_title">Controllerupdate wordt uitgevoerd</string>
+    <string name="controller_low_battery_text">Vervang spoedig de batterij.</string>
+    <string name="controller_low_battery_title">Batterij controller is bijna leeg</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controllers niet gevonden</string>
+    <string name="dual_controller_both_controller_low_battery_title">Batterijen controllers zijn bijna leeg</string>
+    <string name="dual_controller_disconnected_text">Als het probleem blijft optreden, controleer je de batterij of neem je contact op met Oculus Support.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Linker controller niet gevonden</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Fout bij update linker controller</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Update linker controller wordt uitgevoerd</string>
+    <string name="dual_controller_left_controller_low_battery_title">Batterij linker controller is bijna leeg</string>
+    <string name="dual_controller_low_battery_text">Vervang spoedig de batterij.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Rechter controller niet gevonden</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Fout bij update rechter controller</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Update rechter controller wordt uitgevoerd</string>
+    <string name="dual_controller_right_controller_low_battery_title">Batterij rechter controller is bijna leeg</string>
+    <string name="notification_header">Oculus-systeem</string>
+    <string name="safe_volume_warning_text_1">Als je langdurig naar geluid met hoog volume luistert, kan dit gehoorbeschadigingen veroorzaken.</string>
+    <string name="safe_volume_warning_text_2">Druk opnieuw op de knop om deze waarschuwing tijdelijk uit te schakelen.</string>
+    <string name="safe_volume_warning_title">Volume hoger dan aanbevolen niveau</string>
+    <string name="vrui_gaze_input_instruction_text">Beweeg je hoofd en druk vervolgens om een volumeknop op de headset om te selecteren.</string>
+    <string name="vrui_gaze_input_instruction_title">Hand volgen en controllers zijn uitgeschakeld</string>
+    <string name="wifi_disconnected_text">Ga naar Instellingen om dit probleem op te lossen.</string>
+    <string name="wifi_disconnected_title">Wi-Fi-verbinding voor headset uitgevallen</string>
+</resources>

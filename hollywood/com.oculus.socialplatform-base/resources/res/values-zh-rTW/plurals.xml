@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">尚有%1$d個名額</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="other">其他%1$d人</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="other">你封鎖的%1$d位用戶在此群組中</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="other">%1$d人已準備好展開旅程。</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="other">已分享邀請給%1$s和其他%2$d人。</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="other">已傳送邀請給%1$s和其他%2$d人。</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="other">%1$d天前</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="other">%1$d小時前</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d分鐘</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="other">%1$d位共同朋友</item>
+    </plurals>
+</resources>

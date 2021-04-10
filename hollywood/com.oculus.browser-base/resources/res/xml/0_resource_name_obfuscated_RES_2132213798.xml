@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/0_resource_name_obfuscated_RES_2131953377" android:key="subtitle" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231299" android:summary="@string/0_resource_name_obfuscated_RES_2131953373" app:allowDividerBelow="false" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099829"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231024" android:summary="@string/0_resource_name_obfuscated_RES_2131953374" app:allowDividerBelow="false" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099829"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953376" android:key="extended_reporting" android:summary="@string/0_resource_name_obfuscated_RES_2131953375" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953130" android:key="password_leak_detection" app:allowDividerBelow="false"/>
+</PreferenceScreen>

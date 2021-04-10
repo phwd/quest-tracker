@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Lütfen en kısa sürede başlığını güç kaynağına bağla.</string>
+    <string name="battery_critical_title">Başlık güç düzeyi düşük</string>
+    <string name="battery_low_text">Lütfen başlığını güç kaynağına bağla</string>
+    <string name="battery_low_title">Başlık güç düzeyi düşük</string>
+    <string name="controller_critical_battery_text">Lütfen kumanda pilini hemen değiştir.</string>
+    <string name="controller_critical_battery_title">Kumanda pili kritik düzeyde</string>
+    <string name="controller_disconnected_text">Pili kontrol et, kumandayı yaklaştır veya Oculus Destek ile iletişime geç.</string>
+    <string name="controller_disconnected_title">Kumandanı bulamadık</string>
+    <string name="controller_firmware_update_failed_text">Yardım için lütfen Oculus Destek ekibiyle iletişime geç.</string>
+    <string name="controller_firmware_update_failed_title">Kumandanı güncelleyemedik</string>
+    <string name="controller_firmware_update_progress_text">Güncelleme durumu: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Güncelleme başarılı.</string>
+    <string name="controller_firmware_update_title">Kumanda güncellemesi devam ediyor</string>
+    <string name="controller_low_battery_text">Lütfen en kısa süre içinde pili değiştir.</string>
+    <string name="controller_low_battery_title">Kumanda pili düşük</string>
+    <string name="dual_controller_both_controller_disconnected_title">Kumandalar Bulunamadı</string>
+    <string name="dual_controller_both_controller_low_battery_title">Kumanda Pili Düşük</string>
+    <string name="dual_controller_disconnected_text">Sorun devam ederse lütfen pili kontrol et veya Oculus Destek ile iletişime geç.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Sol Kumanda Bulunamadı</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Sol Kumanda Güncelleme Hatası</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Sol Kumanda Güncellemesi Devam Ediyor</string>
+    <string name="dual_controller_left_controller_low_battery_title">Sol Kumanda Pili Düşük</string>
+    <string name="dual_controller_low_battery_text">Lütfen en kısa süre içinde pili değiştir.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Sağ Kumanda Bulunamadı</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Sağ Kumanda Güncelleme Hatası</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Sağ Kumanda Güncellemesi Devam Ediyor</string>
+    <string name="dual_controller_right_controller_low_battery_title">Sağ Kumanda Pili Düşük</string>
+    <string name="notification_header">Oculus Sistemi</string>
+    <string name="safe_volume_warning_text_1">Uzun süre boyunca yüksek sese maruz kalmak işitme hasarına neden olabilir.</string>
+    <string name="safe_volume_warning_text_2">Bu uyarıyı geçici olarak kapatmak için düğmeye tekrar bas.</string>
+    <string name="safe_volume_warning_title">Ses tavsiye edilen düzeyin üstünde</string>
+    <string name="vrui_gaze_input_instruction_text">Başını hareket ettir, ardından seçmek için bir başlık ses düğmesine bas.</string>
+    <string name="vrui_gaze_input_instruction_title">El takibi ve kumandalar devre dışı</string>
+    <string name="wifi_disconnected_text">Sorunları gidermek için lütfen Ayarlar\'a git.</string>
+    <string name="wifi_disconnected_title">Başlık Wi-Fi bağlantısı kayboldu</string>
+</resources>

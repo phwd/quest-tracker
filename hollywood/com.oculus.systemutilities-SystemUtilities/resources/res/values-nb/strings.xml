@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">%1$s mrd.</string>
+    <string name="shorten_billions_capitalized">%1$s mrd.</string>
+    <string name="shorten_hundred_millions">%1$s00 mill.</string>
+    <string name="shorten_millions">%1$s mill.</string>
+    <string name="shorten_millions_capitalized">%1$s mill.</string>
+    <string name="shorten_ten_thousands">%1$s0 000</string>
+    <string name="shorten_thousands">%1$s k</string>
+    <string name="shorten_thousands_capitalized">%1$s k</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

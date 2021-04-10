@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="other">%1$s님의 파티 · %2$d명</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="other">친구 %1$d명</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="other">Oculus를 이용 중인 친구 %1$d명</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="other">%1$s에서는 %2$d명까지 지원됩니다.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="other">%1$s에서는 %2$d명까지만 지원됩니다. 계속하려면 새로운 앱을 선택하세요.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">%1$d자리 남음</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="other">%1$d초 후 미러링 시작...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="other">%1$d명이 파티에 참여 중입니다</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="other">%1$d명이 초대되었습니다</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">앱 %2$d개 중 %1$d개 허용됨</item>
+    </plurals>
+</resources>

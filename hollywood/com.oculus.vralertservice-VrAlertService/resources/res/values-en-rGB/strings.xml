@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fan_malfunction">The cooling fan on your device is not functioning properly. Your headset may overheat or experience abnormal behaviour due to insufficient cooling. Please contact Oculus Customer Support (https://support.oculus.com) for assistance.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="temp_critical">The temperature of your headset is increasing and it will power off. To reduce the risk of personal injury, remove your headset and let it cool down before using it again.</string>
+</resources>

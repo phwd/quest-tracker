@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">%1$sபி</string>
+    <string name="shorten_hundred_millions">%1$s00மி</string>
+    <string name="shorten_millions">%1$sமி</string>
+    <string name="shorten_ten_thousands">%1$s0ஆ</string>
+    <string name="shorten_thousands">%1$sஆ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">來源不明的應用程式可能會導致你的帳戶和裝置暴露在風險當中。</string>
+    <string name="binary_check_notification_title">已安裝非官方的%1$s</string>
+    <string name="notifications_download_canceled_message">已取消下載「%1$s」</string>
+    <string name="notifications_download_canceled_title">已取消下載</string>
+    <string name="notifications_download_failed_message">無法下載「%1$s」</string>
+    <string name="notifications_download_failed_title">無法下載</string>
+    <string name="notifications_download_in_progress_message">正在下載%1$s……</string>
+    <string name="notifications_downloading_and_installing_apps">正在下載並安裝應用程式……</string>
+    <string name="notifications_head_install_failed_message">無法安裝</string>
+    <string name="notifications_head_installed_message">已安裝</string>
+    <string name="notifications_head_installing_message">安裝中</string>
+    <string name="notifications_install_failed_message">無法安裝「%1$s」</string>
+    <string name="notifications_install_in_progress_message">正在安裝%1$s……</string>
+    <string name="notifications_install_succeeded_message">%1$s已成功安裝於你的資料庫。</string>
+    <string name="obb_display_title">%1$s（擴充檔案）</string>
+    <string name="shorten_billions">%1$sB</string>
+    <string name="shorten_hundred_millions">%1$s億</string>
+    <string name="shorten_millions">%1$sM</string>
+    <string name="shorten_ten_thousands">%1$s萬</string>
+    <string name="shorten_thousands">%1$sK</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VR-lukitusnäyttö</string>
+    <string name="back">Takaisin</string>
+    <string name="cancel">Peruuta</string>
+    <string name="clear">Tyhjennä</string>
+    <string name="confirm">Vahvista</string>
+    <string name="forgot_pattern">Unohditko kuvion?</string>
+    <string name="lockscreen_confirm_for_removal">Vahvista poistaminen piirtämällä avauskuvio uudelleen.</string>
+    <string name="lockscreen_confirm_help">Vahvista piirtämällä kuvio uudelleen. Muista tämä kuvio. Jos unohdat sen, sinun on suoritettava tämän laitteen tehdasarvojen palautus.</string>
+    <string name="lockscreen_confirm_lock">Vahvista avauskuvio</string>
+    <string name="lockscreen_patterm_mismatch">Kuviot eivät täsmää. Yritä uudelleen.</string>
+    <string name="lockscreen_remove_lock">Poista lukituksen avauskuvio</string>
+    <string name="lockscreen_secure_owner_account">Voit suojata tilisi tässä laitteessa määrittämällä lukituksen avauskuvion. Sinun on piirrettävä tämä kuvio, kun haluat käyttää tiliäsi tässä laitteessa.</string>
+    <string name="lockscreen_secure_secondary_account">Voit suojata tilisi tässä laitteessa määrittämällä lukituksen avauskuvion. Sinun on piirrettävä tämä kuvio, kun haluat käyttää tiliäsi tässä laitteessa.</string>
+    <string name="lockscreen_set_pattern">Määritä lukituksen avauskuvio</string>
+    <string name="lockscreen_set_pattern_hint">Suojaa tilisi tässä laitteessa.</string>
+    <string name="next">Seuraava</string>
+    <string name="skip">Ei nyt</string>
+</resources>

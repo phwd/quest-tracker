@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:tag="layout/anytime_bar_status_battery_dots_view_v2_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/dot_1" android:layout_width="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_height="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_marginLeft="1dp" android:layout_marginRight="1dp"/>
+    <ImageView android:id="@+id/dot_2" android:layout_width="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_height="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_marginLeft="1dp" android:layout_marginRight="1dp"/>
+    <ImageView android:id="@+id/dot_3" android:layout_width="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_height="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_marginLeft="1dp" android:layout_marginRight="1dp"/>
+    <ImageView android:id="@+id/dot_4" android:layout_width="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_height="@dimen/anytime_bar_status_battery_dot_diameter" android:layout_marginLeft="1dp" android:layout_marginRight="1dp"/>
+</LinearLayout>

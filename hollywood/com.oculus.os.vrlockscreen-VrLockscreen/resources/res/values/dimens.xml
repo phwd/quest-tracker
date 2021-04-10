@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_padding">15dp</dimen>
+    <dimen name="button_radius">3dp</dimen>
+    <dimen name="content_padding">38dp</dimen>
+    <dimen name="lockpattern_padding_bottom">60dp</dimen>
+    <dimen name="lockpattern_padding_sides">6dp</dimen>
+    <dimen name="lockpattern_padding_top">100dp</dimen>
+    <dimen name="lockpin_padding_sides">6dp</dimen>
+    <dimen name="lockscreen_height">340dp</dimen>
+    <dimen name="lockscreen_max_window_size">400dp</dimen>
+    <dimen name="lockscreen_padding">10dp</dimen>
+    <dimen name="lockscreen_width">400dp</dimen>
+    <dimen name="multi_user_back_button_size">24dp</dimen>
+    <dimen name="multi_user_button_height">28dp</dimen>
+    <dimen name="multi_user_button_width">155dp</dimen>
+    <dimen name="multi_user_font_size_button">10dp</dimen>
+    <dimen name="multi_user_font_size_heading">17dp</dimen>
+    <dimen name="multi_user_font_size_subheading">10dp</dimen>
+    <dimen name="multi_user_font_size_text">10dp</dimen>
+    <dimen name="multi_user_icon_size">17dp</dimen>
+    <dimen name="multi_user_item_size">51dp</dimen>
+    <dimen name="multi_user_large_icon_size">90dp</dimen>
+    <dimen name="multi_user_lockpattern_padding_bottom">75dp</dimen>
+    <dimen name="multi_user_lockpattern_padding_sides">6dp</dimen>
+    <dimen name="multi_user_lockpattern_padding_top">120dp</dimen>
+    <dimen name="multi_user_panel_height">370dp</dimen>
+    <dimen name="multi_user_panel_padding">22dp</dimen>
+    <dimen name="multi_user_panel_padding_bottom">14dp</dimen>
+    <dimen name="multi_user_panel_padding_top">17dp</dimen>
+    <dimen name="multi_user_panel_width">360dp</dimen>
+    <dimen name="multi_user_small_profile_icon">34dp</dimen>
+    <dimen name="multi_user_subtitle_bottom_margin">11dp</dimen>
+    <dimen name="multi_user_title_bottom_margin">14dp</dimen>
+    <dimen name="multi_user_user_name_left_margin">14dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/0_resource_name_obfuscated_RES_2131952347" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/0_resource_name_obfuscated_RES_2131952362" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.LearnMorePreference android:key="data_reduction_learn_more" app:allowDividerBelow="false"/>
+</PreferenceScreen>

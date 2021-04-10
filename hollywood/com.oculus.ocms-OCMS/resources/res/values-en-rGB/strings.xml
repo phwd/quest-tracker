@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_download_canceled_message">Download cancelled for \"%1$s\"</string>
+    <string name="notifications_download_canceled_title">Download cancelled</string>
+    <string name="notifications_download_in_progress_message">Downloading %1$s...</string>
+    <string name="notifications_downloading_and_installing_apps">Downloading and installing apps...</string>
+    <string name="notifications_head_install_failed_message">Installation failed</string>
+    <string name="obb_display_title">%1$s (expansion file)</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

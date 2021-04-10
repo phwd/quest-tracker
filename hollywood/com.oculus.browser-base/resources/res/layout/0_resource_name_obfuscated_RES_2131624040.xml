@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.ChromeImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/0_resource_name_obfuscated_RES_2131231025" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953891" app:tint="@color/0_resource_name_obfuscated_RES_2131099691"/>

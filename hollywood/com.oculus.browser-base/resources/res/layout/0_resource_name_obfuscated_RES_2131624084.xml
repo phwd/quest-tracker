@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/site_row" android:layout_width="match_parent">
+    <TextView android:layout_gravity="start" android:id="@+id/site_hostname" android:layout_width="0dp" android:layout_weight="0" style="@style/0_resource_name_obfuscated_RES_2132017420"/>
+    <TextView android:gravity="end" android:id="@+id/site_data_used" android:layout_width="wrap_content" android:layout_marginStart="24dp" style="@style/0_resource_name_obfuscated_RES_2132017420"/>
+    <TextView android:gravity="end" android:id="@+id/site_data_saved" android:layout_width="wrap_content" android:layout_marginStart="24dp" style="@style/0_resource_name_obfuscated_RES_2132017422"/>
+</TableRow>

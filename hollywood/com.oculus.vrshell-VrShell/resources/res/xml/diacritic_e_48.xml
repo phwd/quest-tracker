@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_popup_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="è" custom:keyOutputText="è" custom:shiftKeyLabel="È" custom:shiftKeyOutputText="È"/>
+        <Key custom:keyLabel="e" custom:keyOutputText="e" custom:shiftKeyLabel="E" custom:shiftKeyOutputText="E"/>
+        <Key custom:keyLabel="ë" custom:keyOutputText="ë" custom:shiftKeyLabel="Ë" custom:shiftKeyOutputText="Ë"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ê" custom:keyOutputText="ê" custom:shiftKeyLabel="Ê" custom:shiftKeyOutputText="Ê"/>
+        <Key custom:keyLabel="é" custom:keyOutputText="é" custom:shiftKeyLabel="É" custom:shiftKeyOutputText="É"/>
+        <Key custom:keyLabel="ē" custom:keyOutputText="ē" custom:shiftKeyLabel="Ē" custom:shiftKeyOutputText="Ē"/>
+    </Row>
+</Keyboard>

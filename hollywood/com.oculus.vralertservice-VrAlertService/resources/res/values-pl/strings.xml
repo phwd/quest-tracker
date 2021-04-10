@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Gogle nagrzewają się. Zalecamy kilkuminutową przerwę, aby gogle mogły ostygnąć.</string>
+    <string name="fan_malfunction">Wentylator twojego urządzenia działa nieprawidłowo. Gogle mogą się przegrzać lub działać nieprawidłowo wskutek nieodpowiedniego chłodzenia. Skontaktuj się z działem pomocy Oculus pod adresem https://support.oculus.com.</string>
+    <string name="notification_dismiss">Dotknij, aby odrzucić powiadomienie.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">ALERT SYSTEMOWY</string>
+    <string name="temp_critical">Gogle nagrzewają się i zostaną wyłączone. Aby zmniejszyć ryzyko obrażeń ciała, zdejmij gogle i pozwól im ostygnąć przed dalszym użytkowaniem.</string>
+</resources>

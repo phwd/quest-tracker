@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_view" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="6dp" android:paddingEnd="6dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <TextView android:id="@+id/unimportant_site_data_description" android:text="@string/0_resource_name_obfuscated_RES_2131953570" style="@style/0_resource_name_obfuscated_RES_2132017458"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:id="@+id/unimportant_site_data_size_prefix" android:layout_width="0dp" android:text="@string/0_resource_name_obfuscated_RES_2131953571" android:layout_weight="1" style="@style/0_resource_name_obfuscated_RES_2132017459"/>
+            <TextView android:id="@+id/unimportant_site_data_storage_size_text" style="@style/0_resource_name_obfuscated_RES_2132017459"/>
+        </LinearLayout>
+        <Button android:id="@+id/clear_unimportant_site_data_storage" android:text="@string/0_resource_name_obfuscated_RES_2131953562" style="@style/0_resource_name_obfuscated_RES_2132017457"/>
+        <TextView android:id="@+id/site_data_description" android:text="@string/0_resource_name_obfuscated_RES_2131953567" style="@style/0_resource_name_obfuscated_RES_2132017458"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:id="@+id/site_data_size_prefix" android:layout_width="0dp" android:text="@string/0_resource_name_obfuscated_RES_2131953568" android:layout_weight="1" style="@style/0_resource_name_obfuscated_RES_2132017459"/>
+            <TextView android:id="@+id/site_data_storage_size_text" style="@style/0_resource_name_obfuscated_RES_2132017459"/>
+        </LinearLayout>
+        <Button android:id="@+id/manage_site_data_storage" android:text="@string/0_resource_name_obfuscated_RES_2131953564" style="@style/0_resource_name_obfuscated_RES_2132017457"/>
+        <TextView android:id="@+id/all_storage_description" android:paddingTop="12dp" android:text="@string/0_resource_name_obfuscated_RES_2131953559" style="@style/0_resource_name_obfuscated_RES_2132017458"/>
+        <Button android:id="@+id/clear_all_data" android:text="@string/0_resource_name_obfuscated_RES_2131953560" style="@style/0_resource_name_obfuscated_RES_2132017457"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131231584"/>
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017703" android:layout_gravity="center_horizontal" android:id="@+id/touch_to_fill_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:layout_gravity="center_horizontal" android:id="@+id/touch_to_fill_sheet_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

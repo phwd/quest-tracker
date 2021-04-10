@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Подключите гарнитуру к сети для зарядки.</string>
+    <string name="battery_critical_title">Очень низкий заряд аккумулятора гарнитуры</string>
+    <string name="battery_low_text">Подключите гарнитуру.</string>
+    <string name="battery_low_title">Низкий заряд аккумулятора гарнитуры</string>
+    <string name="controller_critical_battery_text">Замените элемент питания в контроллере.</string>
+    <string name="controller_critical_battery_title">Элемент питания контроллера почти разрядился</string>
+    <string name="controller_disconnected_text">Проверьте элемент питания, расположите контроллер ближе или обратитесь в Службу поддержки Oculus.</string>
+    <string name="controller_disconnected_title">Контроллер не найден.</string>
+    <string name="controller_firmware_update_failed_text">Обратитесь в Службу поддержки Oculus для помощи.</string>
+    <string name="controller_firmware_update_failed_title">Не удалось обновить контроллер</string>
+    <string name="controller_firmware_update_progress_text">Обновление: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Обновление выполнено.</string>
+    <string name="controller_firmware_update_title">Идет обновление контроллера</string>
+    <string name="controller_low_battery_text">Скоро потребуется заменить элемент питания.</string>
+    <string name="controller_low_battery_title">Элемент питания контроллера разряжается</string>
+    <string name="dual_controller_both_controller_disconnected_title">Контроллеры не найдены</string>
+    <string name="dual_controller_both_controller_low_battery_title">Элементы питания контроллеров разряжаются</string>
+    <string name="dual_controller_disconnected_text">Если проблема повторяется, проверьте батарею или обратитесь в Службу поддержки Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Левый контроллер не найден</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Ошибка обновления левого контроллера</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Идет обновление левого контроллера</string>
+    <string name="dual_controller_left_controller_low_battery_title">Элемент питания левого контроллера разряжается</string>
+    <string name="dual_controller_low_battery_text">Скоро потребуется заменить элемент питания.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Правый контроллер не найден</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Ошибка обновления правого контроллера</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Идет обновление правого контроллера</string>
+    <string name="dual_controller_right_controller_low_battery_title">Элемент питания правого контроллера разряжается</string>
+    <string name="notification_header">Система Oculus</string>
+    <string name="safe_volume_warning_text_1">Если долго использовать высокую громкость, можно повредить слух.</string>
+    <string name="safe_volume_warning_text_2">Нажмите кнопку еще раз, чтобы временно отключить это предупреждение.</string>
+    <string name="safe_volume_warning_title">Громкость выше рекомендуемого уровня</string>
+    <string name="vrui_gaze_input_instruction_text">Для выбора переместите голову и нажмите кнопку громкости на гарнитуре.</string>
+    <string name="vrui_gaze_input_instruction_title">Отслеживание движений рук и контроллеры выключены</string>
+    <string name="wifi_disconnected_text">Для устранения проблем перейдите в настройки.</string>
+    <string name="wifi_disconnected_title">Потеряно подключение гарнитуры к Wi-Fi</string>
+</resources>

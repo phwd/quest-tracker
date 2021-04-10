@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Hotovo</string>
+    <string name="otg_failure_message">Nabijte baterii headsetu aspoň na 60 %% a zkuste to znovu.</string>
+    <string name="otg_failure_title">Nedá se připojit k USB</string>
+    <string name="reformat_usb">Přeformátovat USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Po přeformátování se z USB jednotky odstraní všechna uložená data.</string>
+    <string name="storage_format_confirm_title">Opravdu?</string>
+    <string name="storage_launcher_accept">Pokračovat</string>
+    <string name="storage_launcher_format_message">Pokud chcete spolu s headsetem využít USB jednotku, musíte ji přeformátovat.</string>
+    <string name="storage_launcher_format_title">Jednotka není podporovaná</string>
+    <string name="storage_launcher_gallery_message">Chcete otevřít Oculus Gallery a procházet obsah disku?</string>
+    <string name="storage_launcher_gallery_title">Externí úložiště</string>
+    <string name="storage_launcher_refuse">Zrušit</string>
+    <string name="storage_wizard_error_body">Chyba: ^1</string>
+    <string name="storage_wizard_error_title">^1 se nepovedlo naformátovat</string>
+    <string name="storage_wizard_format_progress_body">^1 během formátování neodpojujte.</string>
+    <string name="storage_wizard_format_progress_title">^1 se formátuje...</string>
+    <string name="storage_wizard_ready_external_body">Jednotka ^1 je připravená na fotky a další multimédia.</string>
+    <string name="storage_wizard_ready_title">Jednotka ^1 je připravená</string>
+</resources>

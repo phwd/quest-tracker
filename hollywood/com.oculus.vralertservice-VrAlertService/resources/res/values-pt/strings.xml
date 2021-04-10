@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Seu headset está ficando quente. Recomendamos fazer uma pausa de alguns minutos para deixá-lo esfriar.</string>
+    <string name="fan_malfunction">O dispositivo de ventilação no seu headset não está funcionando corretamente. Ele pode superaquecer ou apresentar um comportamento anormal devido à refrigeração insuficiente. Entre em contato com o Suporte ao Cliente Oculus em https://support.oculus.com para obter ajuda.</string>
+    <string name="notification_dismiss">Toque para ignorar esta notificação</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">ALERTA DO SISTEMA</string>
+    <string name="temp_critical">A temperatura do headset está subindo e ele será desligado. Para reduzir o risco de lesões, remova o headset e deixe-o esfriar antes de continuar a usá-lo.</string>
+</resources>

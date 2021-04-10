@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">చిత్రాన్ని డౌన్‌లోడ్ చేస్తున్నప్పుడు ఊహించని లోపం ఏర్పడింది.</string>
+    <string name="com_facebook_internet_permission_error_message">వెబ్ వీక్షణ లాగిన్‌కు ఇంటర్నెట్ అనుమతి అవసరం</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest లోపం</string>
+    <string name="com_facebook_loading">లోడ్ చేస్తోంది...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

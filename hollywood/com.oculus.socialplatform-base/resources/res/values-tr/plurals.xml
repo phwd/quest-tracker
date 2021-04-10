@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="other">%1$d boş yer</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="other">%1$d diğer kişi</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">Bu Grupta Engellediğin %1$d Kişi Var</item>
+        <item quantity="other">Engellediğin %1$d Kişi Bu Grupta</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 kişi seyahat etmeye hazır.</item>
+        <item quantity="other">%1$d kişi gitmeye hazır.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="other">%1$s ve %2$d diğer kişiyle davet paylaşıldı.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="other">%1$s ve %2$d diğer kişiye davet gönderildi.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="other">%1$d gün önce</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="other">%1$d saat önce</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$dd</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="other">%1$d ortak arkadaş</item>
+    </plurals>
+</resources>

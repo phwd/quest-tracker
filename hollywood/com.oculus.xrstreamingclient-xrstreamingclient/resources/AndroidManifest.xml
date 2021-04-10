@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105865" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.xrstreamingclient" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="29"/>
+    <uses-feature android:glEsVersion="30001" android:required="true"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="false"/>
+    <uses-feature android:name="oculus.software.handtracking" android:required="false"/>
+    <uses-feature android:name="com.oculus.feature.BODY_TRACKING"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" android:minSdkVersion="29"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" android:minSdkVersion="26" android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.oculus.permission.XRS_STREAM"/>
+    <uses-permission android:name="com.oculus.permission.XRS_OBSERVE_STATE"/>
+    <uses-permission android:name="com.oculus.permission.HAND_TRACKING"/>
+    <uses-permission android:name="com.oculus.permission.BODY_TRACKING"/>
+    <application android:label="Oculus Link" android:allowBackup="false" android:extractNativeLibs="false" android:fullBackupContent="false">
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.application.colorspace" android:value="!Rift"/>
+        <meta-data android:name="com.oculus.supportedDevices" android:value="all"/>
+        <activity android:theme="@style/Theme.NoTitleBar.Fullscreen" android:name="com.oculus.xrstreamingclient.MainActivity" android:exported="true" android:excludeFromRecents="false" android:launchMode="singleInstance" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <meta-data android:name="android.app.lib_name" android:value="xrstreamingclient"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="xrstreamingclient"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_17_39"/>
+    </application>
+</manifest>

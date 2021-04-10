@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">כיווץ כרטיסייה אחת (%1$d).</item>
+        <item quantity="two">כיווץ של קבוצת הכרטיסיות עם %1$d כרטיסיות.</item>
+        <item quantity="many">כיווץ של קבוצת הכרטיסיות עם %1$d כרטיסיות.</item>
+        <item quantity="other">כיווץ של קבוצת הכרטיסיות עם %1$d כרטיסיות.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">כיווץ כרטיסייה אחת (%1$d).</item>
+        <item quantity="two">כיווץ של קבוצת הכרטיסיות %1$s שיש בה %2$d כרטיסיות.</item>
+        <item quantity="many">כיווץ של קבוצת הכרטיסיות %1$s שיש בה %2$d כרטיסיות.</item>
+        <item quantity="other">כיווץ של קבוצת הכרטיסיות %1$s שיש בה %2$d כרטיסיות.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">קובץ אודיו אחד (%d)</item>
+        <item quantity="two">%d קובצי אודיו</item>
+        <item quantity="many">%d קובצי אודיו</item>
+        <item quantity="other">%d קובצי אודיו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">קובץ אחד (%d)</item>
+        <item quantity="two">%d קבצים</item>
+        <item quantity="many">%d קבצים</item>
+        <item quantity="other">%d קבצים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">תמונה אחת (%d)</item>
+        <item quantity="two">%d תמונות</item>
+        <item quantity="many">%d תמונות</item>
+        <item quantity="other">%d תמונות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">דף אחד (%d)</item>
+        <item quantity="two">%d דפים</item>
+        <item quantity="many">%d דפים</item>
+        <item quantity="other">%d דפים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">סרטון אחד (%d)</item>
+        <item quantity="two">%d סרטונים</item>
+        <item quantity="many">%d סרטונים</item>
+        <item quantity="other">%d סרטונים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">הסרת פריט אחד שנבחר</item>
+        <item quantity="two">הסרת %d פריטים שנבחרו</item>
+        <item quantity="many">הסרת %d פריטים שנבחרו</item>
+        <item quantity="other">הסרת %d פריטים שנבחרו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">שיתוף פריט אחד שנבחר</item>
+        <item quantity="two">שיתוף %d פריטים שנבחרו</item>
+        <item quantity="many">שיתוף %d פריטים שנבחרו</item>
+        <item quantity="other">שיתוף %d פריטים שנבחרו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">הסרת כרטיסייה אחת (%1$d) שנבחרה מהקבוצה.</item>
+        <item quantity="two">הסרת %1$d כרטיסיות שנבחרו מהקבוצה.</item>
+        <item quantity="many">הסרת %1$d כרטיסיות שנבחרו מהקבוצה.</item>
+        <item quantity="other">הסרת %1$d כרטיסיות שנבחרו מהקבוצה.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">קיבוץ כרטיסייה אחת (%1$d) שנבחרה</item>
+        <item quantity="two">קיבוץ %1$d כרטיסיות שנבחרו</item>
+        <item quantity="many">קיבוץ %1$d כרטיסיות שנבחרו</item>
+        <item quantity="other">קיבוץ %1$d כרטיסיות שנבחרו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">סגירה של כרטיסייה אחת (%1$d) שנבחרה</item>
+        <item quantity="two">סגירה של %1$d כרטיסיות שנבחרו</item>
+        <item quantity="many">סגירה של %1$d כרטיסיות שנבחרו</item>
+        <item quantity="other">סגירה של %1$d כרטיסיות שנבחרו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">כרטיסייה פתוחה אחת (%1$d), יש להקיש כדי להחליף כרטיסיות</item>
+        <item quantity="two">%1$d כרטיסיות פתוחות, יש להקיש כדי להחליף כרטיסיות</item>
+        <item quantity="many">%1$d כרטיסיות פתוחות, יש להקיש כדי להחליף כרטיסיות</item>
+        <item quantity="other">%1$d כרטיסיות פתוחות, יש להקיש כדי להחליף כרטיסיות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">סימנייה אחת (%1$d)</item>
+        <item quantity="two">%1$d סימניות</item>
+        <item quantity="many">%1$d סימניות</item>
+        <item quantity="other">%1$d סימניות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">כרטיסייה אחת (%1$d)</item>
+        <item quantity="two">%1$d כרטיסיות</item>
+        <item quantity="many">%1$d כרטיסיות</item>
+        <item quantity="other">%1$d כרטיסיות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(ועוד 1)</item>
+        <item quantity="two">(ועוד %d)</item>
+        <item quantity="many">(ועוד %d)</item>
+        <item quantity="other">(ועוד %d)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">‏נחסם קובץ cookie אחד</item>
+        <item quantity="two">‏נחסמו %d קובצי cookie</item>
+        <item quantity="many">‏נחסמו %d קובצי cookie</item>
+        <item quantity="other">‏נחסמו %d קובצי cookie</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">מתבצעת הורדה של הקובץ.</item>
+        <item quantity="two">מתבצעת הורדה של %d קבצים.</item>
+        <item quantity="many">מתבצעת הורדה של %d קבצים.</item>
+        <item quantity="other">מתבצעת הורדה של %d קבצים.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two">שעתיים</item>
+        <item quantity="many">%d שעות</item>
+        <item quantity="other">%d שעות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">הורדת קובץ אחד (%1$d)</item>
+        <item quantity="two">הורדת %1$d קבצים</item>
+        <item quantity="many">הורדת %1$d קבצים</item>
+        <item quantity="other">הורדת %1$d קבצים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">הורדה אחת הושלמה.</item>
+        <item quantity="two">%d הורדות הושלמו.</item>
+        <item quantity="many">%d הורדות הושלמו.</item>
+        <item quantity="other">%d הורדות הושלמו.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">הורדה אחת נכשלה.</item>
+        <item quantity="two">%d הורדות נכשלו.</item>
+        <item quantity="many">%d הורדות נכשלו.</item>
+        <item quantity="other">%d הורדות נכשלו.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">הורדה אחת בהמתנה.</item>
+        <item quantity="two">%d הורדות בהמתנה.</item>
+        <item quantity="many">%d הורדות בהמתנה.</item>
+        <item quantity="other">%d הורדות בהמתנה.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">תוזמנה הורדה אחת.</item>
+        <item quantity="two">תוזמנו %d הורדות.</item>
+        <item quantity="many">תוזמנו %d הורדות.</item>
+        <item quantity="other">תוזמנו %d הורדות.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">לפני יום</item>
+        <item quantity="two">לפני יומיים</item>
+        <item quantity="many">לפני %d ימים</item>
+        <item quantity="other">לפני %d ימים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">לפני שעה</item>
+        <item quantity="two">לפני שעתיים</item>
+        <item quantity="many">לפני %d שעות</item>
+        <item quantity="other">לפני %d שעות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">לפני דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="many">לפני %d דקות</item>
+        <item quantity="other">לפני %d דקות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">‏Chrome יטען את הדף כשיהיה מוכן</item>
+        <item quantity="two">‏Chrome יטען את הדפים כשיהיו מוכנים</item>
+        <item quantity="many">‏Chrome יטען את הדפים כשיהיו מוכנים</item>
+        <item quantity="other">‏Chrome יטען את הדפים כשיהיו מוכנים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">‏קובץ cookie אחד נמצא בשימוש</item>
+        <item quantity="two">‏%d קובצי cookie נמצאים בשימוש</item>
+        <item quantity="many">‏%d קובצי cookie נמצאים בשימוש</item>
+        <item quantity="other">‏%d קובצי cookie נמצאים בשימוש</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">הוענקו ההרשאות %1$s,‏ %2$s ועוד אחת (%3$s)</item>
+        <item quantity="two">הוענקו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="many">הוענקו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="other">הוענקו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">נחסמו ההרשאות %1$s,‏ %2$s ועוד אחת (%3$s)</item>
+        <item quantity="two">נחסמו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="many">נחסמו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="other">נחסמו ההרשאות %1$s,‏ %2$s ועוד %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s,‏ %2$s ועוד הרשאה אחת (%3$s)</item>
+        <item quantity="two">%1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="many">%1$s,‏ %2$s ועוד %3$s</item>
+        <item quantity="other">%1$s,‏ %2$s ועוד %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">סיסמה אחת שנחשפה</item>
+        <item quantity="two">%d סיסמאות שנחשפו</item>
+        <item quantity="many">%d סיסמאות שנחשפו</item>
+        <item quantity="other">%d סיסמאות שנחשפו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוסף</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוסף</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספים</item>
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוספת</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">‏%1$s‎…‎ ו-%2$s נוספת</item>
+        <item quantity="two">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="many">‏%1$s‎…‎ ו-%2$s נוספות</item>
+        <item quantity="other">‏%1$s‎…‎ ו-%2$s נוספות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">יש לך דף אחד (%1$d)</item>
+        <item quantity="two">יש לך %1$d דפים</item>
+        <item quantity="many">יש לך %1$d דפים</item>
+        <item quantity="other">יש לך %1$d דפים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">דף אחד (%1$d) שלא נקרא</item>
+        <item quantity="two">%1$d דפים שלא נקראו</item>
+        <item quantity="many">%1$d דפים שלא נקראו</item>
+        <item quantity="other">%1$d דפים שלא נקראו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">סיסמה אחת שנחשפה</item>
+        <item quantity="two">%d סיסמאות שנחשפו</item>
+        <item quantity="many">%d סיסמאות שנחשפו</item>
+        <item quantity="other">%d סיסמאות שנחשפו</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">התבצעה בדיקה לפני יום אחד</item>
+        <item quantity="two">התבצעה בדיקה לפני יומיים</item>
+        <item quantity="many">התבצעה בדיקה לפני %d ימים</item>
+        <item quantity="other">התבצעה בדיקה לפני %d ימים</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">התבצעה בדיקה לפני שעה אחת</item>
+        <item quantity="two">התבצעה בדיקה לפני שעתיים</item>
+        <item quantity="many">התבצעה בדיקה לפני %d שעות</item>
+        <item quantity="other">התבצעה בדיקה לפני %d שעות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">התבצעה בדיקה לפני דקה אחת</item>
+        <item quantity="two">התבצעה בדיקה לפני %d דקות</item>
+        <item quantity="many">התבצעה בדיקה לפני %d דקות</item>
+        <item quantity="other">התבצעה בדיקה לפני %d דקות</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">נבחר אחד</item>
+        <item quantity="two">נבחרו %d</item>
+        <item quantity="many">נבחרו %d</item>
+        <item quantity="other">נבחרו %d</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">רמת עוצמת אות: עמודה אחת</item>
+        <item quantity="two">רמת עוצמת אות: שתי עמודות</item>
+        <item quantity="many">רמת עוצמת אות: %d עמודות</item>
+        <item quantity="other">רמת עוצמת אות: %d עמודות</item>
+    </plurals>
+</resources>

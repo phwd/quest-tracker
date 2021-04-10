@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="ocanimation_fast2">200</integer>
+    <integer name="ocanimation_medium2">500</integer>
+    <integer name="ocspinner_animation_duration">6000</integer>
+    <integer name="ocspinner_animation_repeat_infinity">-1</integer>
+</resources>

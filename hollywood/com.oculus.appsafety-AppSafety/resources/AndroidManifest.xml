@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.appsafety" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.oculus.ocms.BINARY_CHECK_UPDATE"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.VERIFY_USER_ACTION"/>
+    <permission android:name="com.oculus.appsafety.READ_PACKAGE_INTEGRITY_PROVIDER" android:protectionLevel="normal|signature"/>
+    <application android:label="AppSafety" android:name=".AppSafetyApplication" android:allowBackup="false" android:extractNativeLibs="true">
+        <service android:name=".AppSafetyService" android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.oculus.appsafety.VERIFY_PACKAGE"/>
+            </intent-filter>
+        </service>
+        <service android:name=".BinaryCheckJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name=".PackagePartsUploadJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name=".MissingPackageInfoJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name=".SafetySignalCollectorJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name=".PackageVerificationReceiver" android:permission="android.permission.BIND_PACKAGE_VERIFIER">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_NEEDS_VERIFICATION"/>
+                <data android:mimeType="application/vnd.android.package-archive"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BootReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name=".PackageIntegrityProvider" android:permission="com.oculus.appsafety.READ_PACKAGE_INTEGRITY_PROVIDER" android:exported="true" android:authorities="com.oculus.appsafety.provider.packageintegrity"/>
+    </application>
+</manifest>

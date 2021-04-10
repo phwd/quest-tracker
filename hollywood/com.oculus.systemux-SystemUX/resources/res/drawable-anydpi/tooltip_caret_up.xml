@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="@dimen/tooltip_caret_height" android:width="@dimen/tooltip_caret_width" android:viewportWidth="2" android:viewportHeight="1">
+    <path android:fillColor="#ffffffff" android:pathData="M0,1 L1,0 L2,1 Z" android:strokeColor="#ffffffff"/>
+</vector>

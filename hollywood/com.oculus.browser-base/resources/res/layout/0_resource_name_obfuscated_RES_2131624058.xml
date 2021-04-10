@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/contextual_search_bar_banner_text_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165394" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165394">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017773" android:id="@+id/contextual_search_iph_tap_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952318"/>
+</LinearLayout>

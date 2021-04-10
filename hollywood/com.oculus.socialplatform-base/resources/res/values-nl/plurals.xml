@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d plaats beschikbaar</item>
+        <item quantity="other">%1$d plaatsen beschikbaar</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%1$d andere persoon</item>
+        <item quantity="other">%1$d anderen</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">Deze groep bevat %1$d door jou geblokkeerde persoon</item>
+        <item quantity="other">Deze groep bevat %1$d door jou geblokkeerde personen</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">Eén persoon is klaar om te reizen.</item>
+        <item quantity="other">%1$d mensen zijn klaar om te reizen.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Uitnodiging gedeeld met %1$s en %2$d andere persoon.</item>
+        <item quantity="other">Uitnodiging gedeeld met %1$s en %2$d anderen.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Uitnodiging verzonden naar %1$s en %2$d andere persoon.</item>
+        <item quantity="other">Uitnodiging verzonden naar %1$s en %2$d anderen.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">%1$d dag geleden</item>
+        <item quantity="other">%1$d dagen geleden</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="other">%1$d uur geleden</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d minuten</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d gemeenschappelijke vriend</item>
+        <item quantity="other">%1$d gemeenschappelijke vrienden</item>
+    </plurals>
+</resources>

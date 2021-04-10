@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus-koti</string>
+    <string name="shorten_billions">%1$s mrd.</string>
+    <string name="shorten_billions_capitalized">%1$s mrd.</string>
+    <string name="shorten_hundred_millions">%1$s sataa miljoonaa</string>
+    <string name="shorten_millions">%1$s miljoonaa</string>
+    <string name="shorten_millions_capitalized">%1$s milj.</string>
+    <string name="shorten_ten_thousands">%1$s kymmentä tuhatta</string>
+    <string name="shorten_thousands">%1$s tuhatta</string>
+    <string name="shorten_thousands_capitalized">%1$s t</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="36dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/deprecated_oc_gray_1_fix_me"/>
+            <corners android:radius="@dimen/home_dialog_corner_radius"/>
+        </shape>
+    </item>
+    <item android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/system_dialog_header_icon_background" android:top="2dp">
+        <shape android:shape="oval">
+            <size android:height="68dp" android:width="68dp"/>
+            <solid android:color="@color/deprecated_oc_gray_1_fix_me"/>
+        </shape>
+    </item>
+    <item android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/system_dialog_header_icon_ring">
+        <shape android:layout_width="match_parent" android:layout_height="match_parent" android:shape="ring" android:useLevel="false" android:innerRadius="32dp" android:thickness="4dp">
+            <solid android:color="@color/deprecated_oc_gray_d_fix_me"/>
+            <size android:height="72dp" android:width="72dp"/>
+        </shape>
+    </item>
+    <item android:gravity="center_horizontal" android:id="@+id/system_dialog_header_icon" android:height="44dp" android:width="44dp" android:drawable="@drawable/ic_system_dialog_warning" android:top="14dp"/>
+</layer-list>

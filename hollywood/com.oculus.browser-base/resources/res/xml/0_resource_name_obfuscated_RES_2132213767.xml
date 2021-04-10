@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.SpinnerPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952212" android:key="time_period_spinner" app:singleLine="true"/>
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952223" android:key="clear_history_checkbox" android:summary="@string/0_resource_name_obfuscated_RES_2131952214"/>
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952220" android:key="clear_cookies_checkbox" android:summary="@string/0_resource_name_obfuscated_RES_2131952218"/>
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952217" android:key="clear_cache_checkbox"/>
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952224" android:key="clear_passwords_checkbox"/>
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952222" android:key="clear_form_data_checkbox"/>
+    <org.chromium.chrome.browser.browsing_data.ClearBrowsingDataCheckBoxPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953245" android:key="clear_site_settings_checkbox"/>
+</PreferenceScreen>

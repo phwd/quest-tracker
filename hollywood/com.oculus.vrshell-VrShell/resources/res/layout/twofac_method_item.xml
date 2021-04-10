@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.vrshell.panels.views.ShellButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/twoFacMethodLabel" android:layout_width="500dp" android:layout_height="40dp" android:layout_marginTop="10dp"/>

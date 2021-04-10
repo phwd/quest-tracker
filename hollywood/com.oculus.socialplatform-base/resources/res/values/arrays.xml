@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="main">
+        <item>name:#main</item>
+        <item>ZeroCopyTW</item>
+    </array>
+    <array name="messenger_tablet_main">
+        <item>name:#main</item>
+        <item>ZeroCopyTW</item>
+    </array>
+    <array name="messenger_tablet_panel_app_layers">
+        <item>@array/messenger_tablet_main</item>
+    </array>
+    <array name="oculus_vrshell_layers">
+        <item>@array/social_platform_videos_behind_main</item>
+        <item>@array/social_platform_main</item>
+        <item>@array/social_platform_videos</item>
+        <item>@array/social_platform_playerui</item>
+        <item>@array/social_platform_reactdebugsurface</item>
+        <item>@array/social_platform_logbox</item>
+        <item>@array/social_platform_reactsplashscreen</item>
+    </array>
+    <array name="people_tablet_panel_app_layers">
+        <item>@array/main</item>
+    </array>
+    <array name="social_platform_logbox">
+        <item>name:logbox</item>
+    </array>
+    <array name="social_platform_main">
+        <item>name:#main</item>
+    </array>
+    <array name="social_platform_playerui">
+        <item>name:playerui</item>
+    </array>
+    <array name="social_platform_reactdebugsurface">
+        <item>name:reactdebugsurface</item>
+    </array>
+    <array name="social_platform_reactsplashscreen">
+        <item>name:reactsplashscreen</item>
+    </array>
+    <array name="social_platform_videos">
+        <item>name:videos</item>
+    </array>
+    <array name="social_platform_videos_behind_main">
+        <item>name:videos_behind_main</item>
+    </array>
+    <array name="social_reauth_tablet_panel_app_layers">
+        <item>@array/main</item>
+    </array>
+    <array name="social_settings_tablet_panel_app_layers">
+        <item>@array/main</item>
+    </array>
+</resources>

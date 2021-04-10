@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:layout="@layout/0_resource_name_obfuscated_RES_2131624330" android:key="cookie_summary"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953016" android:key="cookie_switch"/>
+    <org.chromium.components.browser_ui.settings.ChromeImageViewPreference android:key="cookie_in_use"/>
+</PreferenceScreen>

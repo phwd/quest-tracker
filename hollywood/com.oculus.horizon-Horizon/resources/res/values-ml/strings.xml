@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">ചിത്രം ഡൗൺലോഡുചെയ്യുന്നതിൽ അപ്രതീക്ഷിത പിശക് സംഭവിച്ചു.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView ലോഗിന് ഇന്റർനെറ്റ് അനുമതി ആവശ്യമാണ്</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest പിശക്</string>
+    <string name="com_facebook_loading">ലോഡുചെയ്യുന്നു...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

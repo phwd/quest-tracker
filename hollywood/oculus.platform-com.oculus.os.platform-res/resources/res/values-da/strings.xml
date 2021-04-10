@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Tegn oplåsningsmønster</string>
+    <string name="lockscreen_enter_pin">Enheds-PIN</string>
+    <string name="lockscreen_try_again">Prøv igen</string>
+    <string name="pattern_too_short">Forbind mindst 4 prikker.</string>
+    <string name="permdesc_accessMrSensorData">Tillader appen adgang til mixed reality-sensordata, inklusive kamerakalibrering og billeder.</string>
+    <string name="permdesc_access_handtracking_data">Tillader, at appen håndterer håndsporingsdata</string>
+    <string name="permgroupdesc_handtracking">gå til håndsporingsdata</string>
+    <string name="permgroupdesc_sensorData">tilgå sensordata</string>
+    <string name="permgrouplab_handtracking">Håndsporing</string>
+    <string name="permgrouplab_sensorData">Sensordata</string>
+    <string name="permlab_accessMrSensorData">Få adgang til mixed reality-sensordata</string>
+    <string name="permlab_access_handtracking_data">gå til håndsporingsdata</string>
+    <string name="pin_button_delete">Slet</string>
+    <string name="pin_button_enter">Indtast</string>
+    <string name="reset_unlock_pattern_msg">Følg disse trin for at nulstille dit oplåsningsmønster:</string>
+    <string name="reset_unlock_pattern_step_1">1. Åbn Oculus-appen på din mobilenhed.</string>
+    <string name="reset_unlock_pattern_step_2">2. Åbn siden Indstillinger, tryk på navnet på dit headset, og vent, indtil det er tilsluttet.</string>
+    <string name="reset_unlock_pattern_step_3">3. Tryk på Flere indstillinger &gt; Oplåsningsmønster.</string>
+    <string name="reset_unlock_pattern_title">Nulstil oplåsningsmønster</string>
+</resources>

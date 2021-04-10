@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ss_home_tab" android:background="@null" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951898" style="@style/0_resource_name_obfuscated_RES_2132017398">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/ss_home_button" android:clickable="false" android:src="@drawable/0_resource_name_obfuscated_RES_2131231109" android:importantForAccessibility="no" style="@style/0_resource_name_obfuscated_RES_2132017581"/>
+    <TextView android:id="@+id/ss_home_button_label" android:visibility="visible" android:text="@string/0_resource_name_obfuscated_RES_2131951898" style="@style/0_resource_name_obfuscated_RES_2132017399"/>
+</LinearLayout>

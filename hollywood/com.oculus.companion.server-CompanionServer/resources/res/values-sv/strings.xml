@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Detta loggar ut dig från oculus.com!</string>
+    <string name="app_name">Ledsagarserver</string>
+    <string name="app_short_name">Ledsagare</string>
+    <string name="permdesc_companionService">Låter appen skicka köpavsikter till ledsagartjänsten.</string>
+    <string name="permlab_companionService">skicka köpavsikter till ledsagartjänsten</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Kontroll från tredje part</string>
+</resources>

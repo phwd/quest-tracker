@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">アンロックパターンを入力</string>
+    <string name="lockscreen_enter_pin">デバイスPIN</string>
+    <string name="lockscreen_try_again">もう一度実行してください</string>
+    <string name="pattern_too_short">4つ以上の点を結んでください。</string>
+    <string name="permdesc_accessMrSensorData">アプリによる、カメラキャリブレーションと画像を含むミックスドリアリティセンサーデータへのアクセスを許可します。</string>
+    <string name="permdesc_access_handtracking_data">アプリにハンドトラッキングデータへのアクセスを許可します</string>
+    <string name="permgroupdesc_handtracking">ハンドトラッキングデータへのアクセス</string>
+    <string name="permgroupdesc_sensorData">センサーデータにアクセス</string>
+    <string name="permgrouplab_handtracking">ジェスチャーコントロール</string>
+    <string name="permgrouplab_sensorData">センサーデータ</string>
+    <string name="permlab_accessMrSensorData">ミックスドリアリティセンサーデータにアクセス</string>
+    <string name="permlab_access_handtracking_data">ハンドトラッキングデータへのアクセス</string>
+    <string name="pin_button_delete">削除</string>
+    <string name="pin_button_enter">入力</string>
+    <string name="reset_unlock_pattern_msg">アンロックパターンをリセットするには、次の手順に従ってください:</string>
+    <string name="reset_unlock_pattern_step_1">1. モバイルデバイスでOculusアプリを開いてください。</string>
+    <string name="reset_unlock_pattern_step_2">2. [設定]ページを開き、ヘッドセットの名前をタップして、接続されるのをお待ちください。</string>
+    <string name="reset_unlock_pattern_step_3">3. [その他の設定] &gt; [アンロックパターン]をタップしてください。</string>
+    <string name="reset_unlock_pattern_title">アンロックパターンをリセット</string>
+</resources>

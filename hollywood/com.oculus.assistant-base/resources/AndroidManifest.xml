@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="277432811" android:versionName="81.0.0.4.237" android:installLocation="auto" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.assistant" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="25"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="false" android:version="1"/>
+    <uses-feature android:glEsVersion="30001"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND"/>
+    <uses-permission android:name="com.oculus.permission.ALWAYS_CAPTURE_MIC_AUDIO_INPUT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission android:name="com.oculus.assistant.permission.CROSS_PROCESS_BROADCAST_MANAGER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.oculus.assistant.permission.CROSS_PROCESS_BROADCAST_MANAGER"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <uses-permission android:name="com.oculus.permission.SYSTEM_PLATFORM_SDK"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.oculus.permission.CONNECT_TO_DUMPSYSPROXY"/>
+    <uses-permission android:name="com.oculus.permission.RECORD_AUDIO_BACKGROUND"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.oculus.assistant.BROADCAST_PERMISSION"/>
+    <uses-permission android:name="com.oculus.assistant.PANEL"/>
+    <uses-permission android:name="com.oculus.permission.SUBMIT_BUG_REPORT"/>
+    <uses-permission android:name="com.oculus.permission.READ_CONTROLLER_STATUS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.SHUTDOWN"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="com.oculus.permission.VOICE_ASSISTANT_MIC_DATA"/>
+    <permission android:label="@string/permission_app_name" android:name="com.oculus.assistant.PANEL" android:protectionLevel="signatureOrSystem" android:description="@string/permission_panel_description"/>
+    <permission android:label="@string/permission_app_name" android:name="com.oculus.assistant.BROADCAST_PERMISSION" android:protectionLevel="signatureOrSystem" android:description="@string/permission_broadcast_description"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <application android:label="@string/app_name" android:name="com.oculus.assistant.app.AssistantApplication" android:debuggable="false" android:allowBackup="false" android:networkSecurityConfig="@xml/fb_network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.facebook.build_rule" android:value="assistant_xzso_arm64_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1615321602000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <meta-data android:name="com.oculus.horizon.fbpermission.AUTHSERVICE2" android:value=""/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:name="com.facebook.analytics2.logger.LollipopUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.AlarmBasedUploadService" android:exported="false"/>
+        <receiver android:name="com.facebook.analytics2.logger.HighPriUploadRetryReceiver" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.GooglePlayUploadService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.facebook.assistant.common.config.tts.AssistantTtsLocalContentProvider" android:exported="false" android:authorities="com.facebook.assistant.common.config.tts" android:syncable="true"/>
+        <service android:name="com.facebook.assistant.common.config.tts.api.AssistantSettingsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.papaya.client.PapayaService" android:exported="false"/>
+        <service android:name="com.oculus.assistant.learning.DataDeletionJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.assistant.learning.ExecutionJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.assistant.service.AssistantService" android:exported="true" android:foregroundServiceType="2"/>
+        <service android:name="com.oculus.assistant.service.AssistantDumpService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.oculus.assistant.service.AssistantIntentService"/>
+        <receiver android:name="com.oculus.assistant.service.AssistantBroadcastReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.oculus.assistant.ACTIVATE_ASSISTANT"/>
+                <action android:name="com.oculus.assistant.ACTIVATE_ASSISTANT_HELP"/>
+                <action android:name="com.oculus.assistant.DEACTIVATE_ASSISTANT"/>
+                <action android:name="com.oculus.assistant.ROUTE"/>
+                <action android:name="com.oculus.assistant.ACTION_SHOW_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.assistant.service.AssistantTimerReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.oculus.assistant.ACTION_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.oculus.assistant.service.AssistantResProvider" android:permission="com.oculus.assistant.PANEL" android:exported="true" android:authorities="com.oculus.assistant.AssistantResProvider"/>
+        <receiver android:name="com.oculus.assistant.service.startup.WakeWordStartupReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.assistant.service.startup.DoubleTapSettingStartupReciever" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.assistant.service.startup.WakeWordHMDMountReciever" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.oculus.intent.action.MOUNT_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/ThemeOverlay.Material.Dark" android:label="Developer Settings" android:name="com.oculus.assistant.testui.AssistantTestActivity" android:enabled="false" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:resizeableActivity="false"/>
+        <activity android:theme="@style/ThemeOverlay.Material.Dark" android:label="Assistant Test Activity" android:name="com.oculus.assistant.testui.AssistantVRShellActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:resizeableActivity="false"/>
+        <activity android:theme="@style/ThemeOverlay.Material.Dark" android:label="Assistant Error Activity" android:name="com.oculus.assistant.testui.AssistantErrorActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:resizeableActivity="false"/>
+        <activity android:theme="@style/ThemeOverlay.Material.Dark" android:label="Typeahead Settings" android:name="com.oculus.assistant.testui.AssistantTypeaheadTestActivity" android:enabled="false" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:resizeableActivity="false"/>
+        <activity android:theme="@style/ThemeOverlay.Material.Dark.ActionBar" android:label="Voice Help" android:name="com.oculus.assistant.ui.AssistantHelpActivity" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.facebook.secure.packagefinder.PackageFinderActivity" android:enabled="false" android:exported="true" android:targetActivity="com.oculus.assistant.ui.AssistantHelpActivity">
+            <intent-filter>
+                <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

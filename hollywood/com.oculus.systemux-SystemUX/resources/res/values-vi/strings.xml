@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="anytime_detail_button_videocapture">Quay video</string>
+    <string name="anytime_tablet_library_app_tile_context_menu_item_uninstall">Gỡ cài đặt</string>
+    <string name="settings_guardian_disable_dialog_cancel">Hủy</string>
+    <string name="settings_surface_creation_dialog_continue">Hủy</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

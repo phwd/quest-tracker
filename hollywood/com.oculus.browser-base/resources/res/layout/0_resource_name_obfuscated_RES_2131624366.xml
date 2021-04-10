@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start" android:orientation="vertical" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <org.chromium.components.browser_ui.widget.text.TextViewWithCompoundDrawables android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:gravity="center_vertical" android:id="@+id/text" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="8dp" android:textDirection="locale" app:chromeDrawableTint="@color/0_resource_name_obfuscated_RES_2131099813"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105542" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.shellenv" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="25"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-feature android:glEsVersion="30001"/>
+    <uses-feature android:name="oculus.software.handtracking" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.oculus.permission.HAND_TRACKING"/>
+    <uses-permission android:name="com.oculus.horizon.LINKED_ACCOUNTS_READ_PERMISSION"/>
+    <uses-permission android:name="com.oculus.vrshell.OVERLAY_HOST"/>
+    <application android:label="ShellEnv" android:hasCode="true" android:allowBackup="false">
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.supportedDevices" android:value="all"/>
+        <activity android:theme="@style/Theme.Black.NoTitleBar.Fullscreen" android:label="shellenv" android:name=".ShellEnvActivity" android:exported="true" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize" android:resizeableActivity="false">
+            <meta-data android:name="android.app.lib_name" android:value="shellenv"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oculus.shellenv.SHELL_ENV_CMD"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_18_01"/>
+    </application>
+</manifest>

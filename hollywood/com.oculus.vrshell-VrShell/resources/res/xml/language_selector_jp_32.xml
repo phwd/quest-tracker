@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:fontPath="Fonts/Roboto-Bold.ttf" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="12sp" custom:keyWidth="128dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="left" custom:keyLabel="Deutsch" custom:keyboard="@xml/de_de_text_default_32" custom:keyboardLocale="DE_DE"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyLabel="English" custom:keyboard="@xml/en_us_text_default_32" custom:keyboardLocale="EN_US"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="right" custom:keyLabel="Español" custom:keyboard="@xml/es_es_text_default_32" custom:keyboardLocale="ES_ES"/>
+    </Row>
+    <Row>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="left" custom:keyLabel="Français" custom:keyboard="@xml/fr_fr_text_default_32" custom:keyboardLocale="FR_FR"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyLabel="Italiano" custom:keyboard="@xml/it_it_text_default_32" custom:keyboardLocale="IT_IT"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="right" custom:keyLabel="Nederlands" custom:keyboard="@xml/nl_nl_text_default_32" custom:keyboardLocale="NL_NL"/>
+    </Row>
+    <Row>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="left" custom:keyLabel="Português" custom:keyboard="@xml/pt_br_text_default_32" custom:keyboardLocale="PT_BR"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyLabel="Русский" custom:keyboard="@xml/ru_ru_text_default_32" custom:keyboardLocale="RU_RU"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="right" custom:keyLabel="Türkçe" custom:keyboard="@xml/tr_tr_text_default_32" custom:keyboardLocale="TR_TR"/>
+    </Row>
+    <Row>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:fontPath="Fonts/MSNeoGothic.ttf" custom:keyEdgeFlags="left" custom:keyLabel="한국어" custom:keyboard="@xml/ko_kr_text_default_32" custom:keyboardLocale="KO_KR" custom:tag="composing_language"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyLabel="日本語 ひらがな入力" custom:keyboard="@xml/ja_jp_text_default_32" custom:keyboardLocale="JA_JP" custom:tag="composing_language"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-3" custom:keyEdgeFlags="right" custom:keyLabel="日本語 ローマ字入力" custom:keyboard="@xml/ja_jp_romaji_text_default_32" custom:keyboardLocale="JA_JP_ROMAJI" custom:tag="composing_language"/>
+    </Row>
+    <Row>
+        <Key custom:background="@drawable/keyboard_key_background_highlighted" custom:codes="-7" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_keyboard_outline_24" custom:keyWidth="140dp" custom:keyboardSize="small" custom:textSize="14sp"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-7" custom:keyIcon="@drawable/ic_keyboard_outline_24" custom:keyWidth="212dp" custom:keyboardSize="large" custom:textSize="18sp"/>
+        <Key custom:background="@drawable/keyboard_key_background" custom:codes="-7" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24" custom:keyWidth="32dp" custom:textSize="18sp"/>
+    </Row>
+</Keyboard>

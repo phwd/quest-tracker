@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orderingFromXml="false">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:title="@string/0_resource_name_obfuscated_RES_2131952163" android:key="can_make_payment" android:summary="@string/0_resource_name_obfuscated_RES_2131953456" android:order="0"/>
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953250" android:key="preload_pages" android:summary="@string/0_resource_name_obfuscated_RES_2131953249" android:order="1"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953736" android:key="usage_stats_reporting" android:order="2"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131952407" android:key="do_not_track" android:order="3" android:fragment="org.chromium.chrome.browser.privacy.settings.DoNotTrackSettings"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:title="@string/0_resource_name_obfuscated_RES_2131953466" android:key="secure_dns" android:order="4" android:fragment="org.chromium.chrome.browser.privacy.secure_dns.SecureDnsSettings"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131952213" android:key="clear_browsing_data" android:summary="@string/0_resource_name_obfuscated_RES_2131952205" android:order="5" android:fragment="org.chromium.chrome.browser.browsing_data.ClearBrowsingDataTabsFragment"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131953238" android:key="safe_browsing" android:summary="@string/0_resource_name_obfuscated_RES_2131953237" android:order="6" android:fragment="org.chromium.chrome.browser.safe_browsing.settings.SafeBrowsingSettingsFragment"/>
+    <Preference android:title="@string/0_resource_name_obfuscated_RES_2131953233" android:key="privacy_sandbox" android:order="7" android:fragment="org.chromium.chrome.browser.privacy_sandbox.PrivacySandboxSettingsFragment"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="sync_and_services_link" android:summary="@string/0_resource_name_obfuscated_RES_2131953269" android:order="8" app:allowDividerBelow="false"/>
+</PreferenceScreen>

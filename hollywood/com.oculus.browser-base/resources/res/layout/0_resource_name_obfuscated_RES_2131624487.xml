@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.ViewLookupCachingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/tab_strip_item_button" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951920" style="@style/0_resource_name_obfuscated_RES_2132017397"/>
+</org.chromium.ui.widget.ViewLookupCachingFrameLayout>

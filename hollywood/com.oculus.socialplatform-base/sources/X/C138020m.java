@@ -1,0 +1,61 @@
+package X;
+
+/* renamed from: X.20m  reason: invalid class name and case insensitive filesystem */
+public final class C138020m<T, U> implements AnonymousClass1yM<T>, AbstractC12271xB {
+    public AbstractC12271xB A00;
+    public boolean A01;
+    public final AnonymousClass1yM<? super U> A02;
+    public final AbstractC140121h<? super U, ? super T> A03;
+    public final U A04;
+
+    @Override // X.AnonymousClass1yM
+    public final void A8A(AbstractC12271xB r2) {
+        if (EnumC12511xi.validate(this.A00, r2)) {
+            this.A00 = r2;
+            this.A02.A8A(this);
+        }
+    }
+
+    @Override // X.AbstractC12271xB
+    public final void dispose() {
+        this.A00.dispose();
+    }
+
+    @Override // X.AnonymousClass1yM
+    public final void onComplete() {
+        if (!this.A01) {
+            this.A01 = true;
+            AnonymousClass1yM<? super U> r1 = this.A02;
+            r1.onNext(this.A04);
+            r1.onComplete();
+        }
+    }
+
+    @Override // X.AnonymousClass1yM
+    public final void onError(Throwable th) {
+        if (this.A01) {
+            AnonymousClass1y3.A01(th);
+            return;
+        }
+        this.A01 = true;
+        this.A02.onError(th);
+    }
+
+    @Override // X.AnonymousClass1yM
+    public final void onNext(T t) {
+        if (!this.A01) {
+            try {
+                this.A03.accept(this.A04, t);
+            } catch (Throwable th) {
+                this.A00.dispose();
+                onError(th);
+            }
+        }
+    }
+
+    public C138020m(AnonymousClass1yM<? super U> r1, U u, AbstractC140121h<? super U, ? super T> r3) {
+        this.A02 = r1;
+        this.A03 = r3;
+        this.A04 = u;
+    }
+}

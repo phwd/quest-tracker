@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="dynamicsurface1" id="2130771968" />
+    <public type="array" name="dynamicsurface2" id="2130771969" />
+    <public type="array" name="dynamicsurface3" id="2130771970" />
+    <public type="array" name="dynamicsurface4" id="2130771971" />
+    <public type="array" name="dynamicsurface5" id="2130771972" />
+    <public type="array" name="dynamicsurface6" id="2130771973" />
+    <public type="array" name="dynamicsurface7" id="2130771974" />
+    <public type="array" name="dynamicsurface8" id="2130771975" />
+    <public type="array" name="logbox" id="2130771976" />
+    <public type="array" name="main" id="2130771977" />
+    <public type="array" name="oculus_vrshell_layers" id="2130771978" />
+    <public type="array" name="playerui" id="2130771979" />
+    <public type="array" name="reactdebugsurface" id="2130771980" />
+    <public type="array" name="reactsplashscreen" id="2130771981" />
+    <public type="array" name="videos" id="2130771982" />
+    <public type="array" name="videos_behind_main" id="2130771983" />
+    <public type="raw" name="device_preferences" id="2130837504" />
+    <public type="raw" name="preferences_store_schema" id="2130837505" />
+    <public type="raw" name="user_manager_preferences" id="2130837506" />
+    <public type="string" name="app_name" id="2130903040" />
+</resources>

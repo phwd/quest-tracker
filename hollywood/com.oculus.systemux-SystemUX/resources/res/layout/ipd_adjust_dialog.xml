@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.anytimeui.dialogs.IPDAdjustDialog xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vrshell="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ipd_adjust_dialog" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:alpha="0">
+        <ImageView android:id="@+id/ipd_adjust_dialog_calibration_image" android:src="@drawable/img_ipd_horizontal" style="@style/IPDAdjustDialogCalibrationImage"/>
+        <RelativeLayout android:id="@+id/ipd_adjust_dialog_instructions_primary" android:layout_width="1674dp" android:layout_height="wrap_content" android:layout_marginTop="940dp" android:layout_centerHorizontal="true">
+            <com.oculus.ocui.OCTextView android:id="@+id/ipd_adjust_dialog_instructions_text_left" android:text="@string/ipd_adjust_dialog_instructions_horizontal" android:layout_alignParentLeft="true" style="@style/IPDAdjustDialogPrimaryText"/>
+            <com.oculus.ocui.OCTextView android:id="@+id/ipd_adjust_dialog_instructions_text_right" android:text="@string/ipd_adjust_dialog_instructions_horizontal" android:layout_alignParentRight="true" style="@style/IPDAdjustDialogPrimaryText"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="1674dp" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_below="@+id/ipd_adjust_dialog_instructions_primary" android:layout_centerHorizontal="true">
+            <com.oculus.ocui.OCTextView android:text="@string/ipd_adjust_dialog_instructions_secondary" android:layout_alignParentLeft="true" style="@style/IPDAdjustDialogSecondaryText"/>
+            <com.oculus.ocui.OCTextView android:text="@string/ipd_adjust_dialog_instructions_secondary" android:layout_alignParentRight="true" style="@style/IPDAdjustDialogSecondaryText"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</com.oculus.panelapp.anytimeui.dialogs.IPDAdjustDialog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/oc_gray_80"/>
+            <size android:height="@dimen/anytime_bar_destination_ui_app_image_size" android:width="@dimen/anytime_bar_destination_ui_app_image_size"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="19dp" android:width="32dp" android:drawable="@drawable/anytime_bar_navigation_button_destination_ui_image_placeholder_logo_background"/>
+</layer-list>

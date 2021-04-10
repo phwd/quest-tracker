@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/contextual_search_card_icon_view" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165395" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165395" android:scaleType="center" android:importantForAccessibility="no"/>

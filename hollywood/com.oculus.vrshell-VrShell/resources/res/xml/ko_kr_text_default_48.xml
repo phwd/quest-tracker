@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="korean" custom:keyFont="Fonts/MSNeoGothic.ttf" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ㅂ" custom:keyOutputText="ㅂ" custom:shiftKeyLabel="ㅃ" custom:shiftKeyOutputText="ㅃ"/>
+        <Key custom:keyLabel="ㅈ" custom:keyOutputText="ㅈ" custom:shiftKeyLabel="ㅉ" custom:shiftKeyOutputText="ㅉ"/>
+        <Key custom:keyLabel="ㄷ" custom:keyOutputText="ㄷ" custom:shiftKeyLabel="ㄸ" custom:shiftKeyOutputText="ㄸ"/>
+        <Key custom:keyLabel="ㄱ" custom:keyOutputText="ㄱ" custom:shiftKeyLabel="ㄲ" custom:shiftKeyOutputText="ㄲ"/>
+        <Key custom:keyLabel="ㅅ" custom:keyOutputText="ㅅ" custom:shiftKeyLabel="ㅆ" custom:shiftKeyOutputText="ㅆ"/>
+        <Key custom:keyLabel="ㅛ" custom:keyOutputText="ㅛ" custom:shiftKeyLabel="ㅛ" custom:shiftKeyOutputText="ㅛ"/>
+        <Key custom:keyLabel="ㅕ" custom:keyOutputText="ㅕ" custom:shiftKeyLabel="ㅕ" custom:shiftKeyOutputText="ㅕ"/>
+        <Key custom:keyLabel="ㅑ" custom:keyOutputText="ㅑ" custom:shiftKeyLabel="ㅑ" custom:shiftKeyOutputText="ㅑ"/>
+        <Key custom:keyLabel="ㅐ" custom:keyOutputText="ㅐ" custom:shiftKeyLabel="ㅒ" custom:shiftKeyOutputText="ㅒ"/>
+        <Key custom:keyLabel="ㅔ" custom:keyOutputText="ㅔ" custom:shiftKeyLabel="ㅖ" custom:shiftKeyOutputText="ㅖ"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyHeight="97dp" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+        <Key custom:keyLabel="7" custom:keyOutputText="7"/>
+        <Key custom:keyLabel="8" custom:keyOutputText="8"/>
+        <Key custom:keyLabel="9" custom:keyOutputText="9"/>
+        <Key custom:keyEdgeFlags="right" custom:keyLabel="+" custom:keyOutputText="+"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ㅁ" custom:keyOutputText="ㅁ"/>
+        <Key custom:keyLabel="ㄴ" custom:keyOutputText="ㄴ"/>
+        <Key custom:keyLabel="ㅇ" custom:keyOutputText="ㅇ"/>
+        <Key custom:keyLabel="ㄹ" custom:keyOutputText="ㄹ"/>
+        <Key custom:keyLabel="ㅎ" custom:keyOutputText="ㅎ"/>
+        <Key custom:keyLabel="ㅗ" custom:keyOutputText="ㅗ"/>
+        <Key custom:keyLabel="ㅓ" custom:keyOutputText="ㅓ"/>
+        <Key custom:keyLabel="ㅏ" custom:keyOutputText="ㅏ"/>
+        <Key custom:keyLabel="ㅣ" custom:keyOutputText="ㅣ"/>
+        <Key custom:keyLabel=";" custom:keyOutputText=";" custom:shiftKeyLabel=":" custom:shiftKeyOutputText=":"/>
+        <Key custom:horizontalGap="50dp" custom:keyLabel="4" custom:keyOutputText="4"/>
+        <Key custom:keyLabel="5" custom:keyOutputText="5"/>
+        <Key custom:keyLabel="6" custom:keyOutputText="6"/>
+        <Key custom:keyEdgeFlags="right" custom:keyLabel="-" custom:keyOutputText="-"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-1" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_uppercase_arrow_outline_24" custom:shiftKeyIcon="@drawable/ic_uppercase_arrow_filled_24"/>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="ㅋ" custom:keyOutputText="ㅋ"/>
+        <Key custom:keyLabel="ㅌ" custom:keyOutputText="ㅌ"/>
+        <Key custom:keyLabel="ㅊ" custom:keyOutputText="ㅊ"/>
+        <Key custom:keyLabel="ㅍ" custom:keyOutputText="ㅍ"/>
+        <Key custom:keyLabel="ㅠ" custom:keyOutputText="ㅠ"/>
+        <Key custom:keyLabel="ㅜ" custom:keyOutputText="ㅜ"/>
+        <Key custom:keyLabel="ㅡ" custom:keyOutputText="ㅡ"/>
+        <Key custom:keyLabel="/" custom:keyOutputText="/"/>
+        <Key custom:keyLabel="." custom:keyOutputText="."/>
+        <Key custom:codes="-2" custom:fontPath="Fonts/MSNeoGothic.ttf" custom:keyHeight="97dp" custom:keyLabel="이동" custom:textSize="22sp"/>
+        <Key custom:keyLabel="1" custom:keyOutputText="1"/>
+        <Key custom:keyLabel="2" custom:keyOutputText="2"/>
+        <Key custom:keyLabel="3" custom:keyOutputText="3"/>
+        <Key custom:keyEdgeFlags="right" custom:keyLabel="*" custom:keyOutputText="*"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_world_outline_24" custom:keyboard="@xml/language_selector_48"/>
+        <Key custom:codes="-3" custom:id="@+id/activate_emoji_keyboard" custom:keyIcon="@drawable/ic_emoji_outline_24" custom:keyboard="@xml/emoji_0_48"/>
+        <Key custom:codes="-3" custom:fontPath="Fonts/Roboto-Bold.ttf" custom:keyLabel="# $ %" custom:keyboard="@xml/text_default_sym_48" custom:textSize="12sp"/>
+        <Key custom:codes="1" custom:keyIcon="@drawable/ic_keyboard_space_outline_24" custom:keyOutputText=" " custom:keyWidth="spanDefaultKeys_6"/>
+        <Key custom:codes="-12" custom:id="@+id/activate_remote_input" custom:keyIcon="@drawable/ic_mobile_keyboard_outline_24"/>
+        <Key custom:horizontalGap="50dp" custom:keyLabel="0" custom:keyOutputText="0"/>
+        <Key custom:fontPath="Fonts/Roboto-Bold.ttf" custom:keyLabel=".com" custom:keyOutputText=".com" custom:textSize="12sp"/>
+        <Key custom:keyLabel="@" custom:keyOutputText="@"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Klaar</string>
+    <string name="otg_failure_message">Laad de batterij van je headset op tot 60%% of hoger en probeer het opnieuw.</string>
+    <string name="otg_failure_title">Kan geen verbinding maken met USB</string>
+    <string name="reformat_usb">USB opnieuw opmaken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Als je deze USB-schijf opnieuw opmaakt, worden alle gegevens verwijderd die er momenteel op opgeslagen zijn.</string>
+    <string name="storage_format_confirm_title">Weet je het zeker?</string>
+    <string name="storage_launcher_accept">Doorgaan</string>
+    <string name="storage_launcher_format_message">Deze USB-schijf moet opnieuw worden opgemaakt om deze te kunnen gebruiken met je headset.</string>
+    <string name="storage_launcher_format_title">Schijf wordt niet ondersteund</string>
+    <string name="storage_launcher_gallery_message">Wil je de Oculus-galerij openen om de inhoud van de schijf te bekijken?</string>
+    <string name="storage_launcher_gallery_title">Externe opslag</string>
+    <string name="storage_launcher_refuse">Annuleren</string>
+    <string name="storage_wizard_error_body">Fout: ^1</string>
+    <string name="storage_wizard_error_title">Kan ^1 niet formatteren</string>
+    <string name="storage_wizard_format_progress_body">Verwijder ^1 niet tijdens de opmaak.</string>
+    <string name="storage_wizard_format_progress_title">^1 opmaken...</string>
+    <string name="storage_wizard_ready_external_body">Je ^1 is klaar voor gebruik met foto\'s en andere media.</string>
+    <string name="storage_wizard_ready_title">^1 is klaar</string>
+</resources>

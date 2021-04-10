@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">Appar från okända källor kan innebära en risk för ditt konto och din enhet.</string>
+    <string name="binary_check_notification_title">Inofficiella %1$s har installerats</string>
+    <string name="notifications_download_canceled_message">Nedladdning för \"%1$s\" avbruten</string>
+    <string name="notifications_download_canceled_title">Nedladdningen har avbrutits</string>
+    <string name="notifications_download_failed_message">Det gick inte att ladda ned %1$s</string>
+    <string name="notifications_download_failed_title">Nedladdningen misslyckades</string>
+    <string name="notifications_download_in_progress_message">Laddar ned %1$s ...</string>
+    <string name="notifications_downloading_and_installing_apps">Laddar ned och installerar appar ...</string>
+    <string name="notifications_head_install_failed_message">Installationen misslyckades</string>
+    <string name="notifications_head_installed_message">Installerat</string>
+    <string name="notifications_head_installing_message">Installerar</string>
+    <string name="notifications_install_failed_message">Det gick inte att installera %1$s</string>
+    <string name="notifications_install_in_progress_message">Installerar %1$s ...</string>
+    <string name="notifications_install_succeeded_message">%1$s har installerats i ditt bibliotek.</string>
+    <string name="notifications_progress_of_download_message">%1$d %%</string>
+    <string name="obb_display_title">%1$s (expansionsfil)</string>
+    <string name="shorten_billions">%1$s md</string>
+    <string name="shorten_billions_capitalized">%1$s md</string>
+    <string name="shorten_hundred_millions">%1$s00 mn.</string>
+    <string name="shorten_millions">%1$s mn</string>
+    <string name="shorten_millions_capitalized">%1$s mn</string>
+    <string name="shorten_ten_thousands">%1$s0 tusen</string>
+    <string name="shorten_thousands">%1$s k</string>
+    <string name="shorten_thousands_capitalized">%1$s k</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

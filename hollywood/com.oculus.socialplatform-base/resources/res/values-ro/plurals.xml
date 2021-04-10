@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d loc disponibil</item>
+        <item quantity="other">%1$d locuri disponibile</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">încă %1$d</item>
+        <item quantity="other">alţi %1$d</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">%1$d persoane pe care le-ai blocat sunt în acest grup</item>
+        <item quantity="few">%1$d persoane pe care le-ai blocat sunt în acest grup</item>
+        <item quantity="other">%1$d de persoane pe care le-ai blocat sunt în acest grup</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 persoană este gata să călătorească</item>
+        <item quantity="other">%1$d persoane sunt gata să călătorească.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Invitaţie distribuită pentru %1$s şi încă %2$d persoană.</item>
+        <item quantity="other">Invitaţie distribuită pentru %1$s şi alte %2$d persoane.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Invitaţie trimisă către %1$s şi încă %2$d persoană.</item>
+        <item quantity="other">Invitaţie trimisă către %1$s şi alte %2$d persoane.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">Acum %1$d zi</item>
+        <item quantity="other">Acum %1$d zile</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">Acum %1$d oră</item>
+        <item quantity="other">Acum %1$d ore</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d prieten comun</item>
+        <item quantity="other">%1$d prieteni comuni</item>
+    </plurals>
+</resources>

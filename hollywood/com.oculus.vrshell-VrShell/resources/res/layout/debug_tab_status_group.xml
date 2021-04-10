@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.StatusGroupTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_status_group" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tracking" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_tracking"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="XRSP" style="?android:attr/listSeparatorTextViewStyle"/>
+        <include layout="@layout/debug_tab_xrsp"/>
+    </LinearLayout>
+</com.oculus.panelapp.debug.StatusGroupTab>

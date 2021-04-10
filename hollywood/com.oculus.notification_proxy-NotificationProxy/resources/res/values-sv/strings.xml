@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Anslut ditt headset inom kort.</string>
+    <string name="battery_critical_title">Batterinivån i headsetet är mycket låg</string>
+    <string name="battery_low_text">Anslut ditt headset.</string>
+    <string name="battery_low_title">Låg batterinivå för headset</string>
+    <string name="controller_critical_battery_text">Byt batteri i kontrollen nu.</string>
+    <string name="controller_critical_battery_title">Kritiskt låg batterinivå i kontrollen</string>
+    <string name="controller_disconnected_text">Kontrollera batteriet, flytta kontrollen närmare eller kontakta Oculus-supporten.</string>
+    <string name="controller_disconnected_title">Det gick inte att hitta kontrollen</string>
+    <string name="controller_firmware_update_failed_text">Kontakta Oculus Support för hjälp.</string>
+    <string name="controller_firmware_update_failed_title">Det gick inte att uppdatera din kontroll</string>
+    <string name="controller_firmware_update_progress_text">Uppdateringsförlopp: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Uppdateringen har slutförts.</string>
+    <string name="controller_firmware_update_title">Uppdatering av kontroll pågår</string>
+    <string name="controller_low_battery_text">Byt batteri inom kort.</string>
+    <string name="controller_low_battery_title">Låg batterinivå i kontrollen</string>
+    <string name="dual_controller_both_controller_disconnected_title">Kontrollerna hittades inte</string>
+    <string name="dual_controller_both_controller_low_battery_title">Låg batterinivå i kontrollen</string>
+    <string name="dual_controller_disconnected_text">Försök igen, kolla batteriet eller kontakta Oculus-supporten.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Vänster kontroll hittades inte</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Fel under uppdatering av vänster kontroll</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Uppdatering av vänster kontroll pågår</string>
+    <string name="dual_controller_left_controller_low_battery_title">Låg batterinivå i vänster kontroll</string>
+    <string name="dual_controller_low_battery_text">Byt batteri inom kort.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Höger kontroll hittades inte</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Fel under uppdatering av höger kontroll</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Uppdatering av höger kontroll pågår</string>
+    <string name="dual_controller_right_controller_low_battery_title">Låg batterinivå i höger kontroll</string>
+    <string name="notification_header">Oculus-systemet</string>
+    <string name="safe_volume_warning_text_1">Om du lyssnar med hög volym under längre perioder riskerar du att skada din hörsel.</string>
+    <string name="safe_volume_warning_text_2">Tryck på knappen igen för att tillfälligt ignorera den här varningen.</string>
+    <string name="safe_volume_warning_title">Volymen har höjts över den rekommenderade nivån</string>
+    <string name="vrui_gaze_input_instruction_text">Rör på huvudet och tryck sedan på en volymknapp för headsetet för att välja.</string>
+    <string name="vrui_gaze_input_instruction_title">Handspårning och kontroller inaktiverade</string>
+    <string name="wifi_disconnected_text">Gå tillbaka till inställningarna och felsök.</string>
+    <string name="wifi_disconnected_title">Wi-Fi-anslutningen till headsetet har brutits</string>
+</resources>

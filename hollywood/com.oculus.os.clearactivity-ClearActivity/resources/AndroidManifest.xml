@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.os.clearactivity" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <permission android:label="Launch the Clear Activity" android:name="com.oculus.permission.LAUNCH_CLEAR_ACTIVITY" android:protectionLevel="signature"/>
+    <application android:allowBackup="false" android:extractNativeLibs="true">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <activity android:theme="@style/Theme.Black.NoTitleBar.Fullscreen" android:name="ClearActivity" android:permission="com.oculus.permission.LAUNCH_CLEAR_ACTIVITY" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.oculus.os.clearactivity.FINISH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

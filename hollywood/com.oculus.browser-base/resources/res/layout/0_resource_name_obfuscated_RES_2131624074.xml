@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/0_resource_name_obfuscated_RES_2131165411" android:layout_width="0dp" android:scaleType="centerInside" android:layout_weight="1" style="@style/0_resource_name_obfuscated_RES_2132017972"/>

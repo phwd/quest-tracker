@@ -1,0 +1,37 @@
+package com.google.common.io;
+
+import com.google.common.annotations.Beta;
+import java.io.FilterOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import javax.annotation.Nullable;
+
+@Beta
+public final class CountingOutputStream extends FilterOutputStream {
+    private long count;
+
+    public CountingOutputStream(@Nullable OutputStream out) {
+        super(out);
+    }
+
+    public long getCount() {
+        return this.count;
+    }
+
+    @Override // java.io.OutputStream, java.io.FilterOutputStream
+    public void write(byte[] b, int off, int len) throws IOException {
+        this.out.write(b, off, len);
+        this.count += (long) len;
+    }
+
+    @Override // java.io.OutputStream, java.io.FilterOutputStream
+    public void write(int b) throws IOException {
+        this.out.write(b);
+        this.count++;
+    }
+
+    @Override // java.io.OutputStream, java.io.Closeable, java.io.FilterOutputStream, java.lang.AutoCloseable
+    public void close() throws IOException {
+        this.out.close();
+    }
+}

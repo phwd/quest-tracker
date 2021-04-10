@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ecran de blocare VR</string>
+    <string name="back">Înapoi</string>
+    <string name="cancel">Anulează</string>
+    <string name="clear">Şterge</string>
+    <string name="confirm">Confirmă</string>
+    <string name="forgot_pattern">Ai uitat modelul?</string>
+    <string name="lockscreen_confirm_for_removal">Desenează modelul de deblocare pentru a confirma ştergerea.</string>
+    <string name="lockscreen_confirm_help">Desenează din nou modelul pentru a-l confirma. Te rugăm să reţii acest model. Dacă îl uiţi, va trebui să resetezi dispozitivul la valorile din fabrică.</string>
+    <string name="lockscreen_confirm_lock">Confirmă modelul de deblocare</string>
+    <string name="lockscreen_patterm_mismatch">Modelele nu corespund. Te rugăm să încerci din nou</string>
+    <string name="lockscreen_remove_lock">Şterge modelul de deblocare</string>
+    <string name="lockscreen_secure_owner_account">Îţi poţi securiza contul pe acest dispozitiv setând un model de deblocare. Va trebui să desenezi acest model de fiecare dată când vei dori să-ţi accesezi contul de pe acest dispozitiv.</string>
+    <string name="lockscreen_secure_secondary_account">Îţi poţi securiza contul pe acest dispozitiv setând un model de deblocare. Va trebui să desenezi acest model de fiecare dată când vei dori să-ţi accesezi contul de pe acest dispozitiv.</string>
+    <string name="lockscreen_set_pattern">Setează modelul de deblocare</string>
+    <string name="lockscreen_set_pattern_hint">Securizează-ţi contul pe acest dispozitiv</string>
+    <string name="next">Continuare</string>
+    <string name="skip">Nu acum</string>
+</resources>

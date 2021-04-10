@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AssistantInAppToast">
+        <item name="android:background">@drawable/assistant_in_app_toast_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="AssistantInAppToastContentWrapper">
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="AssistantInAppToastIconBackground">
+        <item name="android:background">@drawable/assistant_in_app_toast_icon_background</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="AssistantInAppToastIconImage">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="AssistantInAppToastText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="AssistantInAppToastWrapperSize">
+        <item name="android:layout_width">420dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="Base" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">?attr/ocPrimaryText</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="Base.CardView" parent="@android:style/Widget">
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">false</item>
+    </style>
+    <style name="Body1" parent="@style/Base">
+        <item name="android:textSize">@dimen/octypography_body1_font_size</item>
+        <item name="lineHeight">@dimen/octypography_body1_line_height</item>
+    </style>
+    <style name="Body2" parent="@style/Base">
+        <item name="android:textSize">@dimen/octypography_body2_font_size</item>
+        <item name="lineHeight">@dimen/octypography_body2_line_height</item>
+    </style>
+    <style name="ButtonGear" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/guardian_settings</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginTop">-6dp</item>
+    </style>
+    <style name="ButtonPrimary" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/oc_text</item>
+        <item name="android:background">@drawable/ocbutton_primary</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="ButtonSecondary" parent="@style/ButtonPrimary">
+        <item name="android:background">@drawable/ocbutton_secondary</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="CardView.Dark" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="DialogButtonBar">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dialog_button_bar_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/dialog_button_bar_bottom_margin</item>
+    </style>
+    <style name="DialogButtonPrimary" parent="@style/ButtonPrimary">
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="DialogButtonSecondary" parent="@style/ButtonSecondary">
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="ExpandedStateTitle" parent="@style/H3">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="FBLinkUpsellSubtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GuardianControllerLocatorText">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/deprecated_oc_white_fix_me</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="H1" parent="@style/Base">
+        <item name="android:textSize">@dimen/octypography_h1_font_size</item>
+        <item name="lineHeight">@dimen/octypography_h1_line_height</item>
+    </style>
+    <style name="H2" parent="@style/Base">
+        <item name="android:textSize">@dimen/octypography_h2_font_size</item>
+        <item name="lineHeight">@dimen/octypography_h2_line_height</item>
+    </style>
+    <style name="H3" parent="@style/Base">
+        <item name="android:textSize">@dimen/octypography_h3_font_size</item>
+        <item name="lineHeight">@dimen/octypography_h3_line_height</item>
+    </style>
+    <style name="IPDAdjustDialogCalibrationImage">
+        <item name="android:layout_width">2880dp</item>
+        <item name="android:layout_height">1600dp</item>
+        <item name="android:src">@drawable/img_ipd_vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="IPDAdjustDialogPrimaryText" parent="@style/IPDAdjustDialogText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/deprecated_oc_white_fix_me</item>
+        <item name="android:layout_width">380dp</item>
+    </style>
+    <style name="IPDAdjustDialogSecondaryText" parent="@style/IPDAdjustDialogText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/deprecated_oc_gray_d_fix_me</item>
+        <item name="android:layout_width">380dp</item>
+    </style>
+    <style name="IPDAdjustDialogText">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="?0x10104dd">@null</item>
+    </style>
+    <style name="NoAnimAndTitleBar" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:textColor">@color/oc_text</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:editTextColor">@color/oc_text</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="ocAccent">@color/oc_blue_50</item>
+        <item name="ocBadge">@color/badge_background</item>
+        <item name="ocCardBackground">@color/oc_gray_70</item>
+        <item name="ocContextMenuBackground">@color/oc_gray_60</item>
+        <item name="ocControlBackgroundActive">@color/switch_active_background_on_exit</item>
+        <item name="ocControlBackgroundInactive">@color/switch_background_on_exit</item>
+        <item name="ocControlBackgroundSegmented">@color/segmented_controls_background</item>
+        <item name="ocControlIcon">@color/switch_icon</item>
+        <item name="ocHoverOverlay">@color/hover_overlay</item>
+        <item name="ocIconButton">@color/icon_clickable_on_exit</item>
+        <item name="ocIconButtonBackground">@color/icon_backing_on_enter</item>
+        <item name="ocNegative">@color/oc_red_40</item>
+        <item name="ocNegativeBackground">@color/oc_red_70</item>
+        <item name="ocPanelBackground">@color/oc_gray_80</item>
+        <item name="ocPanelSideNavBackground">@color/oc_gray_90</item>
+        <item name="ocPlaceholderText">@color/octypography_placeholder_color</item>
+        <item name="ocPositive">@color/icon_positive</item>
+        <item name="ocPressedOverlay">@color/pressed_overlay</item>
+        <item name="ocPrimaryButton">@color/button_primary_backing</item>
+        <item name="ocPrimaryButtonText">@color/octypography_primary_color</item>
+        <item name="ocPrimaryIcon">@color/icon</item>
+        <item name="ocPrimarySlider">@color/progress_bar</item>
+        <item name="ocPrimaryText">@color/octypography_primary_color</item>
+        <item name="ocScrollbar">@color/scroll_bar</item>
+        <item name="ocSecondaryButton">@color/button_secondary_backing</item>
+        <item name="ocSecondaryButtonText">@color/octypography_primary_color</item>
+        <item name="ocSecondaryIcon">@color/icon_secondary</item>
+        <item name="ocSecondarySlider">@color/progress_bar_secondary</item>
+        <item name="ocSecondaryText">@color/octypography_secondary_color</item>
+        <item name="ocSliderBackground">@color/progress_bar_backing</item>
+        <item name="ocTabActive">@color/nav_selected_item_background</item>
+        <item name="ocTabActiveBadge">@color/badge_selected_background</item>
+        <item name="ocTabDefaultBadge">@color/badge_background</item>
+        <item name="ocTooltipBackground">@color/oc_gray_100</item>
+        <item name="ocWarning">@color/icon_negative</item>
+    </style>
+    <style name="NoAnimAndTitleBar.Light" parent="@style/NoAnimAndTitleBar">
+        <item name="ocAccent">@color/oc_blue_60</item>
+        <item name="ocBadge">@color/oc_blue_60</item>
+        <item name="ocCardBackground">@color/oc_gray_20</item>
+        <item name="ocContextMenuBackground">@color/oc_gray_10</item>
+        <item name="ocControlBackgroundActive">@color/oc_blue_60</item>
+        <item name="ocControlBackgroundInactive">@color/oc_black_a10</item>
+        <item name="ocControlBackgroundSegmented">@color/oc_gray_40</item>
+        <item name="ocHoverOverlay">@color/oc_black_a20</item>
+        <item name="ocIconButton">@color/oc_gray_90</item>
+        <item name="ocIconButtonBackground">@color/oc_black_a05</item>
+        <item name="ocNegative">@color/oc_red_60</item>
+        <item name="ocNegativeBackground">@color/oc_red_60</item>
+        <item name="ocPanelBackground">@color/oc_gray_30</item>
+        <item name="ocPanelSideNavBackground">@color/oc_gray_40</item>
+        <item name="ocPlaceholderText">@color/oc_black_a30</item>
+        <item name="ocPositive">@color/oc_green_60</item>
+        <item name="ocPressedOverlay">@color/oc_black_a10</item>
+        <item name="ocPrimaryButton">@color/oc_blue_60</item>
+        <item name="ocPrimaryIcon">@color/oc_gray_90</item>
+        <item name="ocPrimarySlider">@color/oc_blue_60</item>
+        <item name="ocPrimaryText">@color/oc_gray_90</item>
+        <item name="ocScrollbar">@color/oc_black_a60</item>
+        <item name="ocSecondaryButton">@color/oc_black_a05</item>
+        <item name="ocSecondaryButtonText">@color/oc_gray_90</item>
+        <item name="ocSecondaryIcon">@color/oc_black_a60</item>
+        <item name="ocSecondarySlider">@color/oc_black_a10</item>
+        <item name="ocSecondaryText">@color/oc_black_a60</item>
+        <item name="ocSliderBackground">@color/oc_black_a05</item>
+        <item name="ocTabActive">@color/oc_blue_60</item>
+        <item name="ocTabActiveBadge">@color/oc_blue_70</item>
+        <item name="ocTabDefaultBadge">@color/oc_blue_60</item>
+        <item name="ocTooltipBackground">@color/oc_gray_10</item>
+        <item name="ocWarning">@color/oc_orange_60</item>
+    </style>
+    <style name="NoNotificationContainer">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_width">440dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="NoNotificationDescription">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/colorNotificationDescriptionText</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NoNotificationIcon">
+        <item name="android:background">@drawable/notification_none</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+    <style name="NoNotificationTitle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorNotificationTitleText</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="NotificationAUIContainer">
+        <item name="android:gravity">right</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+    <style name="NotificationAUIContainerSeparator">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:divider">@drawable/notification_button_divider</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+    <style name="NotificationAUIDescription" parent="@style/NotificationDescription">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="NotificationAUIIcon">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="NotificationAUIMainContainer">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="NotificationAUISystemDescription" parent="@style/NotificationSystemDescription">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="NotificationAUIViewAllButtonContainer">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@null</item>
+    </style>
+    <style name="NotificationContentContainer">
+        <item name="android:layout_gravity">center_vertical|clip_horizontal</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:layout_width">440dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+    <style name="NotificationDescription">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/colorNotificationDescriptionText</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NotificationIcon">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="NotificationIconCTA">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">42dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="NotificationIconCTAAccept" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_accept</item>
+    </style>
+    <style name="NotificationIconCTACancelDownload" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_canceldownload</item>
+    </style>
+    <style name="NotificationIconCTADeny" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_deny</item>
+    </style>
+    <style name="NotificationIconCTAInviteCall" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_invitecall</item>
+    </style>
+    <style name="NotificationIconCTALaunchContent" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_launchcontent</item>
+    </style>
+    <style name="NotificationIconCTARetryDownload" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_retrydownload</item>
+    </style>
+    <style name="NotificationIconCTASeeMore" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_seemore</item>
+    </style>
+    <style name="NotificationIconCTAShare" parent="@style/NotificationIconCTA">
+        <item name="android:background">@drawable/notification_share</item>
+    </style>
+    <style name="NotificationProgressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">9dp</item>
+        <item name="android:layout_marginTop">9dp</item>
+    </style>
+    <style name="NotificationSystemDescription" parent="@style/NotificationDescription">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="NotificationSystemTextContainer">
+        <item name="android:gravity">left</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="NotificationSystemTitle" parent="@style/NotificationTitle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="NotificationTextContainer">
+        <item name="android:gravity">left</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14dp</item>
+    </style>
+    <style name="NotificationTheme">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">@dimen/notification_width</item>
+        <item name="android:layout_height">@dimen/notification_height</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/colorNotificationTitleText</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NotificationView">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="NotificationViewApp">
+        <item name="android:textSize">9dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="NotificationViewContentWrapper">
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="NotificationViewIcon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+    <style name="NotificationViewIconBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="NotificationViewIconGlyph">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="NotificationViewIconImage">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+    <style name="NotificationViewText">
+        <item name="android:textSize">11dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="NotificationViewTextWrapper">
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">322dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">14dp</item>
+    </style>
+    <style name="NotificationViewTitle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="NotificationViewWrapperBackground">
+        <item name="android:background">@drawable/notification_view_background_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NotificationViewWrapperSize">
+        <item name="android:layout_width">420dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="NotificationsViewAllButtonTheme" parent="@android:style/Widget.Button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/deprecated_oc_gray_e_fix_me</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/see_all_menu_item_background</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:layout_weight">@null</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="OCButton">
+        <item name="android:textSize">@dimen/octypography_body1_font_size</item>
+        <item name="android:textColor">?attr/ocPrimaryText</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/ocbutton_secondary</item>
+        <item name="android:paddingLeft">@dimen/ocbutton_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/ocbutton_padding_horizontal</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="OCRecyclerView">
+        <item name="android:scrollbarSize">12dp</item>
+        <item name="android:scrollbarThumbVertical">@drawable/ocrecyclerview_thumb_vertical</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="PanelAppTheme" parent="@style/NoAnimAndTitleBar">
+        <item name="android:buttonStyle">@style/ButtonPrimary</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="ocButtonStyle">@style/OCButton</item>
+        <item name="ocRecyclerViewStyle">@style/OCRecyclerView</item>
+    </style>
+    <style name="PanelAppTheme.Light" parent="@style/NoAnimAndTitleBar.Light">
+        <item name="android:buttonStyle">@style/ButtonPrimary</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="ocButtonStyle">@style/OCButton</item>
+        <item name="ocRecyclerViewStyle">@style/OCRecyclerView</item>
+    </style>
+    <style name="PanelAppTheme.Tablet_DEPRECATED" parent="@style/PanelAppTheme">
+        <item name="ocCardBackground">@color/oc_gray_90</item>
+        <item name="ocContextMenuBackground">@color/oc_gray_70</item>
+        <item name="ocPanelBackground">@color/oc_gray_100</item>
+        <item name="ocPanelSideNavBackground">@color/oc_black_a70</item>
+        <item name="ocTooltipBackground">@color/oc_gray_70</item>
+    </style>
+    <style name="PrimaryButton" parent="@style/ButtonPrimary">
+        <item name="android:height">40dp</item>
+    </style>
+    <style name="SecondaryButton" parent="@style/ButtonPrimary">
+        <item name="android:background">@drawable/ocbutton_secondary</item>
+    </style>
+    <style name="SocialListRowActionIconTheme">
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+    <style name="SocialListRowContentTheme">
+        <item name="android:orientation">@null</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SocialListRowDescriptionContainerTheme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="SocialListRowDescriptionTheme">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="SocialListRowProfilePhotoTheme">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="SocialListRowTheme">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+    <style name="SocialReceiveInviteDialogActivityTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorAnytimeDetailBarText</item>
+    </style>
+    <style name="SocialReceiveInviteDialogSubtitle">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="SystemControllerLocator">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SystemDialog">
+        <item name="android:background">@drawable/system_dialog_background</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">80dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SystemDialogCalloutText" parent="@style/SystemDialogContentText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="SystemDialogContentText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/deprecated_oc_gray_d_fix_me</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="?0x10104dd">@null</item>
+    </style>
+    <style name="SystemDialogTitleText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/deprecated_oc_gray_d_fix_me</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+    <style name="TertiaryButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tertiary_button_text_color</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:height">40dp</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media" parent="@style/TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="@style/TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="@style/TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media" parent="@style/TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media" parent="@style/TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media" parent="@style/TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="Title" parent="@style/H2">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TooltipBody">
+        <item name="android:background">@drawable/tooltip_body</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TooltipCaret">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="TooltipCaretDown" parent="@style/TooltipCaretUpDown">
+        <item name="android:layout_marginBottom">@dimen/tooltip_target_offset</item>
+    </style>
+    <style name="TooltipCaretLeft" parent="@style/TooltipCaretLeftRight">
+        <item name="android:layout_marginLeft">@dimen/tooltip_target_offset</item>
+    </style>
+    <style name="TooltipCaretLeftRight" parent="@style/TooltipCaret">
+        <item name="android:layout_width">@dimen/tooltip_caret_height</item>
+        <item name="android:layout_height">@dimen/tooltip_caret_width</item>
+    </style>
+    <style name="TooltipCaretRight" parent="@style/TooltipCaretLeftRight">
+        <item name="android:layout_marginRight">@dimen/tooltip_target_offset</item>
+    </style>
+    <style name="TooltipCaretUp" parent="@style/TooltipCaretUpDown">
+        <item name="android:layout_marginTop">@dimen/tooltip_target_offset</item>
+    </style>
+    <style name="TooltipCaretUpDown" parent="@style/TooltipCaret">
+        <item name="android:layout_width">@dimen/tooltip_caret_width</item>
+        <item name="android:layout_height">@dimen/tooltip_caret_height</item>
+    </style>
+    <style name="TooltipContainer">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TooltipText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="?0x10104dd">2</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="attention_system_label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/assistant_notification_text_label</item>
+    </style>
+    <style name="attention_system_sub_label">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/assistant_notification_text_sublabel</item>
+    </style>
+    <style name="image_button">
+        <item name="android:background">@drawable/ocbutton_borderless_circle</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:height">32dp</item>
+        <item name="android:width">32dp</item>
+    </style>
+    <style name="list_item_component">
+        <item name="android:background">@drawable/ocbutton_borderless</item>
+    </style>
+    <style name="list_item_component_primary_label" parent="@style/Body1">
+        <item name="android:textSize">@dimen/octypography_body1_font_size</item>
+        <item name="android:textColor">@color/oc_gray_10</item>
+    </style>
+    <style name="list_item_component_secondary_label" parent="@style/Body2">
+        <item name="android:textColor">@color/oc_white_a60</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:drawable="@drawable/ic_red_recording_indicator" android:top="12dp" android:end="16dp"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:top="12dp" android:end="16dp">
+                <shape android:shape="oval">
+                    <size android:height="10dp" android:width="10dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

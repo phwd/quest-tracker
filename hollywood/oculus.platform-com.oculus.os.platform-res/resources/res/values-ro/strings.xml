@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Desenează modelul de deblocare</string>
+    <string name="lockscreen_enter_pin">PIN dispozitiv</string>
+    <string name="lockscreen_try_again">Te rugăm să încerci din nou</string>
+    <string name="pattern_too_short">Te rugăm să uneşti cel puţin 4 puncte.</string>
+    <string name="permdesc_accessMrSensorData">Permite aplicaţiei să acceseze datele de la senzorul de realitate mixtă, inclusiv datele de calibrare a camerei şi imaginile.</string>
+    <string name="permdesc_access_handtracking_data">Permite aplicaţiei să acceseze datele privind urmărirea mâinilor</string>
+    <string name="permgroupdesc_handtracking">accesează datele privind urmărirea mâinilor</string>
+    <string name="permgroupdesc_sensorData">acces la datele de la senzor</string>
+    <string name="permgrouplab_handtracking">Urmărirea mâinilor</string>
+    <string name="permgrouplab_sensorData">Date de la senzor</string>
+    <string name="permlab_accessMrSensorData">acces la datele de la senzorul de realitate mixtă</string>
+    <string name="permlab_access_handtracking_data">accesează datele privind urmărirea mâinilor</string>
+    <string name="pin_button_delete">Şterge</string>
+    <string name="pin_button_enter">Introdu</string>
+    <string name="reset_unlock_pattern_msg">Pentru a reseta modelul de deblocare, te rugăm să parcurgi următorii paşi:</string>
+    <string name="reset_unlock_pattern_step_1">1. Deschide aplicaţia Oculus pe dispozitivul tău mobil.</string>
+    <string name="reset_unlock_pattern_step_2">2. Deschide pagina Setări, atinge numele căştii şi aşteaptă până când aceasta se conectează.</string>
+    <string name="reset_unlock_pattern_step_3">3. Atinge Mai multe setări &gt; Modelul de deblocare.</string>
+    <string name="reset_unlock_pattern_title">Resetează modelul de deblocare</string>
+</resources>

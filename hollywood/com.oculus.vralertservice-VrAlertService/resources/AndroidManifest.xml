@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.vralertservice" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <application android:label="VrAlertService" android:name="com.oculus.vralertservice.AlertApplication" android:allowBackup="false" android:extractNativeLibs="true" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <receiver android:name="com.oculus.vralertservice.AlertReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.oculus.intent.action.battery_overheat"/>
+                <action android:name="com.oculus.intent.action.external_temp_overheat_warning"/>
+                <action android:name="com.oculus.intent.action.fan_malfunction"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.vralertservice.FanMalfunctionActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:directBootAware="true"/>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.vralertservice.ExternalTempOverheatActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:directBootAware="true"/>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.vralertservice.BatteryOverheatActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:directBootAware="true"/>
+        <activity android:theme="@android:style/Widget.Material.QuickContactBadge.WindowSmall" android:name="com.oculus.vralertservice.ThermalOverheatActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:directBootAware="true"/>
+    </application>
+</manifest>

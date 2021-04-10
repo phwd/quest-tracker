@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">%1$ss party · %2$d person</item>
+        <item quantity="other">%1$ss party · %2$d personer</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d vän</item>
+        <item quantity="other">%1$d vänner</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="other">%1$d vänner på Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s stödjer endast upp till %2$d person.</item>
+        <item quantity="other">%1$s stödjer endast upp till %2$d personer.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s stödjer endast upp till %2$d person. Välj en ny app för att fortsätta.</item>
+        <item quantity="other">%1$s stödjer endast upp till %2$d personer. Välj en ny app för att fortsätta.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d ledig plats</item>
+        <item quantity="other">%1$d lediga platser</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">%1$d sekunder kvar för att starta castingen …</item>
+        <item quantity="other">Om %1$d sekunder startar castingen …</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">%1$d person deltar i partyt</item>
+        <item quantity="other">%1$d personer deltar i partyt</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%1$d person har bjudits in</item>
+        <item quantity="other">%1$d personer har bjudits in.</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">%1$d av %2$d app tillåts</item>
+        <item quantity="other">%1$d av %2$d appar tillåts</item>
+    </plurals>
+</resources>

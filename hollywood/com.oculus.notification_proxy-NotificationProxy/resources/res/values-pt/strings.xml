@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Conecte o headset à tomada em breve.</string>
+    <string name="battery_critical_title">O nível de energia do headset está muito baixo</string>
+    <string name="battery_low_text">Conecte o headset à tomada.</string>
+    <string name="battery_low_title">O headset está com nível baixo de energia</string>
+    <string name="controller_critical_battery_text">Substitua a pilha do controle agora.</string>
+    <string name="controller_critical_battery_title">Nível crítico de energia do controle</string>
+    <string name="controller_disconnected_text">Verifique a pilha, aproxime o controle ou entre em contato com o Suporte Oculus.</string>
+    <string name="controller_disconnected_title">Não foi possível encontrar o seu controle</string>
+    <string name="controller_firmware_update_failed_text">Entre em contato com o Suporte Oculus para obter assistência.</string>
+    <string name="controller_firmware_update_failed_title">Não foi possível atualizar seu controle</string>
+    <string name="controller_firmware_update_progress_text">Progresso da atualização: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Atualização bem-sucedida.</string>
+    <string name="controller_firmware_update_title">Atualização do controle em andamento</string>
+    <string name="controller_low_battery_text">Substitua a pilha em breve.</string>
+    <string name="controller_low_battery_title">Nível baixo de energia do controle</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controles não encontrados</string>
+    <string name="dual_controller_both_controller_low_battery_title">Nível baixo de energia do controle</string>
+    <string name="dual_controller_disconnected_text">Se o problema continuar, verifique a bateria ou entre em contato com o suporte Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Controle esquerdo não encontrado</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Erro de atualização do controle esquerdo</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Atualização do controle esquerdo em andamento</string>
+    <string name="dual_controller_left_controller_low_battery_title">Nível baixo de energia do controle esquerdo</string>
+    <string name="dual_controller_low_battery_text">Substitua a pilha em breve.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Controle direito não encontrado</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Erro de atualização do controle direito</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Atualização do controle direito em andamento</string>
+    <string name="dual_controller_right_controller_low_battery_title">Nível baixo de energia do controle direito</string>
+    <string name="notification_header">Sistema Oculus</string>
+    <string name="safe_volume_warning_text_1">Ouvir som com volume alto por muito tempo pode ser prejudicial à audição.</string>
+    <string name="safe_volume_warning_text_2">Pressione o botão novamente para desativar esse aviso temporariamente.</string>
+    <string name="safe_volume_warning_title">Volume elevado acima do nível recomendado</string>
+    <string name="vrui_gaze_input_instruction_text">Mova a cabeça e pressione um botão de volume do headset para selecionar.</string>
+    <string name="vrui_gaze_input_instruction_title">Rastreamento das mãos e controles desativados</string>
+    <string name="wifi_disconnected_text">Vá para Configurações para fazer a resolução de problemas.</string>
+    <string name="wifi_disconnected_title">Conexão Wi-Fi do headset perdida</string>
+</resources>

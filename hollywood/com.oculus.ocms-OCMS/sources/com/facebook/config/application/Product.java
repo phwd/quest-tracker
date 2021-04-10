@@ -1,0 +1,48 @@
+package com.facebook.config.application;
+
+import com.facebook.infer.annotation.Nullsafe;
+
+@Nullsafe(Nullsafe.Mode.LOCAL)
+public enum Product {
+    MESSENGER,
+    FB4A,
+    PAA,
+    SAMPLE,
+    GIFTS,
+    NATIVEMSITE,
+    HOME,
+    GAMESPORTAL,
+    PHONE,
+    PETOPE,
+    GROUPS,
+    ME,
+    MOMENTS,
+    APPMANAGER,
+    FACEBOOK_SERVICES,
+    GETAPPS,
+    FBCAMERA,
+    ALOHA,
+    PARTIES,
+    ARSTUDIO_PLAYER,
+    FBCREATORS,
+    TALK,
+    SPACESHIP,
+    LIVEMAPSWAYFINDER,
+    BIZAPPSAPPROVAL,
+    LYNX,
+    ANNA,
+    STUDY,
+    GAMES,
+    VIDEOS,
+    KOTOTORO,
+    CRS,
+    WORKSPEED,
+    SOCAL,
+    CREATOR_STUDIO,
+    OCULUS_TWILIGHT,
+    SPARKLABS,
+    CRM,
+    FB4A_PLAYGROUND,
+    AVATAR_WORLD,
+    UNKNOWN
+}

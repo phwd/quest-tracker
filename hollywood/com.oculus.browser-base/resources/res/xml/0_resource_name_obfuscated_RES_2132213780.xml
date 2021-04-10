@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="app_language_section" android:order="1">
+        <org.chromium.chrome.browser.language.settings.LanguageItemPickerPreference android:key="app_language_preference"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131952704" android:key="content_langauges_section" android:order="2" app:allowDividerAbove="true">
+        <org.chromium.chrome.browser.language.settings.LanguageListPreference android:layout="@layout/0_resource_name_obfuscated_RES_2131624219" android:key="content_languages_preference" android:widgetLayout="@layout/0_resource_name_obfuscated_RES_2131623965"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131952720" android:key="translation_settings_section" android:order="3" app:initialExpandedChildrenCount="1">
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:key="translate_switch" android:summaryOn="@string/0_resource_name_obfuscated_RES_2131952714" android:summaryOff="@string/0_resource_name_obfuscated_RES_2131952714"/>
+        <org.chromium.chrome.browser.language.settings.LanguageItemPickerPreference android:title="@string/0_resource_name_obfuscated_RES_2131952719" android:key="translate_settings_target_language" app:allowDividerBelow="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

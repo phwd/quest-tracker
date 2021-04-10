@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/control_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/omnibox_results_container_stub" android:background="@android:color/white" android:layout="@layout/0_resource_name_obfuscated_RES_2131624322" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_anchor="@+id/toolbar"/>
+    <FrameLayout android:id="@+id/toolbar" android:background="@color/0_resource_name_obfuscated_RES_2131100224" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166252" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166251" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131166251">
+        <org.chromium.chrome.browser.searchwidget.SearchActivityLocationBarLayout android:layout_gravity="center_vertical" android:id="@+id/search_location_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165673" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165673" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165665" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165665"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bottom_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

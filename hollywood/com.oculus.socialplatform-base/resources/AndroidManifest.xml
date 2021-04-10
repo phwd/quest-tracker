@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="318000491" android:versionName="110.0.0.2.231" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.socialplatform" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="false" android:version="1"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.oculus.messenger.permission.ACCESS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.oculus.horizon.FBCONNECT_CONTENT_PROVIDER_READ_ACCESS"/>
+    <uses-permission android:name="com.oculus.horizon.permission.OVR_PLATFORM_BROADCAST"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-feature android:glEsVersion="30000" android:required="true"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.vrshell.VrNotificationServicePermission"/>
+    <uses-permission android:name="com.oculus.horizon.auth"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission android:name="com.oculus.messenger.permission.ACCESS" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.oculus.permission.RECORD_AUDIO_BACKGROUND"/>
+    <uses-permission android:name="com.oculus.permission.PRIORITY_CAPTURE_MIC_AUDIO_INPUT"/>
+    <application android:label="SocialPlatform" android:name="com.oculus.socialplatform.app.SocialPlatformApplication" android:debuggable="false" android:allowBackup="false" android:supportsRtl="true" android:directBootAware="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.facebook.build_rule" android:value="socialplatform_xzso_armv7_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1616195643000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <meta-data android:name="com.oculus.dependency.required_build_version" android:value="1528060.20.0"/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.horizon.fbpermission.FRIEND_LIST_CONTENT_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <meta-data android:name="com.oculus.deviceconfig.PARAMS_MAP_PATH" android:value="assets/params_map.txt"/>
+        <activity android:theme="@style/Theme.NoDisplay" android:label="@string/app_name" android:name="com.oculus.socialplatform.PanelActivity" android:launchMode="singleTask" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.oculus.socialplatform.SocialService" android:exported="true" android:process=":social">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.is_default_service" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.socialplatform.SocialBackPanelService" android:exported="true" android:process=":socialbackpanel">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.socialplatform.SharedMemoryService" android:exported="true" android:process=":social"/>
+        <service android:name="com.oculus.socialplatform.SocialDialogsService" android:exported="true" android:process=":socialdialogs">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.socialplatform.ShareSheetService" android:exported="true" android:process=":ShareSheet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.socialplatform.LivestreamPanelService" android:exported="true" android:process=":LivestreamPanel">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <meta-data android:name="com.oculus.socialplatform.fbpermission.PARTIES_API_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.socialplatform.fbpermission.MESSENGER_VR_ACCOUNTS_CONTENT_PROVIDER_READ_ONLY" android:value=""/>
+        <meta-data android:name="oculus_preferences_social_tablet" android:resource="@raw/preferences_store_schema"/>
+        <service android:name="com.oculus.panelapp.messenger.MessengerTabletPanelService" android:process=":MessengerTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/messenger_tablet_panel_app_layers"/>
+        </service>
+        <service android:name="com.oculus.panelapp.messenger.OculusMessengerTabletPanelService" android:process=":ChatsTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/messenger_tablet_panel_app_layers"/>
+        </service>
+        <meta-data android:name="com.oculus.socialplatform.fbpermission.FRIEND_LIST_CONTENT_PROVIDER" android:value=""/>
+        <service android:name="com.oculus.panelapp.parties.PartiesTabletPanelService" android:process=":PartiesTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.panelapp.people.OCPeopleTabletPanelService" android:process=":PeopleTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/people_tablet_panel_app_layers"/>
+        </service>
+        <service android:name="com.oculus.panelapp.people.FBPeopleTabletPanelService" android:process=":FBPeopleTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/people_tablet_panel_app_layers"/>
+        </service>
+        <service android:name="com.oculus.panelapp.socialandroidbackpanel.SocialAndroidBackPanelService" android:process=":SocialAndroidBackPanel">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+        </service>
+        <meta-data android:name="com.oculus.socialplatform.fbpermission.MESSENGER_VR_ACCOUNTS_CONTENT_PROVIDER_WRITE_ONLY" android:value=""/>
+        <service android:name="com.oculus.panelapp.socialreauth.SocialReauthTabletPanelService" android:process=":SocialReauthTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/social_reauth_tablet_panel_app_layers"/>
+        </service>
+        <service android:name="com.oculus.panelapp.socialsettings.SocialSettingsTabletPanelService" android:process=":SocialSettingsTablet">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/social_settings_tablet_panel_app_layers"/>
+        </service>
+        <receiver android:name="com.oculus.auth.receiver.AuthBroadcastReceiver" android:permission="com.oculus.horizon.auth">
+            <intent-filter>
+                <action android:name="com.oculus.auth.BROADCAST_LOGIN"/>
+                <action android:name="com.oculus.auth.BROADCAST_LOGOUT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.auth.receiver.LoginHandlersService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.oculus.auth.BROADCAST_LOGIN"/>
+                <action android:name="com.oculus.auth.BROADCAST_LOGOUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.oculus.common.packagescache.PackagesCacheReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.oculus.friendlistcontentprovider.FriendListContentProvider" android:exported="true" android:authorities="com.oculus.socialplatform.friendlist"/>
+        <service android:name="com.oculus.horizon.vr_lifecycle.VRLifecycleJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+        <receiver android:name="com.oculus.horizon.vr_lifecycle.VRLifecycleStartUpBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.messenger.service.MessengerService" android:permission="com.oculus.messenger.permission.ACCESS" android:exported="true"/>
+        <provider android:name="com.oculus.messenger.service.MessengerServiceProvider" android:exported="true" android:authorities="com.oculus.socialplatform.messenger.service.provider"/>
+        <provider android:name="com.oculus.socialplatform.accounts.provider.MessengerVrAccountsContentProvider" android:exported="true" android:authorities="com.oculus.socialplatform.messengervraccounts"/>
+        <service android:name="com.oculus.socialplatform.partyservice.PartyService" android:exported="false"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <provider android:name="com.oculus.socialplatform.provider.PartiesApiProvider" android:exported="true" android:authorities="com.oculus.socialplatform.partiesapi"/>
+        <receiver android:name="libraries.marauder.analytics.AnalyticsUploadAlarmReceiver" android:exported="false"/>
+        <activity-alias android:name="com.facebook.secure.packagefinder.PackageFinderActivity" android:enabled="false" android:exported="true" android:targetActivity="com.oculus.socialplatform.PanelActivity">
+            <intent-filter>
+                <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

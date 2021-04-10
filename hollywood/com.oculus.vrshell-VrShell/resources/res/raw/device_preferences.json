@@ -1,0 +1,12 @@
+{
+  "contents": [
+    {
+      "key": "pairing_code",
+      "type": "string",
+      "default": "",
+      "hasWritePermission": false,
+      "scope": "user",
+      "isOwner": false
+    }
+  ]
+}

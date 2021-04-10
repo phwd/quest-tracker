@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/password_entry_viewer_interactive" android:layout_width="match_parent" android:layout_height="wrap_content" android:title="@string/0_resource_name_obfuscated_RES_2131953102" android:paddingStart="15dp">
+            <TextView android:layout_marginTop="15dp" android:text="@string/0_resource_name_obfuscated_RES_2131953101" style="@style/0_resource_name_obfuscated_RES_2132017480"/>
+            <include android:id="@+id/url_row" layout="@layout/0_resource_name_obfuscated_RES_2131624344"/>
+            <TextView android:layout_marginTop="10dp" android:text="@string/0_resource_name_obfuscated_RES_2131953104" style="@style/0_resource_name_obfuscated_RES_2132017480"/>
+            <include android:id="@+id/username_row" layout="@layout/0_resource_name_obfuscated_RES_2131624344"/>
+            <TextView android:id="@+id/password_title" android:layout_marginTop="10dp" android:text="@string/0_resource_name_obfuscated_RES_2131953097" style="@style/0_resource_name_obfuscated_RES_2132017480"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/password_data" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/password_entry_viewer_password" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_weight="1"/>
+                <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="end" android:id="@+id/password_entry_viewer_view_password" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953105" android:layout_marginEnd="15dp" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131231332" app:tint="@color/0_resource_name_obfuscated_RES_2131099829" style="?android:attr/buttonStyleSmall"/>
+                <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="end" android:id="@+id/password_entry_viewer_copy_password" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953090" android:layout_marginEnd="15dp" app:tint="@color/0_resource_name_obfuscated_RES_2131099829" style="?android:attr/buttonStyleSmall"/>
+            </LinearLayout>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/passwords_link" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624452"/>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.deviceauthserver" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <protected-broadcast android:name="com.oculus.deviceauthservice.NEW_TOKEN_AVAILABLE"/>
+    <application android:allowBackup="false" android:extractNativeLibs="false" android:directBootAware="true" android:usesNonSdkApi="true">
+        <meta-data android:name="com.oculus.enable_strict_single_user" android:value="true"/>
+        <service android:name=".DeviceAuthService" android:exported="true" android:singleUser="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="GET_TOKEN"/>
+            </intent-filter>
+        </service>
+        <receiver android:name=".BootReceiver" android:singleUser="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="android.test.base" android:required="false"/>
+    </application>
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.dogfood.tabs.DogfoodOTATab xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/dogfood_ota_tab" android:paddingLeft="26dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="25dp">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/dogfood_primary_panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/dogfood_channel"/>
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_channel_text" android:background="@drawable/rounded_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="Device Serial:"/>
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_device_serial" android:background="@drawable/rounded_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="Current OS Version:"/>
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_current_build_version" android:background="@drawable/rounded_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/dogfood_current_os_build"/>
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_current_build_display" android:background="@drawable/rounded_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="Build Date:"/>
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_current_build_date" android:background="@drawable/rounded_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="ShellEnv Status:"/>
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_ota_shell_or_shellenv" android:background="@drawable/rounded_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/dogfood_bottom_bar" android:background="@drawable/dogfood_bottom_background" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:textSize="18sp" android:id="@+id/dogfood_ota_exit_button" android:background="@drawable/button_background_secondary" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="171dp" android:layout_height="wrap_content" android:layout_marginRight="19dp" android:text="@string/dogfood_reject_button_text"/>
+                <Button android:textSize="18sp" android:id="@+id/dogfood_ota_update_button" android:background="@drawable/dogfood_accept_button" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="171dp" android:layout_height="wrap_content" android:text="Checking for Update..."/>
+            </LinearLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_white_fix_me" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dogfood_info_title_text"/>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_ota_status" android:paddingRight="115dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="40dp"/>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/dogfood_ota_update_view"/>
+</com.oculus.panelapp.dogfood.tabs.DogfoodOTATab>

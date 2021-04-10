@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="60dp" custom:listener="KeyboardActionListenerKaomoji" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:codes="-16" custom:isRepeatable="true" custom:keyHeight="spanDefaultKeys_5" custom:keyIcon="@drawable/ic_arrow_left_circle_outline_24"/>
+        <DynamicKeyArea custom:id="@+id/dynamic_row_1" custom:keyWidth="spanDefaultKeys_6"/>
+        <Key custom:codes="-17" custom:isRepeatable="true" custom:keyHeight="spanDefaultKeys_5" custom:keyIcon="@drawable/ic_arrow_right_circle_outline_24"/>
+    </Row>
+    <Row>
+        <DynamicKeyArea custom:horizontalGap="61dp" custom:id="@+id/dynamic_row_2" custom:keyWidth="spanDefaultKeys_6"/>
+    </Row>
+    <Row>
+        <DynamicKeyArea custom:horizontalGap="61dp" custom:id="@+id/dynamic_row_3" custom:keyWidth="spanDefaultKeys_6"/>
+    </Row>
+    <Row>
+        <DynamicKeyArea custom:horizontalGap="61dp" custom:id="@+id/dynamic_row_4" custom:keyWidth="spanDefaultKeys_6"/>
+    </Row>
+    <Row>
+        <DynamicKeyArea custom:horizontalGap="61dp" custom:id="@+id/dynamic_row_5" custom:keyWidth="spanDefaultKeys_6"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-19" custom:keyLabel="(^-^)/" custom:tag="kaomoji_salutation"/>
+        <Key custom:codes="-19" custom:keyLabel="(^-^)" custom:tag="kaomoji_happy"/>
+        <Key custom:codes="-19" custom:keyLabel="(T-T)" custom:tag="kaomoji_sad"/>
+        <Key custom:codes="-19" custom:keyLabel="(&gt;д&lt;)" custom:tag="kaomoji_angry"/>
+        <Key custom:codes="-19" custom:keyLabel="(・・;)" custom:tag="kaomoji_trouble"/>
+        <Key custom:codes="-19" custom:keyLabel="(*ﾟДﾟ)" custom:tag="kaomoji_surprise"/>
+        <Key custom:codes="-19" custom:keyLabel="…" custom:tag="kaomoji_other"/>
+        <Key custom:codes="-7" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+</Keyboard>

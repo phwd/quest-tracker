@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_world_outline_24" custom:keyboard="@xml/language_selector_32"/>
+        <Key custom:keyLabel="1" custom:keyOutputText="1"/>
+        <Key custom:keyLabel="2" custom:keyOutputText="2"/>
+        <Key custom:keyLabel="3" custom:keyOutputText="3"/>
+        <Key custom:keyLabel="4" custom:keyOutputText="4"/>
+        <Key custom:keyLabel="5" custom:keyOutputText="5"/>
+        <Key custom:keyLabel="6" custom:keyOutputText="6"/>
+        <Key custom:keyLabel="7" custom:keyOutputText="7"/>
+        <Key custom:keyLabel="8" custom:keyOutputText="8"/>
+        <Key custom:keyLabel="9" custom:keyOutputText="9"/>
+        <Key custom:keyLabel="0" custom:keyOutputText="0"/>
+        <Key custom:keyLabel="-" custom:keyOutputText="-"/>
+        <Key custom:keyLabel="+" custom:keyOutputText="+"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:fontPath="Fonts/Roboto-Bold.ttf" custom:keyEdgeFlags="left" custom:keyLabel="# $ %" custom:keyboard="@xml/text_default_sym_32" custom:textSize="9sp"/>
+        <Key custom:keyLabel="й" custom:keyOutputText="й" custom:shiftKeyLabel="Й" custom:shiftKeyOutputText="Й"/>
+        <Key custom:keyLabel="ц" custom:keyOutputText="ц" custom:shiftKeyLabel="Ц" custom:shiftKeyOutputText="Ц"/>
+        <Key custom:keyLabel="у" custom:keyOutputText="у" custom:shiftKeyLabel="У" custom:shiftKeyOutputText="У"/>
+        <Key custom:keyLabel="к" custom:keyOutputText="к" custom:shiftKeyLabel="К" custom:shiftKeyOutputText="К"/>
+        <Key custom:keyLabel="е" custom:keyOutputText="е" custom:shiftKeyLabel="Е" custom:shiftKeyOutputText="Е"/>
+        <Key custom:keyLabel="н" custom:keyOutputText="н" custom:shiftKeyLabel="Н" custom:shiftKeyOutputText="Н"/>
+        <Key custom:keyLabel="г" custom:keyOutputText="г" custom:shiftKeyLabel="Г" custom:shiftKeyOutputText="Г"/>
+        <Key custom:keyLabel="ш" custom:keyOutputText="ш" custom:shiftKeyLabel="Ш" custom:shiftKeyOutputText="Ш"/>
+        <Key custom:keyLabel="щ" custom:keyOutputText="щ" custom:shiftKeyLabel="Щ" custom:shiftKeyOutputText="Щ"/>
+        <Key custom:keyLabel="з" custom:keyOutputText="з" custom:shiftKeyLabel="З" custom:shiftKeyOutputText="З"/>
+        <Key custom:keyLabel="х" custom:keyOutputText="х" custom:shiftKeyLabel="Х" custom:shiftKeyOutputText="Х"/>
+        <Key custom:keyLabel="ъ" custom:keyOutputText="ъ" custom:shiftKeyLabel="Ъ" custom:shiftKeyOutputText="Ъ"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyHeight="65dp" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:id="@+id/activate_emoji_keyboard" custom:keyIcon="@drawable/ic_emoji_outline_24" custom:keyboard="@xml/emoji_0_32"/>
+        <Key custom:keyLabel="ф" custom:keyOutputText="ф" custom:shiftKeyLabel="Ф" custom:shiftKeyOutputText="Ф"/>
+        <Key custom:keyLabel="ы" custom:keyOutputText="ы" custom:shiftKeyLabel="Ы" custom:shiftKeyOutputText="Ы"/>
+        <Key custom:keyLabel="в" custom:keyOutputText="в" custom:shiftKeyLabel="В" custom:shiftKeyOutputText="В"/>
+        <Key custom:keyLabel="а" custom:keyOutputText="а" custom:shiftKeyLabel="А" custom:shiftKeyOutputText="А"/>
+        <Key custom:keyLabel="п" custom:keyOutputText="п" custom:shiftKeyLabel="П" custom:shiftKeyOutputText="П"/>
+        <Key custom:keyLabel="р" custom:keyOutputText="р" custom:shiftKeyLabel="Р" custom:shiftKeyOutputText="Р"/>
+        <Key custom:keyLabel="о" custom:keyOutputText="о" custom:shiftKeyLabel="О" custom:shiftKeyOutputText="О"/>
+        <Key custom:keyLabel="л" custom:keyOutputText="л" custom:shiftKeyLabel="Л" custom:shiftKeyOutputText="Л"/>
+        <Key custom:keyLabel="д" custom:keyOutputText="д" custom:shiftKeyLabel="Д" custom:shiftKeyOutputText="Д"/>
+        <Key custom:keyLabel="ж" custom:keyOutputText="ж" custom:shiftKeyLabel="Ж" custom:shiftKeyOutputText="Ж"/>
+        <Key custom:keyLabel="э" custom:keyOutputText="э" custom:shiftKeyLabel="Э" custom:shiftKeyOutputText="Э"/>
+        <Key custom:keyLabel=":" custom:keyOutputText=":" custom:shiftKeyLabel=";" custom:shiftKeyOutputText=";"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-1" custom:keyHeight="65dp" custom:keyIcon="@drawable/ic_uppercase_arrow_outline_24" custom:shiftKeyIcon="@drawable/ic_uppercase_arrow_filled_24"/>
+        <Key custom:keyLabel="@" custom:keyOutputText="@" custom:shiftKeyLabel="#" custom:shiftKeyOutputText="#"/>
+        <Key custom:keyLabel="я" custom:keyOutputText="я" custom:shiftKeyLabel="Я" custom:shiftKeyOutputText="Я"/>
+        <Key custom:keyLabel="ч" custom:keyOutputText="ч" custom:shiftKeyLabel="Ч" custom:shiftKeyOutputText="Ч"/>
+        <Key custom:keyLabel="с" custom:keyOutputText="с" custom:shiftKeyLabel="С" custom:shiftKeyOutputText="С"/>
+        <Key custom:keyLabel="м" custom:keyOutputText="м" custom:shiftKeyLabel="М" custom:shiftKeyOutputText="М"/>
+        <Key custom:keyLabel="и" custom:keyOutputText="и" custom:shiftKeyLabel="И" custom:shiftKeyOutputText="И"/>
+        <Key custom:keyLabel="т" custom:keyOutputText="т" custom:shiftKeyLabel="Т" custom:shiftKeyOutputText="Т"/>
+        <Key custom:keyLabel="ь" custom:keyOutputText="ь" custom:shiftKeyLabel="Ь" custom:shiftKeyOutputText="Ь"/>
+        <Key custom:keyLabel="б" custom:keyOutputText="б" custom:shiftKeyLabel="Б" custom:shiftKeyOutputText="Б"/>
+        <Key custom:keyLabel="ю" custom:keyOutputText="ю" custom:shiftKeyLabel="Ю" custom:shiftKeyOutputText="Ю"/>
+        <Key custom:keyLabel="ё" custom:keyOutputText="ё" custom:shiftKeyLabel="Ё" custom:shiftKeyOutputText="Ё"/>
+        <Key custom:keyLabel="." custom:keyOutputText="."/>
+        <Key custom:codes="-2" custom:keyHeight="65dp" custom:keyLabel="go"/>
+    </Row>
+    <Row>
+        <Key custom:horizontalGap="33dp" custom:keyLabel="/" custom:keyOutputText="/"/>
+        <Key custom:fontPath="Fonts/Roboto-Bold.ttf" custom:keyLabel=".com" custom:keyOutputText=".com" custom:textSize="9sp"/>
+        <Key custom:codes="1" custom:keyIcon="@drawable/ic_keyboard_space_outline_24" custom:keyOutputText=" " custom:keyWidth="spanDefaultKeys_9"/>
+        <Key custom:codes="-12" custom:id="@+id/activate_remote_input" custom:keyIcon="@drawable/ic_mobile_keyboard_outline_24"/>
+    </Row>
+</Keyboard>

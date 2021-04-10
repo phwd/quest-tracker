@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Odhlásíte se z oculus.com.</string>
+    <string name="app_name">Doplňkový server</string>
+    <string name="app_short_name">Doplňkový</string>
+    <string name="permdesc_companionService">Umožní aplikaci odesílat záměry do doplňkové služby.</string>
+    <string name="permlab_companionService">odesílat záměry do doplňkové služby</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Ovladač třetí strany</string>
+</resources>

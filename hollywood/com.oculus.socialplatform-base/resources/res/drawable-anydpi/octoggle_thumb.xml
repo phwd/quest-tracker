@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:left="@dimen/abc_button_inset_vertical_material" android:right="@dimen/abc_button_inset_vertical_material">
+        <shape android:shape="oval">
+            <size android:height="@dimen/messenger_reactions_pill_radius" android:width="@dimen/messenger_reactions_pill_radius"/>
+            <solid android:color="?attr/ocControlIcon"/>
+        </shape>
+    </item>
+</layer-list>

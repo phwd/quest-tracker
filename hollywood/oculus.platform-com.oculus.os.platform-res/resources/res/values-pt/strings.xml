@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Desenhe o padrão de desbloqueio</string>
+    <string name="lockscreen_enter_pin">PIN do dispositivo</string>
+    <string name="lockscreen_try_again">Tente novamente</string>
+    <string name="pattern_too_short">Conecte pelo menos 4 pontos.</string>
+    <string name="permdesc_accessMrSensorData">Permite que o aplicativo acesse dados do sensor de realidade mista, incluindo imagens e calibração da câmera.</string>
+    <string name="permdesc_access_handtracking_data">Permite que o aplicativo acesse dados de rastreamento das mãos</string>
+    <string name="permgroupdesc_handtracking">acessar dados de rastreamento das mãos</string>
+    <string name="permgroupdesc_sensorData">acessar dados do sensor</string>
+    <string name="permgrouplab_handtracking">Rastreamento das mãos</string>
+    <string name="permgrouplab_sensorData">Dados do sensor</string>
+    <string name="permlab_accessMrSensorData">acessar dados do sensor de realidade mista</string>
+    <string name="permlab_access_handtracking_data">acessar dados de rastreamento das mãos</string>
+    <string name="pin_button_delete">Excluir</string>
+    <string name="pin_button_enter">Inserir</string>
+    <string name="reset_unlock_pattern_msg">Para redefinir o padrão de desbloqueio, siga estas etapas:</string>
+    <string name="reset_unlock_pattern_step_1">1. Abra seu aplicativo Oculus no seu dispositivo móvel.</string>
+    <string name="reset_unlock_pattern_step_2">2. Abra a página Configurações, toque no nome do seu headset e aguarde o estabelecimento da conexão.</string>
+    <string name="reset_unlock_pattern_step_3">3. Toque em Mais configurações &gt; Desbloquear padrão.</string>
+    <string name="reset_unlock_pattern_title">Redefinir o padrão de desbloqueio</string>
+</resources>

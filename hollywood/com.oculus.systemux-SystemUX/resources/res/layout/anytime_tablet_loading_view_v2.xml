@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.anytimeui.v2.tablet.loading.LoadingView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/anytime_tablet_loading_view_v2_0" android:background="@drawable/anytime_tablet_content_background_v2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/loading_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/anytime_tablet_loading_dots_v2"/>
+</com.oculus.panelapp.anytimeui.v2.tablet.loading.LoadingView>

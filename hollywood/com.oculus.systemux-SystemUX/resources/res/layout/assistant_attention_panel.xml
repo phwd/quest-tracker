@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.assistant.AssistantView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/assistant_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/attention_view_container" android:visibility="visible" android:layout_width="@dimen/attention_system_width" android:layout_height="@dimen/attention_system_height">
+            <com.oculus.panelapp.assistant.attentionui.AssistantAttentionView android:layout_gravity="center_horizontal" android:id="@+id/attention_view" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </FrameLayout>
+</com.oculus.panelapp.assistant.AssistantView>

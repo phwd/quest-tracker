@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Veuillez brancher votre casque sous peu.</string>
+    <string name="battery_critical_title">Casque extrêmement faible</string>
+    <string name="battery_low_text">Veuillez brancher votre casque.</string>
+    <string name="battery_low_title">Casque faible</string>
+    <string name="controller_critical_battery_text">Veuillez changer la batterie de votre manette.</string>
+    <string name="controller_critical_battery_title">Batterie manette critique</string>
+    <string name="controller_disconnected_text">Vérifiez la batterie, rapprochez la manette, ou bien contactez le service d’assistance Oculus.</string>
+    <string name="controller_disconnected_title">Manette introuvable</string>
+    <string name="controller_firmware_update_failed_text">Veuillez contacter l’assistance Oculus pour de l’aide.</string>
+    <string name="controller_firmware_update_failed_title">Impossible de mettre votre manette à jour</string>
+    <string name="controller_firmware_update_progress_text">Statut de la mise à jour : %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Mise à jour réussie</string>
+    <string name="controller_firmware_update_title">Mise à jour de la manette en cours</string>
+    <string name="controller_low_battery_text">Veuillez bientôt la batterie sous peu.</string>
+    <string name="controller_low_battery_title">Batterie manette faible</string>
+    <string name="dual_controller_both_controller_disconnected_title">Manettes introuvables</string>
+    <string name="dual_controller_both_controller_low_battery_title">Batteries manettes faibles</string>
+    <string name="dual_controller_disconnected_text">Si le problème persiste, vérifiez la pile ou contactez l’assistance Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Manette gauche introuvable</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Erreur dans la mise à jour de la manette gauche</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Mise à jour de la manette gauche en cours</string>
+    <string name="dual_controller_left_controller_low_battery_title">Batterie manette gauche faible</string>
+    <string name="dual_controller_low_battery_text">Veuillez bientôt la batterie sous peu.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Manette droite introuvable</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Erreur dans la mise à jour de la manette droite</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Mise à jour de la manette droite en cours</string>
+    <string name="dual_controller_right_controller_low_battery_title">Batterie manette droite faible</string>
+    <string name="notification_header">Système Oculus</string>
+    <string name="safe_volume_warning_text_1">L’exposition à des volumes sonores élevés pendant de longues durées peut endommager l’ouïe.</string>
+    <string name="safe_volume_warning_text_2">Appuyez à nouveau sur le bouton pour temporairement désactiver cet avertissement.</string>
+    <string name="safe_volume_warning_title">Volume augmenté au-delà du niveau recommandé</string>
+    <string name="vrui_gaze_input_instruction_text">Bougez votre tête puis appuyez sur un bouton de volume pour sélectionner.</string>
+    <string name="vrui_gaze_input_instruction_title">Suivi des mains et manettes désactivtées</string>
+    <string name="wifi_disconnected_text">Veuillez accéder aux paramètres pour régler le problème.</string>
+    <string name="wifi_disconnected_title">Connexion Wi-Fi au casque perdue</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/selected" android:oneshot="true">
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00000"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00001"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00002"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00003"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00004"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00005"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00006"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00007"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00008"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00009"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00010"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00011"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00012"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00013"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00014"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00015"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00016"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00017"/>
+    <item android:duration="16" android:drawable="@drawable/png_seq_thinking_response_00018"/>
+</animation-list>

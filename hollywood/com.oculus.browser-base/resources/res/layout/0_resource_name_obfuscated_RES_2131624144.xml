@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165519" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131166037" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131166037">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017799" android:id="@+id/label" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <org.chromium.chrome.browser.autofill.prefeditor.ExpandableGridView android:id="@+id/icons_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchMode="none" android:columnWidth="@dimen/0_resource_name_obfuscated_RES_2131165516" android:numColumns="auto_fit"/>
+</LinearLayout>

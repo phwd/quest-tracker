@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Ditt headset börjar bli varmt. Vi rekommenderar att du tar en paus i några minuter och låter ditt headset svalna.</string>
+    <string name="fan_malfunction">Fläkten i din enhet fungerar inte som den ska. Ditt headset kan överhettas eller bete sig onormalt på grund av otillräcklig kylning. Kontakta Oculus kundsupport https://support.oculus.com för att få hjälp.</string>
+    <string name="notification_dismiss">Tryck för att stänga denna avisering</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTEMVARNING</string>
+    <string name="temp_critical">Ditt headset börjar bli varmt och kommer att stängas av. Ta av dig ditt headset och låt det svalna innan du fortsätter att använda det för att minska risken för personskador.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="clear">Очистить</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="forgot_pattern">Забыли графический ключ?</string>
+    <string name="lockscreen_confirm_for_removal">Нарисуйте ваш графический ключ, чтобы подтвердить удаление.</string>
+    <string name="lockscreen_confirm_help">Для подтверждения нарисуйте ключ ещё раз и запомните его. Если вы забудете свой графический ключ, вам придется сбросить настройки вашего устройства.</string>
+    <string name="lockscreen_confirm_lock">Подтвердить графический ключ</string>
+    <string name="lockscreen_patterm_mismatch">Ключ не совпадает. Повторите попытку</string>
+    <string name="lockscreen_remove_lock">Удалить графический ключ</string>
+    <string name="lockscreen_secure_owner_account">Защитите аккаунт на этом устройстве, установив графический ключ. Вам нужно будет рисовать его при каждом входе в аккаунт на этом устройстве.</string>
+    <string name="lockscreen_secure_secondary_account">Защитите аккаунт на этом устройстве, установив графический ключ. Вам нужно будет рисовать его при каждом входе в аккаунт на этом устройстве.</string>
+    <string name="lockscreen_set_pattern">Установить графический ключ</string>
+    <string name="lockscreen_set_pattern_hint">Защитите свой аккаунт на устройстве.</string>
+    <string name="next">Далее</string>
+    <string name="skip">Не сейчас</string>
+</resources>

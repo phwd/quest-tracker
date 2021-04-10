@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vrshell="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:tag="layout/continuing_education_0" android:background="@drawable/continuing_education_background" android:padding="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="12dp" android:src="@drawable/continuing_education_oculus_logo"/>
+    <com.oculus.ocui.OCTextView android:textSize="@dimen/octypography_body1_font_size" android:textColor="?attr/ocPrimaryText" android:id="@+id/text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" android:layout_weight="1"/>
+</LinearLayout>

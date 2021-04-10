@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/password_entry_viewer_interactive" android:layout_width="match_parent" android:layout_height="wrap_content" android:title="@string/0_resource_name_obfuscated_RES_2131953102" android:paddingStart="15dp">
+            <TextView android:layout_marginTop="15dp" android:text="@string/0_resource_name_obfuscated_RES_2131953101" style="@style/0_resource_name_obfuscated_RES_2132017480"/>
+            <include android:id="@+id/url_row" layout="@layout/0_resource_name_obfuscated_RES_2131624344"/>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624452"/>
+</FrameLayout>

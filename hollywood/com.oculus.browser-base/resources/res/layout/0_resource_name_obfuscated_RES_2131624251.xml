@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mr_expandable_area" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/mr_dialog_area" android:background="?attr/0_resource_name_obfuscated_RES_2130968750" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/mr_title_bar" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="12dp">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017733" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/mr_name" android:layout_width="0dp" android:layout_height="72dp" android:singleLine="true" android:layout_weight="1" android:importantForAccessibility="no" android:textAlignment="viewStart"/>
+            <ImageButton android:layout_gravity="center_vertical" android:id="@+id/mr_close" android:background="?attr/0_resource_name_obfuscated_RES_2130969196" android:layout_width="48dp" android:layout_height="48dp" android:src="?attr/0_resource_name_obfuscated_RES_2130969087" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952841"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/mr_custom_control" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/mr_default_control" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top" android:id="@+id/mr_art" android:background="?attr/0_resource_name_obfuscated_RES_2130968762" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952839"/>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+                <LinearLayout android:theme="?attr/0_resource_name_obfuscated_RES_2130969088" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/mr_media_main_control" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@+id/mr_playback_control" layout="@layout/0_resource_name_obfuscated_RES_2131624256"/>
+                    <View android:id="@+id/mr_control_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+                    <include android:id="@+id/mr_volume_control" layout="@layout/0_resource_name_obfuscated_RES_2131624257"/>
+                </LinearLayout>
+                <androidx.mediarouter.app.OverlayListView android:theme="?attr/0_resource_name_obfuscated_RES_2130969088" android:scrollbarStyle="outsideOverlay" android:id="@+id/mr_volume_group_list" android:paddingTop="@dimen/0_resource_name_obfuscated_RES_2131165721" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131623944"/>
+    </LinearLayout>
+</FrameLayout>

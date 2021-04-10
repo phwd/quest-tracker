@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d ledig plads</item>
+        <item quantity="other">%1$d ledige pladser</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%1$d anden</item>
+        <item quantity="other">%1$d andre</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">%1$d person, du har blokeret, er medlem af denne gruppe</item>
+        <item quantity="other">%1$d personer, du har blokeret, er medlemmer af denne gruppe</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 person er klar til at rejse.</item>
+        <item quantity="other">%1$d personer er klar til at rejse.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Invitation delt med %1$s og %2$d anden person.</item>
+        <item quantity="other">Invitation delt med %1$s og %2$d andre personer.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Invitation sendt til %1$s og %2$d anden person.</item>
+        <item quantity="other">Invitation sendt til %1$s og %2$d andre personer.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">for %1$d dag siden</item>
+        <item quantity="other">for %1$d dage siden</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">for %1$d time siden</item>
+        <item quantity="other">for %1$d timer siden</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d fælles ven</item>
+        <item quantity="other">%1$d fælles venner</item>
+    </plurals>
+</resources>

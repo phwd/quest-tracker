@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <org.chromium.ui.widget.TextViewWithClickableSpans android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/privacy_disclaimer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:lineSpacingExtra="6sp" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165653" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165653"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/privacy_disclaimer_bottom_space" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="match_parent" android:layout_height="8dp"/>
+        <View style="@style/0_resource_name_obfuscated_RES_2132017439"/>
+    </LinearLayout>
+</LinearLayout>

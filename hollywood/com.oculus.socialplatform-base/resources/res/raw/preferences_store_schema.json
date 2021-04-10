@@ -1,0 +1,12 @@
+{
+  "contents": [
+    {
+      "key": "is_profile_switcher_education_tooltip_seen",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    }
+  ]
+}

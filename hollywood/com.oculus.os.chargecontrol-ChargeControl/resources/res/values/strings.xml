@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Charge Control</string>
+    <string name="charge_limit_info">Status: %1$s</string>
+    <string name="charging">charging</string>
+    <string name="current_charge">Charge level: %1$d</string>
+    <string name="disable_limit">Disable charge limit</string>
+    <string name="disabled">disabled</string>
+    <string name="discharging">discharging</string>
+    <string name="enable_limit">Enable charge limit</string>
+    <string name="quit_button_text">Quit</string>
+    <string name="service_label">Charge monitor service</string>
+    <string name="unable_to_charge">unable to charge</string>
+</resources>

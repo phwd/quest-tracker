@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/multi_user_panel_background" android:paddingLeft="0dp" android:paddingTop="@dimen/multi_user_panel_padding_top" android:paddingRight="0dp" android:paddingBottom="@dimen/multi_user_panel_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+    <oculus.internal.widget.ForgotPatternInstructionsView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:layout_gravity="center_horizontal" android:id="@+id/back_btn" android:text="@string/back" style="@style/MultiUserButtonSecondary"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubble_diameter">8dp</dimen>
+    <dimen name="bubble_margin">12dp</dimen>
+    <dimen name="button_padding">15dp</dimen>
+    <dimen name="content_padding">38dp</dimen>
+    <dimen name="keypad_button_height">32dp</dimen>
+    <dimen name="keypad_button_margin_right">16dp</dimen>
+    <dimen name="keypad_button_row_margin_bottom">8dp</dimen>
+    <dimen name="keypad_button_width">48dp</dimen>
+    <dimen name="lockpin_padding_sides">32dp</dimen>
+    <dimen name="lockscreen_padding">10dp</dimen>
+    <dimen name="lockscreen_width">240dp</dimen>
+</resources>

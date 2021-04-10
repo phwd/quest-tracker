@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">Lỗi bất ngờ khi tải ảnh xuống.</string>
+    <string name="com_facebook_internet_permission_error_message">Đăng nhập WebView yêu cầu INTERNET cho phép</string>
+    <string name="com_facebook_internet_permission_error_title">Lỗi AndroidManifest</string>
+    <string name="com_facebook_loading">Đang tải...</string>
+    <string name="events_notification_start_title_live_now">Sự kiện trên Oculus: Hiện đang trực tiếp</string>
+    <string name="livestreaming_notification_subtitle">Nhấn vào đây để hoàn tất việc tháo thiết bị di động.</string>
+    <string name="livestreaming_notification_title">Sự cố không tháo Gear VR</string>
+    <string name="notifications_party_app_invite">Bữa tiệc của bạn đã được mời cùng tham gia một ứng dụng</string>
+    <string name="notifications_party_join">%1$s đã tham gia bữa tiệc</string>
+    <string name="notifications_party_left">%1$s đã rời khỏi bữa tiệc</string>
+    <string name="notifications_party_reestablish_voip">Tiếp tục âm thanh của bữa tiệc</string>
+    <string name="notifications_party_reestablish_voip_message">Nghe và nói lại trong bữa tiệc.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

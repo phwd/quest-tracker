@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.BoundedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:maxHeight="@dimen/0_resource_name_obfuscated_RES_2131165404">
+    <View android:id="@+id/bottombar_shadow" android:background="@drawable/0_resource_name_obfuscated_RES_2131231380" android:layout_width="match_parent" android:layout_height="4dp"/>
+</org.chromium.components.browser_ui.widget.BoundedLinearLayout>

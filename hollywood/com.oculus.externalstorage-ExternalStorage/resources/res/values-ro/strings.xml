@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Gata</string>
+    <string name="otg_failure_message">Te rugăm să încarci bateria căştii la 60%% sau mai mult şi să încerci din nou.</string>
+    <string name="otg_failure_title">Conectarea la USB nu a reuşit</string>
+    <string name="reformat_usb">Reformatează USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Dacă reformatezi unitatea USB, toate datele stocate pe aceasta vor fi şterse.</string>
+    <string name="storage_format_confirm_title">Eşti sigur(ă)?</string>
+    <string name="storage_launcher_accept">Continuă</string>
+    <string name="storage_launcher_format_message">Pentru a folosi această unitate USB împreună cu casca, va trebui să o reformatezi.</string>
+    <string name="storage_launcher_format_title">Unitate neacceaptată</string>
+    <string name="storage_launcher_gallery_message">Doreşti să deschizi Oculus Gallery pentru a explora conţinutul discului?</string>
+    <string name="storage_launcher_gallery_title">Stocare externă</string>
+    <string name="storage_launcher_refuse">Anulează</string>
+    <string name="storage_wizard_error_body">Eroare: ^1</string>
+    <string name="storage_wizard_error_title">Formatarea ^1 nu a reuşit</string>
+    <string name="storage_wizard_format_progress_body">Nu îndepărta ^1 cât timp procesul de formatare este în curs.</string>
+    <string name="storage_wizard_format_progress_title">Se formatează ^1…</string>
+    <string name="storage_wizard_ready_external_body">^1 este gata pentru utilizarea cu fotografii şi alte fişiere media.</string>
+    <string name="storage_wizard_ready_title">^1 este gata</string>
+</resources>

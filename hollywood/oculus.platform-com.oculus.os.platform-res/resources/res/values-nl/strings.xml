@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Ontgrendelingspatroon tekenen</string>
+    <string name="lockscreen_enter_pin">Pincode van apparaat</string>
+    <string name="lockscreen_try_again">Probeer het opnieuw</string>
+    <string name="pattern_too_short">Verbind minimaal 4 stippen.</string>
+    <string name="permdesc_accessMrSensorData">Geeft de app toegang tot sensorgegevens voor mixed reality, waaronder camerakalibratie en afbeeldingen.</string>
+    <string name="permdesc_access_handtracking_data">Hiermee heeft de app toegang tot gegevens voor hand volgen</string>
+    <string name="permgroupdesc_handtracking">gegevens voor hand volgen bekijken</string>
+    <string name="permgroupdesc_sensorData">toegang tot sensorgegevens</string>
+    <string name="permgrouplab_handtracking">Hand volgen</string>
+    <string name="permgrouplab_sensorData">Sensorgegevens</string>
+    <string name="permlab_accessMrSensorData">sensorgegevens mixed reality openen</string>
+    <string name="permlab_access_handtracking_data">gegevens voor hand volgen bekijken</string>
+    <string name="pin_button_delete">Verwijderen</string>
+    <string name="pin_button_enter">Invoeren</string>
+    <string name="reset_unlock_pattern_msg">Volg deze stappen om je ontgrendelingspatroon opnieuw in te stellen:</string>
+    <string name="reset_unlock_pattern_step_1">1. Open de Oculus-app op je mobiele apparaat.</string>
+    <string name="reset_unlock_pattern_step_2">2. Open de pagina Instellingen, tik op de naam van je headset en wacht tot deze is gekoppeld.</string>
+    <string name="reset_unlock_pattern_step_3">3. Tik op Meer instellingen &gt; Ontgrendelingspatroon.</string>
+    <string name="reset_unlock_pattern_title">Ontgrendelingspatroon opnieuw instellen</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/social_settings_side_nav_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.oculus.ocui.OCButton android:textColor="@color/social_settings_side_nav_item_text" android:gravity="start" android:id="@+id/nav_button" android:background="@layout/social_settings_side_nav_item_background" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:minHeight="@dimen/anytime_tablet_common_rectangular_button_height_v2" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

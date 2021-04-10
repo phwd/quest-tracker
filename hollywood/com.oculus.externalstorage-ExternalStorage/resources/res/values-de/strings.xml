@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Fertig</string>
+    <string name="otg_failure_message">Bitte lade den Akkustand deines Headsets auf 60%% oder höher und versuche es erneut.</string>
+    <string name="otg_failure_title">USB-Verbindung nicht möglich</string>
+    <string name="reformat_usb">USB neu formatieren</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Durch die Neuformatierung dieses USB-Laufwerks, werden alle Daten gelöscht, die aktuell darauf gespeichert sind.</string>
+    <string name="storage_format_confirm_title">Bist du sicher?</string>
+    <string name="storage_launcher_accept">Weiter</string>
+    <string name="storage_launcher_format_message">Um dieses USB-Laufwerk mit deinem Headset zu verwenden, musst du es neu formatieren.</string>
+    <string name="storage_launcher_format_title">Drive wird nicht unterstützt</string>
+    <string name="storage_launcher_gallery_message">Möchtest du Oculus Gallery öffnen, um den Inhalt des Datenträgers zu durchsuchen?</string>
+    <string name="storage_launcher_gallery_title">Externer Speicher</string>
+    <string name="storage_launcher_refuse">Abbrechen</string>
+    <string name="storage_wizard_error_body">Fehler: ^1</string>
+    <string name="storage_wizard_error_title">Formatierung von ^1 fehlgeschlagen</string>
+    <string name="storage_wizard_format_progress_body">Entferne ^1 während der Formatierung nicht.</string>
+    <string name="storage_wizard_format_progress_title">^1 wird formatiert ...</string>
+    <string name="storage_wizard_ready_external_body">^1 kann jetzt mit Fotos und anderen Medien verwendet werden.</string>
+    <string name="storage_wizard_ready_title">^1 ist bereit</string>
+</resources>

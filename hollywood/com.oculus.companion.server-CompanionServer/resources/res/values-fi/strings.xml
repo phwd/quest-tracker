@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Tämä kirjaa sinut ulos oculus.comista!</string>
+    <string name="app_name">Kumppanipalvelin</string>
+    <string name="app_short_name">Kumppani</string>
+    <string name="permdesc_companionService">Antaa sovellukselle luvan lähettää aikeita kumppanipalveluun.</string>
+    <string name="permlab_companionService">lähettää aikeita kumppanipalveluun</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Kolmannen osapuolen ohjain</string>
+</resources>

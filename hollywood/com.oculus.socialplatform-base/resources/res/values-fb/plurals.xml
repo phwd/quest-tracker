@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">[%1$d spot available#f50cdc902af45baefac88ee6c68de26c:1]</item>
+        <item quantity="other">[%1$d spots available#84de42f5649cc2e3ba1cf956f1911741:1]</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">[%1$d other#3f94c9098895b955b8a2ee26c1e0aa7e:1]</item>
+        <item quantity="other">[%1$d others#dae093f03d7d814241946d30e5f0916c:1]</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">[%1$d Person You&apos;ve Blocked Is in This Group#1b86d5cdd35bcc9f3c5ac6f9e7dc494c:1]</item>
+        <item quantity="other">[%1$d People You&apos;ve Blocked Are in This Group#7a5d0c1bf0872b1c31d92f9bf670ee92:1]</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">[1 person is ready to travel.#66a3192d51263ebaf964da3f5ab3c91c:1]</item>
+        <item quantity="other">[%1$d people are ready to travel.#36a8c3bf02488046c0e7da612db02a63:1]</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">[Invite shared with %1$s and %2$d other person.#4c5d5ffaa9e1accc6db7157ba3fcf34d:1]</item>
+        <item quantity="other">[Invite shared with %1$s and %2$d other people.#5a8ada1f1871eba84e33873d43ebbe2a:1]</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">[Invite sent to %1$s and %2$d other person.#0db28e62373513e1aded4183c773734e:1]</item>
+        <item quantity="other">[Invite sent to %1$s and %2$d other people.#b589f3bc2e4f779a4b84a19b1d948cf3:1]</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">[%1$d day ago#6749a9b103630a28422f918f585b86dd:1]</item>
+        <item quantity="other">[%1$d days ago#d90b19e8b26092341eec9b9e0eeb6322:1]</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="one">[%1$d hour ago#02d189e6b6f318b67a84f625830ce428:1]</item>
+        <item quantity="other">[%1$d hours ago#2b146aa863ee91e46c8b8403ef9ae747:1]</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="one">[%1$dm#ed507a851b73db3a2ec9b39ecc2f81c4:1]</item>
+        <item quantity="other">[%1$dm#132d8ff0812b9a8e3f66727a6efee326:1]</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">[%1$d mutual friend#c9ff9815801209603f22d145a43f441e:1]</item>
+        <item quantity="other">[%1$d mutual friends#1f17cca6c265aa61723380ffe882762a:1]</item>
+    </plurals>
+</resources>

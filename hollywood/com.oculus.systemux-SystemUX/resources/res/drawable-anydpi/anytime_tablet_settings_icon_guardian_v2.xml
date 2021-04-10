@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/anytime_tablet_common_rectangular_button_icon_size_v2" android:width="@dimen/anytime_tablet_common_rectangular_button_icon_size_v2" android:drawable="@drawable/oc_icon_guardian_filled_24_d2d2d2"/>
+</layer-list>

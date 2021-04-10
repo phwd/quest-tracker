@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/dogfood_update_ota_panel" android:background="@drawable/rounded_panel_background" android:padding="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="45dp">
+    <TextView android:textSize="24sp" android:textColor="@color/deprecated_oc_white_fix_me" android:gravity="center" android:id="@+id/dogfood_update_panel_text" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/dogfood_waiting_for_update"/>
+    <com.oculus.vrshell.panels.views.ShellProgressBarView android:id="@+id/dogfood_ota_update_progress_bar" android:visibility="visible" android:layout_width="250dp" android:layout_height="10dp" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/dogfood_no_update_button" android:background="@drawable/button_background_secondary" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="@string/dogfood_no_update_button_text"/>
+</LinearLayout>

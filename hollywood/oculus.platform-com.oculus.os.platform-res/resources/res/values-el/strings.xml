@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Σχεδίαση μοτίβου ξεκλειδώματος</string>
+    <string name="lockscreen_enter_pin">PIN συσκευής</string>
+    <string name="lockscreen_try_again">Προσπαθήστε ξανά</string>
+    <string name="pattern_too_short">Συνδέστε τουλάχιστον 4 κουκκίδες.</string>
+    <string name="permdesc_accessMrSensorData">Επιτρέπει στην εφαρμογή να έχει πρόσβαση στα δεδομένα του αισθητήρα μεικτής πραγματικότητας, όπως τα δεδομένα βαθμονόμησης κάμερας και οι εικόνες.</string>
+    <string name="permdesc_access_handtracking_data">Παρέχει στην εφαρμογή πρόσβαση στα δεδομένα παρακολούθησης χεριών</string>
+    <string name="permgroupdesc_handtracking">πρόσβαση στα δεδομένα παρακολούθησης χεριών</string>
+    <string name="permgroupdesc_sensorData">πρόσβαση σε δεδομένα αισθητήρα</string>
+    <string name="permgrouplab_handtracking">Παρακολούθηση χεριών</string>
+    <string name="permgrouplab_sensorData">Δεδομένα αισθητήρα</string>
+    <string name="permlab_accessMrSensorData">πρόσβαση σε δεδομένα αισθητήρα μεικτής πραγματικότητας</string>
+    <string name="permlab_access_handtracking_data">πρόσβαση στα δεδομένα παρακολούθησης χεριών</string>
+    <string name="pin_button_delete">Διαγραφή</string>
+    <string name="pin_button_enter">Εισαγωγή</string>
+    <string name="reset_unlock_pattern_msg">Για να αλλάξετε το μοτίβο ξεκλειδώματος, ακολουθήστε τα παρακάτω βήματα:</string>
+    <string name="reset_unlock_pattern_step_1">1. Ανοίξτε την εφαρμογή Oculus στο κινητό σας.</string>
+    <string name="reset_unlock_pattern_step_2">2. Ανοίξτε τη σελίδα ρυθμίσεων, πατήστε το όνομα της συσκευής και περιμένετε να ολοκληρωθεί η σύνδεση.</string>
+    <string name="reset_unlock_pattern_step_3">3. Πατήστε Περισσότερες ρυθμίσεις &gt; Μοτίβο ξεκλειδώματος.</string>
+    <string name="reset_unlock_pattern_title">Αλλαγή μοτίβου ξεκλειδώματος</string>
+</resources>

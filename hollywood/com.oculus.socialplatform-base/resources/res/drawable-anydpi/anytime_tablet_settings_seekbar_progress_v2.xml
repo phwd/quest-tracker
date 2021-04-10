@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <size android:height="@dimen/anytime_tablet_common_rectangular_button_height_v2" android:width="0dp"/>
+            <solid android:color="?attr/ocSliderBackground"/>
+            <corners android:radius="@dimen/abc_action_bar_elevation_material"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/anytime_tablet_common_rectangular_button_height_v2" android:width="0dp"/>
+                <solid android:color="?attr/ocPrimarySlider"/>
+                <corners android:radius="@dimen/abc_action_bar_elevation_material"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:drawable="@drawable/ocbutton_borderless"/>
+</layer-list>

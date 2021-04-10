@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/0_resource_name_obfuscated_RES_2131231298" android:id="@+id/menu_id_search" android:title="@string/0_resource_name_obfuscated_RES_2131953414" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="always"/>
+    <item android:icon="@drawable/0_resource_name_obfuscated_RES_2131231107" android:id="@+id/menu_id_targeted_help" android:title="@string/0_resource_name_obfuscated_RES_2131952774" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/export_passwords" android:title="@string/0_resource_name_obfuscated_RES_2131953115" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953114" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.facebook.resources.ui.FbTextView android:id="@+id/test_layout_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test TextView" android:layout_toLeftOf="@+id/test_layout_invalid_id" android:layout_toStartOf="@+id/test_layout_invalid_id"/>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

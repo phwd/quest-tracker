@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">oculus.com에서 로그아웃됩니다!</string>
+    <string name="app_name">컴패니언 서버</string>
+    <string name="app_short_name">컴패니언</string>
+    <string name="permdesc_companionService">앱이 컴패니언 서비스로 인텐트를 전송하도록 허용합니다.</string>
+    <string name="permlab_companionService">컴패니언 서비스로 인텐트 전송</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">타사 컨트롤러</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_billions">%1$sB</string>
+    <string name="shorten_thousands">%1$sK</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus Core Mobile Services</string>
+    <string name="binary_check_notification_content">Apps from unknown sources may put your account and device at risk.</string>
+    <string name="binary_check_notification_title">Unofficial %1$s Installed</string>
+    <string name="notifications_download_canceled_message">Download canceled for \"%1$s\"</string>
+    <string name="notifications_download_canceled_title">Download canceled</string>
+    <string name="notifications_download_failed_message">Could not download \"%1$s\"</string>
+    <string name="notifications_download_failed_title">Download failed</string>
+    <string name="notifications_download_in_progress_message">Downloading %1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">Downloading &amp; Installing apps…</string>
+    <string name="notifications_head_install_failed_message">Install failed</string>
+    <string name="notifications_head_installed_message">Installed</string>
+    <string name="notifications_head_installing_message">Installing</string>
+    <string name="notifications_install_failed_message">Could not install \"%1$s\"</string>
+    <string name="notifications_install_in_progress_message">Installing %1$s…</string>
+    <string name="notifications_install_succeeded_message">%1$s was successfully installed in your library.</string>
+    <string name="notifications_progress_of_download_message">%1$d%%</string>
+    <string name="obb_display_title">%1$s (Expansion file)</string>
+    <string name="shorten_billions">%1$sb</string>
+    <string name="shorten_billions_capitalized">%1$sB</string>
+    <string name="shorten_hundred_millions">%1$s00M</string>
+    <string name="shorten_millions">%1$sm</string>
+    <string name="shorten_millions_capitalized">%1$sM</string>
+    <string name="shorten_ten_thousands">%1$s0K</string>
+    <string name="shorten_thousands">%1$sk</string>
+    <string name="shorten_thousands_capitalized">%1$sK</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

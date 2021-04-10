@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_focused="true">
+                <shape android:shape="rectangle">
+                    <stroke android:width="2dp" android:color="@color/oc_blue_70"/>
+                    <corners android:radius="4dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <solid android:color="?attr/ocSecondaryButton"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <selector>
+            <item android:state_focused="true" android:drawable="@android:color/transparent"/>
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <solid android:color="?attr/ocPressedOverlay"/>
+                </shape>
+            </item>
+            <item android:state_hovered="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp"/>
+                    <solid android:color="?attr/ocHoverOverlay"/>
+                </shape>
+            </item>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="14dp" android:top="12dp" android:right="14dp" android:bottom="28dp"/>
+        </shape>
+    </item>
+</layer-list>

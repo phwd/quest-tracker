@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="page_description" android:summary="@string/0_resource_name_obfuscated_RES_2131953873" app:iconSpaceReserved="false"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="os_permissions_warning"/>
+    <org.chromium.components.browser_ui.settings.ChromeBasePreference android:key="os_permissions_warning_extra"/>
+    <Preference android:layout="@layout/0_resource_name_obfuscated_RES_2131624111" android:selectable="false" android:key="os_permissions_warning_divider"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131230887" android:title="@string/0_resource_name_obfuscated_RES_2131952634" android:key="intrusive_ads_info" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    <Preference android:layout="@layout/0_resource_name_obfuscated_RES_2131624111" android:selectable="false" android:key="intrusive_ads_info_divider"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953876" android:key="site_heading"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="site_title"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953879" android:key="site_usage"/>
+    <org.chromium.components.browser_ui.site_settings.ClearWebsiteStorage android:title="@string/0_resource_name_obfuscated_RES_2131953891" android:key="clear_data" android:widgetLayout="@layout/0_resource_name_obfuscated_RES_2131624040" android:positiveButtonText="@string/0_resource_name_obfuscated_RES_2131953888" android:negativeButtonText="@string/0_resource_name_obfuscated_RES_2131952164"/>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953872" android:key="site_permissions"/>
+    <org.chromium.components.browser_ui.settings.ButtonPreference android:key="reset_site_button"/>
+</PreferenceScreen>

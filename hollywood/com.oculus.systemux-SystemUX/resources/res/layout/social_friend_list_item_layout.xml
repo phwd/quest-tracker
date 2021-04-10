@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/SocialListRowTheme">
+    <LinearLayout style="@style/SocialListRowContentTheme">
+        <ImageView android:id="@+id/profile_picture" style="@style/SocialListRowProfilePhotoTheme"/>
+        <LinearLayout style="@style/SocialListRowDescriptionContainerTheme">
+            <com.oculus.ocui.OCTextView android:id="@+id/display_name" style="@style/SocialListRowDescriptionTheme"/>
+            <com.oculus.ocui.OCTextView android:id="@+id/presence_status" style="@style/SocialListRowDescriptionTheme"/>
+        </LinearLayout>
+        <ImageButton android:id="@+id/action_icon" android:clickable="false" style="@style/SocialListRowActionIconTheme"/>
+    </LinearLayout>
+</LinearLayout>

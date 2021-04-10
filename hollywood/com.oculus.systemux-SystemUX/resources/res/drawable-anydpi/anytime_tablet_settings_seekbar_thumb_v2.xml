@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/ocbutton_height" android:width="4dp"/>
+            <solid android:color="@color/progress_bar_backing"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/ocbutton_height" android:width="4dp"/>
+            <solid android:color="@color/progress_bar"/>
+            <corners android:topRightRadius="4dp" android:bottomRightRadius="4dp"/>
+        </shape>
+    </item>
+</layer-list>

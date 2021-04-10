@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/report_bug_view" android:padding="20dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit_heading" style="@style/Heading"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/component_label" style="@style/LabelText"/>
+            <Spinner android:id="@+id/bug_component_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/bug_type" style="@style/LabelText"/>
+            <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/bug_type_bug_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bug_type_bug" style="@style/Text"/>
+                <RadioButton android:id="@+id/bug_type_feedback_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/bug_type_feedback" style="@style/Text"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/screenshot_panel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/screenshot" style="@style/LabelText"/>
+            <ImageView android:id="@+id/screenshot_image_view" android:layout_width="236dp" android:layout_height="124dp" android:src="@drawable/screenshot" android:scaleType="fitXY"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/screenshot_consent_panel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/empty_text" style="@style/LabelText"/>
+            <CheckBox android:id="@+id/screenshot_consent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/screenshot_consent_text"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/past_audio_data_consent_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/past_audio_data_consent_label" style="@style/LabelText"/>
+            <CheckBox android:id="@+id/past_audio_data_consent_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/past_audio_data_consent_text"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/bug_description" style="@style/LabelText"/>
+            <EditText android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/bug_description" android:background="@color/oc_gray_2" android:nextFocusLeft="@+id/bug_description" android:nextFocusRight="@+id/bug_description" android:nextFocusUp="@+id/bug_description" android:nextFocusDown="@+id/bug_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:minLines="4" style="@style/Text"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/description_recorder" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/description_recorder_label" style="@style/LabelText"/>
+            <Button android:id="@+id/description_recorder_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp" android:text="@string/description_recorder_button_start" style="@style/ButtonSecondary"/>
+            <TextView android:id="@+id/description_recorder_filename" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text"/>
+            <Button android:id="@+id/description_recorder_button_remove" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp" android:text="@string/description_recorder_button_remove" style="@style/ButtonSecondary"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_height="wrap_content" android:text="@string/extra_media" style="@style/LabelText"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/extra_media_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_extra_media_added"/>
+                <Button android:id="@+id/add_extra_media_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp" android:text="@string/add_extra_media" android:layout_below="@+id/extra_media_text_view" style="@style/ButtonSecondary"/>
+                <Button android:id="@+id/clear_extra_media_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp" android:text="@string/clear_extra_media" android:layout_toRightOf="@+id/add_extra_media_button" android:layout_below="@+id/extra_media_text_view" style="@style/ButtonSecondary"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:id="@+id/submit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4px" android:text="@string/submit" android:layout_alignParentRight="true"/>
+            <Button android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4px" android:text="@string/cancel_report" android:layout_toLeftOf="@+id/submit_button" style="@style/ButtonSecondary"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.download.dialogs.DownloadLocationCustomView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017155">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017697" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165496"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165495"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <org.chromium.ui.widget.ChromeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131231038" app:tint="@color/0_resource_name_obfuscated_RES_2131099812" style="@style/0_resource_name_obfuscated_RES_2132017450"/>
+                <org.chromium.components.browser_ui.widget.text.AlertDialogEditText android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/file_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017795" android:id="@+id/file_size" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165493"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <org.chromium.ui.widget.ChromeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/0_resource_name_obfuscated_RES_2131231068" app:tint="@color/0_resource_name_obfuscated_RES_2131099812" style="@style/0_resource_name_obfuscated_RES_2132017450"/>
+                <Spinner android:id="@+id/file_location" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.EditText"/>
+            </LinearLayout>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017795" android:id="@+id/location_available_space" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165493"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/show_again_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165492" android:text="@string/0_resource_name_obfuscated_RES_2131952429" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165491" style="@style/0_resource_name_obfuscated_RES_2132017425"/>
+    </LinearLayout>
+</org.chromium.chrome.browser.download.dialogs.DownloadLocationCustomView>

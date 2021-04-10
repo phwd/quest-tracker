@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.keyboard_accessory.bar_component.KeyboardAccessoryView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/keyboard_accessory" android:focusable="true" android:visibility="gone" android:scrollbars="none" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165636" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952066" android:paddingEnd="0dp">
+    <ImageView android:id="@+id/accessory_shadow" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166259" android:src="@drawable/0_resource_name_obfuscated_RES_2131231416" android:scaleType="fitXY" android:scaleY="-1"/>
+    <LinearLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:id="@+id/accessory_bar_contents" android:background="@color/0_resource_name_obfuscated_RES_2131099789" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165635">
+        <include android:id="@+id/tabs" layout="@layout/0_resource_name_obfuscated_RES_2131624213"/>
+        <View style="@style/0_resource_name_obfuscated_RES_2132017975"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/bar_items_view" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+</org.chromium.chrome.browser.keyboard_accessory.bar_component.KeyboardAccessoryView>

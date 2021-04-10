@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.CopresenceTab xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/debug_tab_copresence" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status: " android:paddingStart="12dp"/>
+            <TextView android:textSize="14sp" android:id="@+id/debug_copresence_status_text" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_connect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Connect"/>
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_disconnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Disconnect"/>
+            <com.oculus.vrshell.panels.views.ShellButton android:id="@+id/debug_action_launchavatareditor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Edit Avatar"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.oculus.panelapp.debug.CopresenceTab>

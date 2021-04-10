@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="311000299" android:versionName="34.0.0.2.164" android:installLocation="internalOnly" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.fitnesstracker" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23"/>
+    <permission android:name="com.oculus.fitnesstracker.READ_FITNESS_DATA" android:protectionLevel="signature"/>
+    <permission android:name="com.oculus.fitnesstracker.WRITE_FITNESS_DATA" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.oculus.vrshell.ShellWidgetBroadcastReceiverPermission"/>
+    <uses-feature android:glEsVersion="30000" android:required="true"/>
+    <application android:label="@string/app_name" android:name="com.oculus.fitnesstracker.PanelApplication" android:hasCode="true" android:allowBackup="false" android:supportsRtl="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <provider android:name="com.oculus.fitnesstracker.provider.FitnessDataProvider" android:readPermission="com.oculus.fitnesstracker.READ_FITNESS_DATA" android:writePermission="com.oculus.fitnesstracker.WRITE_FITNESS_DATA" android:exported="true" android:process=":FitnessServices" android:authorities="com.oculus.fitnesstracker.fitnessdata"/>
+        <activity android:theme="@style/Theme.NoDisplay" android:label="@string/app_name" android:name="com.oculus.fitnesstracker.PanelActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.oculus.fitnesstracker.PanelService">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.is_default_service" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,logbox,reactsplashscreen"/>
+        </service>
+        <service android:name="com.oculus.fitnesstracker.FitnessWidgetService" android:exported="true" android:process=":FitnessServices"/>
+        <service android:name="com.oculus.fitnesstracker.FitnessReactWidgetService" android:exported="true" android:process=":FitnessServices"/>
+        <meta-data android:name="internalVersionName" android:value="34.0.0.2.164.063646211d9c 2021_03_30_20_13"/>
+    </application>
+</manifest>

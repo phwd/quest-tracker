@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.OptimizedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017761" android:layout_gravity="center" android:id="@+id/initial_data_savings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952368" android:drawablePadding="3dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/data_reduction_stats_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017682" android:id="@+id/data_reduction_savings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:singleLine="true"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/0_resource_name_obfuscated_RES_2131952378" android:paddingStart="3dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/data_reduction_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952381" android:paddingStart="3dp"/>
+        </LinearLayout>
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624085"/>
+        <FrameLayout android:id="@+id/chart_dates" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/data_reduction_start_date" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/data_reduction_end_date" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624083"/>
+        <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center" android:id="@+id/data_reduction_reset_statistics" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/0_resource_name_obfuscated_RES_2131952382" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+    </LinearLayout>
+</org.chromium.ui.widget.OptimizedFrameLayout>

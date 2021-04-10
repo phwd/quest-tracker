@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Tracez la séquence de déverrouillage</string>
+    <string name="lockscreen_enter_pin">Code PIN de l’appareil</string>
+    <string name="lockscreen_try_again">Veuillez réessayer</string>
+    <string name="pattern_too_short">Reliez au moins 4 points.</string>
+    <string name="permdesc_accessMrSensorData">Autorise l’application à accéder aux données du capteur de réalité mixte, et notamment à l’étalonnage de la caméra et aux images.</string>
+    <string name="permdesc_access_handtracking_data">Autorise l’app à accéder aux données de suivi des mains</string>
+    <string name="permgroupdesc_handtracking">accéder aux données de suivi des mains</string>
+    <string name="permgroupdesc_sensorData">accéder aux données du capteur</string>
+    <string name="permgrouplab_handtracking">Suivi des mains</string>
+    <string name="permgrouplab_sensorData">Données du capteur</string>
+    <string name="permlab_accessMrSensorData">accéder aux données du capteur de réalité mixte</string>
+    <string name="permlab_access_handtracking_data">accéder aux données de suivi des mains</string>
+    <string name="pin_button_delete">Supprimer</string>
+    <string name="pin_button_enter">Entrée</string>
+    <string name="reset_unlock_pattern_msg">Pour réinitialiser votre séquence de déverrouillage, suivez ces étapes :</string>
+    <string name="reset_unlock_pattern_step_1">1. Ouvrez votre app Oculus sur votre appareil mobile.</string>
+    <string name="reset_unlock_pattern_step_2">2. Ouvrez la page des paramètres, appuyez sur le nom de votre casque et attendez qu’il se connecte.</string>
+    <string name="reset_unlock_pattern_step_3">3. Appuyez sur Plus de paramètres &gt; Séquence de déverrouillage.</string>
+    <string name="reset_unlock_pattern_title">Réinitialiser la séquence de déverrouillage</string>
+</resources>

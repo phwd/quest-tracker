@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166058" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131166058">
+    <org.chromium.components.browser_ui.widget.RadioButtonWithDescription android:id="@+id/language_radio_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

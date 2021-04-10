@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/0_resource_name_obfuscated_RES_2130969044" android:paddingStart="19dp" android:paddingEnd="19dp">
+    <CheckBox android:textSize="14sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/icon_row_checkbox" android:padding="2dp" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <ImageView android:gravity="center_vertical" android:id="@+id/icon_row_image" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center" android:importantForAccessibility="no"/>
+</LinearLayout>

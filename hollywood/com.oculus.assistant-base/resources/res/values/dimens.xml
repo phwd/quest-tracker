@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="assistant_nux_skip_button_height">40dp</dimen>
+    <dimen name="attn_system_exp_state_short_height">184dp</dimen>
+    <dimen name="attn_system_exp_state_short_width">420dp</dimen>
+    <dimen name="attn_system_exp_state_tall_height">476dp</dimen>
+</resources>

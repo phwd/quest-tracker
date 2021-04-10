@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.dogfood.tabs.DogfoodBuildsTab xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/dogfood_reset_tab" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:gravity="center" android:layout_width="350dp" android:layout_height="wrap_content" android:text="@string/dogfood_reset_OS_builds"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/dogfood_bottom_bar" android:background="@drawable/dogfood_bottom_background" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="18sp" android:id="@+id/dogfood_reset_decline_button" android:background="@drawable/button_background_secondary" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="171dp" android:layout_height="wrap_content" android:layout_marginRight="19dp" android:text="@string/dogfood_reject_button_text"/>
+        <Button android:textSize="18sp" android:id="@+id/dogfood_reset_accept_button" android:background="@drawable/dogfood_accept_button" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="171dp" android:layout_height="wrap_content" android:text="@string/dogfood_accept_button_text"/>
+    </LinearLayout>
+</com.oculus.panelapp.dogfood.tabs.DogfoodBuildsTab>

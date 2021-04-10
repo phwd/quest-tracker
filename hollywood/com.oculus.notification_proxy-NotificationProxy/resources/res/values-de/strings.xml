@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Bitte schließe dein Headset bald an.</string>
+    <string name="battery_critical_title">Headset-Akkustand ist sehr niedrig</string>
+    <string name="battery_low_text">Schließe dein Headset an.</string>
+    <string name="battery_low_title">Headset-Akkustand ist niedrig</string>
+    <string name="controller_critical_battery_text">Bitte tausche jetzt die Controller-Batterie aus.</string>
+    <string name="controller_critical_battery_title">Kritischer Controller-Batteriestand</string>
+    <string name="controller_disconnected_text">Überprüfe den Batteriestand, verringere den Abstand zum Controller oder wende dich an den Oculus-Support.</string>
+    <string name="controller_disconnected_title">Wir konnten deinen Controller nicht finden</string>
+    <string name="controller_firmware_update_failed_text">Bitte wende dich an den Oculus-Support.</string>
+    <string name="controller_firmware_update_failed_title">Wir konnten kein Controller-Update durchführen.</string>
+    <string name="controller_firmware_update_progress_text">Update-Fortschritt: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Update erfolgreich.</string>
+    <string name="controller_firmware_update_title">Controller-Update wird durchgeführt</string>
+    <string name="controller_low_battery_text">Bitte tausche die Batterie bald aus.</string>
+    <string name="controller_low_battery_title">Niedriger Controller-Batteriestand</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controller nicht gefunden</string>
+    <string name="dual_controller_both_controller_low_battery_title">Niedriger Controller-Batteriestand</string>
+    <string name="dual_controller_disconnected_text">Falls das Problem weiterhin auftritt, überprüfe den Ladestand oder wende dich an den Oculus-Support.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Linker Controller nicht gefunden</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Update des linken Controllers fehlgeschlagen</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Update des linken Controllers wird durchgeführt</string>
+    <string name="dual_controller_left_controller_low_battery_title">Niedriger Batteriestand des linken Controllers</string>
+    <string name="dual_controller_low_battery_text">Bitte tausche die Batterie bald aus.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Rechter Controller nicht gefunden</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Update des rechten Controllers fehlgeschlagen</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Update des rechten Controllers wird durchgeführt</string>
+    <string name="dual_controller_right_controller_low_battery_title">Niedriger Batteriestand des rechten Controllers</string>
+    <string name="safe_volume_warning_text_1">Langes Hören bei hoher Lautstärke kann dein Gehör schädigen.</string>
+    <string name="safe_volume_warning_text_2">Drücke die Taste erneut, um diese Warnung vorübergehend auszublenden.</string>
+    <string name="safe_volume_warning_title">Lautstärke über dem empfohlenen Wert</string>
+    <string name="vrui_gaze_input_instruction_text">Bewege deinen Kopf und drücke anschließend auf die Lautstärketaste an deinem Headset, um eine Auswahl zu treffen.</string>
+    <string name="vrui_gaze_input_instruction_title">Hand-Tracking und Controller deaktiviert</string>
+    <string name="wifi_disconnected_text">Bitte öffne die Einstellungen zur Fehlerbehebung.</string>
+    <string name="wifi_disconnected_title">WLAN-Verbindung des Headsets unterbrochen</string>
+</resources>

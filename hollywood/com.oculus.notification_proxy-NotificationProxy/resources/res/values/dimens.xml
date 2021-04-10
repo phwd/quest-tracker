@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bitmap_width">550px</dimen>
+    <dimen name="def_notification_pos_x">0</dimen>
+    <dimen name="def_notification_pos_y">-0.2</dimen>
+    <dimen name="def_notification_scale">30</dimen>
+    <dimen name="notification_view_max_height">160dp</dimen>
+    <dimen name="notification_view_width">418dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/editor_container" android:background="@color/0_resource_name_obfuscated_RES_2131099774">
+    <org.chromium.chrome.browser.autofill.prefeditor.EditorDialogToolbar android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="?attr/0_resource_name_obfuscated_RES_2130968579" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131624452"/>
+    <org.chromium.components.browser_ui.widget.FadingEdgeScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_below="@+id/action_bar" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/contents" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166032" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131166032"/>
+    </org.chromium.components.browser_ui.widget.FadingEdgeScrollView>
+</RelativeLayout>

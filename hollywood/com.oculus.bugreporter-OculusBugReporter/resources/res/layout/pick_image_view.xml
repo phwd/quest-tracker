@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/pick_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pick_image" style="@style/Heading"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/images_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/cancel_image_picker_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp" android:text="@string/cancel" android:layout_toRightOf="@+id/add_extra_media_button" android:layout_below="@+id/extra_media_text_view" style="@style/ButtonSecondary"/>
+</LinearLayout>

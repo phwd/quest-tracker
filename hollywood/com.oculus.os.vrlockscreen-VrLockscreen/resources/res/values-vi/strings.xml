@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Quay lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="clear">Xóa</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="next">Tiếp</string>
+    <string name="skip">Lúc khác</string>
+</resources>

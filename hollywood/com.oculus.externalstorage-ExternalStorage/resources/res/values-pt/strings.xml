@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Concluir</string>
+    <string name="otg_failure_message">Carregue 60%% ou mais da bateria do seu headset e tente novamente.</string>
+    <string name="otg_failure_title">Não é possível conectar ao USB</string>
+    <string name="reformat_usb">Reformatar USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">A reformatação dessa unidade USB apagará todos os dados atualmente armazenados.</string>
+    <string name="storage_format_confirm_title">Tem certeza?</string>
+    <string name="storage_launcher_accept">Continuar</string>
+    <string name="storage_launcher_format_message">Para usar essa unidade USB com o headset, será necessário reformatá-la.</string>
+    <string name="storage_launcher_format_title">Unidade não compatível</string>
+    <string name="storage_launcher_gallery_message">Deseja abrir a Galeria Oculus para explorar o conteúdo do disco?</string>
+    <string name="storage_launcher_gallery_title">Armazenamento externo</string>
+    <string name="storage_launcher_refuse">Cancelar</string>
+    <string name="storage_wizard_error_body">Erro: ^1</string>
+    <string name="storage_wizard_error_title">Falha ao formatar ^1</string>
+    <string name="storage_wizard_format_progress_body">Não remova o ^1 enquanto estiver formatando.</string>
+    <string name="storage_wizard_format_progress_title">Formatando ^1…</string>
+    <string name="storage_wizard_ready_external_body">Seu ^1 está pronto para ser usado com fotos e outros itens de mídia.</string>
+    <string name="storage_wizard_ready_title">^1 está pronto</string>
+</resources>

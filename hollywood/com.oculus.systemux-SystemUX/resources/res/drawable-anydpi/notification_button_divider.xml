@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="1dp" android:insetRight="1dp" android:insetTop="5dp" android:insetBottom="5dp">
+    <shape>
+        <size android:width="2dp"/>
+        <solid android:color="@color/colorNotificationButtonBarDivider"/>
+    </shape>
+</inset>

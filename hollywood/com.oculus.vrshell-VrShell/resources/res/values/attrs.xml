@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="alpha" format="float">
+    </attr>
+    <attr name="background" format="reference">
+    </attr>
+    <attr name="backgroundDimAmount" format="float">
+    </attr>
+    <attr name="codes" format="string|integer">
+    </attr>
+    <attr name="coordinatorLayoutStyle" format="reference">
+    </attr>
+    <attr name="fastScrollEnabled" format="boolean">
+    </attr>
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference">
+    </attr>
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference">
+    </attr>
+    <attr name="fastScrollVerticalThumbDrawable" format="reference">
+    </attr>
+    <attr name="fastScrollVerticalTrackDrawable" format="reference">
+    </attr>
+    <attr name="font" format="reference">
+    </attr>
+    <attr name="fontPath" format="string">
+    </attr>
+    <attr name="fontProviderAuthority" format="string">
+    </attr>
+    <attr name="fontProviderCerts" format="reference">
+    </attr>
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string">
+    </attr>
+    <attr name="fontProviderQuery" format="string">
+    </attr>
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string">
+    </attr>
+    <attr name="fontWeight" format="integer">
+    </attr>
+    <attr name="horizontalGap" format="string|dimension|fraction">
+    </attr>
+    <attr name="iconPreview" format="reference">
+    </attr>
+    <attr name="id" format="reference">
+    </attr>
+    <attr name="ime" format="string">
+    </attr>
+    <attr name="isExitKey" format="boolean">
+    </attr>
+    <attr name="isModifier" format="boolean">
+    </attr>
+    <attr name="isRepeatable" format="boolean">
+    </attr>
+    <attr name="isShiftPopupKeyboardDifferent" format="boolean">
+    </attr>
+    <attr name="isSticky" format="boolean">
+    </attr>
+    <attr name="keyBackground" format="reference">
+    </attr>
+    <attr name="keyEdgeFlags">
+        <flag name="left" value="1" />
+        <flag name="right" value="2" />
+    </attr>
+    <attr name="keyFont" format="string">
+    </attr>
+    <attr name="keyHeight" format="string|dimension|fraction">
+    </attr>
+    <attr name="keyIcon" format="reference">
+    </attr>
+    <attr name="keyLabel" format="string">
+    </attr>
+    <attr name="keyOutputText" format="string">
+    </attr>
+    <attr name="keyPreviewHeight" format="dimension">
+    </attr>
+    <attr name="keyPreviewOffset" format="dimension">
+    </attr>
+    <attr name="keySubLabel" format="string">
+    </attr>
+    <attr name="keySubTextSize" format="dimension">
+    </attr>
+    <attr name="keyTextColor" format="reference">
+    </attr>
+    <attr name="keyTextSize" format="dimension">
+    </attr>
+    <attr name="keyToHighlight" format="reference">
+    </attr>
+    <attr name="keyWidth" format="string|dimension|fraction">
+    </attr>
+    <attr name="keyboard" format="reference">
+    </attr>
+    <attr name="keyboardLocale" format="string">
+    </attr>
+    <attr name="keyboardMode" format="reference">
+    </attr>
+    <attr name="keyboardSize" format="string">
+    </attr>
+    <attr name="keyboardViewStyle" format="reference">
+    </attr>
+    <attr name="keylines" format="reference">
+    </attr>
+    <attr name="layoutManager" format="string">
+    </attr>
+    <attr name="layout_anchor" format="reference">
+    </attr>
+    <attr name="layout_anchorGravity">
+        <flag name="bottom" value="80" />
+        <flag name="center" value="17" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="center_vertical" value="16" />
+        <flag name="clip_horizontal" value="8" />
+        <flag name="clip_vertical" value="128" />
+        <flag name="end" value="8388613" />
+        <flag name="fill" value="119" />
+        <flag name="fill_horizontal" value="7" />
+        <flag name="fill_vertical" value="112" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="start" value="8388611" />
+        <flag name="top" value="48" />
+    </attr>
+    <attr name="layout_behavior" format="string">
+    </attr>
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="all" value="119" />
+        <flag name="bottom" value="80" />
+        <flag name="end" value="8388613" />
+        <flag name="left" value="3" />
+        <flag name="none" value="0" />
+        <flag name="right" value="5" />
+        <flag name="start" value="8388611" />
+        <flag name="top" value="48" />
+    </attr>
+    <attr name="layout_insetEdge">
+        <enum name="bottom" value="80" />
+        <enum name="end" value="8388613" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="8388611" />
+        <enum name="top" value="48" />
+    </attr>
+    <attr name="layout_keyline" format="integer">
+    </attr>
+    <attr name="listener" format="string">
+    </attr>
+    <attr name="popupCharacters" format="string">
+    </attr>
+    <attr name="popupKeyboard" format="reference">
+    </attr>
+    <attr name="popupLayout" format="reference">
+    </attr>
+    <attr name="reverseLayout" format="boolean">
+    </attr>
+    <attr name="rowEdgeFlags">
+        <flag name="bottom" value="8" />
+        <flag name="top" value="4" />
+    </attr>
+    <attr name="shadowColor" format="color">
+    </attr>
+    <attr name="shadowRadius" format="float">
+    </attr>
+    <attr name="shiftKeyIcon" format="reference">
+    </attr>
+    <attr name="shiftKeyLabel" format="string">
+    </attr>
+    <attr name="shiftKeyOutputText" format="string">
+    </attr>
+    <attr name="shiftPopupKeyboard" format="reference">
+    </attr>
+    <attr name="spanCount" format="integer">
+    </attr>
+    <attr name="stackFromEnd" format="boolean">
+    </attr>
+    <attr name="state_long_pressable" format="boolean">
+    </attr>
+    <attr name="statusBarBackground" format="reference|color">
+    </attr>
+    <attr name="subTextSize" format="dimension">
+    </attr>
+    <attr name="tag" format="reference|string">
+    </attr>
+    <attr name="textColor" format="reference">
+    </attr>
+    <attr name="textSize" format="dimension">
+    </attr>
+    <attr name="ttcIndex" format="integer">
+    </attr>
+    <attr name="verticalCorrection" format="dimension">
+    </attr>
+    <attr name="verticalGap" format="string|dimension|fraction">
+    </attr>
+</resources>

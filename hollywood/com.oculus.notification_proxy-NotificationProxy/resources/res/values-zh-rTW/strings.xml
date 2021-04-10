@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">請盡快插入頭戴式裝置。</string>
+    <string name="battery_critical_title">頭戴式裝置電量極低</string>
+    <string name="battery_low_text">請插入頭戴式裝置。</string>
+    <string name="battery_low_title">頭戴式裝置電量偏低</string>
+    <string name="controller_critical_battery_text">請立即替換控制器電池。</string>
+    <string name="controller_critical_battery_title">控制器電量極低</string>
+    <string name="controller_disconnected_text">檢查電池電量、移近控制器，或聯絡 Oculus 支援團隊。</string>
+    <string name="controller_disconnected_title">我們找不到你的控制器</string>
+    <string name="controller_firmware_update_failed_text">請聯絡 Oculus 支援團隊，以取得協助。</string>
+    <string name="controller_firmware_update_failed_title">我們無法更新你的控制器</string>
+    <string name="controller_firmware_update_progress_text">更新進度：%1$d %%</string>
+    <string name="controller_firmware_update_success_text">更新成功。</string>
+    <string name="controller_firmware_update_title">正在更新控制器</string>
+    <string name="controller_low_battery_text">請盡快替換電池。</string>
+    <string name="controller_low_battery_title">控制器電池電量低</string>
+    <string name="dual_controller_both_controller_disconnected_title">找不到控制器</string>
+    <string name="dual_controller_both_controller_low_battery_title">控制器電池電量低</string>
+    <string name="dual_controller_disconnected_text">如果問題依然持續出現，請檢查電池電量或聯絡 Oculus 支援團隊。</string>
+    <string name="dual_controller_left_controller_disconnected_title">找不到左手控制器</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">更新左手控制器時發生錯誤</string>
+    <string name="dual_controller_left_controller_firmware_update_title">正在更新左手控制器</string>
+    <string name="dual_controller_left_controller_low_battery_title">左手控制器電池電量低</string>
+    <string name="dual_controller_low_battery_text">請盡快替換電池。</string>
+    <string name="dual_controller_right_controller_disconnected_title">找不到右手控制器</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">更新右手控制器時發生錯誤</string>
+    <string name="dual_controller_right_controller_firmware_update_title">正在更新右手控制器</string>
+    <string name="dual_controller_right_controller_low_battery_title">右手控制器電池電量低</string>
+    <string name="notification_header">Oculus 系統</string>
+    <string name="safe_volume_warning_text_1">長時間以高音量收聽可能損害聽力。</string>
+    <string name="safe_volume_warning_text_2">再次按住按鈕可暫時停用此警告。</string>
+    <string name="safe_volume_warning_title">目前音量超過推薦音量</string>
+    <string name="vrui_gaze_input_instruction_text">移動頭部並按住頭戴式裝置音量按鈕以便選擇。</string>
+    <string name="vrui_gaze_input_instruction_title">已停用手勢追蹤和控制器</string>
+    <string name="wifi_disconnected_text">請前往「設定」以解決問題。</string>
+    <string name="wifi_disconnected_title">頭戴式裝置 Wi-Fi 連線中斷</string>
+</resources>

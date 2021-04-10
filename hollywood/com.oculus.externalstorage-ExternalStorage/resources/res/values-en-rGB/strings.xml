@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_launcher_gallery_message">Do you want to open Oculus Gallery to explore the contents of the disk?</string>
+    <string name="storage_wizard_error_title">Could not format ^1</string>
+    <string name="storage_wizard_format_progress_body">Don’t remove the ^1 while it\'s being formatted.</string>
+    <string name="storage_wizard_format_progress_title">Formatting ^1...</string>
+    <string name="storage_wizard_ready_external_body">Your ^1 is ready to use with photos and other media.</string>
+</resources>

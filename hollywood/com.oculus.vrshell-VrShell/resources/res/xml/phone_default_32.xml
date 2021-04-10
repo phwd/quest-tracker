@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="9sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyLabel="1" custom:keyOutputText="1" custom:keySubLabel=""/>
+        <Key custom:keyLabel="2" custom:keyOutputText="2" custom:keySubLabel="ABC"/>
+        <Key custom:keyLabel="3" custom:keyOutputText="3" custom:keySubLabel="DEF"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="4" custom:keyOutputText="4" custom:keySubLabel="GHI"/>
+        <Key custom:keyLabel="5" custom:keyOutputText="5" custom:keySubLabel="JKL"/>
+        <Key custom:keyLabel="6" custom:keyOutputText="6" custom:keySubLabel="MNO"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="7" custom:keyOutputText="7" custom:keySubLabel="PQRS"/>
+        <Key custom:keyLabel="8" custom:keyOutputText="8" custom:keySubLabel="TUV"/>
+        <Key custom:keyLabel="9" custom:keyOutputText="9" custom:keySubLabel="WXYZ"/>
+        <Key custom:codes="-2" custom:keyHeight="65dp" custom:keyLabel="go"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="*" custom:keyOutputText="*"/>
+        <Key custom:keyLabel="0" custom:keyOutputText="0" custom:keySubLabel="+"/>
+        <Key custom:keyLabel="#" custom:keyOutputText="#"/>
+    </Row>
+</Keyboard>

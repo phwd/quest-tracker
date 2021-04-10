@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/text_view_without_scrollbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="36dp">
+    <TextView android:textColor="@android:color/white" android:gravity="top" android:linksClickable="true" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="24dp" android:text="@string/fan_malfunction" android:textAlignment="viewStart" style="?android:attr/textAppearanceMedium"/>
+</LinearLayout>

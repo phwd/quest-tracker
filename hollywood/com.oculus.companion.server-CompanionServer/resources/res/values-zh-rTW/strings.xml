@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">你將登出 oculus.com！</string>
+    <string name="app_name">隨附伺服器</string>
+    <string name="app_short_name">隨附</string>
+    <string name="permdesc_companionService">允許應用程式傳送意圖給隨附服務。</string>
+    <string name="permlab_companionService">傳送意圖給隨附服務</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">第三方控制器</string>
+</resources>

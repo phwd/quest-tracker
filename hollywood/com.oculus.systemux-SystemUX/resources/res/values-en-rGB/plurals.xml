@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s only supports %2$d person.</item>
+        <item quantity="other">%1$s only supports up to %2$d people.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s only supports %2$d person. Select a new app to continue.</item>
+        <item quantity="other">%1$s only supports up to %2$d people. Select a new app to continue.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d space available</item>
+        <item quantity="other">%1$d spaces available</item>
+    </plurals>
+</resources>

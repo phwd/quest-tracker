@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280106110" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.oculus.systemutilities" platformBuildVersionCode="280106110" platformBuildVersionName="27.0.0.42.507">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.companion.server.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.horizon.FBCONNECT_CONTENT_PROVIDER_READ_ACCESS"/>
+    <uses-permission android:name="com.oculus.horizon.LINKED_ACCOUNTS_WRITE_PERMISSION"/>
+    <uses-permission android:name="com.oculus.horizon.permission.OVR_PLATFORM_BROADCAST"/>
+    <uses-permission android:name="com.oculus.mediadownloader.ACCESS_DOWNLOADER"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="com.oculus.permission.MODIFY_CONTROLLER_STATUS"/>
+    <uses-permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND"/>
+    <uses-permission android:name="com.oculus.permission.READ_CONTROLLER_STATUS"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.XRS_OBSERVE_STATE"/>
+    <uses-permission android:name="com.oculus.updater.core.os.OTA_OPERATION"/>
+    <uses-permission android:name="oculus.render_notification"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+    <uses-permission android:name="com.oculus.permission.DEVICE_CONFIG_PUSH_TO_CLIENT"/>
+    <permission android:label="oculus_notifications" android:name="oculus.render_notification"/>
+    <application android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.oculus.systemutilities.SystemUtilitiesApplication" android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+        <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.deviceconfig.PARAMS_MAP_PATH" android:value="assets/params_map.txt"/>
+        <receiver android:name="com.oculus.deviceconfigclient.DeviceConfigClientReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="oculus.intent.action.DC_SET_CLIENT_VALUES"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.NoDisplay" android:label="@string/app_name" android:name="com.oculus.systemutilities.PanelActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.oculus.systemutilities.SettingsService" android:exported="true" android:process=":settings">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.systemutilities.FileManagerService" android:exported="true" android:process=":file_manager">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,logbox,reactsplashscreen"/>
+        </service>
+        <receiver android:name="com.oculus.systemutilities.HandTrackingSettingsReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="enable_hand_tracking"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.systemutilities.FirstTimeNUXSettingsReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="set_first_time_nux_allow_guardian"/>
+                <action android:name="set_first_time_nux_health_safety_complete"/>
+                <action android:name="set_first_time_nux_complete"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="oculus_preferences_systemutilities" android:resource="@raw/systemutilities_preferences"/>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_17_41"/>
+        <receiver android:name="libraries.marauder.analytics.AnalyticsUploadAlarmReceiver" android:exported="false"/>
+        <meta-data android:name="oculus_preferences" android:resource="@raw/user_manager_preferences"/>
+        <meta-data android:name="oculus_preferences_device_environment" android:resource="@raw/device_preferences"/>
+    </application>
+</manifest>

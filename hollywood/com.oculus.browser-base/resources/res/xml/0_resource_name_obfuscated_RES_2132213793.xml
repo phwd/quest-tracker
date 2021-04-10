@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android" android:label="@string/0_resource_name_obfuscated_RES_2131952012" android:searchSuggestAuthority="com.oculus.browser.browser" android:searchSuggestSelection="url LIKE ?" android:searchSuggestIntentAction="android.intent.action.VIEW" android:includeInGlobalSearch="true" android:searchSettingsDescription="@string/0_resource_name_obfuscated_RES_2131952276"/>

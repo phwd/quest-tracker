@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Liitä virtuaalilasit pian.</string>
+    <string name="battery_critical_title">Virtuaalilasien virta on erittäin vähissä</string>
+    <string name="battery_low_text">Liitä virtuaalilasit.</string>
+    <string name="battery_low_title">Virtuaalilasien virta on vähissä</string>
+    <string name="controller_critical_battery_text">Vaihda ohjaimen paristo heti.</string>
+    <string name="controller_critical_battery_title">Ohjaimen paristo erittäin vähissä</string>
+    <string name="controller_disconnected_text">Tarkista akku, siirrä ohjainta lähemmäksi tai ota yhteyttä Oculus-tukeen.</string>
+    <string name="controller_disconnected_title">Ohjainta ei löydy</string>
+    <string name="controller_firmware_update_failed_text">Pyydä apua Oculus-tuelta.</string>
+    <string name="controller_firmware_update_failed_title">Ohjainta ei voi päivittää</string>
+    <string name="controller_firmware_update_progress_text">Päivitys käynnissä: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Päivitys onnistui.</string>
+    <string name="controller_firmware_update_title">Ohjainta päivitetään</string>
+    <string name="controller_low_battery_text">Vaihda paristo pian.</string>
+    <string name="controller_low_battery_title">Ohjaimen paristo vähissä</string>
+    <string name="dual_controller_both_controller_disconnected_title">Ohjaimia ei löydy</string>
+    <string name="dual_controller_both_controller_low_battery_title">Ohjaimen paristot vähissä</string>
+    <string name="dual_controller_disconnected_text">Jos ongelma ei häviä, tarkista akku tai ota yhteyttä Oculus-tukeen.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Vasenta ohjainta ei löydy</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Virhe päivitettäessä vasenta ohjainta</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Vasenta ohjainta päivitetään</string>
+    <string name="dual_controller_left_controller_low_battery_title">Vasemman ohjaimen paristot vähissä</string>
+    <string name="dual_controller_low_battery_text">Vaihda paristo pian.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Oikeanpuoleista ohjainta ei löydy</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Virhe päivitettäessä oikeaa ohjainta</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Oikeaa ohjainta päivitetään</string>
+    <string name="dual_controller_right_controller_low_battery_title">Oikean ohjaimen paristot vähissä</string>
+    <string name="notification_header">Oculus-järjestelmä</string>
+    <string name="safe_volume_warning_text_1">Suuri äänenvoimakkuus voi aiheuttaa kuulovaurion, jos kuuntelu jatkuu pitkään.</string>
+    <string name="safe_volume_warning_text_2">Ohita varoitus painamalla uudelleen painiketta.</string>
+    <string name="safe_volume_warning_title">Äänenvoimakkuus suositusta kovempi</string>
+    <string name="vrui_gaze_input_instruction_text">Liikuta päätäsi ja valitse painamalla virtuaalilasien äänenvoimakkuuspainiketta.</string>
+    <string name="vrui_gaze_input_instruction_title">Käsiseuranta ja ohjaimet poistettu käytöstä</string>
+    <string name="wifi_disconnected_text">Tee vianmääritys asetuksissa.</string>
+    <string name="wifi_disconnected_title">Virtuaalilasien Wi-Fi-yhteys menetettiin</string>
+</resources>

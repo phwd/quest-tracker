@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+                    <stroke android:width="@dimen/abc_control_corner_material" android:color="?attr/ocPanelSideNavBackground"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+                    <stroke android:width="@dimen/abc_control_corner_material" android:color="@color/oc_gray_60"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_hovered="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+                    <stroke android:width="@dimen/abc_control_corner_material" android:color="?attr/ocPanelSideNavBackground"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+                    <stroke android:width="@dimen/abc_control_corner_material" android:color="@color/oc_gray_70"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+                    <stroke android:width="@dimen/abc_control_corner_material" android:color="?attr/ocPanelSideNavBackground"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+                    <stroke android:width="@dimen/abc_control_corner_material" android:color="@color/oc_white_a10"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/abc_dropdownitem_icon_width" android:width="@dimen/abc_dropdownitem_icon_width"/>
+            <stroke android:width="@dimen/abc_control_corner_material" android:color="?attr/ocPanelSideNavBackground"/>
+        </shape>
+    </item>
+</selector>

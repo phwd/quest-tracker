@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">繪製解鎖圖形</string>
+    <string name="lockscreen_enter_pin">裝置 PIN 碼</string>
+    <string name="lockscreen_try_again">請再試一次</string>
+    <string name="pattern_too_short">請連結至少 4 點。</string>
+    <string name="permdesc_accessMrSensorData">允許應用程式存取混合實境感應器資料，包括相機調整資料和圖像。</string>
+    <string name="permdesc_access_handtracking_data">允許應用程式存取手勢追蹤資料</string>
+    <string name="permgroupdesc_handtracking">存取手勢追蹤資料</string>
+    <string name="permgroupdesc_sensorData">存取感應器資料</string>
+    <string name="permgrouplab_handtracking">手勢追蹤</string>
+    <string name="permgrouplab_sensorData">感應器資料</string>
+    <string name="permlab_accessMrSensorData">取得混合實境感應器資料</string>
+    <string name="permlab_access_handtracking_data">存取手勢追蹤資料</string>
+    <string name="pin_button_delete">刪除</string>
+    <string name="pin_button_enter">輸入</string>
+    <string name="reset_unlock_pattern_msg">若要重設解鎖圖形，請依照下列步驟操作：</string>
+    <string name="reset_unlock_pattern_step_1">1. 在你的行動裝置上開啟 Oculus 應用程式。</string>
+    <string name="reset_unlock_pattern_step_2">2. 開啟「設定」頁面、點按頭戴式裝置名稱，然後等待連線。</string>
+    <string name="reset_unlock_pattern_step_3">3. 點按「更多設定」&gt;「解鎖圖形」。</string>
+    <string name="reset_unlock_pattern_title">重設解鎖圖形</string>
+</resources>

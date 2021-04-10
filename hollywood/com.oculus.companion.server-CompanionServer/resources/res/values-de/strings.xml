@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Dadurch wirst du von oculus.com abgemeldet!</string>
+    <string name="app_name">Begleit-Server</string>
+    <string name="permdesc_companionService">Erlaubt der App, Intents an den Begleitdienst zu senden.</string>
+    <string name="permlab_companionService">Intents an einen Begleitdienst zu senden</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Controller von Drittanbietern</string>
+</resources>

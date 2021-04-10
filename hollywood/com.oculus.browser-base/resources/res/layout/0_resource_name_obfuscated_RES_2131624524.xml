@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/0_resource_name_obfuscated_RES_2132017163">
+        <TextView android:textAppearance="?android:attr/textAppearanceLargePopupMenu" android:gravity="center_vertical" android:layout_gravity="start" android:id="@+id/menu_item_text" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingEnd="16dp"/>
+        <org.chromium.ui.widget.ChromeImageView android:gravity="center_vertical" android:layout_gravity="end" android:id="@+id/menu_item_icon" android:layout_width="24dp" android:layout_height="match_parent" android:src="@drawable/0_resource_name_obfuscated_RES_2131231013" app:tint="@color/0_resource_name_obfuscated_RES_2131099829"/>
+    </LinearLayout>
+    <View android:id="@+id/menu_item_divider" android:background="@color/0_resource_name_obfuscated_RES_2131099905" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

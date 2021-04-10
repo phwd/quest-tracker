@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.os.chargecontrol" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <application android:theme="@style/Theme.Light" android:label="@string/app_label" android:allowBackup="false" android:extractNativeLibs="true">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <activity android:label="@string/app_label" android:name=".ChargeControl" android:exported="true" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".ChargeMonitorService"/>
+    </application>
+</manifest>

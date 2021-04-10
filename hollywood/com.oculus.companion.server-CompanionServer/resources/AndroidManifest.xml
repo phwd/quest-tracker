@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.companion.server" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <permission android:label="@string/permlab_companionService" android:name="com.oculus.companion.server.permission.SEND_INTENTS" android:protectionLevel="normal|signature" android:description="@string/permdesc_companionService"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <protected-broadcast android:name="com.oculus.companion.action.WIPE_DATA"/>
+    <protected-broadcast android:name="com.oculus.companion.server.LOCALE_UPDATED"/>
+    <protected-broadcast android:name="com.oculus.horizon.REMOTE_LAUNCH_APP"/>
+    <protected-broadcast android:name="com.oculus.horizon.START_CAST_SERVER"/>
+    <protected-broadcast android:name="com.oculus.systemactivities.LOCAL_STREAM_PRIVACY_CHECK"/>
+    <uses-permission android:name="com.oculus.horizon.LINKED_ACCOUNTS_WRITE_PERMISSION"/>
+    <uses-permission android:name="com.oculus.nux.ota.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.MODIFY_CONTROLLER_STATUS"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:persistent="true" android:allowBackup="false" android:extractNativeLibs="false" android:directBootAware="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:usesNonSdkApi="true">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <receiver android:name="com.oculus.companion.server.BootReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.oculus.companion.server.CompanionDeviceAdmin$CompanionDeviceAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN" android:description="@string/app_name">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin_policies" android:visible="false"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.companion.server.BatteryCycleService" android:exported="false" android:singleUser="true"/>
+        <service android:name="com.oculus.companion.server.CompanionService" android:permission="com.oculus.companion.server.permission.SEND_INTENTS" android:exported="true" android:singleUser="true"/>
+        <service android:name="com.oculus.companion.server.CompanionServer" android:exported="true" android:singleUser="true"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="true"/>
+        <uses-library android:name="android.test.base" android:required="false"/>
+    </application>
+</manifest>

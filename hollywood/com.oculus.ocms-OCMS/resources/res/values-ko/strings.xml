@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Oculus 코어 모바일 서비스</string>
+    <string name="binary_check_notification_content">알 수 없는 출처의 앱으로 인해 계정과 기기가 위험해질 수 있습니다.</string>
+    <string name="binary_check_notification_title">비공식 %1$s 앱이 설치됨</string>
+    <string name="notifications_download_canceled_message">\"%1$s\" 다운로드 취소됨</string>
+    <string name="notifications_download_canceled_title">다운로드 취소됨</string>
+    <string name="notifications_download_failed_message">\"%1$s\" 앱을 다운로드할 수 없습니다</string>
+    <string name="notifications_download_failed_title">다운로드 실패</string>
+    <string name="notifications_download_in_progress_message">%1$s 앱 다운로드 중...</string>
+    <string name="notifications_downloading_and_installing_apps">앱 다운로드 또는 설치 중...</string>
+    <string name="notifications_head_install_failed_message">설치 실패</string>
+    <string name="notifications_head_installed_message">설치됨</string>
+    <string name="notifications_head_installing_message">설치 중</string>
+    <string name="notifications_install_failed_message">\"%1$s\" 앱을 설치할 수 없습니다</string>
+    <string name="notifications_install_in_progress_message">%1$s 앱 설치 중…</string>
+    <string name="notifications_install_succeeded_message">%1$s 앱이 라이브러리에 설치되었습니다.</string>
+    <string name="obb_display_title">%1$s(확장 파일)</string>
+    <string name="shorten_billions">%1$s십억</string>
+    <string name="shorten_billions_capitalized">%1$s십억</string>
+    <string name="shorten_hundred_millions">%1$s억</string>
+    <string name="shorten_millions">%1$s백만</string>
+    <string name="shorten_millions_capitalized">%1$s백만</string>
+    <string name="shorten_ten_thousands">%1$s만</string>
+    <string name="shorten_thousands">%1$s천</string>
+    <string name="shorten_thousands_capitalized">%1$s천</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/icon" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131230961" app:tint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/text" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="48dp" app:leading="@dimen/0_resource_name_obfuscated_RES_2131166214"/>
+</FrameLayout>

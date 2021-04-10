@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Klart</string>
+    <string name="otg_failure_message">Ändra batterinivån på ditt headset till 60 %% eller högre och försök igen.</string>
+    <string name="otg_failure_title">Det går inte att ansluta till USB</string>
+    <string name="reformat_usb">Omformatera USB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Om du omformaterar ditt USB-minne tas alla data som är sparat på det bort.</string>
+    <string name="storage_format_confirm_title">Är du säker?</string>
+    <string name="storage_launcher_accept">Fortsätt</string>
+    <string name="storage_launcher_format_message">Du måste omformatera ditt USB-minne om du vill använda det med ditt headset.</string>
+    <string name="storage_launcher_format_title">Enheten stöds inte</string>
+    <string name="storage_launcher_gallery_message">Vill du öppna Oculus-galleriet och utforska innehållet på disken?</string>
+    <string name="storage_launcher_gallery_title">Extern lagring</string>
+    <string name="storage_launcher_refuse">Avbryt</string>
+    <string name="storage_wizard_error_body">Fel: ^1</string>
+    <string name="storage_wizard_error_title">Det gick inte att formatera ^1</string>
+    <string name="storage_wizard_format_progress_body">Ta inte bort ^1 när det formateras.</string>
+    <string name="storage_wizard_format_progress_title">Formaterar ^1 ...</string>
+    <string name="storage_wizard_ready_external_body">Ditt ^1 är redo att användas med foton och andra mediefiler.</string>
+    <string name="storage_wizard_ready_title">^1 är klar för användning</string>
+</resources>

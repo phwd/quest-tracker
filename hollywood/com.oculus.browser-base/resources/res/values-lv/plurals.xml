@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="zero">Sakļaut ciļņu grupu, kurā ir %1$d cilnes.</item>
+        <item quantity="one">Sakļaut %1$d cilni.</item>
+        <item quantity="other">Sakļaut ciļņu grupu, kurā ir %1$d cilnes.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="zero">Sakļaut ciļņu grupu “%1$s”, kurā ir %2$d cilnes.</item>
+        <item quantity="one">Sakļaut %1$d cilni.</item>
+        <item quantity="other">Sakļaut ciļņu grupu “%1$s”, kurā ir %2$d cilnes.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="zero">%d audio faili</item>
+        <item quantity="one">%d audio fails</item>
+        <item quantity="other">%d audio faili</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="zero">%d faili</item>
+        <item quantity="one">%d fails</item>
+        <item quantity="other">%d faili</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="zero">%d attēli</item>
+        <item quantity="one">%d attēls</item>
+        <item quantity="other">%d attēli</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="zero">%d lapas</item>
+        <item quantity="one">%d lapa</item>
+        <item quantity="other">%d lapas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="zero">%d videoklipi</item>
+        <item quantity="one">%d videoklips</item>
+        <item quantity="other">%d videoklipi</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="zero">Noņemt %d atlasītos vienumus</item>
+        <item quantity="one">Noņemt 1 atlasīto vienumu</item>
+        <item quantity="other">Noņemt %d atlasītos vienumus</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="zero">Kopīgot %d atlasītos vienumus</item>
+        <item quantity="one">Kopīgot 1 atlasīto vienumu</item>
+        <item quantity="other">Kopīgot %d atlasītos vienumus</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="zero">Noņemt %1$d atlasītās cilnes no grupas.</item>
+        <item quantity="one">Noņemt %1$d atlasīto cilni no grupas.</item>
+        <item quantity="other">Noņemt %1$d atlasītās cilnes no grupas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="zero">Grupēt %1$d atlasītās cilnes</item>
+        <item quantity="one">Grupēt %1$d atlasīto cilni</item>
+        <item quantity="other">Grupēt %1$d atlasītās cilnes</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="zero">Aizvērt atlasītās cilnes (skaits: %1$d)</item>
+        <item quantity="one">Aizvērt atlasīto cilni (skaits: %1$d)</item>
+        <item quantity="other">Aizvērt atlasītās cilnes (skaits: %1$d)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="zero">%1$d atvērtu ciļņu. Pieskarieties, lai pārslēgtu cilnes.</item>
+        <item quantity="one">%1$d atvērta cilne. Pieskarieties, lai pārslēgtu cilnes.</item>
+        <item quantity="other">%1$d atvērtas cilnes. Pieskarieties, lai pārslēgtu cilnes.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="zero">%1$d grāmatzīmju</item>
+        <item quantity="one">%1$d grāmatzīme</item>
+        <item quantity="other">%1$d grāmatzīmes</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="zero">%1$d cilnes</item>
+        <item quantity="one">%1$d cilne</item>
+        <item quantity="other">%1$d cilnes</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="zero">(un vēl %d)</item>
+        <item quantity="one">(un vēl 1)</item>
+        <item quantity="other">(un vēl %d)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="zero">Bloķēti %d sīkfaili.</item>
+        <item quantity="one">Bloķēts 1 sīkfails.</item>
+        <item quantity="other">Bloķēti %d sīkfaili.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="zero">Notiek %d failu lejupielāde.</item>
+        <item quantity="one">Notiek faila lejupielāde.</item>
+        <item quantity="other">Notiek %d failu lejupielāde.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="zero">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="zero">Lejupielādēti %1$d faili</item>
+        <item quantity="one">Lejupielādēts %1$d fails</item>
+        <item quantity="other">Lejupielādēti %1$d faili</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="zero">%d lejupielādes ir pabeigtas.</item>
+        <item quantity="one">1 lejupielāde ir pabeigta.</item>
+        <item quantity="other">%d lejupielādes ir pabeigtas.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="zero">%d lejupielādes neizdevās.</item>
+        <item quantity="one">1 lejupielāde neizdevās.</item>
+        <item quantity="other">%d lejupielādes neizdevās.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="zero">%d neapstiprinātu lejupielāžu.</item>
+        <item quantity="one">1 neapstiprināta lejupielāde.</item>
+        <item quantity="other">%d neapstiprinātas lejupielādes.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="zero">Ir ieplānotas %d lejupielādes.</item>
+        <item quantity="one">Ir ieplānota viena lejupielāde.</item>
+        <item quantity="other">Ir ieplānotas %d lejupielādes.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="zero">pirms %d dienām</item>
+        <item quantity="one">pirms %d dienas</item>
+        <item quantity="other">pirms %d dienām</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="zero">pirms %d stundām</item>
+        <item quantity="one">pirms %d stundas</item>
+        <item quantity="other">pirms %d stundām</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="zero">pirms %d minūtēm</item>
+        <item quantity="one">pirms %d minūtes</item>
+        <item quantity="other">pirms %d minūtēm</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="zero">Kad ierīce būs gatava, jūsu lapas tiks ielādētas pārlūkā Chrome</item>
+        <item quantity="one">Kad ierīce būs gatava, jūsu lapa tiks ielādēta pārlūkā Chrome</item>
+        <item quantity="other">Kad ierīce būs gatava, jūsu lapas tiks ielādētas pārlūkā Chrome</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="zero">Tiek izmantoti %d sīkfaili</item>
+        <item quantity="one">Tiek izmantots viens sīkfails</item>
+        <item quantity="other">Tiek izmantoti %d sīkfaili</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="zero">Atļautas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="one">Atļautas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="other">Atļautas: %1$s, %2$s un vēl %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="zero">Bloķētas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="one">Bloķētas: %1$s, %2$s un vēl %3$s</item>
+        <item quantity="other">Bloķētas: %1$s, %2$s un vēl %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="zero">%1$s, %2$s un vēl %3$s</item>
+        <item quantity="one">%1$s, %2$s un vēl %3$s</item>
+        <item quantity="other">%1$s, %2$s un vēl %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="zero">%d uzlauztu paroļu</item>
+        <item quantity="one">%d uzlauzta parole</item>
+        <item quantity="other">%d uzlauztas paroles</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+        <item quantity="other">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+        <item quantity="other">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+        <item quantity="other">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="zero">%1$s… un vēl %2$s</item>
+        <item quantity="one">%1$s… un vēl %2$s</item>
+        <item quantity="other">%1$s… un vēl %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="zero">Sarakstā ir %1$d lapas</item>
+        <item quantity="one">Sarakstā ir %1$d lapa</item>
+        <item quantity="other">Sarakstā ir %1$d lapas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="zero">%1$d nelasītu lapu</item>
+        <item quantity="one">%1$d nelasīta lapa</item>
+        <item quantity="other">%1$d nelasītas lapas</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="zero">%d uzlauztu paroļu</item>
+        <item quantity="one">1 uzlauzta parole</item>
+        <item quantity="other">%d uzlauztas paroles</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="zero">Pārbaudīts: pirms %d dienām</item>
+        <item quantity="one">Pārbaudīts: pirms 1 dienas</item>
+        <item quantity="other">Pārbaudīts: pirms %d dienām</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="zero">Pārbaudīts: pirms %d stundām</item>
+        <item quantity="one">Pārbaudīts: pirms 1 stundas</item>
+        <item quantity="other">Pārbaudīts: pirms %d stundām</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="zero">Pārbaudīts: pirms %d minūtēm</item>
+        <item quantity="one">Pārbaudīts: pirms 1 minūtes</item>
+        <item quantity="other">Pārbaudīts: pirms %d minūtēm</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="zero">Atlasīti %d vienumi</item>
+        <item quantity="one">Atlasīts 1 vienums</item>
+        <item quantity="other">Atlasīti %d vienumi</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="zero">Signāla stipruma līmenis: %d joslu</item>
+        <item quantity="one">Signāla stipruma līmenis: %d josla</item>
+        <item quantity="other">Signāla stipruma līmenis: %d joslas</item>
+    </plurals>
+</resources>

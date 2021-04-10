@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Bu işlem sonunda oculus.com\'dan çıkış yapacaksın!</string>
+    <string name="app_name">Yardımcı Sunucu</string>
+    <string name="app_short_name">Yardımcı</string>
+    <string name="permdesc_companionService">Uygulamanın yardımcı hizmete niyetler göndermesine izin verir</string>
+    <string name="permlab_companionService">yardımcı hizmete niyetler gönder</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Üçüncü taraf kumandası</string>
+</resources>

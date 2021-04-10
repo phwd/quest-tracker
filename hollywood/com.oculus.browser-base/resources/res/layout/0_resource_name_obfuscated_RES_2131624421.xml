@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@+id/radio_button" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp"/>
+    <EditText android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:inputType="text" android:layout_toEndOf="@+id/radio_button"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/edit_text" android:layout_alignStart="@+id/edit_text"/>
+</merge>

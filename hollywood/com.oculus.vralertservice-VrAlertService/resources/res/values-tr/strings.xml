@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Başlığın ısınıyor. Birkaç dakika ara vererek başlığının soğumasını beklemeni tavsiye ederiz.</string>
+    <string name="fan_malfunction">Cihazındaki soğutucu fan şu anda düzgün çalışmıyor. Yetersiz soğutma yüzünden başlığın fazla ısınabilir ve beklenmedik durumlarla karşılaşabilir. Destek için lütfen https://support.oculus.com adresinden Oculus Müşteri Destek ile iletişime geçin.</string>
+    <string name="notification_dismiss">Bu bildirimi yok saymak için dokun</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SİSTEM UYARISI</string>
+    <string name="temp_critical">Sıcaklığı yükseldiği için başlığın kapatılacak. Fiziksel yaralanma riskini azaltmak için başlığını çıkar ve kullanmaya devam etmeden önce soğumasını bekle.</string>
+</resources>

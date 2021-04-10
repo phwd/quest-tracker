@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="ocanimation_fast1">100</integer>
+    <integer name="ocanimation_fast2">200</integer>
+    <integer name="ocanimation_instant">0</integer>
+    <integer name="ocanimation_medium1">300</integer>
+    <integer name="ocanimation_medium2">500</integer>
+    <integer name="ocanimation_slow1">1000</integer>
+    <integer name="ocanimation_slow2">2500</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

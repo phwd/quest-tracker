@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "date": "10/19/2020",
+  "contents": [
+    {
+      "key": "multi_user_beta_enabled_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    },
+    {
+      "key": "hand_tracking_override_frequency",
+      "type": "integer",
+      "default": "0",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    },
+    {
+      "key": "multi_user_accounts_nux_pref_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "app_sharing_upsell_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "multi_user_lock_pattern_prompt_seen_key",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "user",
+      "isOwner": false
+    },
+    {
+      "key": "local_account_mode_enabled",
+      "type": "boolean",
+      "default": "false",
+      "hasWritePermission": true,
+      "scope": "system",
+      "isOwner": false
+    }
+  ]
+}

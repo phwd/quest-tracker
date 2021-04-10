@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">This will log you out of oculus.com!</string>
+    <string name="app_name">Companion Server</string>
+    <string name="app_short_name">Companion</string>
+    <string name="permdesc_companionService">Allows the app to send intents to the companion service.</string>
+    <string name="permlab_companionService">send intents to companion service</string>
+    <string name="phone_notification_ios_connected_cta">Click to manage</string>
+    <string name="phone_notification_ios_connected_message">You\'ll see notifications from your phone.</string>
+    <string name="phone_notification_ios_connected_title">iPhone connected</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Third party controller</string>
+</resources>

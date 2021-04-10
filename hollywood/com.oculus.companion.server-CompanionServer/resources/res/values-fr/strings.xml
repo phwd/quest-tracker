@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Ceci vous déconnectera d’oculus.com !</string>
+    <string name="app_name">Serveur associé</string>
+    <string name="app_short_name">Associé</string>
+    <string name="permdesc_companionService">Autorise l’app à envoyer des intentions au service associé.</string>
+    <string name="permlab_companionService">envoyer des intentions au service associé</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Manette tierce</string>
+</resources>

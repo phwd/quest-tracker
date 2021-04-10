@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="japanese" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:listener="KeyboardActionListenerJP" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:codes="-16" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_arrow_left_circle_outline_24" custom:keyWidth="64dp"/>
+        <DynamicKeyArea custom:id="@+id/conversion_key_area" custom:keyWidth="spanDefaultKeys_11"/>
+        <Key custom:codes="-17" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_arrow_right_circle_outline_24" custom:keyWidth="64dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyHeight="97dp" custom:keyLabel="abc" custom:keyWidth="64dp" custom:keyboard="@xml/ja_jp_text_romaji_abc_48"/>
+        <Key custom:keyLabel="～" custom:keyOutputText="～"/>
+        <Key custom:keyLabel="わ" custom:keyOutputText="わ"/>
+        <Key custom:keyLabel="ら" custom:keyOutputText="ら"/>
+        <Key custom:keyLabel="や" custom:keyOutputText="や"/>
+        <Key custom:keyLabel="ま" custom:keyOutputText="ま"/>
+        <Key custom:keyLabel="は" custom:keyOutputText="は"/>
+        <Key custom:keyLabel="な" custom:keyOutputText="な"/>
+        <Key custom:keyLabel="た" custom:keyOutputText="た"/>
+        <Key custom:keyLabel="さ" custom:keyOutputText="さ"/>
+        <Key custom:keyLabel="か" custom:keyOutputText="か"/>
+        <Key custom:keyLabel="あ" custom:keyOutputText="あ"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_back_outline_24" custom:keyWidth="64dp"/>
+    </Row>
+    <Row>
+        <Key custom:horizontalGap="65dp" custom:keyEdgeFlags="left" custom:keyLabel="？" custom:keyOutputText="？"/>
+        <Key custom:keyLabel="を" custom:keyOutputText="を"/>
+        <Key custom:keyLabel="り" custom:keyOutputText="り"/>
+        <Key custom:keyLabel="｢" custom:keyOutputText="｢"/>
+        <Key custom:keyLabel="み" custom:keyOutputText="み"/>
+        <Key custom:keyLabel="ひ" custom:keyOutputText="ひ"/>
+        <Key custom:keyLabel="に" custom:keyOutputText="に"/>
+        <Key custom:keyLabel="ち" custom:keyOutputText="ち"/>
+        <Key custom:keyLabel="し" custom:keyOutputText="し"/>
+        <Key custom:keyLabel="き" custom:keyOutputText="き"/>
+        <Key custom:keyLabel="い" custom:keyOutputText="い"/>
+        <Key custom:codes="-15" custom:keyEdgeFlags="right" custom:keyLabel="空白" custom:keyOutputText=" " custom:keyWidth="64dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyLabel="^_^" custom:keyWidth="64dp" custom:keyboard="@xml/ja_jp_kaomoji_48"/>
+        <Key custom:keyLabel="！" custom:keyOutputText="！"/>
+        <Key custom:keyLabel="ん" custom:keyOutputText="ん"/>
+        <Key custom:keyLabel="る" custom:keyOutputText="る"/>
+        <Key custom:keyLabel="ゆ" custom:keyOutputText="ゆ"/>
+        <Key custom:keyLabel="む" custom:keyOutputText="む"/>
+        <Key custom:keyLabel="ふ" custom:keyOutputText="ふ"/>
+        <Key custom:keyLabel="ぬ" custom:keyOutputText="ぬ"/>
+        <Key custom:keyLabel="つ" custom:keyOutputText="つ"/>
+        <Key custom:keyLabel="す" custom:keyOutputText="す"/>
+        <Key custom:keyLabel="く" custom:keyOutputText="く"/>
+        <Key custom:keyLabel="う" custom:keyOutputText="う"/>
+        <Key custom:codes="-2" custom:keyEdgeFlags="right" custom:keyHeight="97dp" custom:keyIcon="@drawable/ic_arrow_right_outline_24" custom:keyWidth="64dp"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:id="@+id/activate_emoji_keyboard" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_emoji_outline_24" custom:keyWidth="64dp" custom:keyboard="@xml/emoji_0_48"/>
+        <Key custom:keyLabel="､" custom:keyOutputText="､"/>
+        <Key custom:keyLabel="ー" custom:keyOutputText="ー"/>
+        <Key custom:keyLabel="れ" custom:keyOutputText="れ"/>
+        <Key custom:keyLabel="｣  " custom:keyOutputText="｣"/>
+        <Key custom:keyLabel="め" custom:keyOutputText="め"/>
+        <Key custom:keyLabel="へ" custom:keyOutputText="へ"/>
+        <Key custom:keyLabel="ね" custom:keyOutputText="ね"/>
+        <Key custom:keyLabel="て" custom:keyOutputText="て"/>
+        <Key custom:keyLabel="せ" custom:keyOutputText="せ"/>
+        <Key custom:keyLabel="け" custom:keyOutputText="け"/>
+        <Key custom:keyLabel="え" custom:keyOutputText="え"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_world_outline_24" custom:keyWidth="64dp" custom:keyboard="@xml/language_selector_48"/>
+        <Key custom:keyLabel="｡" custom:keyOutputText="｡"/>
+        <Key custom:codes="-18" custom:keyLabel="小゙  ゚" custom:textSize="20sp"/>
+        <Key custom:keyLabel="ろ" custom:keyOutputText="ろ"/>
+        <Key custom:keyLabel="よ" custom:keyOutputText="よ"/>
+        <Key custom:keyLabel="も" custom:keyOutputText="も"/>
+        <Key custom:keyLabel="ほ" custom:keyOutputText="ほ"/>
+        <Key custom:keyLabel="の" custom:keyOutputText="の"/>
+        <Key custom:keyLabel="と" custom:keyOutputText="と"/>
+        <Key custom:keyLabel="そ" custom:keyOutputText="そ"/>
+        <Key custom:keyLabel="こ" custom:keyOutputText="こ"/>
+        <Key custom:keyLabel="お" custom:keyOutputText="お"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24" custom:keyWidth="64dp"/>
+    </Row>
+</Keyboard>

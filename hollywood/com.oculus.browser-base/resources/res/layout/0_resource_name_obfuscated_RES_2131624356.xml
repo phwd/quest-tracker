@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/payments_open_editor_pencil_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953176">
+    <View android:layout_gravity="center_vertical" android:layout_width="1dp" android:layout_height="48dp" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165519" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165519" style="@style/0_resource_name_obfuscated_RES_2132017975"/>
+    <org.chromium.ui.widget.ChromeImageView android:layout_gravity="center_vertical" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131231041" android:importantForAccessibility="no" app:tint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+</LinearLayout>

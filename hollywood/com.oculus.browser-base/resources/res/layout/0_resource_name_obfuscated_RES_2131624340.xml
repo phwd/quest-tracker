@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@color/0_resource_name_obfuscated_RES_2131100141" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start" android:id="@+id/check_status_illustration" android:visibility="visible" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165323" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165322" android:importantForAccessibility="no"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/check_status_progress" android:visibility="gone" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165321" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165321" android:indeterminate="true" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165320" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165320"/>
+        <ImageView android:id="@+id/check_status_icon" android:visibility="gone" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165321" android:layout_height="match_parent" android:importantForAccessibility="no" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131165320" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165320"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/check_status_text_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/check_status_message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017799" android:id="@+id/check_status_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165319"/>
+        </LinearLayout>
+        <ImageButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/check_status_restart_button" android:background="?android:attr/selectableItemBackground" android:layout_width="@dimen/0_resource_name_obfuscated_RES_2131165327" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165327" android:src="@drawable/0_resource_name_obfuscated_RES_2131231296" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951885" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165328" app:tint="@color/0_resource_name_obfuscated_RES_2131099812"/>
+    </LinearLayout>
+    <View style="@style/0_resource_name_obfuscated_RES_2132017439"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/check_status_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/0_resource_name_obfuscated_RES_2131165329"/>
+</LinearLayout>

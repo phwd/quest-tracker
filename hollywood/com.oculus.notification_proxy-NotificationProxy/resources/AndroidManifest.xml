@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" coreApp="true" package="com.oculus.notification_proxy" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
+    <uses-permission android:name="com.oculus.systemdriver.DISPLAY_VR_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+    <protected-broadcast android:name="com.oculus.notification_proxy.SEND_NOTIFICATION"/>
+    <protected-broadcast android:name="com.oculus.vrapi.NOTIFICATION_LARGE_ACTION"/>
+    <protected-broadcast android:name="com.oculus.vrapi.NOTIFICATION_DISMISS"/>
+    <protected-broadcast android:name="com.oculus.vrshell.intent.action.NOTIFICATION_WAKE"/>
+    <permission android:name="com.oculus.notification_proxy.ACCESS_NOTIFICATIONS" android:protectionLevel="signatureOrSystem"/>
+    <application android:name="NotificationProxyApplication" android:persistent="true" android:process="com.oculus.micservice_notificationproxy" android:allowBackup="false" android:extractNativeLibs="true" android:directBootAware="true">
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+    </application>
+</manifest>

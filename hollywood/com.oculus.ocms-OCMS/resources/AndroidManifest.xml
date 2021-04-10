@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280146944" android:versionName="27.0.0.38.512" android:installLocation="auto" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.ocms" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23"/>
+    <uses-feature android:glEsVersion="20000" android:required="true"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-permission android:name="com.oculus.horizon.permission.ACCESS"/>
+    <uses-permission android:name="com.oculus.horizon.auth"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="com.oculus.horizon.permission.OVR_PLATFORM_BROADCAST"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="oculus.permission.CONTROL_DEVICE_IDLE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.CONNECT_TO_DUMPSYSPROXY"/>
+    <permission android:name="com.oculus.ocms.BINARY_CHECK_UPDATE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.oculus.permission.RECEIVE_THIRD_PARTY_PACKAGE_STARTED"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <permission android:name="com.oculus.ocms.locationservices.permission.ACCESS" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.oculus.ocms.locationservices.permission.ACCESS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <application android:label="@string/app_name" android:name="com.oculus.ocms.app.OCMSApplication" android:debuggable="false" android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.facebook.build_rule" android:value="ocms_arm64_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1616478080000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <receiver android:name="com.oculus.appmanager.downloader.OculusDownloadManagerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.appmanager.downloader.OculusDownloadService" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.oculus.appmanager.installer.boot.InstallerServiceBootReceiver" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.appmanager.installer.notification.InstallerNotificationService" android:exported="false"/>
+        <service android:name="com.oculus.appmanager.installer.service.InstallerService"/>
+        <service android:name="com.oculus.appmanager.installer.service.ConsistencyJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.appmanager.installer.service.DozeDelayService" android:exported="false"/>
+        <receiver android:name="com.oculus.appmanager.uninstaller.receivers.UninstallBroadcastReceiver" android:exported="false"/>
+        <receiver android:name="com.oculus.auth.receiver.AuthBroadcastReceiver" android:permission="com.oculus.horizon.auth">
+            <intent-filter>
+                <action android:name="com.oculus.auth.BROADCAST_LOGIN"/>
+                <action android:name="com.oculus.auth.BROADCAST_LOGOUT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.auth.receiver.LoginHandlersService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.oculus.auth.BROADCAST_LOGIN"/>
+                <action android:name="com.oculus.auth.BROADCAST_LOGOUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.oculus.autoupdates.AutoUpdateJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="com.oculus.common.packagescache.PackagesCacheReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.dumpsysledger.DumpsysLedgerService" android:exported="true"/>
+        <service android:name="com.oculus.library.job.LibraryJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.oculus.mobileconfig.updater.MobileConfigUpdaterJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.ocms.defaultapps.DefaultAppsHighPriorityJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <provider android:name="com.oculus.ocms.library.provider.LibraryProvider" android:exported="true" android:authorities="com.oculus.ocms.library"/>
+        <provider android:name="com.oculus.ocms.library.provider.PublicLibraryProvider" android:exported="true" android:authorities="com.oculus.ocms.publiclibrary"/>
+        <service android:name="com.oculus.ocms.library.service.BinaryCheckUpdateIntentService" android:permission="com.oculus.ocms.BINARY_CHECK_UPDATE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.oculus.ocms.BINARY_CHECK_UPDATE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.oculus.ocms.library.service.ThirdPartyPackageWarnOrBlockIntentService" android:exported="false"/>
+        <receiver android:name="com.oculus.ocms.library.receiver.PackageRemovedReceiver" android:permission="android.permission.BROADCAST_PACKAGE_REMOVED" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.ocms.library.receiver.ThirdPartyPackageStartedReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.oculus.action.THIRD_PARTY_PACKAGE_STARTED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.ocms.library.receiver.InstallExistingReceiver" android:exported="false"/>
+        <service android:name="com.oculus.ocms.locationservices.LocationService" android:permission="com.oculus.ocms.locationservices.permission.ACCESS" android:exported="true"/>
+        <provider android:name="com.oculus.ocms.testing.TestProvider" android:exported="true" android:authorities="com.oculus.ocms.testing"/>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_PHONE_ID"/>
+        </intent>
+        <intent>
+            <action android:name="com.facebook.GET_UNIQUE_ID"/>
+        </intent>
+    </queries>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorAnytimeEnterpriseAdminInnerLockBackground"/>
+            <size android:height="@dimen/anytime_bar_profile_image_online_presence_dot_size_enterprise" android:width="@dimen/anytime_bar_profile_image_online_presence_dot_size_enterprise"/>
+            <stroke android:width="@dimen/anytime_bar_profile_image_online_presence_border_size_enterprise" android:color="@color/colorAnytimeEnterpriseAdminOuterLockBackground"/>
+        </shape>
+    </item>
+    <item android:height="@dimen/anytime_bar_profile_image_online_presence_lock_size_enterprise" android:width="@dimen/anytime_bar_profile_image_online_presence_lock_size_enterprise" android:drawable="@drawable/oc_icon_lock_off_filled_24_d2d2d2" android:top="@dimen/anytime_bar_profile_image_online_presence_lock_position_enterprise" android:start="@dimen/anytime_bar_profile_image_online_presence_lock_position_enterprise"/>
+</layer-list>

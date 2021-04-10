@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/footer" android:background="@drawable/0_resource_name_obfuscated_RES_2131230980" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952459" style="@style/0_resource_name_obfuscated_RES_2132017404"/>

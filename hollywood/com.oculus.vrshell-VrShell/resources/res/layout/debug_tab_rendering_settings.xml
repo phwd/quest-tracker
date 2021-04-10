@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.RenderingSettingsTab xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/debug_tab_rendering_settings" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/debug_rendering_settings_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="Current Rendering Quality (Pixels Per Degree)" android:layout_weight="0.5"/>
+            <TextView android:id="@+id/debug_text_current_rendering_quality" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="Current Panel Scale Factor" android:layout_weight="0.5"/>
+            <TextView android:id="@+id/debug_text_current_panel_scale" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="System Rendering Quality (Pixels Per Degree)" android:layout_weight="0.5"/>
+            <TextView android:id="@+id/debug_text_system_rendering_quality" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="System Panel Scale Factor" android:layout_weight="0.5"/>
+            <TextView android:id="@+id/debug_text_system_panel_scale" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+            <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Changes will require a restart of Shell to take effect.\10Device reboot is required for changes to apply to Overlay mode."/>
+            <com.oculus.vrshell.panels.views.ShellButton android:layout_gravity="center_horizontal" android:id="@+id/debug_action_exit_shell" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Restart Shell to Apply Changes"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.oculus.panelapp.debug.RenderingSettingsTab>

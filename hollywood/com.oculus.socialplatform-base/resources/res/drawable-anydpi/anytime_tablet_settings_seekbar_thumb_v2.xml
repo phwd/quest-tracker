@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/anytime_tablet_common_rectangular_button_height_v2" android:width="4dp"/>
+            <solid android:color="@color/button_secondary_backing"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/anytime_tablet_common_rectangular_button_height_v2" android:width="4dp"/>
+            <solid android:color="@color/anytime_button_selected_v2"/>
+            <corners android:topRightRadius="4dp" android:bottomRightRadius="4dp"/>
+        </shape>
+    </item>
+</layer-list>

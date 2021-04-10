@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">돌아가기</string>
+    <string name="cancel">취소</string>
+    <string name="clear">지우기</string>
+    <string name="confirm">확인</string>
+    <string name="forgot_pattern">패턴을 잊으셨나요?</string>
+    <string name="lockscreen_confirm_for_removal">삭제하려면 잠금 해제 패턴을 그리세요.</string>
+    <string name="lockscreen_confirm_help">확인을 위해 패턴을 다시 그리세요. 패턴을 잊어버리면 이 기기를 초기화해야 하므로 패턴을 꼭 기억해두세요.</string>
+    <string name="lockscreen_confirm_lock">잠금 해제 패턴 확인</string>
+    <string name="lockscreen_patterm_mismatch">패턴이 일치하지 않습니다. 다시 시도하세요</string>
+    <string name="lockscreen_remove_lock">잠금 해제 패턴 삭제</string>
+    <string name="lockscreen_secure_owner_account">잠금 해제 패턴을 설정하여 이 기기에서 계정을 보호할 수 있습니다. 이 기기에서 계정에 액세스할 때마다 이 패턴을 그려야 합니다.</string>
+    <string name="lockscreen_secure_secondary_account">잠금 해제 패턴을 설정하여 이 기기에서 계정을 보호할 수 있습니다. 이 기기에서 계정에 액세스할 때마다 이 패턴을 그려야 합니다.</string>
+    <string name="lockscreen_set_pattern">잠금 해제 패턴 설정</string>
+    <string name="lockscreen_set_pattern_hint">이 기기에서 계정을 보호하세요.</string>
+    <string name="next">다음</string>
+    <string name="skip">나중에 하기</string>
+</resources>

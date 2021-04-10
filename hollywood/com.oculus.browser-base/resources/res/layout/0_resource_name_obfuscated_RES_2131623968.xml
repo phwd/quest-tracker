@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165266" android:paddingEnd="@dimen/0_resource_name_obfuscated_RES_2131165266">
+    <ImageView android:id="@+id/profile_image" android:layout_width="40dp" android:layout_height="40dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_weight="1" android:layout_marginStart="16dp">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:ellipsize="end" android:id="@+id/main_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:ellipsize="end" android:id="@+id/secondary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/psl_info_btn" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/0_resource_name_obfuscated_RES_2131230887" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952723"/>
+</LinearLayout>

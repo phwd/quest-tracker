@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105616" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.oculus.mrservice" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="24"/>
+    <uses-feature android:glEsVersion="30001" android:required="true"/>
+    <uses-feature android:name="android.hardware.vr.headtracking" android:required="true" android:version="1"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="com.oculus.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.oculus.permission.SECURE_TRACKING_SERVICE"/>
+    <uses-permission android:name="com.oculus.permission.ACCESS_CAMERA_DATA"/>
+    <uses-permission android:name="com.oculus.permission.ACCESS_TRACKING_ENV"/>
+    <uses-permission android:name="com.oculus.vrshell.OVERLAY_HOST"/>
+    <uses-permission android:name="com.oculus.permission.ALLOW_UID_HIGH_PRIORITY"/>
+    <application android:persistent="true" android:enabled="true" android:allowBackup="false" android:directBootAware="true">
+        <meta-data android:name="com.oculus.tracking_service.request_audit_secure_tracking" android:value="true"/>
+        <meta-data android:name="com.oculus.reserved_core.enabled" android:value="true"/>
+        <meta-data android:name="com.oculus.supportedDevices" android:value="all"/>
+        <service android:name="com.oculus.mrservice.MrService" android:exported="true" android:process="com.oculus.mrservice" android:singleUser="true" android:directBootAware="true"/>
+        <receiver android:name="com.oculus.mrservice.MrServiceBroadcastReceiver" android:enabled="true" android:process="com.oculus.mrservice" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.oculus.mrservice.StartActivity" android:exported="true" android:process="com.oculus.mrservice" android:excludeFromRecents="false" android:launchMode="singleTask" android:singleUser="true"/>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_17_39"/>
+    </application>
+</manifest>

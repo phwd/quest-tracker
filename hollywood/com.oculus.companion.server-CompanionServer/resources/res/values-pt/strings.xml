@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Isso desconectará você de oculus.com!</string>
+    <string name="app_name">Servidor acompanhante</string>
+    <string name="app_short_name">Acompanhante</string>
+    <string name="permdesc_companionService">Permite que o aplicativo envie intents para o serviço acompanhante.</string>
+    <string name="permlab_companionService">enviar intents para o serviço acompanhante</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Controle de terceiros</string>
+</resources>

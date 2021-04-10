@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/player_root" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/close_button" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131230884" android:scaleType="center" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131952233" android:layout_alignParentEnd="true"/>
+    <org.chromium.ui.widget.ChromeImageButton android:id="@+id/share_button" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131231303" android:scaleType="center" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131953469" android:layout_toStartOf="@+id/close_button"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Space android:id="@+id/top_half" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/bottom_half" android:paddingTop="40dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5">
+            <org.chromium.ui.widget.ButtonCompat android:layout_gravity="center_horizontal" android:id="@+id/try_now" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953769" style="@style/0_resource_name_obfuscated_RES_2132017433"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017785" android:layout_gravity="center_horizontal" android:id="@+id/watch_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953771" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017785" android:layout_gravity="center_horizontal" android:id="@+id/change_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952176" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

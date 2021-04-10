@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/icon_view" style="@style/0_resource_name_obfuscated_RES_2132017450"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="12dp">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:ellipsize="end" android:id="@+id/address" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:id="@+id/address_overflow_count" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:ellipsize="end" android:id="@+id/email" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:id="@+id/email_overflow_count" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:ellipsize="end" android:id="@+id/telephone_number" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017765" android:id="@+id/telephone_number_overflow_count" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/star" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131230898" android:layout_marginEnd="10dp"/>
+</merge>

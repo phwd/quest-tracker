@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dialog_body_text" android:tag="layout/dialog_body_0" android:paddingLeft="@dimen/ocdialog_padding" android:paddingRight="@dimen/ocdialog_padding" android:paddingBottom="@dimen/ocdialog_padding" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body1"/>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="29" android:versionName="10" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.os.vrbrowserlauncher" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <application android:label="@string/app_label" android:allowBackup="false" android:extractNativeLibs="false" android:usesNonSdkApi="true">
+        <activity android:theme="@style/Theme.NoTitleBar.Fullscreen" android:name=".MainActivity" android:exported="true" android:launchMode="singleInstance" android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="application/xhtml+xml"/>
+                <data android:mimeType="application/vnd.wap.xhtml+xml"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

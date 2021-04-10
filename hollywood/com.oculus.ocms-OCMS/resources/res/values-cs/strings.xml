@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobilní služby Oculus Core</string>
+    <string name="binary_check_notification_content">Aplikace z neznámých zdrojů můžou ohrozit váš účet a zařízení.</string>
+    <string name="binary_check_notification_title">Máte nainstalovanou neoficiální aplikaci %1$s</string>
+    <string name="notifications_download_canceled_message">Stahování zrušeno pro %1$s</string>
+    <string name="notifications_download_canceled_title">Stahování zrušeno</string>
+    <string name="notifications_download_failed_message">Aplikace %1$s se nedá stáhnout</string>
+    <string name="notifications_download_failed_title">Stahování selhalo</string>
+    <string name="notifications_download_in_progress_message">%1$s se stahuje...</string>
+    <string name="notifications_downloading_and_installing_apps">Stahování a instalace aplikací...</string>
+    <string name="notifications_head_install_failed_message">Instalace selhala</string>
+    <string name="notifications_head_installed_message">Nainstalováno</string>
+    <string name="notifications_head_installing_message">Instalace</string>
+    <string name="notifications_install_failed_message">Aplikace %1$s se nedá nainstalovat</string>
+    <string name="notifications_install_in_progress_message">Instaluje se %1$s…</string>
+    <string name="notifications_install_succeeded_message">Aplikace %1$s byla úspěšně nainstalovaná do vaší knihovny.</string>
+    <string name="notifications_progress_of_download_message">%1$d %%</string>
+    <string name="obb_display_title">%1$s (soubor pro rozšíření)</string>
+    <string name="shorten_billions">%1$s mld.</string>
+    <string name="shorten_billions_capitalized">%1$s mld.</string>
+    <string name="shorten_hundred_millions">%1$s set milionů</string>
+    <string name="shorten_millions">%1$s mil.</string>
+    <string name="shorten_millions_capitalized">%1$s mil.</string>
+    <string name="shorten_ten_thousands">%1$s desítek tisíc</string>
+    <string name="shorten_thousands">%1$s tis.</string>
+    <string name="shorten_thousands_capitalized">%1$s tis.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

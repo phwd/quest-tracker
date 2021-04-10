@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="btn_checkbox_checked_mtrl_animation_interpolator_0">r/pp.xml</interpolator>
+    <interpolator name="btn_checkbox_checked_mtrl_animation_interpolator_1">r/mt.xml</interpolator>
+    <interpolator name="btn_checkbox_unchecked_mtrl_animation_interpolator_0">r/pp.xml</interpolator>
+    <interpolator name="btn_checkbox_unchecked_mtrl_animation_interpolator_1">r/mt.xml</interpolator>
+    <interpolator name="btn_radio_to_off_mtrl_animation_interpolator_0">r/kx.xml</interpolator>
+    <interpolator name="btn_radio_to_on_mtrl_animation_interpolator_0">r/kx.xml</interpolator>
+    <interpolator name="fast_out_slow_in">r/qz.xml</interpolator>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="?attr/ocPrimaryButtonText" android:gravity="center" android:id="@+id/text" android:tag="layout/ocbadge_0" android:background="@drawable/ocbadge_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="2" android:textAlignment="center"/>

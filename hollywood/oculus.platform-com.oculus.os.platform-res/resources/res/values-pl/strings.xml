@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Narysuj wzór odblokowania</string>
+    <string name="lockscreen_enter_pin">Kod PIN urządzenia</string>
+    <string name="lockscreen_try_again">Spróbuj ponownie</string>
+    <string name="pattern_too_short">Połącz przynajmniej 4 punkty.</string>
+    <string name="permdesc_accessMrSensorData">Umożliwia aplikacji dostęp do danych czujnika rzeczywistości mieszanej, w tym kalibracji kamery i obrazów.</string>
+    <string name="permdesc_access_handtracking_data">Umożliwia aplikacji dostęp do danych śledzenia dłoni</string>
+    <string name="permgroupdesc_handtracking">dostęp do danych śledzenia dłoni</string>
+    <string name="permgroupdesc_sensorData">dostęp do danych czujnika</string>
+    <string name="permgrouplab_handtracking">Śledzenie dłoni</string>
+    <string name="permgrouplab_sensorData">Dane czujnika</string>
+    <string name="permlab_accessMrSensorData">dostęp do danych czujnika rzeczywistości mieszanej</string>
+    <string name="permlab_access_handtracking_data">dostęp do danych śledzenia dłoni</string>
+    <string name="pin_button_delete">Usuń</string>
+    <string name="pin_button_enter">Wprowadź</string>
+    <string name="reset_unlock_pattern_msg">Aby zresetować wzór odblokowania, wykonaj poniższe kroki:</string>
+    <string name="reset_unlock_pattern_step_1">1. Otwórz aplikację Oculus na urządzeniu mobilnym.</string>
+    <string name="reset_unlock_pattern_step_2">2. Otwórz stronę Ustawienia, dotknij nazwy gogli i poczekaj na połączenie.</string>
+    <string name="reset_unlock_pattern_step_3">3. Dotknij Więcej ustawień &gt; Wzór odblokowania.</string>
+    <string name="reset_unlock_pattern_title">Zresetuj wzór odblokowania</string>
+</resources>

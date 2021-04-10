@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/0_resource_name_obfuscated_RES_2131231025" android:id="@+id/delete_menu_id" android:title="@string/0_resource_name_obfuscated_RES_2131952393" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099812" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/0_resource_name_obfuscated_RES_2131231107" android:id="@+id/help_menu_id" android:title="@string/0_resource_name_obfuscated_RES_2131952562" app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Principais serviços móveis Oculus</string>
+    <string name="binary_check_notification_content">Aplicativos de fontes desconhecidas podem colocar sua conta e seu dispositivo em risco.</string>
+    <string name="binary_check_notification_title">O aplicativo %1$s não oficial foi instalado</string>
+    <string name="notifications_download_canceled_message">Download de \"%1$s\" cancelado</string>
+    <string name="notifications_download_canceled_title">Download cancelado</string>
+    <string name="notifications_download_failed_message">Não foi possível baixar \"%1$s\"</string>
+    <string name="notifications_download_failed_title">Falha ao baixar</string>
+    <string name="notifications_download_in_progress_message">Baixando %1$s...</string>
+    <string name="notifications_downloading_and_installing_apps">Baixando e instalando aplicativos...</string>
+    <string name="notifications_head_install_failed_message">Falha na instalação</string>
+    <string name="notifications_head_installed_message">Instalado</string>
+    <string name="notifications_head_installing_message">Instalando</string>
+    <string name="notifications_install_failed_message">Não foi possível instalar \"%1$s\"</string>
+    <string name="notifications_install_in_progress_message">Instalando o %1$s...</string>
+    <string name="notifications_install_succeeded_message">O aplicativo %1$s foi instalado com sucesso na sua biblioteca.</string>
+    <string name="notifications_progress_of_download_message">%1$d%%</string>
+    <string name="obb_display_title">%1$s (arquivo de expansão)</string>
+    <string name="shorten_billions">%1$s bi</string>
+    <string name="shorten_billions_capitalized">%1$s B</string>
+    <string name="shorten_hundred_millions">%1$s00 mi</string>
+    <string name="shorten_millions">%1$s mi</string>
+    <string name="shorten_millions_capitalized">%1$s M</string>
+    <string name="shorten_ten_thousands">%1$s0 mil</string>
+    <string name="shorten_thousands">%1$s mil</string>
+    <string name="shorten_thousands_capitalized">%1$s mil</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

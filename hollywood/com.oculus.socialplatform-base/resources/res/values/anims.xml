@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="abc_grow_fade_in_from_bottom">r/s7.xml</anim>
+    <anim name="abc_popup_enter">r/_.xml</anim>
+    <anim name="abc_popup_exit">r/qf.xml</anim>
+    <anim name="abc_shrink_fade_out_from_bottom">r/qw.xml</anim>
+    <anim name="abc_tooltip_enter">r/k-.xml</anim>
+    <anim name="abc_tooltip_exit">r/kf.xml</anim>
+    <anim name="btn_checkbox_to_checked_box_inner_merged_animation">r/dg.xml</anim>
+    <anim name="btn_checkbox_to_checked_box_outer_merged_animation">r/kj.xml</anim>
+    <anim name="btn_checkbox_to_checked_icon_null_animation">r/hg.xml</anim>
+    <anim name="btn_checkbox_to_unchecked_box_inner_merged_animation">r/vp.xml</anim>
+    <anim name="btn_checkbox_to_unchecked_check_path_merged_animation">r/i7.xml</anim>
+    <anim name="btn_checkbox_to_unchecked_icon_null_animation">r/nt.xml</anim>
+    <anim name="btn_radio_to_off_mtrl_dot_group_animation">r/jx.xml</anim>
+    <anim name="btn_radio_to_off_mtrl_ring_outer_animation">r/ft.xml</anim>
+    <anim name="btn_radio_to_off_mtrl_ring_outer_path_animation">r/ht.xml</anim>
+    <anim name="btn_radio_to_on_mtrl_dot_group_animation">r/s6.xml</anim>
+    <anim name="btn_radio_to_on_mtrl_ring_outer_animation">r/f.xml</anim>
+    <anim name="btn_radio_to_on_mtrl_ring_outer_path_animation">r/n_.xml</anim>
+    <anim name="education_tooltip_fade_in">r/p2.xml</anim>
+    <anim name="education_tooltip_fade_out">r/oa.xml</anim>
+    <anim name="functional_interpolator">r/jp.xml</anim>
+    <anim name="ochightlight_pulse">r/s2.xml</anim>
+    <anim name="ocspinner_indeterminate_circle_color_interpolator">r/hx.xml</anim>
+    <anim name="ocspinner_indeterminate_circle_trim_end_interpolator">r/ma.xml</anim>
+    <anim name="ocspinner_indeterminate_circle_trim_start_interpolator">r/k3.xml</anim>
+</resources>

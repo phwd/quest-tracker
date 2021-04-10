@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/0_resource_name_obfuscated_RES_2131230999" android:alpha="0.87"/>
+    </item>
+</selector>

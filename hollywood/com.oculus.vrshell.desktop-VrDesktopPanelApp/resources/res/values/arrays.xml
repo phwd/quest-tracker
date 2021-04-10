@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_panel_sizes">
+        <item>com.android.settings,512,420</item>
+        <item>com.android.packageinstaller,512,420</item>
+        <item>com.android.permissioncontroller,512,420</item>
+    </array>
+    <array name="keyboard_position">
+        <item>com.android.settings,1</item>
+        <item>com.android.packageinstaller,1</item>
+        <item>com.android.permissioncontroller,1</item>
+        <item>com.oculus.bugreporter,1</item>
+    </array>
+</resources>

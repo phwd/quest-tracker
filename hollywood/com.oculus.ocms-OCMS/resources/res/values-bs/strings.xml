@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_ten_thousands">%1$s hiljada</string>
+    <string name="shorten_thousands_capitalized">%1$s hiljada</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

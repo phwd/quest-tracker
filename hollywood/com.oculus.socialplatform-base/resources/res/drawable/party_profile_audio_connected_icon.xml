@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/messenger_reactions_pill_radius" android:width="@dimen/messenger_reactions_pill_radius"/>
+            <solid android:color="@color/oc_gray_90"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/messenger_reactions_pill_radius" android:width="@dimen/messenger_reactions_pill_radius">
+        <bitmap android:src="@drawable/oc_icon_parties_filled_16_d2d2d2" android:tint="?attr/ocPositive"/>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/messenger_reactions_pill_radius" android:width="@dimen/messenger_reactions_pill_radius"/>
+            <stroke android:width="2dp" android:color="?attr/ocCardBackground"/>
+        </shape>
+    </item>
+</layer-list>

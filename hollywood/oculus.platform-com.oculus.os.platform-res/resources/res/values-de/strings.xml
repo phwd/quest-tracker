@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Sperrmuster eingeben</string>
+    <string name="lockscreen_enter_pin">Geräte-PIN</string>
+    <string name="lockscreen_try_again">Bitte versuche es erneut</string>
+    <string name="pattern_too_short">Verbinde bitte mindestens 4 Punkte.</string>
+    <string name="permdesc_accessMrSensorData">Erlaubt der App den Zugriff auf Mixed Reality-Sensordaten, einschließlich Kamerakalibrierung und Bilder.</string>
+    <string name="permdesc_access_handtracking_data">Gestattet der App Zugriff auf Hand-Tracking-Daten</string>
+    <string name="permgroupdesc_handtracking">Zugriff auf Hand-Tracking-Daten</string>
+    <string name="permgroupdesc_sensorData">Auf Sensordaten zugreifen</string>
+    <string name="permgrouplab_handtracking">Hand-Tracking</string>
+    <string name="permgrouplab_sensorData">Sensordaten</string>
+    <string name="permlab_accessMrSensorData">Zugriff auf Mixed Reality-Sensordaten</string>
+    <string name="permlab_access_handtracking_data">Zugriff auf Hand-Tracking-Daten</string>
+    <string name="pin_button_delete">Löschen</string>
+    <string name="pin_button_enter">Eingabe</string>
+    <string name="reset_unlock_pattern_msg">Bitte befolge diese Anweisungen, um dein Sperrmuster zurückzusetzen:</string>
+    <string name="reset_unlock_pattern_step_1">1. Öffne die Oculus-App auf deinem Mobilgerät.</string>
+    <string name="reset_unlock_pattern_step_2">2. Öffne die „Einstellungen“-Seite, tippe auf dein Headset und warte, bis eine Verbindung hergestellt wurde.</string>
+    <string name="reset_unlock_pattern_step_3">3. Tippe auf „Weitere Einstellungen“ &gt; „Sperrmuster“.</string>
+    <string name="reset_unlock_pattern_title">Sperrmuster zurücksetzen</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.debug.ShellDebugView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/debug_panel_title" android:text="@string/debug_panel_title" style="@style/DebugPanelTitleText"/>
+    <com.oculus.panelapp.debug.DebugTabHost android:id="@+id/debug_panel_tabhost" android:background="@color/colorDebugPanelBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ScrollView android:layout_width="200dp" android:layout_height="wrap_content">
+                <TabWidget android:orientation="vertical" android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </ScrollView>
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="match_parent">
+                <include layout="@layout/debug_tab_test_action_group"/>
+                <include layout="@layout/debug_tab_device"/>
+                <include layout="@layout/debug_tab_rendering_settings"/>
+                <include layout="@layout/debug_tab_gatekeepers"/>
+                <include layout="@layout/debug_tab_device_configs"/>
+                <include layout="@layout/debug_tab_vrdesktop_settings"/>
+                <include layout="@layout/debug_tab_status_group"/>
+                <include layout="@layout/debug_tab_quick_launch"/>
+                <include layout="@layout/debug_tab_preferences"/>
+            </FrameLayout>
+        </LinearLayout>
+    </com.oculus.panelapp.debug.DebugTabHost>
+</com.oculus.panelapp.debug.ShellDebugView>

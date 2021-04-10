@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/option_toggle" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/0_resource_name_obfuscated_RES_2131165647" android:fillViewport="true" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131165650" android:paddingEnd="6dp">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/option_toggle_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/option_toggle_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@+id/option_toggle_switch" android:clickable="false" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_weight="0" android:layout_marginStart="16dp" android:showText="false"/>
+</LinearLayout>

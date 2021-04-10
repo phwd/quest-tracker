@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">这会使你退出 oculus.com！</string>
+    <string name="app_name">配套服务器</string>
+    <string name="app_short_name">配套</string>
+    <string name="permdesc_companionService">允许应用向配套服务器发送 Intents。</string>
+    <string name="permlab_companionService">向配套服务器发送 Intents</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">第三方控制器</string>
+</resources>

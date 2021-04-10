@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">提供元不明のアプリによって、アカウントとデバイスが危険にさらされる可能性があります。</string>
+    <string name="binary_check_notification_title">非公式アプリ「%1$s」がインストールされました</string>
+    <string name="notifications_download_canceled_message">「%1$s」のダウンロードがキャンセルされました</string>
+    <string name="notifications_download_canceled_title">ダウンロードがキャンセルされました</string>
+    <string name="notifications_download_failed_message">「%1$s」をダウンロードできませんでした</string>
+    <string name="notifications_download_failed_title">ダウンロードできませんでした</string>
+    <string name="notifications_download_in_progress_message">%1$sのダウンロード中…</string>
+    <string name="notifications_downloading_and_installing_apps">アプリのダウンロードおよびインストール中…</string>
+    <string name="notifications_head_install_failed_message">インストールできませんでした</string>
+    <string name="notifications_head_installed_message">インストールされました</string>
+    <string name="notifications_head_installing_message">インストール中です</string>
+    <string name="notifications_install_failed_message">「%1$s」をインストールできませんでした</string>
+    <string name="notifications_install_in_progress_message">%1$sをインストール中です…</string>
+    <string name="notifications_install_succeeded_message">%1$sがライブラリにインストールされました。</string>
+    <string name="obb_display_title">%1$s(拡張ファイル)</string>
+    <string name="shorten_billions">%1$s0億</string>
+    <string name="shorten_billions_capitalized">%1$s0億</string>
+    <string name="shorten_hundred_millions">%1$s億</string>
+    <string name="shorten_millions">%1$s百万</string>
+    <string name="shorten_millions_capitalized">%1$s百万</string>
+    <string name="shorten_ten_thousands">%1$s万</string>
+    <string name="shorten_thousands">%1$s千</string>
+    <string name="shorten_thousands_capitalized">%1$s千</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

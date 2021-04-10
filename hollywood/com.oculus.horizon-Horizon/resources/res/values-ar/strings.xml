@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string name="com_facebook_internet_permission_error_message">يتطلب تسجيل الدخول إلى WebView إذن الاتصال بالإنترنت</string>
+    <string name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string name="com_facebook_loading">جارٍ التحميل...</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

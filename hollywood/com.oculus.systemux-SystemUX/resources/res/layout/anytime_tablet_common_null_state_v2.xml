@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.ocui.OCTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/octypography_body2_font_size" android:textColor="?attr/ocPlaceholderText" android:gravity="center" android:id="@+id/text_view" android:tag="layout/anytime_tablet_common_null_state_v2_0" android:layout_width="@dimen/anytime_tablet_common_null_state_width_v2" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>

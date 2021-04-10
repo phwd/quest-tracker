@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Dibuja el patrón de desbloqueo</string>
+    <string name="lockscreen_enter_pin">PIN del dispositivo</string>
+    <string name="lockscreen_try_again">Vuelve a intentarlo</string>
+    <string name="pattern_too_short">Conecta al menos cuatro puntos.</string>
+    <string name="permdesc_accessMrSensorData">Permite que la app acceda a datos del sensor de realidad mixta, incluida la calibración de la cámara y las imágenes.</string>
+    <string name="permdesc_access_handtracking_data">Concede acceso a la app a datos relativos al seguimiento de manos</string>
+    <string name="permgroupdesc_handtracking">acceso a datos de seguimiento de manos</string>
+    <string name="permgroupdesc_sensorData">acceso a los datos del sensor</string>
+    <string name="permgrouplab_handtracking">Seguimiento de manos</string>
+    <string name="permgrouplab_sensorData">Datos del sensor</string>
+    <string name="permlab_accessMrSensorData">accede a datos del sensor de realidad mixta</string>
+    <string name="permlab_access_handtracking_data">acceso a datos de seguimiento de manos</string>
+    <string name="pin_button_delete">Eliminar</string>
+    <string name="pin_button_enter">Ingresar</string>
+    <string name="reset_unlock_pattern_msg">Para restablecer el patrón de desbloqueo, sigue estos pasos:</string>
+    <string name="reset_unlock_pattern_step_1">1. Abre la app de Oculus en tu dispositivo móvil.</string>
+    <string name="reset_unlock_pattern_step_2">2. Abre la página de configuración, toca el nombre del visor y espera a que se realice la conexión.</string>
+    <string name="reset_unlock_pattern_step_3">3. Toca \"Más opciones\" &gt; \"Patrón de desbloqueo\".</string>
+    <string name="reset_unlock_pattern_title">Restablecer patrón de desbloqueo</string>
+</resources>

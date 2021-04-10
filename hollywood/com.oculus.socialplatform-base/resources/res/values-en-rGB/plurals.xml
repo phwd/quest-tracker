@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d space available</item>
+        <item quantity="other">%1$d spaces available</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">%1$d person you&apos;ve blocked is in this group</item>
+        <item quantity="other">%1$d people you&apos;ve blocked are in this group</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Invitation shared with %1$s and %2$d other person.</item>
+        <item quantity="other">Invitation shared with %1$s and %2$d other people.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Invitation sent to %1$s and %2$d other person.</item>
+        <item quantity="other">Invitation sent to %1$s and %2$d other people.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d m</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131165520" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131165521">
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/0_resource_name_obfuscated_RES_2132017699">
+        <AutoCompleteTextView android:id="@+id/text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/0_resource_name_obfuscated_RES_2131165522" android:singleLine="true" android:imeOptions="flagNoExtractUi"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@+id/icons_layer" android:layout_width="wrap_content" android:layout_height="48dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/value_icon" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="24dp" android:adjustViewBounds="true" android:layout_marginStart="8dp"/>
+        <ImageView android:id="@+id/action_icon" android:padding="12dp" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/credit_card_number_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166038" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131166035" android:labelFor="@+id/credit_card_number_edit">
+        <EditText android:id="@+id/credit_card_number_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952052" android:digits="0123456789- " android:inputType="phone" android:imeOptions="flagNoExtractUi"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017799" android:id="@+id/credit_card_expiration_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166039" android:text="@string/0_resource_name_obfuscated_RES_2131952048" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131166037" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131166037" android:labelFor="@+id/credit_card_expiration_month"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/credit_card_expiration_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166039" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131166033" android:baselineAligned="false" android:layout_marginStart="@dimen/0_resource_name_obfuscated_RES_2131166037" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131166037">
+        <LinearLayout android:orientation="vertical" android:id="@+id/credit_card_expiration_month" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165519">
+            <androidx.appcompat.widget.AppCompatSpinner android:id="@+id/autofill_credit_card_editor_month_spinner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View style="@style/0_resource_name_obfuscated_RES_2132017525"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <androidx.appcompat.widget.AppCompatSpinner android:id="@+id/autofill_credit_card_editor_year_spinner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View style="@style/0_resource_name_obfuscated_RES_2132017525"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/credit_card_name_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166039" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131166035" android:labelFor="@+id/credit_card_name_edit">
+        <EditText android:id="@+id/credit_card_name_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952050" android:inputType="textCapWords" android:imeOptions="flagNoExtractUi"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <include layout="@layout/0_resource_name_obfuscated_RES_2131623998"/>
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/credit_card_nickname_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/0_resource_name_obfuscated_RES_2131166036" android:layout_marginBottom="@dimen/0_resource_name_obfuscated_RES_2131166035" android:labelFor="@+id/credit_card_nickname_edit" app:counterMaxLength="25" app:errorEnabled="true">
+        <EditText android:id="@+id/credit_card_nickname_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/0_resource_name_obfuscated_RES_2131952051" android:maxLength="25" android:inputType="textCapWords" android:imeOptions="flagNoExtractUi"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</merge>

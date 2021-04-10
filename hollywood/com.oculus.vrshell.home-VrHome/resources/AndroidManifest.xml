@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="280105584" android:versionName="27.0.0.42.507" android:installLocation="internalOnly" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.oculus.vrshell.home" platformBuildVersionCode="280105584" platformBuildVersionName="27.0.0.42.507">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.oculus.horizon.FBCONNECT_CONTENT_PROVIDER_READ_ACCESS"/>
+    <uses-permission android:name="com.oculus.horizon.LINKED_ACCOUNTS_WRITE_PERMISSION"/>
+    <uses-permission android:name="com.oculus.messenger.permission.ACCESS"/>
+    <uses-permission android:name="com.oculus.nux.ota.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.permission.SUBMIT_BUG_REPORT"/>
+    <uses-permission android:name="com.oculus.permission.READ_CONTROLLER_STATUS"/>
+    <uses-permission android:name="com.oculus.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oculus.horizon.permission.OVR_PLATFORM_BROADCAST"/>
+    <uses-permission android:name="com.oculus.permission.PLAY_AUDIO_BACKGROUND"/>
+    <permission android:label="oculus_notifications" android:name="oculus.render_notification"/>
+    <uses-permission android:name="oculus.render_notification"/>
+    <permission android:name="com.oculus.iap.IAPResultPermission" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.oculus.iap.IAPResultPermission"/>
+    <uses-feature android:name="oculus.hardware.handtracking" android:required="false"/>
+    <uses-permission android:name="com.oculus.companion.server.permission.SEND_INTENTS"/>
+    <uses-permission android:name="com.oculus.permission.READ_SETTINGS"/>
+    <application android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.oculus.vrshell.home.HomeApplication" android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.oculus.horizon.fbpermission.FRIEND_LIST_CONTENT_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.LIBRARY_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.ocms.fbpermission.MESSENGER_SERVICE_PROVIDER" android:value=""/>
+        <meta-data android:name="com.oculus.use_restricted_memory" android:value="true"/>
+        <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only"/>
+        <meta-data android:name="com.oculus.deviceconfig.PARAMS_MAP_PATH" android:value="assets/params_map.txt"/>
+        <activity android:theme="@style/Theme.NoDisplay" android:label="@string/app_name" android:name="com.oculus.vrshell.home.PanelActivity" android:excludeFromRecents="false" android:launchMode="singleTask" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.oculus.vrshell.home.AvatarEditorService" android:exported="true" android:process=":avatareditor">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,logbox,reactsplashscreen"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.ExploreService" android:exported="true" android:process=":explore">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.is_default_service" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.FirstTimeNUXService" android:exported="true" android:process=":firsttimenux">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.HandTrackingNuxService" android:exported="true" android:process=":handtrackingnux">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.IAPService" android:exported="true" android:process=":iap">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox,reactsplashscreen"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.LoginService" android:exported="true" android:process=":login">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.SearchService" android:exported="true" android:process=":search">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,videos,playerui,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.StoreService" android:exported="true" android:process=":store">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_ime_composition" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui,reactdebugsurface,logbox,reactsplashscreen"/>
+            <meta-data android:name="com.oculus.vrshell.layer_definition" android:resource="@array/oculus_vrshell_layers"/>
+            <meta-data android:name="com.oculus.vrshell.clear_on_app_launch" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.SystemOverlaysService" android:exported="true" android:process=":systemoverlays">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.oculus.vrshell.home.SystemUtilitiesService" android:exported="true" android:process=":systemutilities">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.vrshell.supports_taskbar" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="videos,playerui"/>
+        </service>
+        <service android:name="com.oculus.vrshell.home.UserAdminService" android:exported="true" android:process=":useradmin">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.SHELL_MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oculus.use_restricted_memory" android:value="false"/>
+            <meta-data android:name="com.oculus.vrshell.supports_layers" android:value="true"/>
+            <meta-data android:name="com.oculus.vrshell.required_panel_surfaces" android:value="reactdebugsurface,logbox,reactsplashscreen"/>
+        </service>
+        <receiver android:name="com.oculus.vrshell.home.WakeupBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.oculus.home.wakeup"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.oculus.vrshell.home.config.ConfigUpdaterJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+        <receiver android:name="com.oculus.vrshell.home.DownloadActionReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="cancel_download"/>
+                <action android:name="retry_download"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oculus.vrshell.home.NewOverlayToRenderReceiver" android:exported="true" android:process=":systemoverlays">
+            <intent-filter>
+                <action android:name="com.oculus.vrshell.home.START_RENDERING_OVERLAY"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="internalVersionName" android:value="27.0.0.42.507.d671ba5b4135 2021_03_22_17_43"/>
+        <receiver android:name="libraries.marauder.analytics.AnalyticsUploadAlarmReceiver" android:exported="false"/>
+        <meta-data android:name="oculus_preferences" android:resource="@raw/user_manager_preferences"/>
+        <meta-data android:name="oculus_preferences_device_environment" android:resource="@raw/device_preferences"/>
+    </application>
+</manifest>

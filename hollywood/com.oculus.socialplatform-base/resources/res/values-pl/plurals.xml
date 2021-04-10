@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d dostępne miejsce</item>
+        <item quantity="few">%1$d dostępne miejsca</item>
+        <item quantity="other">%1$d dostępnych miejsc</item>
+    </plurals>
+    <plurals name="number_of_other_people_blocked_in_group">
+        <item quantity="one">%1$d inna osoba</item>
+        <item quantity="other">%1$d innych</item>
+    </plurals>
+    <plurals name="number_of_people_blocked_in_group">
+        <item quantity="one">W tej grupie jest %1$d zablokowana przez Ciebie osoba</item>
+        <item quantity="few">W tej grupie są %1$d zablokowane przez Ciebie osoby</item>
+        <item quantity="other">W tej grupie jest %1$d zablokowanych przez Ciebie osób</item>
+    </plurals>
+    <plurals name="parties_tablet_footer_status_text_leader_group_ready_to_launch">
+        <item quantity="one">1 osoba jest gotowa do podróży</item>
+        <item quantity="other">%1$d użytkowników jest gotowych do podróży.</item>
+    </plurals>
+    <plurals name="party_notification_fb_link_shared_message_more_than_two_people">
+        <item quantity="one">Udostępniono zaproszenie użytkownikowi %1$s i %2$d innej osobie.</item>
+        <item quantity="other">Udostępniono zaproszenie użytkownikowi %1$s i %2$d innym osobom.</item>
+    </plurals>
+    <plurals name="party_notification_oc_invite_sent_message_more_than_two_people">
+        <item quantity="one">Wysłano zaproszenie użytkownikowi %1$s i %2$d innej osobie.</item>
+        <item quantity="other">Wysłano zaproszenie użytkownikowi %1$s i %2$d innym osobom.</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_days">
+        <item quantity="one">%1$d dzień temu</item>
+        <item quantity="other">%1$d dni temu</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_hours">
+        <item quantity="other">%1$d godz. temu</item>
+    </plurals>
+    <plurals name="people_tablet_last_active_in_mins">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="people_tablet_search_result_mutual_friends_subtitle">
+        <item quantity="one">%1$d wspólny znajomy</item>
+        <item quantity="other">%1$d wspólnych znajomych</item>
+    </plurals>
+</resources>

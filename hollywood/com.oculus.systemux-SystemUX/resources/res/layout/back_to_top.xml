@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@+id/back_to_top_button_height_layout" android:tag="layout/back_to_top_0" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="1dp" app:layout_constraintBottom_toBottomOf="@+id/files_list" app:layout_constraintEnd_toEndOf="@+id/files_list" app:layout_constraintStart_toStartOf="@+id/files_list">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/back_to_top_button" android:layout_width="wrap_content" android:layout_height="40dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+            <ImageView android:id="@+id/back_to_top_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oc_icon_to_top_filled_24_d2d2d2" android:layout_marginStart="17dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.oculus.ocui.OCTextView android:gravity="center_vertical" android:id="@+id/back_to_top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back_to_top_button_text" android:layout_marginStart="8dp" android:layout_marginEnd="17dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/back_to_top_icon" app:layout_constraintTop_toTopOf="0" style="@style/Body1"/>
+            <com.oculus.ocui.OCButton android:id="@+id/back_to_top_button" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</merge>

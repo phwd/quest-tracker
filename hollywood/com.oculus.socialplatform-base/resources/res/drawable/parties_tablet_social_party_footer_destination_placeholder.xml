@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:topLeftRadius="4dp" android:topRightRadius="4dp" android:bottomLeftRadius="4dp" android:bottomRightRadius="4dp"/>
+                    <solid android:color="@color/icon_backing_opaque_on_release"/>
+                </shape>
+            </item>
+            <item android:gravity="center" android:scaleType="fitCenter" android:height="24dp" android:width="24dp">
+                <bitmap android:src="@drawable/oc_icon_destination_filled_24_d2d2d2"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

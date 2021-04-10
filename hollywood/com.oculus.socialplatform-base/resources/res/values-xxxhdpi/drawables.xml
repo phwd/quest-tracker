@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="abc_btn_check_to_on_mtrl_000">r/ha.png</drawable>
+    <drawable name="abc_btn_check_to_on_mtrl_015">r/vl.png</drawable>
+    <drawable name="abc_btn_radio_to_on_mtrl_000">r/cc.png</drawable>
+    <drawable name="abc_btn_radio_to_on_mtrl_015">r/vb.png</drawable>
+    <drawable name="abc_btn_switch_to_on_mtrl_00001">r/vs.9.png</drawable>
+    <drawable name="abc_btn_switch_to_on_mtrl_00012">r/fc.9.png</drawable>
+    <drawable name="abc_ic_menu_copy_mtrl_am_alpha">r/dt.png</drawable>
+    <drawable name="abc_ic_menu_cut_mtrl_alpha">r/nx.png</drawable>
+    <drawable name="abc_ic_menu_paste_mtrl_am_alpha">r/wh.png</drawable>
+    <drawable name="abc_ic_menu_selectall_mtrl_alpha">r/jr.png</drawable>
+    <drawable name="abc_ic_menu_share_mtrl_alpha">r/us.png</drawable>
+    <drawable name="abc_ic_star_black_16dp">r/vh.png</drawable>
+    <drawable name="abc_ic_star_black_36dp">r/b6.png</drawable>
+    <drawable name="abc_ic_star_black_48dp">r/fn.png</drawable>
+    <drawable name="abc_ic_star_half_black_16dp">r/kn.png</drawable>
+    <drawable name="abc_ic_star_half_black_36dp">r/h-.png</drawable>
+    <drawable name="abc_ic_star_half_black_48dp">r/p-.png</drawable>
+    <drawable name="abc_scrubber_control_to_pressed_mtrl_000">r/jv.png</drawable>
+    <drawable name="abc_scrubber_control_to_pressed_mtrl_005">r/r_.png</drawable>
+    <drawable name="abc_spinner_mtrl_am_alpha">r/j9.9.png</drawable>
+    <drawable name="abc_switch_track_mtrl_alpha">r/gx.9.png</drawable>
+    <drawable name="abc_tab_indicator_mtrl_alpha">r/g-.9.png</drawable>
+    <drawable name="abc_text_select_handle_left_mtrl_dark">r/ln.png</drawable>
+    <drawable name="abc_text_select_handle_left_mtrl_light">r/sx.png</drawable>
+    <drawable name="abc_text_select_handle_right_mtrl_dark">r/g7.png</drawable>
+    <drawable name="abc_text_select_handle_right_mtrl_light">r/e_.png</drawable>
+    <drawable name="app_icon">r/o_.png</drawable>
+    <drawable name="ic_call_black_24">r/vy.png</drawable>
+    <drawable name="status_icon">r/nh.png</drawable>
+</resources>

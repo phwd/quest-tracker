@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">Συμπτύξτε %1$d καρτέλα.</item>
+        <item quantity="other">Συμπτύξτε την ομάδα καρτελών με τις %1$d καρτέλες.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">Συμπτύξτε %1$d καρτέλα.</item>
+        <item quantity="other">Συμπτύξτε την ομάδα καρτελών %1$s με τις %2$d καρτέλες.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d Αρχείο ήχου</item>
+        <item quantity="other">%d Αρχεία ήχου</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d Αρχείο</item>
+        <item quantity="other">%d Αρχεία</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d Εικόνα</item>
+        <item quantity="other">%d Εικόνες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d Σελίδα</item>
+        <item quantity="other">%d Σελίδες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d Βίντεο</item>
+        <item quantity="other">%d Βίντεο</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">Κατάργηση 1 επιλεγμένου στοιχείου</item>
+        <item quantity="other">Κατάργηση %d επιλεγμένων στοιχείων</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">Κοινοποίηση 1 επιλεγμένου στοιχείου</item>
+        <item quantity="other">Κοινοποίηση %d επιλεγμένων στοιχείων</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">Αφαιρέστε %1$d επιλεγμένη καρτέλα από την ομάδα.</item>
+        <item quantity="other">Αφαιρέστε %1$d επιλεγμένες καρτέλες από την ομάδα.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">Ομαδοποίηση %1$d επιλεγμένης καρτέλας</item>
+        <item quantity="other">Ομαδοποίηση %1$d επιλεγμένων καρτελών</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">Κλείσιμο %1$d επιλεγμένης καρτέλας</item>
+        <item quantity="other">Κλείσιμο %1$d επιλεγμένων καρτελών</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d ανοιχτή καρτέλα, πατήστε για εναλλαγή καρτελών</item>
+        <item quantity="other">%1$d ανοιχτές καρτέλες, πατήστε για εναλλαγή καρτελών</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d σελιδοδείκτης</item>
+        <item quantity="other">%1$d σελιδοδείκτες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d καρτέλα</item>
+        <item quantity="other">%1$d καρτέλες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ 1 ακόμη)</item>
+        <item quantity="other">(+ %d ακόμη)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">Αποκλείστηκε ένα cookie</item>
+        <item quantity="other">Αποκλείστηκαν %d cookie</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">Λήψη αρχείου.</item>
+        <item quantity="other">Λήψη %d αρχείων.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d ω.</item>
+        <item quantity="other">%d ω.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">Έγινε λήψη %1$d αρχείου</item>
+        <item quantity="other">Έγινε λήψη %1$d αρχείων</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">1 ολοκληρωμένη λήψη.</item>
+        <item quantity="other">%d ολοκληρωμένες λήψεις.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">1 λήψη απέτυχε.</item>
+        <item quantity="other">%d λήψεις απέτυχαν.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 λήψη σε εκκρεμότητα.</item>
+        <item quantity="other">%d λήψεις σε εκκρεμότητα.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">Προγραμματίστηκε 1 λήψη.</item>
+        <item quantity="other">Προγραμματίστηκαν %d λήψεις.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">Πριν από %d ημέρα</item>
+        <item quantity="other">Πριν από %d ημέρες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">Πριν από %d ώρα</item>
+        <item quantity="other">Πριν από %d ώρες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">Πριν από %d λεπτό</item>
+        <item quantity="other">Πριν από %d λεπτά</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Το Chrome θα φορτώσει τη σελίδα σας όταν είναι έτοιμη</item>
+        <item quantity="other">Το Chrome θα φορτώσει τις σελίδες σας όταν είναι έτοιμες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">Χρησιμοποιείται 1 cookie</item>
+        <item quantity="other">Χρησιμοποιούνται %d cookie</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">Οι άδειες %1$s, %2$s και %3$s ακόμη επιτράπηκαν.</item>
+        <item quantity="other">Οι άδειες %1$s, %2$s και %3$s ακόμη επιτράπηκαν.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">Οι άδειες %1$s, %2$s και %3$s ακόμη αποκλείστηκαν.</item>
+        <item quantity="other">Οι άδειες %1$s, %2$s και %3$s ακόμη αποκλείστηκαν.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s και %3$s ακόμη</item>
+        <item quantity="other">%1$s, %2$s και %3$s ακόμη</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d παραβιασμένος κωδικός πρόσβασης</item>
+        <item quantity="other">%d παραβιασμένοι κωδικοί πρόσβασης</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… και %2$s ακόμη</item>
+        <item quantity="other">%1$s… και %2$s ακόμη</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… και %2$s ακόμη</item>
+        <item quantity="other">%1$s… και %2$s ακόμη</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… και %2$s ακόμη</item>
+        <item quantity="other">%1$s… και %2$s ακόμη</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… και %2$s ακόμη</item>
+        <item quantity="other">%1$s… και %2$s ακόμη</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">Έχετε %1$d σελίδα.</item>
+        <item quantity="other">Έχετε %1$d σελίδες.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d μη αναγνωσμένη σελίδα</item>
+        <item quantity="other">%1$d μη αναγνωσμένες σελίδες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">1 παραβιασμένος κωδικός πρόσβασης</item>
+        <item quantity="other">%d παραβιασμένοι κωδικοί πρόσβασης</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">Ελέγχθηκε πριν από μία ημέρα</item>
+        <item quantity="other">Ελέγχθηκε πριν από %d ημέρες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">Ελέγχθηκε πριν από μία ώρα</item>
+        <item quantity="other">Ελέγχθηκε πριν από %d ώρες</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">Ελέγχθηκε πριν από ένα λεπτό</item>
+        <item quantity="other">Ελέγχθηκε πριν από %d λεπτά</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 επιλεγμένο</item>
+        <item quantity="other">%d επιλεγμένα</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Επίπεδο ισχύος σήματος: %d γραμμή</item>
+        <item quantity="other">Επίπεδο ισχύος σήματος: %d γραμμές</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Listo</string>
+    <string name="otg_failure_message">Carga la pila del visor hasta el 60%% o más y vuelve a intentarlo.</string>
+    <string name="otg_failure_title">No se puede conectar al USB</string>
+    <string name="reformat_usb">Formatear USB</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="storage_format_confirm_message">Al formatear esta unidad USB se borrarán los datos que contiene.</string>
+    <string name="storage_format_confirm_title">¿Seguro(a)?</string>
+    <string name="storage_launcher_accept">Continuar</string>
+    <string name="storage_launcher_format_message">Es necesario formatear esta unidad USB para usarla con tu visor.</string>
+    <string name="storage_launcher_format_title">Unidad no compatible</string>
+    <string name="storage_launcher_gallery_message">¿Quieres abrir Oculus Gallery para explorar el contenido del disco?</string>
+    <string name="storage_launcher_gallery_title">Almacenamiento externo</string>
+    <string name="storage_launcher_refuse">Cancelar</string>
+    <string name="storage_wizard_error_title">Error al formatear ^1</string>
+    <string name="storage_wizard_format_progress_body">No elimines ^1 mientras se está formateando.</string>
+    <string name="storage_wizard_format_progress_title">Formateando ^1...</string>
+    <string name="storage_wizard_ready_external_body">Tu ^1 ya está listo para usarse con fotos y otro contenido multimedia.</string>
+    <string name="storage_wizard_ready_title">^1 está listo</string>
+</resources>

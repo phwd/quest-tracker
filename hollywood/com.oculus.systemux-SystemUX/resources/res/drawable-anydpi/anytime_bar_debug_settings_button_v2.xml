@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ocbutton_borderless_circle"/>
+    <item android:gravity="center" android:height="@dimen/anytime_bar_debug_icon_size" android:width="@dimen/anytime_bar_debug_icon_size" android:drawable="@drawable/oc_icon_settings_filled_24_c7c7c7"/>
+</layer-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abuse_prevention_upload_failed_message">The video for your abuse report didn\'t finish uploading. Tap to try again.</string>
+    <string name="abuse_prevention_upload_failed_title">Couldn\'t Upload your Video</string>
+    <string name="abuse_prevention_upload_in_progress_title">Uploading your Video Now</string>
+    <string name="abuse_prevention_upload_succeeded_title">Your Video Has Finished Uploading</string>
+    <string name="abuse_recording_how_to_stop_subtitle_in_app">Press the Oculus button, then select Stop to finish recording.</string>
+    <string name="abuse_recording_how_to_stop_subtitle_no_app_running">Select Sharing, then select Stop to finish recording.</string>
+    <string name="abuse_recording_interrupted_hmd_unmount_subtitle">The recording has been stopped because your headset was removed.</string>
+    <string name="capture_disabled_title">Record Video/Take Photo Ability Disabled</string>
+    <string name="events_notification_start_message_upcoming_different_day">You have an event happening on %1$s: %2$s.</string>
+    <string name="events_notification_start_title_live_now">Oculus event: Live now</string>
+    <string name="livestreaming_new_application_title">Live-streaming to Facebook</string>
+    <string name="livestreaming_notification_title">Gear VR undocking issue</string>
+    <string name="livestreaming_unsupported_application_message">This content can\'t be viewed outside your headset.</string>
+    <string name="livestreaming_unsupported_application_title">Casting/Live-streaming Not Available</string>
+    <string name="notifications_messenger_photo_upload_failed_message">Your photo could not be sent. Please try again.</string>
+    <string name="notifications_messenger_video_upload_failed_message">Your video could not be sent. Please try again.</string>
+    <string name="notifications_party_app_invite">Your party was invited to join an app together</string>
+    <string name="notifications_party_reestablish_voip">Resuming party audio</string>
+    <string name="notifications_photo_upload_failed_message">We had a problem with uploading your photo. Please try again.</string>
+    <string name="notifications_photo_upload_fb_succeeded_message">The photo has been uploaded. Give your post a minute or two to appear on Facebook.</string>
+    <string name="notifications_remote_launch_system_action_failed_message">Please try initiating the action again.</string>
+    <string name="notifications_request_fb_gaming_login_message">We cannot upload to your gaming profile. Please log in again.</string>
+    <string name="notifications_screenshot_upload_failed_message">We had a problem with uploading your screenshot. Please try again.</string>
+    <string name="notifications_screenshot_upload_succeeded_title">The screenshot has been uploaded.</string>
+    <string name="notifications_screenshot_upload_succeeded_title_batch">The screenshot has been uploaded. %1$d/%2$d</string>
+    <string name="notifications_video_upload_failed_message">We had a problem with uploading your video. Please try again.</string>
+    <string name="notifications_video_upload_fb_succeeded_message">The video has been uploaded. Give your post a minute or two to appear on Facebook.</string>
+    <string name="notifications_video_upload_in_progress_title_batch">Adding Video %1$d/%2$d</string>
+    <string name="notifications_video_upload_succeeded_message">The video has been uploaded.</string>
+    <string name="notifications_video_upload_succeeded_title_batch">The video has been uploaded. %1$d/%2$d</string>
+    <string name="screenshot_error_message">Error: Your photo has not been saved to Oculus Gallery.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopped_by_another_capture_notification_message">Because a new stream, cast or capture was started.</string>
+    <string name="streaming_error_notification_title">Casting/Live-streaming Error</string>
+</resources>

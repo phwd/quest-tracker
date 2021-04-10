@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">Restrânge %1$d filă.</item>
+        <item quantity="few">Restrânge grupul de file cu %1$d file.</item>
+        <item quantity="other">Restrânge grupul de file cu %1$d de file.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">Restrânge %1$d filă.</item>
+        <item quantity="few">Restrânge grupul de file %1$s cu %2$d file.</item>
+        <item quantity="other">Restrânge grupul de file %1$s cu %2$d de file.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">Un fișier audio</item>
+        <item quantity="few">%d fișiere audio</item>
+        <item quantity="other">%d de fișiere audio</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">Un fișier</item>
+        <item quantity="few">%d fișiere</item>
+        <item quantity="other">%d de fișiere</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">O imagine</item>
+        <item quantity="few">%d imagini</item>
+        <item quantity="other">%d de imagini</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">O pagină</item>
+        <item quantity="few">%d pagini</item>
+        <item quantity="other">%d pagini</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">Un videoclip</item>
+        <item quantity="few">%d videoclipuri</item>
+        <item quantity="other">%d de videoclipuri</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">Elimină un element selectat</item>
+        <item quantity="few">Elimină %d elemente selectate</item>
+        <item quantity="other">Elimină %d de elemente selectate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">Trimite un element selectat</item>
+        <item quantity="few">Trimite %d elemente selectate</item>
+        <item quantity="other">Trimite %d de elemente selectate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">Elimină %1$d filă selectată din grup.</item>
+        <item quantity="few">Elimină %1$d file selectate din grup.</item>
+        <item quantity="other">Elimină %1$d de file selectate din grup.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">Adaugă %1$d filă selectată la un grup</item>
+        <item quantity="few">Adaugă %1$d file selectate la un grup</item>
+        <item quantity="other">Adaugă %1$d de file selectate la un grup</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">Închide %1$d filă selectată</item>
+        <item quantity="few">Închide %1$d file selectate</item>
+        <item quantity="other">Închide %1$d de file selectate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d filă deschisă, atinge pentru a comuta filele</item>
+        <item quantity="few">%1$d file deschise, atinge pentru a comuta filele</item>
+        <item quantity="other">%1$d de file deschise, atinge pentru a comuta filele</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d marcaj</item>
+        <item quantity="few">%1$d marcaje</item>
+        <item quantity="other">%1$d de marcaje</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d filă</item>
+        <item quantity="few">%1$d file</item>
+        <item quantity="other">%1$d de file</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ încă 1)</item>
+        <item quantity="few">(+ încă %d)</item>
+        <item quantity="other">(+ încă %d)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">Un cookie blocat</item>
+        <item quantity="few">%d cookie-uri blocate</item>
+        <item quantity="other">%d de cookie-uri blocate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">Fișierul se descarcă.</item>
+        <item quantity="few">Se descarcă %d fișiere.</item>
+        <item quantity="other">Se descarcă %d de fișiere.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">O oră</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="other">%d de ore</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">%1$d fișier descărcat</item>
+        <item quantity="few">%1$d fișiere descărcate</item>
+        <item quantity="other">%1$d de fișiere descărcate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">O descărcare finalizată.</item>
+        <item quantity="few">%d descărcări finalizate.</item>
+        <item quantity="other">%d de descărcări finalizate.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">O descărcare nu a reușit.</item>
+        <item quantity="few">%d descărcări nu au reușit.</item>
+        <item quantity="other">%d de descărcări nu au reușit.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">O descărcare în așteptare.</item>
+        <item quantity="few">%d descărcări în așteptare.</item>
+        <item quantity="other">%d de descărcări în așteptare.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">O descărcare programată.</item>
+        <item quantity="few">%d descărcări programate.</item>
+        <item quantity="other">%d de descărcări programate.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="few">Acum %d zile</item>
+        <item quantity="other">Acum %d de zile</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">Acum %d oră</item>
+        <item quantity="few">Acum %d ore</item>
+        <item quantity="other">Acum %d de ore</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">Acum %d minut</item>
+        <item quantity="few">Acum %d minute</item>
+        <item quantity="other">Acum %d de minute</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Chrome va încărca pagina când este gata</item>
+        <item quantity="few">Chrome va încărca paginile când este gata</item>
+        <item quantity="other">Chrome va încărca paginile când este gata</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">Un cookie folosit</item>
+        <item quantity="few">%d cookie-uri folosite</item>
+        <item quantity="other">%d de cookie-uri folosite</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">%1$s, %2$s și încă %3$s sunt permise</item>
+        <item quantity="few">%1$s, %2$s și încă %3$s sunt permise</item>
+        <item quantity="other">%1$s, %2$s și încă %3$s sunt permise</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">%1$s, %2$s și încă %3$s sunt blocate</item>
+        <item quantity="few">%1$s, %2$s și încă %3$s sunt blocate</item>
+        <item quantity="other">%1$s, %2$s și încă %3$s sunt blocate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s și încă %3$s</item>
+        <item quantity="few">%1$s, %2$s și încă %3$s</item>
+        <item quantity="other">%1$s, %2$s și încă %3$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d parolă compromisă</item>
+        <item quantity="few">%d parole compromise</item>
+        <item quantity="other">%d de parole compromise</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+        <item quantity="other">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+        <item quantity="other">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+        <item quantity="other">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… și încă %2$s</item>
+        <item quantity="few">%1$s… și încă %2$s</item>
+        <item quantity="other">%1$s… și încă %2$s</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">Ai %1$d pagină</item>
+        <item quantity="few">Ai %1$d pagini</item>
+        <item quantity="other">Ai %1$d de pagini</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d pagină necitită</item>
+        <item quantity="few">%1$d pagini necitite</item>
+        <item quantity="other">%1$d de pagini necitite</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">O parolă compromisă</item>
+        <item quantity="few">%d parole compromise</item>
+        <item quantity="other">%d de parole compromise</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">A rulat acum o zi</item>
+        <item quantity="few">A rulat acum %d zile</item>
+        <item quantity="other">A rulat acum %d de zile</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">A rulat acum o oră</item>
+        <item quantity="few">A rulat acum %d ore</item>
+        <item quantity="other">A rulat acum %d de ore</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">A rulat acum un minut</item>
+        <item quantity="few">A rulat acum %d minute</item>
+        <item quantity="other">A rulat acum %d de minute</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 selectat</item>
+        <item quantity="few">%d selectate</item>
+        <item quantity="other">%d selectate</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Nivelul puterii semnalului: %d bară</item>
+        <item quantity="few">Nivelul puterii semnalului: %d bare</item>
+        <item quantity="other">Nivelul puterii semnalului: %d de bare</item>
+    </plurals>
+</resources>

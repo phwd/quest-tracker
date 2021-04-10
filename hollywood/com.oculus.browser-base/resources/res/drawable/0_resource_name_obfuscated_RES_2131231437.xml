@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231074"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231075"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231076"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231077"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231078"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231079"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231080"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231081"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231082"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231083"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231084"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231085"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231086"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231087"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231088"/>
+    <item android:duration="13" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131231089"/>
+</animation-list>

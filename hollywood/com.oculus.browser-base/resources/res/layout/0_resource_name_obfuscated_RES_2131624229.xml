@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer android:id="@+id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624046"/>
+        <FrameLayout android:id="@+id/overview_list_layout_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <org.chromium.chrome.browser.ui.BottomContainer android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/keyboard_accessory_stub" android:inflatedId="@+id/keyboard_accessory" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165636"/>
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/keyboard_accessory_sheet_stub" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165644"/>
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bottombar_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624073" android:inflatedId="@+id/bottombar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-4dp"/>
+        <ViewStub android:id="@+id/tab_modal_dialog_container_stub" android:inflatedId="@+id/tab_modal_dialog_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/tab_modal_dialog_container_sibling_view" android:layout_width="0dp" android:layout_height="0dp"/>
+        <ViewStub android:id="@+id/omnibox_results_container_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624322" android:inflatedId="@+id/omnibox_results_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_anchor="@+id/control_container"/>
+        <View android:id="@+id/action_bar_black_background" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166252"/>
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bottom_controls_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624026" android:inflatedId="@+id/bottom_controls" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/control_container_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <org.chromium.components.messages.MessageContainer android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/message_container" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/status_indicator_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624468" android:inflatedId="@+id/status_indicator" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/empty_container_stub" android:layout="@layout/0_resource_name_obfuscated_RES_2131624146" android:inflatedId="@+id/empty_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer>
+    <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/menu_anchor_stub" android:layout_width="0px" android:layout_height="0px"/>
+    <View android:layout_gravity="bottom" android:id="@+id/navigation_popup_anchor_stub" android:layout_width="match_parent" android:layout_height="0px"/>
+</merge>

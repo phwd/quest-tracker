@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/multi_user_panel_background" android:paddingLeft="@dimen/multi_user_panel_padding" android:paddingTop="@dimen/multi_user_panel_padding_top" android:paddingRight="@dimen/multi_user_panel_padding" android:paddingBottom="@dimen/multi_user_panel_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ImageButton android:id="@+id/back_btn" android:background="@drawable/back_button_background_selector" android:layout_width="@dimen/multi_user_back_button_size" android:layout_height="@dimen/multi_user_back_button_size" android:src="@drawable/back_icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <com.oculus.os.vrlockscreen.SetNewLockPatternView android:id="@+id/set_new_lock_pattern_view" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/clear_pattern_btn" android:text="@string/clear" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/MultiUserButtonSecondary"/>
+        <Button android:id="@+id/set_pattern_btn" android:text="@string/next" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/MultiUserButtonPrimary"/>
+    </RelativeLayout>
+    <RelativeLayout android:paddingTop="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/skip_button" android:text="@string/skip" android:layout_centerHorizontal="true" style="@style/MultiUserButtonTertiary"/>
+    </RelativeLayout>
+</LinearLayout>

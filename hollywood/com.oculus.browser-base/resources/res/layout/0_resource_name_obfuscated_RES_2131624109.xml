@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.dom_distiller.DistilledPagePrefsView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/0_resource_name_obfuscated_RES_2131230954" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RadioGroup android:orientation="horizontal" android:id="@+id/radio_button_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/light_mode" android:text="@string/0_resource_name_obfuscated_RES_2131952727" style="@style/0_resource_name_obfuscated_RES_2132017427"/>
+        <RadioButton android:id="@+id/dark_mode" android:text="@string/0_resource_name_obfuscated_RES_2131952345" style="@style/0_resource_name_obfuscated_RES_2132017427"/>
+        <RadioButton android:id="@+id/sepia_mode" android:text="@string/0_resource_name_obfuscated_RES_2131953449" style="@style/0_resource_name_obfuscated_RES_2132017427"/>
+    </RadioGroup>
+    <Spinner android:orientation="horizontal" android:id="@+id/font_family" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="12dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+        <TextView android:textSize="17sp" android:gravity="center_vertical" android:id="@+id/font_size_percentage" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="50dp" android:layout_marginStart="3dp" android:layout_marginEnd="3dp"/>
+        <TextView android:textSize="13sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/0_resource_name_obfuscated_RES_2131953651" android:layout_marginStart="5dp"/>
+        <SeekBar android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/font_size" android:layout_width="0dp" android:layout_height="48dp" android:maxHeight="48dp" android:max="30" android:layout_weight="1"/>
+        <TextView android:textSize="20sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/0_resource_name_obfuscated_RES_2131953651" android:layout_marginEnd="3dp"/>
+    </LinearLayout>
+</org.chromium.chrome.browser.dom_distiller.DistilledPagePrefsView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.NewTabTileView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/new_tab_tile" android:background="@drawable/0_resource_name_obfuscated_RES_2131230985" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+    <org.chromium.ui.widget.ChromeImageView android:id="@+id/new_tab_button" android:layout_width="48dp" android:layout_height="48dp" android:tint="@color/0_resource_name_obfuscated_RES_2131099824" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951945" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131231459"/>
+</org.chromium.chrome.browser.tasks.tab_management.NewTabTileView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/0_resource_name_obfuscated_RES_2131165275" android:insetRight="@dimen/0_resource_name_obfuscated_RES_2131165275" android:insetTop="@dimen/0_resource_name_obfuscated_RES_2131165275" android:insetBottom="@dimen/0_resource_name_obfuscated_RES_2131165275">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/0_resource_name_obfuscated_RES_2131165858"/>
+        <solid android:color="?attr/0_resource_name_obfuscated_RES_2130968771"/>
+    </shape>
+</inset>

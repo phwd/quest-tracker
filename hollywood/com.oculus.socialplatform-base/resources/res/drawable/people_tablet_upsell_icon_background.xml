@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/messenger_tablet_sticker_max_size" android:width="@dimen/messenger_tablet_sticker_max_size"/>
+            <solid android:color="@color/oc_white_a10"/>
+        </shape>
+    </item>
+</selector>

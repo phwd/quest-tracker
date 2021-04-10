@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_temp_warning">Je headset wordt te heet. We raden je aan even een paar minuten pauze te nemen zodat je headset kan afkoelen.</string>
+    <string name="fan_malfunction">De ventilator van je apparaat functioneert niet naar behoren. Je headset kan oververhit raken of ongebruikelijk gedrag vertonen omdat de headset niet afdoende wordt gekoeld. Neem contact op met de Oculus-klantenservice via https://support.oculus.com.</string>
+    <string name="notification_dismiss">Tik om deze melding te negeren</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="system_alert">SYSTEEMWAARSCHUWING</string>
+    <string name="temp_critical">De temperatuur van je headset stijgt, waardoor de headset zichzelf zal uitschakelen. Verwijder je headset en laat deze afkoelen voordat je het gebruik voortzet. Zo voorkom je persoonlijk letsel.</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017610" android:textColor="?android:attr/textColorSecondary" android:gravity="left|center_vertical|center_horizontal|center|start" android:paddingLeft="?attr/0_resource_name_obfuscated_RES_2130969046" android:paddingRight="?attr/0_resource_name_obfuscated_RES_2130969047" android:layout_width="match_parent" android:layout_height="?attr/0_resource_name_obfuscated_RES_2130969044" android:maxLines="1"/>

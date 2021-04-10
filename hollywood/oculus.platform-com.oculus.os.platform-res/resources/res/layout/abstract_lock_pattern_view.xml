@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oculusprv="http://schemas.android.com/apk/com.oculus.os.platform.internal">
+    <TextView android:layout_gravity="center" android:id="@+id/main_message" android:text="@string/lockscreen_draw_unlock" style="@style/LockscreenTitle"/>
+    <TextView android:layout_gravity="left" android:id="@+id/help_message" style="@style/LockscreenSubtitle"/>
+    <oculus.internal.widget.OculusLockPatternView android:layout_gravity="center" android:id="@+id/oculus_lock_pattern_view" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" androidprv:aspect="lock_width" androidprv:errorColor="@color/colorWrongPattern" androidprv:regularColor="@android:color/primary_text_nodisable_holo_dark" androidprv:successColor="@android:color/primary_text_nodisable_holo_dark" oculusprv:unselectedColor="0x10601ae"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/accept_language_list_container" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0dp" android:paddingEnd="0dp" style="@style/0_resource_name_obfuscated_RES_2132017524">
+    <TextView android:padding="@dimen/0_resource_name_obfuscated_RES_2131165505" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131952709"/>
+    <FrameLayout android:id="@android:id/widget_frame" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/add_language" android:background="?attr/0_resource_name_obfuscated_RES_2130969195" android:padding="@dimen/0_resource_name_obfuscated_RES_2131165505" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131951972" android:drawablePadding="@dimen/0_resource_name_obfuscated_RES_2131166041" android:paddingStart="@dimen/0_resource_name_obfuscated_RES_2131166041" style="@style/0_resource_name_obfuscated_RES_2132017531"/>
+</LinearLayout>

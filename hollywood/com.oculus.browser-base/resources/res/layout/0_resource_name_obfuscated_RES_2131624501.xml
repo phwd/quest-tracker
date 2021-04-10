@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/divider" android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:id="@+id/addToDictionaryButton" android:text="@string/0_resource_name_obfuscated_RES_2131951973" style="@style/0_resource_name_obfuscated_RES_2132017801"/>
+    <TextView android:id="@+id/deleteButton" android:text="@string/0_resource_name_obfuscated_RES_2131952395" style="@style/0_resource_name_obfuscated_RES_2132017801"/>
+</LinearLayout>

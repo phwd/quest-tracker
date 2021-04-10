@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/date_time_suggestion" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="44dp">
+    <TextView android:textSize="18sp" android:ellipsize="end" android:id="@+id/date_time_suggestion_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+    <TextView android:textSize="18sp" android:textColor="#8b8b8b" android:ellipsize="end" android:gravity="end" android:id="@+id/date_time_suggestion_label" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:layout_marginEnd="10dp"/>
+</LinearLayout>

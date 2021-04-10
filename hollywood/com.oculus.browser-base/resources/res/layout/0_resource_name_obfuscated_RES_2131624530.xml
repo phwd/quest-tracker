@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.widget.BoundedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:padding="24dp" app:maxWidthLandscape="312dp" app:maxWidthPortrait="312dp" style="@style/0_resource_name_obfuscated_RES_2132017155">
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/progress" android:layout_width="32dp" android:layout_height="32dp"/>
+    <org.chromium.ui.widget.TextViewWithLeading android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017770" android:layout_gravity="center_vertical" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/0_resource_name_obfuscated_RES_2131953526" android:layout_marginStart="24dp" app:leading="@dimen/0_resource_name_obfuscated_RES_2131166216"/>
+</org.chromium.components.browser_ui.widget.BoundedLinearLayout>

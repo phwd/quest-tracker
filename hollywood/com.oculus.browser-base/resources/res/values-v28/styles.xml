@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="0_resource_name_obfuscated_RES_2132017233" parent="@style/0_resource_name_obfuscated_RES_2132017317">
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017240" parent="@style/0_resource_name_obfuscated_RES_2132017318">
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017297" parent="@style/0_resource_name_obfuscated_RES_2132017928">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/0_resource_name_obfuscated_RES_2132018109</item>
+        <item name="?0x1010571">@null</item>
+        <item name="0_resource_name_obfuscated_RES_2130968614">@style/0_resource_name_obfuscated_RES_2132017460</item>
+        <item name="0_resource_name_obfuscated_RES_2130968679">@style/0_resource_name_obfuscated_RES_2132018101</item>
+        <item name="0_resource_name_obfuscated_RES_2130968680">@style/0_resource_name_obfuscated_RES_2132018101</item>
+        <item name="0_resource_name_obfuscated_RES_2130968681">@style/0_resource_name_obfuscated_RES_2132018102</item>
+        <item name="0_resource_name_obfuscated_RES_2130968682">@style/0_resource_name_obfuscated_RES_2132018101</item>
+        <item name="0_resource_name_obfuscated_RES_2130969051">@style/0_resource_name_obfuscated_RES_2132017461</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017317" parent="@style/0_resource_name_obfuscated_RES_2132017314">
+        <item name="0_resource_name_obfuscated_RES_2130968822">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="0_resource_name_obfuscated_RES_2132017318" parent="@style/0_resource_name_obfuscated_RES_2132017315">
+        <item name="0_resource_name_obfuscated_RES_2130968822">?unknown_attr_ref: 1010571</item>
+    </style>
+</resources>

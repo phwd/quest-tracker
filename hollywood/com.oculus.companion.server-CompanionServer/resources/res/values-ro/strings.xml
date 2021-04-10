@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Te vei deconecta de la oculus.com!</string>
+    <string name="permdesc_companionService">Permite aplicaţiei să trimită obiecte Intent către serviciul de însoţire.</string>
+    <string name="permlab_companionService">să trimită obiecte Intent către serviciul de însoţire</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Controler terţ</string>
+</resources>

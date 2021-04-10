@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Liga os teus óculos rapidamente.</string>
+    <string name="battery_critical_title">A bateria dos óculos está muito fraca</string>
+    <string name="battery_low_text">Liga os teus óculos.</string>
+    <string name="battery_low_title">A bateria dos óculos está fraca</string>
+    <string name="controller_critical_battery_text">Substitui as pilhas do comando de imediato.</string>
+    <string name="controller_critical_battery_title">Bateria do comando em estado crítico</string>
+    <string name="controller_disconnected_text">Verifica a bateria, aproxima o comando dos sensores ou contacta o Suporte do Oculus.</string>
+    <string name="controller_disconnected_title">Não foi possível encontrar o teu comando</string>
+    <string name="controller_firmware_update_failed_text">Entra em contacto com o suporte do Oculus para obteres ajuda.</string>
+    <string name="controller_firmware_update_failed_title">Não foi possível atualizar o teu comando</string>
+    <string name="controller_firmware_update_progress_text">Evolução da atualização: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Atualização bem-sucedida.</string>
+    <string name="controller_firmware_update_title">Atualização do comando em curso</string>
+    <string name="controller_low_battery_text">Substitui a bateria com a maior brevidade possível.</string>
+    <string name="controller_low_battery_title">A bateria do comando está fraca</string>
+    <string name="dual_controller_both_controller_disconnected_title">Comandos não encontrados</string>
+    <string name="dual_controller_both_controller_low_battery_title">As baterias do comando estão fracas</string>
+    <string name="dual_controller_disconnected_text">Se o problema persistir, verifica a bateria ou contacta o suporte.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Comando esquerdo não encontrado</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Erro de atualização do comando esquerdo</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Atualização do comando esquerdo em progresso</string>
+    <string name="dual_controller_left_controller_low_battery_title">A bateria do comando esquerdo está fraca</string>
+    <string name="dual_controller_low_battery_text">Substitui a bateria com a maior brevidade possível.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Comando direito não encontrado</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Erro de atualização do comando direito</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Atualização do comando direito em progresso</string>
+    <string name="dual_controller_right_controller_low_battery_title">A bateria do comando direito está fraca</string>
+    <string name="notification_header">Sistema Oculus</string>
+    <string name="safe_volume_warning_text_1">Ouvir sons altos durante longos períodos de tempo pode danificar a tua audição.</string>
+    <string name="safe_volume_warning_text_2">Clica no botão novamente para desativares temporariamente este aviso.</string>
+    <string name="safe_volume_warning_title">Volume acima do nível recomendado</string>
+    <string name="vrui_gaze_input_instruction_text">Move a cabeça e prime um botão de volume dos óculos para selecionar.</string>
+    <string name="vrui_gaze_input_instruction_title">Deteção das mãos e comandos desativados</string>
+    <string name="wifi_disconnected_text">Consulta as definições para solucionares problemas.</string>
+    <string name="wifi_disconnected_title">Ligação dos óculos à rede Wi-Fi perdida</string>
+</resources>

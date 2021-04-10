@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/share_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/tab_line" android:layout_width="match_parent" android:importantForAccessibility="no" style="@style/0_resource_name_obfuscated_RES_2132017588"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/qrcode_text_image" android:layout_width="250dp" android:layout_height="wrap_content" android:layout_marginTop="135dp" android:layout_marginBottom="24dp" android:text="@string/0_resource_name_obfuscated_RES_2131953297"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <org.chromium.ui.widget.ChromeImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/qrcode" android:background="@drawable/0_resource_name_obfuscated_RES_2131231514" android:padding="16dp" android:layout_width="228dp" android:layout_height="228dp"/>
+            <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017775" android:gravity="center" android:layout_gravity="center" android:id="@+id/error_message" android:padding="16dp" android:visibility="visible" android:layout_width="228dp" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <org.chromium.ui.widget.ButtonCompat android:enabled="false" android:layout_gravity="center_horizontal" android:id="@+id/download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/0_resource_name_obfuscated_RES_2131953284" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+        <org.chromium.ui.widget.ButtonCompat android:enabled="false" android:layout_gravity="center_horizontal" android:id="@+id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/0_resource_name_obfuscated_RES_2131952988" style="@style/0_resource_name_obfuscated_RES_2132017810"/>
+    </LinearLayout>
+</ScrollView>

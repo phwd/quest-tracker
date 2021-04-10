@@ -1,0 +1,58 @@
+package X;
+
+import android.util.Base64;
+import androidx.annotation.NonNull;
+import java.util.List;
+import org.apache.commons.cli.HelpFormatter;
+
+/* renamed from: X.05x  reason: invalid class name and case insensitive filesystem */
+public final class C002505x {
+    public final String A00;
+    public final String A01;
+    public final String A02;
+    public final String A03;
+    public final List<List<byte[]>> A04;
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder();
+        StringBuilder sb2 = new StringBuilder("FontRequest {mProviderAuthority: ");
+        sb2.append(this.A01);
+        sb2.append(", mProviderPackage: ");
+        sb2.append(this.A02);
+        sb2.append(", mQuery: ");
+        sb2.append(this.A03);
+        sb2.append(", mCertificates:");
+        sb.append(sb2.toString());
+        int i = 0;
+        while (true) {
+            List<List<byte[]>> list = this.A04;
+            if (i < list.size()) {
+                sb.append(" [");
+                List<byte[]> list2 = list.get(i);
+                for (int i2 = 0; i2 < list2.size(); i2++) {
+                    sb.append(" \"");
+                    sb.append(Base64.encodeToString(list2.get(i2), 0));
+                    sb.append("\"");
+                }
+                sb.append(" ]");
+                i++;
+            } else {
+                sb.append("}");
+                sb.append(AnonymousClass006.A03("mCertificatesArray: ", 0));
+                return sb.toString();
+            }
+        }
+    }
+
+    public C002505x(@NonNull String str, @NonNull String str2, @NonNull String str3, @NonNull List<List<byte[]>> list) {
+        this.A01 = str;
+        this.A02 = str2;
+        this.A03 = str3;
+        if (list != null) {
+            this.A04 = list;
+            this.A00 = AnonymousClass006.A0C(str, HelpFormatter.DEFAULT_OPT_PREFIX, str2, HelpFormatter.DEFAULT_OPT_PREFIX, str3);
+            return;
+        }
+        throw null;
+    }
+}

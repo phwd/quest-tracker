@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Draw Unlock Pattern</string>
+    <string name="lockscreen_enter_pin">Device PIN</string>
+    <string name="lockscreen_try_again">Please Try Again</string>
+    <string name="pattern_too_short">Please connect at least 4 dots.</string>
+    <string name="permdesc_accessMrSensorData">Allows the app to access mixed reality sensor data, including camera calibration and images.</string>
+    <string name="permdesc_access_handtracking_data">Allows the app to access hand tracking data</string>
+    <string name="permgroupdesc_handtracking">access hand tracking data</string>
+    <string name="permgroupdesc_sensorData">access sensor data</string>
+    <string name="permgrouplab_handtracking">Hand tracking</string>
+    <string name="permgrouplab_sensorData">Sensor Data</string>
+    <string name="permlab_accessMrSensorData">access mixed reality sensor data</string>
+    <string name="permlab_access_handtracking_data">access hand tracking data</string>
+    <string name="pin_button_0">0</string>
+    <string name="pin_button_1">1</string>
+    <string name="pin_button_2">2</string>
+    <string name="pin_button_3">3</string>
+    <string name="pin_button_4">4</string>
+    <string name="pin_button_5">5</string>
+    <string name="pin_button_6">6</string>
+    <string name="pin_button_7">7</string>
+    <string name="pin_button_8">8</string>
+    <string name="pin_button_9">9</string>
+    <string name="pin_button_delete">Delete</string>
+    <string name="pin_button_enter">Enter</string>
+    <string name="platform_system_label">Oculus System</string>
+    <string name="reset_unlock_pattern_msg">To reset your unlock pattern, follow these steps:</string>
+    <string name="reset_unlock_pattern_step_1">1. Open your Oculus app on your mobile device.</string>
+    <string name="reset_unlock_pattern_step_2">2. Open the Settings page, tap on your headset’s name and wait for it to connect.</string>
+    <string name="reset_unlock_pattern_step_3">3. Tap on More Settings &gt; Unlock Pattern.</string>
+    <string name="reset_unlock_pattern_title">Reset Unlock Pattern</string>
+</resources>

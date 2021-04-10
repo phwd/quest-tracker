@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.tasks.tab_management.TabGridDialogView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dialog_parent_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dialog_container_view" android:background="@drawable/0_resource_name_obfuscated_RES_2131231549" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951901">
+        <LinearLayout android:orientation="vertical" android:id="@+id/dialog_ungroup_bar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131166259" android:src="@drawable/0_resource_name_obfuscated_RES_2131231416" android:scaleType="fitXY" android:tint="@color/0_resource_name_obfuscated_RES_2131100232" android:scaleY="-1"/>
+            <TextView android:gravity="center" android:id="@+id/dialog_ungroup_bar_text" android:background="@drawable/0_resource_name_obfuscated_RES_2131231589" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165306" android:text="@string/0_resource_name_obfuscated_RES_2131953627"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/dialog_snack_bar_container_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/dialog_frame" android:background="@drawable/0_resource_name_obfuscated_RES_2131231549" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+    <FrameLayout android:id="@+id/dialog_animation_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0">
+        <include layout="@layout/0_resource_name_obfuscated_RES_2131624480"/>
+    </FrameLayout>
+</org.chromium.chrome.browser.tasks.tab_management.TabGridDialogView>

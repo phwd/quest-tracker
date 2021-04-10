@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/reset_unlock_pattern_title" style="@style/LockscreenForgotTitle"/>
+    <TextView android:text="@string/reset_unlock_pattern_msg" style="@style/LockscreenForgotSubtitle"/>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/content_padding" android:paddingRight="@dimen/content_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/reset_unlock_pattern_step_1" style="@style/ResetPatternSteps"/>
+        <TextView android:text="@string/reset_unlock_pattern_step_2" style="@style/ResetPatternSteps"/>
+        <TextView android:text="@string/reset_unlock_pattern_step_3" style="@style/ResetPatternSteps"/>
+    </LinearLayout>
+</merge>

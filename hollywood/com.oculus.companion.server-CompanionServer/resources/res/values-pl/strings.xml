@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Spowoduje to wylogowanie z witryny oculus.com!</string>
+    <string name="app_name">Serwer usługi towarzyszącej</string>
+    <string name="app_short_name">Usługa towarzysząca</string>
+    <string name="permdesc_companionService">Umożliwia aplikacji wysyłanie intencji do usługi towarzyszącej.</string>
+    <string name="permlab_companionService">wysyłanie intencji do usług towarzyszących</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Kontroler firmy zewnętrznej</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_facebook_image_download_unknown_error">Prilikom preuzimanja slike došlo je do neočekivane pogreške.</string>
+    <string name="com_facebook_internet_permission_error_message">Za prijavu u aplikaciju WebView potrebna je dozvola INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Pogreška datoteke AndroidManifest</string>
+    <string name="com_facebook_loading">Učitavanje u tijeku…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

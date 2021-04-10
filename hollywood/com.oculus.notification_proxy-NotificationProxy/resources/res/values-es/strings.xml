@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Conecta el visor pronto.</string>
+    <string name="battery_critical_title">El nivel de carga del visor es muy bajo</string>
+    <string name="battery_low_text">Conecta el visor.</string>
+    <string name="battery_low_title">El nivel de carga del visor es bajo</string>
+    <string name="controller_critical_battery_text">Reemplaza la pila del controlador ahora.</string>
+    <string name="controller_critical_battery_title">Nivel crítico de la pila del controlador</string>
+    <string name="controller_disconnected_text">Comprueba el nivel de la pila, acerca el controlador o ponte en contacto con el servicio de ayuda de Oculus.</string>
+    <string name="controller_disconnected_title">No encontramos tu controlador</string>
+    <string name="controller_firmware_update_failed_text">Ponte en contacto con el servicio de ayuda de Oculus para obtener asistencia.</string>
+    <string name="controller_firmware_update_failed_title">No pudimos actualizar el controlador</string>
+    <string name="controller_firmware_update_progress_text">Progreso de la actualización: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">La actualización se realizó correctamente.</string>
+    <string name="controller_firmware_update_title">Actualización del controlador en curso</string>
+    <string name="controller_low_battery_text">Reemplaza la pila pronto.</string>
+    <string name="controller_low_battery_title">Nivel de pila del controlador bajo</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controladores no encontrados</string>
+    <string name="dual_controller_both_controller_low_battery_title">Nivel de pilas del controlador bajo</string>
+    <string name="dual_controller_disconnected_text">Si el problema continúa, revisa la pila o ponte en contacto con el servicio de ayuda de Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Controlador izquierdo no encontrado</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Error al actualizar el controlador izquierdo</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Actualización del controlador izquierdo en curso</string>
+    <string name="dual_controller_left_controller_low_battery_title">Nivel de pila del controlador izquierdo bajo</string>
+    <string name="dual_controller_low_battery_text">Reemplaza la pila pronto.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Controlador derecho no encontrado</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Error al actualizar el controlador derecho</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Actualización del controlador derecho en curso</string>
+    <string name="dual_controller_right_controller_low_battery_title">Nivel de pila del controlador derecho bajo</string>
+    <string name="notification_header">Sistema de Oculus</string>
+    <string name="safe_volume_warning_text_1">El volumen demasiado alto por períodos prolongados puede ocasionar daños auditivos.</string>
+    <string name="safe_volume_warning_text_2">Presiona el botón de nuevo para desactivar este aviso de forma temporal.</string>
+    <string name="safe_volume_warning_title">El volumen está por encima del nivel recomendado</string>
+    <string name="vrui_gaze_input_instruction_text">Mueve tu cabeza y luego presiona el botón de volumen del visor para seleccionar.</string>
+    <string name="vrui_gaze_input_instruction_title">Seguimiento de manos y controladores desactivados</string>
+    <string name="wifi_disconnected_text">Ve a la configuración para solucionar el problema.</string>
+    <string name="wifi_disconnected_title">Se perdió la conexión wifi del visor</string>
+</resources>

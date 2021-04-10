@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@+id/checked" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230879"/>
+    <item android:id="@+id/unchecked" android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230881"/>
+    <transition android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230882" android:toId="@+id/checked" android:fromId="@+id/unchecked"/>
+    <transition android:drawable="@drawable/0_resource_name_obfuscated_RES_2131230880" android:toId="@+id/unchecked" android:fromId="@+id/checked"/>
+</animated-selector>

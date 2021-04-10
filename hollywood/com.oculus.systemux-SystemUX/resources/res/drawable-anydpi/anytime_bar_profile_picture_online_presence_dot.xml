@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/colorAnytimeRecordingDot"/>
+    <size android:height="@dimen/anytime_bar_profile_image_online_presence_dot_size" android:width="@dimen/anytime_bar_profile_image_online_presence_dot_size"/>
+    <corners android:radius="8dp"/>
+    <stroke android:width="@dimen/anytime_bar_profile_image_online_presence_border_size" android:color="@color/colorAnytimeIconBackground"/>
+</shape>

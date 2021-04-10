@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131953248" android:key="web_assistance">
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953224" android:key="autofill_assistant_switch" android:summary="@string/0_resource_name_obfuscated_RES_2131953223"/>
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953226" android:key="proactive_help_switch" android:summary="@string/0_resource_name_obfuscated_RES_2131953225"/>
+        <org.chromium.components.browser_ui.settings.TextMessagePreference android:key="google_services_settings_link" android:summary="@string/0_resource_name_obfuscated_RES_2131953235" app:allowDividerAbove="false" app:allowDividerBelow="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/0_resource_name_obfuscated_RES_2131952089" android:key="voice_assistance" app:allowDividerBelow="false">
+        <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131952091" android:key="voice_assistance_enabled" android:summary="@string/0_resource_name_obfuscated_RES_2131952090"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="common_full_open_on_phone">r/o.png</drawable>
+    <drawable name="ic_nux_check">r/gb.png</drawable>
+    <drawable name="ic_nux_close">r/go.png</drawable>
+    <drawable name="ic_stat_listening">r/c8.png</drawable>
+    <drawable name="ic_voice_assistant">r/dw.png</drawable>
+</resources>

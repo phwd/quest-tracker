@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:importantForAccessibility="no" app:srcCompat="@drawable/0_resource_name_obfuscated_RES_2131230957"/>
+    <ViewFlipper android:id="@+id/account_picker_state_view_flipper" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureAllChildren="false">
+        <include android:id="@+id/account_picker_state_no_account" layout="@layout/0_resource_name_obfuscated_RES_2131623985"/>
+        <include android:id="@+id/account_picker_state_collapsed" layout="@layout/0_resource_name_obfuscated_RES_2131623982"/>
+        <include android:id="@+id/account_picker_state_expanded" layout="@layout/0_resource_name_obfuscated_RES_2131623983"/>
+        <include android:id="@+id/account_picker_state_signin_in_progress" layout="@layout/0_resource_name_obfuscated_RES_2131623986"/>
+        <include android:id="@+id/account_picker_state_incognito_interstitial" layout="@layout/0_resource_name_obfuscated_RES_2131624182"/>
+        <include android:id="@+id/account_picker_state_general_error" layout="@layout/0_resource_name_obfuscated_RES_2131623984"/>
+        <include android:id="@+id/account_picker_state_auth_error" layout="@layout/0_resource_name_obfuscated_RES_2131623981"/>
+    </ViewFlipper>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/abc_button_inset_vertical_material" android:top="@dimen/abc_button_inset_vertical_material" android:right="@dimen/abc_button_inset_vertical_material" android:bottom="@dimen/abc_button_inset_vertical_material">
+        <bitmap android:src="@drawable/oc_icon_close_filled_24_ffffff" android:alpha="0.6"/>
+    </item>
+    <item android:drawable="@drawable/ocbutton_borderless_circle"/>
+</layer-list>

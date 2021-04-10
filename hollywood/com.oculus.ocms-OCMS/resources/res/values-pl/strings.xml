@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="binary_check_notification_content">Aplikacje z nieznanych źródeł mogą stanowić zagrożenie dla Twojego konta i urządzenia.</string>
+    <string name="binary_check_notification_title">Zainstalowano nieoficjalną aplikację %1$s</string>
+    <string name="notifications_download_canceled_message">Anulowano pobieranie aplikacji %1$s</string>
+    <string name="notifications_download_canceled_title">Anulowano pobieranie</string>
+    <string name="notifications_download_failed_message">Nie można pobrać aplikacji „%1$s”</string>
+    <string name="notifications_download_failed_title">Pobieranie nieudane</string>
+    <string name="notifications_download_in_progress_message">Pobieranie aplikacji %1$s…</string>
+    <string name="notifications_downloading_and_installing_apps">Pobieranie i instalowanie aplikacji...</string>
+    <string name="notifications_head_install_failed_message">Instalacja nie powiodła się</string>
+    <string name="notifications_head_installed_message">Zainstalowano</string>
+    <string name="notifications_head_installing_message">Instalowanie</string>
+    <string name="notifications_install_failed_message">Nie można pobrać aplikacji „%1$s”</string>
+    <string name="notifications_install_in_progress_message">Instalowanie aplikacji %1$s…</string>
+    <string name="notifications_install_succeeded_message">Aplikacja %1$s została pomyślnie zainstalowana w bibliotece.</string>
+    <string name="obb_display_title">%1$s (plik rozszerzenia)</string>
+    <string name="shorten_billions">%1$s mld</string>
+    <string name="shorten_billions_capitalized">%1$s mld</string>
+    <string name="shorten_hundred_millions">%1$s00 mln</string>
+    <string name="shorten_millions">%1$s mln</string>
+    <string name="shorten_millions_capitalized">%1$s mln</string>
+    <string name="shorten_ten_thousands">%1$s0 tys.</string>
+    <string name="shorten_thousands">%1$s tys.</string>
+    <string name="shorten_thousands_capitalized">%1$s tys.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

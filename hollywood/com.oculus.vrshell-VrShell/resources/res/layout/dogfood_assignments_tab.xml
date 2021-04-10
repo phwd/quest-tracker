@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oculus.panelapp.dogfood.tabs.DogfoodAssignmentsTab xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/dogfood_assignments_tab" android:paddingLeft="26dp" android:paddingTop="26dp" android:paddingRight="26dp" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/dogfood_primary_panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/dogfood_assignments_info_text"/>
+            <TableLayout android:id="@+id/dogfood_assignments_table" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+                <TableRow android:id="@+id/dogfood_assignments_table_header_row">
+                    <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:padding="3dp" android:text="@string/dogfood_assignment_name_text"/>
+                    <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:gravity="left" android:padding="3dp" android:text="@string/dogfood_assignment_description_text"/>
+                    <TextView android:textColor="@color/deprecated_oc_white_fix_me" android:gravity="right" android:padding="3dp" android:text="@string/dogfood_assignment_survey_text"/>
+                </TableRow>
+            </TableLayout>
+            <TextView android:textSize="16sp" android:textColor="@color/deprecated_oc_gray_6_fix_me" android:id="@+id/dogfood_assignments_no_assignments_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="40dp"/>
+            <Button android:textSize="16sp" android:id="@+id/dogfood_assignments_check_for_new" android:background="@drawable/button_background_secondary" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="171dp" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="Check for Assignments"/>
+        </LinearLayout>
+    </ScrollView>
+</com.oculus.panelapp.dogfood.tabs.DogfoodAssignmentsTab>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lockscreen_draw_unlock">Нарисуйте графический ключ</string>
+    <string name="lockscreen_enter_pin">PIN-код устройства</string>
+    <string name="lockscreen_try_again">Попробуйте ещё раз</string>
+    <string name="pattern_too_short">Соедините хотя бы 4 точки.</string>
+    <string name="permdesc_accessMrSensorData">Предоставляет приложению доступ к данным датчиков смешанной реальности, в том числе к датчикам калибровки камеры и изображений.</string>
+    <string name="permdesc_access_handtracking_data">Предоставляет приложению доступ к данным отслеживания движения рук</string>
+    <string name="permgroupdesc_handtracking">получить доступ к данным отслеживания движений рук</string>
+    <string name="permgroupdesc_sensorData">Доступ к данным датчиков</string>
+    <string name="permgrouplab_handtracking">Отслеживание движений рук</string>
+    <string name="permgrouplab_sensorData">Данные датчиков</string>
+    <string name="permlab_accessMrSensorData">доступ к данным датчиков смешанной реальности</string>
+    <string name="permlab_access_handtracking_data">получить доступ к данным отслеживания движений рук</string>
+    <string name="pin_button_delete">Удалить</string>
+    <string name="pin_button_enter">Ввести</string>
+    <string name="reset_unlock_pattern_msg">Чтобы сбросить графический ключ:</string>
+    <string name="reset_unlock_pattern_step_1">1. Откройте приложение Oculus на своем мобильном устройстве.</string>
+    <string name="reset_unlock_pattern_step_2">2. Откройте \"Настройки\", коснитесь названия гарнитуры и дождитесь подключения.</string>
+    <string name="reset_unlock_pattern_step_3">3. Коснитесь \"Дополнительные настройки\" &gt; \"Графический ключ\".</string>
+    <string name="reset_unlock_pattern_title">Сброс графического ключа</string>
+</resources>

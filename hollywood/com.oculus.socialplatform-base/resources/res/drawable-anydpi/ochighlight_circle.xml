@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="24dp" android:thickness="4dp">
+            <size android:height="56dp" android:width="56dp"/>
+            <gradient android:startColor="@color/badge_selected_background" android:endColor="@android:color/transparent" android:angle="0" android:type="radial" android:gradientRadius="36dp"/>
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:height="48dp" android:width="48dp"/>
+            <stroke android:width="4dp" android:color="?attr/ocTabActiveBadge"/>
+        </shape>
+    </item>
+</layer-list>

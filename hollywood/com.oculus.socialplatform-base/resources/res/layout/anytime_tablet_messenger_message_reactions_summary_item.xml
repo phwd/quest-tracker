@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/anytime_tablet_messenger_message_reactions_summary_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/reaction_emoji" android:tag="binding_1" android:layout_width="@dimen/abc_floating_window_z" android:layout_height="@dimen/abc_floating_window_z"/>
+    <com.oculus.ocui.OCTextView android:ellipsize="end" android:id="@+id/reaction_username" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="@dimen/abc_floating_window_z" android:layout_marginStart="@dimen/abc_action_bar_elevation_material" style="@style/Body2"/>
+</LinearLayout>

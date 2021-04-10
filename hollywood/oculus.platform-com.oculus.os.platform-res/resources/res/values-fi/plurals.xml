@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="lockscreen_try_countdown">
+        <item quantity="other">Yritä uudelleen %1$d sekunnin kuluttua</item>
+    </plurals>
+</resources>

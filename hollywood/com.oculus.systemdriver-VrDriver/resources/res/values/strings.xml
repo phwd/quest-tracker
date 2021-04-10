@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remote_recenter_warning_text">Please keep the controller steady while you reset it.</string>
+</resources>

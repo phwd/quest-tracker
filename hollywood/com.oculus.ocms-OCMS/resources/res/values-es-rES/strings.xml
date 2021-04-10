@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Servicios móviles principales de Oculus</string>
+    <string name="binary_check_notification_content">Las aplicaciones de orígenes desconocidos pueden poner en riesgo tu cuenta y dispositivo.</string>
+    <string name="binary_check_notification_title">Aplicación no oficial de %1$s instalada</string>
+    <string name="notifications_download_canceled_message">Se ha cancelado la descarga de \"%1$s\"</string>
+    <string name="notifications_download_canceled_title">Descarga cancelada</string>
+    <string name="notifications_download_failed_message">No se ha podido descargar \"%1$s\"</string>
+    <string name="notifications_download_failed_title">Error en la descarga</string>
+    <string name="notifications_download_in_progress_message">Descargando %1$s...</string>
+    <string name="notifications_downloading_and_installing_apps">Descargando e instalando aplicaciones...</string>
+    <string name="notifications_head_install_failed_message">Error en la instalación</string>
+    <string name="notifications_head_installed_message">Instalada</string>
+    <string name="notifications_head_installing_message">Instalando</string>
+    <string name="notifications_install_failed_message">No se ha podido instalar \"%1$s\"</string>
+    <string name="notifications_install_in_progress_message">Instalando %1$s…</string>
+    <string name="notifications_install_succeeded_message">%1$s se ha instalado correctamente en tu biblioteca.</string>
+    <string name="notifications_progress_of_download_message">%1$d %%</string>
+    <string name="obb_display_title">%1$s (fichero de ampliación)</string>
+    <string name="shorten_billions">%1$s mil mill.</string>
+    <string name="shorten_billions_capitalized">%1$s mil mill.</string>
+    <string name="shorten_hundred_millions">%1$s00 millones</string>
+    <string name="shorten_millions">%1$s mill.</string>
+    <string name="shorten_millions_capitalized">%1$s mill.</string>
+    <string name="shorten_ten_thousands">%1$s0 000</string>
+    <string name="shorten_thousands">%1$s mil</string>
+    <string name="shorten_thousands_capitalized">%1$s mil</string>
+</resources>

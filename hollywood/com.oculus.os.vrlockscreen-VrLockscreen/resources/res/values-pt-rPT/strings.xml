@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Retroceder</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Apagar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="forgot_pattern">Esqueceste o padrão?</string>
+    <string name="lockscreen_confirm_for_removal">Desenha o teu padrão de desbloqueio para confirmares a remoção.</string>
+    <string name="lockscreen_confirm_help">Desenha o teu padrão novamente para confirmares. Não esqueças este padrão. Se o esqueceres, vais precisar de repor as definições de fábrica no dispositivo.</string>
+    <string name="lockscreen_confirm_lock">Confirmar padrão de desbloqueio</string>
+    <string name="lockscreen_patterm_mismatch">Os padrões não correspondem. Tenta novamente</string>
+    <string name="lockscreen_remove_lock">Remover padrão de desbloqueio</string>
+    <string name="lockscreen_secure_owner_account">Podes proteger a tua conta neste dispositivo definindo um padrão de desbloqueio. Vais precisar de desenhar este padrão sempre que quiseres aceder à tua conta neste dispositivo.</string>
+    <string name="lockscreen_secure_secondary_account">Podes proteger a tua conta neste dispositivo definindo um padrão de desbloqueio. Vais precisar de desenhar este padrão sempre que quiseres aceder à tua conta neste dispositivo.</string>
+    <string name="lockscreen_set_pattern">Definir padrão de desbloqueio</string>
+    <string name="lockscreen_set_pattern_hint">Protege a tua conta neste dispositivo.</string>
+    <string name="next">Seguinte</string>
+    <string name="skip">Agora não</string>
+</resources>

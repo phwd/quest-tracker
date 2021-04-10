@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp">
+    <ImageView android:id="@+id/control_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165512"/>
+    <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:gravity="center_vertical" android:id="@+id/control_message" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="@dimen/0_resource_name_obfuscated_RES_2131165512"/>
+    <androidx.appcompat.widget.SwitchCompat android:id="@+id/control_toggle_switch" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

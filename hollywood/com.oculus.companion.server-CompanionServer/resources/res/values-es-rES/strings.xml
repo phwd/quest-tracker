@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Saldrás de oculus.com</string>
+    <string name="permdesc_companionService">Permite a la aplicación enviar intenciones al servicio complementario.</string>
+    <string name="permlab_companionService">enviar intenciones al servicio complementario</string>
+    <string name="third_party_controller_name">Controlador externo</string>
+</resources>

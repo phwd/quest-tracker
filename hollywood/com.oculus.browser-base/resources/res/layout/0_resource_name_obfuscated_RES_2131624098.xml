@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.internal.NavigationMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="?attr/0_resource_name_obfuscated_RES_2130969046" android:paddingRight="?attr/0_resource_name_obfuscated_RES_2130969047" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/0_resource_name_obfuscated_RES_2130969195" android:minHeight="?attr/0_resource_name_obfuscated_RES_2130969044"/>

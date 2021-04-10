@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:layout_marginBottom="25dp">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/category_label" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/feature_flag_label" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+    <Switch android:gravity="right" android:id="@+id/feature_flag_switch" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+    <EditText android:gravity="right" android:id="@+id/feature_flag_edittext" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="0.35"/>
+    <Button android:textSize="24dp" android:gravity="right" android:id="@+id/feature_flag_savetext" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_feature_save"/>
+    <Spinner android:gravity="right" android:id="@+id/feature_flag_spinner" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+    <Button android:gravity="center_vertical" android:id="@+id/feature_flag_action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_critical_text">Collega il tuo visore a breve.</string>
+    <string name="battery_critical_title">Il livello di carica della batteria del visore è molto basso</string>
+    <string name="battery_low_text">Collega il tuo visore.</string>
+    <string name="battery_low_title">Il livello di carica della batteria del visore è basso</string>
+    <string name="controller_critical_battery_text">Sostituisci la batteria del controller ora.</string>
+    <string name="controller_critical_battery_title">Livello di carica della batteria del controller critico</string>
+    <string name="controller_disconnected_text">Controlla la batteria, avvicina il controller oppure contatta l\'Assistenza di Oculus.</string>
+    <string name="controller_disconnected_title">Impossibile trovare il tuo controller</string>
+    <string name="controller_firmware_update_failed_text">Contatta l\'Assistenza di Oculus per ricevere aiuto.</string>
+    <string name="controller_firmware_update_failed_title">Non è stato possibile aggiornare il tuo controller</string>
+    <string name="controller_firmware_update_progress_text">Avanzamento dell\'aggiornamento: %1$d %%</string>
+    <string name="controller_firmware_update_success_text">Aggiornamento effettuato correttamente.</string>
+    <string name="controller_firmware_update_title">Aggiornamento del controller in corso</string>
+    <string name="controller_low_battery_text">Sostituisci la batteria a breve.</string>
+    <string name="controller_low_battery_title">Livello di carica della batteria del controller basso</string>
+    <string name="dual_controller_both_controller_disconnected_title">Controller non trovati</string>
+    <string name="dual_controller_both_controller_low_battery_title">Livello di carica delle batterie dei controller basso</string>
+    <string name="dual_controller_disconnected_text">Se il problema persiste, controlla la batteria o contatta l\'assistenza di Oculus.</string>
+    <string name="dual_controller_left_controller_disconnected_title">Controller sinistro non trovato</string>
+    <string name="dual_controller_left_controller_firmware_update_failed_title">Errore relativo all\'aggiornamento del controller sinistro</string>
+    <string name="dual_controller_left_controller_firmware_update_title">Aggiornamento del controller sinistro in corso</string>
+    <string name="dual_controller_left_controller_low_battery_title">Livello di carica della batteria del controller sinistro basso</string>
+    <string name="dual_controller_low_battery_text">Sostituisci la batteria a breve.</string>
+    <string name="dual_controller_right_controller_disconnected_title">Controller destro non trovato</string>
+    <string name="dual_controller_right_controller_firmware_update_failed_title">Errore relativo all\'aggiornamento del controller destro</string>
+    <string name="dual_controller_right_controller_firmware_update_title">Aggiornamento del controller destro in corso</string>
+    <string name="dual_controller_right_controller_low_battery_title">Livello di carica della batteria del controller destro basso</string>
+    <string name="notification_header">Sistema Oculus</string>
+    <string name="safe_volume_warning_text_1">L\'ascolto ad alto volume per lunghi periodi di tempo può danneggiare il tuo udito.</string>
+    <string name="safe_volume_warning_text_2">Premi nuovamente il pulsante per disattivare temporaneamente questo avviso.</string>
+    <string name="safe_volume_warning_title">Volume alzato al di sopra del livello consigliato</string>
+    <string name="vrui_gaze_input_instruction_text">Muovi la testa, quindi premi un pulsante del volume del visore per selezionare.</string>
+    <string name="vrui_gaze_input_instruction_title">Tracking delle mani e dei controller disabilitato</string>
+    <string name="wifi_disconnected_text">Accedi alle impostazioni per risolvere il problema.</string>
+    <string name="wifi_disconnected_title">Connessione Wi-Fi del visore persa</string>
+</resources>

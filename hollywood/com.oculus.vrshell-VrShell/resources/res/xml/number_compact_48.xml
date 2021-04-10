@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="48dp" custom:keySubTextSize="13sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="26sp" custom:keyWidth="60dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyLabel="7" custom:keyOutputText="7"/>
+        <Key custom:keyLabel="8" custom:keyOutputText="8"/>
+        <Key custom:keyLabel="9" custom:keyOutputText="9"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="4" custom:keyOutputText="4"/>
+        <Key custom:keyLabel="5" custom:keyOutputText="5"/>
+        <Key custom:keyLabel="6" custom:keyOutputText="6"/>
+        <Key custom:codes="-2" custom:keyHeight="97dp" custom:keyLabel="go"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="1" custom:keyOutputText="1"/>
+        <Key custom:keyLabel="2" custom:keyOutputText="2"/>
+        <Key custom:keyLabel="3" custom:keyOutputText="3"/>
+    </Row>
+    <Row>
+        <Key custom:keyLabel="0" custom:keyOutputText="0" custom:keyWidth="182dp"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+</Keyboard>

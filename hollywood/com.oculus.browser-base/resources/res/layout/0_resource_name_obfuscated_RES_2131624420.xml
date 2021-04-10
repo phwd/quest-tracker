@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/radio_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@+id/end_view" android:layout_alignParentStart="true">
+        <RadioButton android:id="@+id/radio_button" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017758" android:id="@+id/primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@+id/radio_button"/>
+        <TextView android:textAppearance="@style/0_resource_name_obfuscated_RES_2132017774" android:id="@+id/description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/primary" android:layout_alignStart="@+id/primary"/>
+    </RelativeLayout>
+    <ViewStub android:id="@+id/end_view_stub" android:background="@null" android:inflatedId="@+id/end_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/radio_container" android:layout_alignBottom="@+id/radio_container" android:layout_alignParentEnd="true"/>
+</merge>

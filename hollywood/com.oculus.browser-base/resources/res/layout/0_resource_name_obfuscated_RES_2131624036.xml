@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.ButtonCompat xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="end" android:id="@+id/clear_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/0_resource_name_obfuscated_RES_2131165354" android:text="@string/0_resource_name_obfuscated_RES_2131952221" style="@style/0_resource_name_obfuscated_RES_2132017433"/>

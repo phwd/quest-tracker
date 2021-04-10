@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VrUIAnimation">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+    <style name="LockscreenForgotSubtitle" parent="@style/LockscreenSubtitle">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="LockscreenForgotTitle" parent="@style/LockscreenTitle">
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+    <style name="LockscreenSubtitle" parent="@android:style/Widget.Holo.Light.GestureOverlayView">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">11dp</item>
+    </style>
+    <style name="LockscreenTitle" parent="@android:style/Widget.Holo.Light.Gallery">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+    </style>
+    <style name="NewLockscreenTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:color">@color/title_font_color</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+    <style name="PinButton">
+        <item name="android:textColor">@color/pin_button_text_color</item>
+        <item name="android:background">@drawable/keypad_button_selector</item>
+        <item name="android:layout_width">@dimen/keypad_button_width</item>
+        <item name="android:layout_height">@dimen/keypad_button_height</item>
+        <item name="android:layout_marginRight">@dimen/keypad_button_margin_right</item>
+    </style>
+    <style name="ResetPatternSteps" parent="@android:style/Widget.Holo.Light.GestureOverlayView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+</resources>

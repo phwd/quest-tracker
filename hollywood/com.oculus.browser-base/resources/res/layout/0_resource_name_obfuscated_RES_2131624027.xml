@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.components.browser_ui.bottomsheet.BottomSheet xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bottom_sheet" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <org.chromium.components.browser_ui.bottomsheet.TouchRestrictingFrameLayout android:id="@+id/bottom_sheet_content" android:background="@drawable/0_resource_name_obfuscated_RES_2131231582" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/bottom_sheet_control_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <view android:id="@+id/bottom_sheet_toolbar_container" android:layout_width="match_parent" android:layout_height="wrap_content" class="org.chromium.components.browser_ui.bottomsheet.TouchRestrictingFrameLayout">
+            <View android:id="@+id/bottom_sheet_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/0_resource_name_obfuscated_RES_2131165306"/>
+        </view>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bottom_sheet_snackbar_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</org.chromium.components.browser_ui.bottomsheet.BottomSheet>

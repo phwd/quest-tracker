@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="32dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="18sp" custom:keyWidth="32dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_world_outline_24" custom:keyboard="@xml/language_selector_32"/>
+        <Key custom:keyLabel="×" custom:keyOutputText="×"/>
+        <Key custom:keyLabel="÷" custom:keyOutputText="÷"/>
+        <Key custom:keyLabel="∞" custom:keyOutputText="∞"/>
+        <Key custom:keyLabel="¶" custom:keyOutputText="¶"/>
+        <Key custom:codes="1" custom:keyLabel="©" custom:keyOutputText="©"/>
+        <Key custom:codes="1" custom:keyLabel="®" custom:keyOutputText="®"/>
+        <Key custom:codes="1" custom:keyLabel="℗" custom:keyOutputText="℗"/>
+        <Key custom:codes="1" custom:keyLabel="™" custom:keyOutputText="™"/>
+        <Key custom:keyLabel="•" custom:keyOutputText="•"/>
+        <Key custom:keyLabel="◦" custom:keyOutputText="◦"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-7" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_keyboard_outline_24"/>
+        <Key custom:keyLabel="α" custom:keyOutputText="α"/>
+        <Key custom:keyLabel="β" custom:keyOutputText="β"/>
+        <Key custom:keyLabel="γ" custom:keyOutputText="γ"/>
+        <Key custom:keyLabel="δ" custom:keyOutputText="δ"/>
+        <Key custom:keyLabel="ε" custom:keyOutputText="ε"/>
+        <Key custom:keyLabel="θ" custom:keyOutputText="θ"/>
+        <Key custom:keyLabel="λ" custom:keyOutputText="λ"/>
+        <Key custom:keyLabel="µ" custom:keyOutputText="µ"/>
+        <Key custom:keyLabel="π" custom:keyOutputText="π"/>
+        <Key custom:keyLabel="Ω" custom:keyOutputText="Ω"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:id="@+id/activate_emoji_keyboard" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_emoji_outline_24" custom:keyboard="@xml/emoji_0_32"/>
+        <Key custom:keyLabel="¢" custom:keyOutputText="¢"/>
+        <Key custom:keyLabel="£" custom:keyOutputText="£"/>
+        <Key custom:keyLabel="¥" custom:keyOutputText="¥"/>
+        <Key custom:keyLabel="€" custom:keyOutputText="€"/>
+        <Key custom:keyLabel="₡" custom:keyOutputText="₡"/>
+        <Key custom:keyLabel="₩" custom:keyOutputText="₩"/>
+        <Key custom:keyLabel="₪" custom:keyOutputText="₪"/>
+        <Key custom:keyLabel="₦" custom:keyOutputText="₦"/>
+        <Key custom:keyLabel="¤" custom:keyOutputText="¤"/>
+        <Key custom:keyLabel="´" custom:keyOutputText="´"/>
+        <Key custom:codes="-2" custom:keyHeight="65dp" custom:keyLabel="go"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyLabel="2/2" custom:keyboard="@xml/text_default_sym_32" custom:textSize="12sp"/>
+        <Key custom:keyLabel="¡" custom:keyOutputText="¡"/>
+        <Key custom:codes="1,-7" custom:keyIcon="@drawable/ic_keyboard_space_outline_24" custom:keyOutputText=" " custom:keyWidth="spanDefaultKeys_8"/>
+        <Key custom:keyLabel="¿" custom:keyOutputText="¿"/>
+    </Row>
+</Keyboard>

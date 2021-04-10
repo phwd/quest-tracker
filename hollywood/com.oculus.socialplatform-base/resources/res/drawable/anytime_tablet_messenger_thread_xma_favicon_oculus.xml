@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/icon"/>
+            <padding android:left="@dimen/abc_action_bar_elevation_material" android:top="@dimen/abc_action_bar_elevation_material" android:right="@dimen/abc_action_bar_elevation_material" android:bottom="@dimen/abc_action_bar_elevation_material"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/oc_icon_oculus_filled_48_232323"/>
+</layer-list>

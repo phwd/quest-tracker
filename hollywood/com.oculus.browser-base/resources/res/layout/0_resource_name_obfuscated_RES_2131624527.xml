@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@+id/pickers" android:layout_width="match_parent" android:layout_height="match_parent">
+    <NumberPicker android:id="@+id/position_in_year" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951853" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    <NumberPicker android:id="@+id/year" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/0_resource_name_obfuscated_RES_2131951855" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</LinearLayout>

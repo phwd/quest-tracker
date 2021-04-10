@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:custom="http://schemas.android.com/apk/res-auto" custom:horizontalGap="1dp" custom:ime="simple" custom:keyHeight="48dp" custom:keySubTextSize="8sp" custom:keyTextColor="@color/keyboard_key_text" custom:keyTextSize="26sp" custom:keyWidth="48dp" custom:verticalGap="1dp">
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="q" custom:keyOutputText="q" custom:shiftKeyLabel="Q" custom:shiftKeyOutputText="Q"/>
+        <Key custom:keyLabel="w" custom:keyOutputText="w" custom:popupKeyboard="@xml/diacritic_w_48" custom:shiftKeyLabel="W" custom:shiftKeyOutputText="W"/>
+        <Key custom:keyLabel="e" custom:keyOutputText="e" custom:popupKeyboard="@xml/diacritic_e_48" custom:shiftKeyLabel="E" custom:shiftKeyOutputText="E"/>
+        <Key custom:keyLabel="r" custom:keyOutputText="r" custom:shiftKeyLabel="R" custom:shiftKeyOutputText="R"/>
+        <Key custom:keyLabel="t" custom:keyOutputText="t" custom:popupKeyboard="@xml/diacritic_t_48" custom:shiftKeyLabel="T" custom:shiftKeyOutputText="T"/>
+        <Key custom:keyLabel="z" custom:keyOutputText="z" custom:shiftKeyLabel="Z" custom:shiftKeyOutputText="Z"/>
+        <Key custom:keyLabel="u" custom:keyOutputText="u" custom:popupKeyboard="@xml/diacritic_u_48" custom:shiftKeyLabel="U" custom:shiftKeyOutputText="U"/>
+        <Key custom:keyLabel="i" custom:keyOutputText="i" custom:popupKeyboard="@xml/diacritic_i_48" custom:shiftKeyLabel="I" custom:shiftKeyOutputText="I"/>
+        <Key custom:keyLabel="o" custom:keyOutputText="o" custom:popupKeyboard="@xml/diacritic_o_48" custom:shiftKeyLabel="O" custom:shiftKeyOutputText="O"/>
+        <Key custom:keyLabel="p" custom:keyOutputText="p" custom:shiftKeyLabel="P" custom:shiftKeyOutputText="P"/>
+        <Key custom:keyLabel="ü" custom:keyOutputText="ü" custom:shiftKeyLabel="Ü" custom:shiftKeyOutputText="Ü"/>
+        <Key custom:codes="-5" custom:isRepeatable="true" custom:keyHeight="97dp" custom:keyIcon="@drawable/ic_keyboard_back_outline_24"/>
+        <Key custom:keyLabel="7" custom:keyOutputText="7"/>
+        <Key custom:keyLabel="8" custom:keyOutputText="8"/>
+        <Key custom:keyLabel="9" custom:keyOutputText="9"/>
+        <Key custom:keyEdgeFlags="right" custom:keyLabel="+" custom:keyOutputText="+"/>
+    </Row>
+    <Row>
+        <Key custom:keyEdgeFlags="left" custom:keyLabel="a" custom:keyOutputText="a" custom:popupKeyboard="@xml/diacritic_a_48" custom:shiftKeyLabel="A" custom:shiftKeyOutputText="A"/>
+        <Key custom:keyLabel="s" custom:keyOutputText="s" custom:popupKeyboard="@xml/diacritic_s_48" custom:shiftKeyLabel="S" custom:shiftKeyOutputText="S"/>
+        <Key custom:keyLabel="d" custom:keyOutputText="d" custom:popupKeyboard="@xml/diacritic_d_48" custom:shiftKeyLabel="D" custom:shiftKeyOutputText="D"/>
+        <Key custom:keyLabel="f" custom:keyOutputText="f" custom:shiftKeyLabel="F" custom:shiftKeyOutputText="F"/>
+        <Key custom:keyLabel="g" custom:keyOutputText="g" custom:popupKeyboard="@xml/diacritic_g_48" custom:shiftKeyLabel="G" custom:shiftKeyOutputText="G"/>
+        <Key custom:keyLabel="h" custom:keyOutputText="h" custom:popupKeyboard="@xml/diacritic_h_48" custom:shiftKeyLabel="H" custom:shiftKeyOutputText="H"/>
+        <Key custom:keyLabel="j" custom:keyOutputText="j" custom:popupKeyboard="@xml/diacritic_j_48" custom:shiftKeyLabel="J" custom:shiftKeyOutputText="J"/>
+        <Key custom:keyLabel="k" custom:keyOutputText="k" custom:shiftKeyLabel="K" custom:shiftKeyOutputText="K"/>
+        <Key custom:keyLabel="l" custom:keyOutputText="l" custom:shiftKeyLabel="L" custom:shiftKeyOutputText="L"/>
+        <Key custom:keyLabel="ö" custom:keyOutputText="ö" custom:shiftKeyLabel="Ö" custom:shiftKeyOutputText="Ö"/>
+        <Key custom:keyLabel="ä" custom:keyOutputText="ä" custom:shiftKeyLabel="Ä" custom:shiftKeyOutputText="Ä"/>
+        <Key custom:horizontalGap="50dp" custom:keyLabel="4" custom:keyOutputText="4"/>
+        <Key custom:keyLabel="5" custom:keyOutputText="5"/>
+        <Key custom:keyLabel="6" custom:keyOutputText="6"/>
+        <Key custom:keyEdgeFlags="right" custom:keyLabel="-" custom:keyOutputText="-"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-1" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_uppercase_arrow_outline_24" custom:shiftKeyIcon="@drawable/ic_uppercase_arrow_filled_24"/>
+        <Key custom:keyLabel="y" custom:keyOutputText="y" custom:popupKeyboard="@xml/diacritic_y_de_48" custom:shiftKeyLabel="Y" custom:shiftKeyOutputText="Y"/>
+        <Key custom:keyLabel="x" custom:keyOutputText="x" custom:shiftKeyLabel="X" custom:shiftKeyOutputText="X"/>
+        <Key custom:keyLabel="c" custom:keyOutputText="c" custom:popupKeyboard="@xml/diacritic_c_48" custom:shiftKeyLabel="C" custom:shiftKeyOutputText="C"/>
+        <Key custom:keyLabel="v" custom:keyOutputText="v" custom:shiftKeyLabel="V" custom:shiftKeyOutputText="V"/>
+        <Key custom:keyLabel="b" custom:keyOutputText="b" custom:shiftKeyLabel="B" custom:shiftKeyOutputText="B"/>
+        <Key custom:keyLabel="n" custom:keyOutputText="n" custom:popupKeyboard="@xml/diacritic_n_48" custom:shiftKeyLabel="N" custom:shiftKeyOutputText="N"/>
+        <Key custom:keyLabel="m" custom:keyOutputText="m" custom:shiftKeyLabel="M" custom:shiftKeyOutputText="M"/>
+        <Key custom:keyLabel="/" custom:keyOutputText="/"/>
+        <Key custom:keyLabel="." custom:keyOutputText="."/>
+        <Key custom:keyLabel=":" custom:keyOutputText=":"/>
+        <Key custom:codes="-2" custom:keyHeight="97dp" custom:keyLabel="go"/>
+        <Key custom:keyLabel="1" custom:keyOutputText="1"/>
+        <Key custom:keyLabel="2" custom:keyOutputText="2"/>
+        <Key custom:keyLabel="3" custom:keyOutputText="3"/>
+        <Key custom:keyEdgeFlags="right" custom:keyLabel="*" custom:keyOutputText="*"/>
+    </Row>
+    <Row>
+        <Key custom:codes="-3" custom:keyEdgeFlags="left" custom:keyIcon="@drawable/ic_world_outline_24" custom:keyboard="@xml/language_selector_48"/>
+        <Key custom:codes="-3" custom:id="@+id/activate_emoji_keyboard" custom:keyIcon="@drawable/ic_emoji_outline_24" custom:keyboard="@xml/emoji_0_48"/>
+        <Key custom:codes="-3" custom:fontPath="Fonts/Roboto-Bold.ttf" custom:keyLabel="# $ %" custom:keyboard="@xml/text_default_sym_48" custom:textSize="12sp"/>
+        <Key custom:codes="1" custom:keyIcon="@drawable/ic_keyboard_space_outline_24" custom:keyOutputText=" " custom:keyWidth="spanDefaultKeys_7"/>
+        <Key custom:codes="-12" custom:id="@+id/activate_remote_input" custom:keyIcon="@drawable/ic_mobile_keyboard_outline_24"/>
+        <Key custom:horizontalGap="50dp" custom:keyLabel="0" custom:keyOutputText="0"/>
+        <Key custom:fontPath="Fonts/Roboto-Bold.ttf" custom:keyLabel=".com" custom:keyOutputText=".com" custom:textSize="12sp"/>
+        <Key custom:keyLabel="@" custom:keyOutputText="@"/>
+        <Key custom:codes="-4" custom:keyEdgeFlags="right" custom:keyIcon="@drawable/ic_keyboard_off_outline_24"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="0_resource_name_obfuscated_RES_2131820544">
+        <item quantity="one">Komprimera %1$d flik.</item>
+        <item quantity="other">Komprimera flikgruppen med %1$d flikar.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820545">
+        <item quantity="one">Komprimera %1$d flik.</item>
+        <item quantity="other">Komprimera flikgruppen %1$s med %2$d flikar.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820546">
+        <item quantity="one">%d ljudfil</item>
+        <item quantity="other">%d ljudfiler</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820547">
+        <item quantity="one">%d fil</item>
+        <item quantity="other">%d filer</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820548">
+        <item quantity="one">%d bild</item>
+        <item quantity="other">%d bilder</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820549">
+        <item quantity="one">%d sida</item>
+        <item quantity="other">%d sidor</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820550">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videor</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820551">
+        <item quantity="one">Ta bort 1 markerat objekt</item>
+        <item quantity="other">Ta bort %d markerade objekt</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820552">
+        <item quantity="one">Dela 1 markerat objekt</item>
+        <item quantity="other">Dela %d markerade objekt</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820553">
+        <item quantity="one">Ta bort %1$d markerad flik från gruppen.</item>
+        <item quantity="other">Ta bort %1$d markerade flikar från gruppen.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820554">
+        <item quantity="one">Lägg till %1$d vald flik i gruppen</item>
+        <item quantity="other">Lägg till %1$d valda flikar i gruppen</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820555">
+        <item quantity="one">Stäng %1$d vald flik</item>
+        <item quantity="other">Stäng %1$d valda flikar</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820556">
+        <item quantity="one">%1$d flik öppen, tryck här om du vill byta flik</item>
+        <item quantity="other">%1$d flikar öppna, tryck här om du vill byta flik</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820557">
+        <item quantity="one">%1$d bokmärke</item>
+        <item quantity="other">%1$d bokmärken</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820558">
+        <item quantity="one">%1$d flik</item>
+        <item quantity="other">%1$d flikar</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820559">
+        <item quantity="one">(+ 1 till)</item>
+        <item quantity="other">(+ %d till)</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820560">
+        <item quantity="one">1 cookie har blockerats</item>
+        <item quantity="other">%d cookies har blockerats</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820561">
+        <item quantity="one">En fil laddas ned.</item>
+        <item quantity="other">%d filer laddas ned.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820562">
+        <item quantity="one">%d tim</item>
+        <item quantity="other">%d tim</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820563">
+        <item quantity="one">%1$d fil har laddats ned</item>
+        <item quantity="other">%1$d filer har laddats ned</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820565">
+        <item quantity="one">1 nedladdning har slutförts.</item>
+        <item quantity="other">%d nedladdningar har slutförts.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820566">
+        <item quantity="one">1 nedladdning misslyckades.</item>
+        <item quantity="other">%d nedladdningar misslyckades.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820567">
+        <item quantity="one">1 nedladdning väntar.</item>
+        <item quantity="other">%d nedladdningar väntar.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820568">
+        <item quantity="one">1 nedladdning har schemalagts.</item>
+        <item quantity="other">%d nedladdningar har schemalagts.</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820569">
+        <item quantity="one">för %d dag sedan</item>
+        <item quantity="other">för %d dagar sedan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820570">
+        <item quantity="one">för %d timme sedan</item>
+        <item quantity="other">för %d timmar sedan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820571">
+        <item quantity="one">för %d minut sedan</item>
+        <item quantity="other">för %d minuter sedan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820572">
+        <item quantity="one">Sidan läses in i Chrome när den blir tillgänglig</item>
+        <item quantity="other">Sidorna läses in i Chrome när de blir tillgängliga</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820573">
+        <item quantity="one">1 cookie används</item>
+        <item quantity="other">%d cookies används</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820574">
+        <item quantity="one">%1$s, %2$s och %3$s till tillåts</item>
+        <item quantity="other">%1$s, %2$s och %3$s till tillåts</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820575">
+        <item quantity="one">%1$s, %2$s och %3$s till blockeras</item>
+        <item quantity="other">%1$s, %2$s och %3$s till blockeras</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820576">
+        <item quantity="one">%1$s, %2$s och %3$s till</item>
+        <item quantity="other">%1$s, %2$s och %3$s till</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820577">
+        <item quantity="one">%d utsatt lösenord</item>
+        <item quantity="other">%d utsatta lösenord</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820578">
+        <item quantity="one">%1$s… och %2$s till</item>
+        <item quantity="other">%1$s… och %2$s till</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820579">
+        <item quantity="one">%1$s… och %2$s till</item>
+        <item quantity="other">%1$s… och %2$s till</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820580">
+        <item quantity="one">%1$s… och %2$s till</item>
+        <item quantity="other">%1$s… och %2$s till</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820581">
+        <item quantity="one">%1$s… och %2$s till</item>
+        <item quantity="other">%1$s… och %2$s till</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820582">
+        <item quantity="one">Det finns %1$d sida i listan</item>
+        <item quantity="other">Det finns %1$d sidor i listan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820583">
+        <item quantity="one">%1$d oläst sida i listan</item>
+        <item quantity="other">%1$d olästa sidor i listan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820584">
+        <item quantity="one">1 utsatt lösenord</item>
+        <item quantity="other">%d utsatta lösenord</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820585">
+        <item quantity="one">Genomsöktes för 1 dag sedan</item>
+        <item quantity="other">Genomsöktes för %d dagar sedan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820586">
+        <item quantity="one">Genomsöktes för 1 timme sedan</item>
+        <item quantity="other">Genomsöktes för %d timmar sedan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820587">
+        <item quantity="one">Genomsöktes för 1 minut sedan</item>
+        <item quantity="other">Genomsöktes för %d minuter sedan</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820588">
+        <item quantity="one">1 har valts</item>
+        <item quantity="other">%d har valts</item>
+    </plurals>
+    <plurals name="0_resource_name_obfuscated_RES_2131820589">
+        <item quantity="one">Signalstyrka: %d streck</item>
+        <item quantity="other">Signalstyrka: %d streck</item>
+    </plurals>
+</resources>

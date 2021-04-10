@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">Ekipa %1$s · %2$d użytkownik</item>
+        <item quantity="other">Ekipa %1$s · %2$d użytkowników</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d znajomy</item>
+        <item quantity="other">%1$d znajomych</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="other">%1$d znajomych w Oculusie</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="other">Maksymalna liczba osób obsługiwanych przez %1$s wynosi %2$d.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="other">Maksymalna liczba osób obsługiwanych przez %1$s wynosi %2$d. Wybierz nową aplikację, aby kontynuować.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d dostępne miejsce</item>
+        <item quantity="few">%1$d dostępne miejsca</item>
+        <item quantity="other">%1$d dostępnych miejsc</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="other">%1$d s do rozpoczęcia transmisji...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">%1$d użytkownik jest w ekipie</item>
+        <item quantity="other">%1$d użytkowników jest w ekipie</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">Zaproszono %1$d użytkownika</item>
+        <item quantity="other">Zaproszono %1$d użytkowników</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="other">Dozwolono: %1$d z %2$d aplikacji</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admin_receiver_status_disable_warning">Isto vai terminar a tua sessão em oculus.com!</string>
+    <string name="app_name">Servidor parceiro</string>
+    <string name="app_short_name">Parceiro</string>
+    <string name="permdesc_companionService">Permite que a app envie testes ao serviço parceiro.</string>
+    <string name="permlab_companionService">enviar testes para o serviço parceiro</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="third_party_controller_name">Comando de terceiros</string>
+</resources>

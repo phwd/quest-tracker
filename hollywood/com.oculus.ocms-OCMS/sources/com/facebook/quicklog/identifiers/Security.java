@@ -1,0 +1,17 @@
+package com.facebook.quicklog.identifiers;
+
+public class Security {
+    public static final short MODULE_ID = 153;
+    public static final int USER_STORAGE_KEY_DECRYPT_NEEDS_UPDATE = 10027019;
+    public static final int USER_STORAGE_KEY_LOGIN_CRYPTO_UNAVAILABLE = 10027015;
+    public static final int USER_STORAGE_KEY_LOGIN_INVALID_KEY = 10027016;
+    public static final int USER_STORAGE_KEY_LOGIN_MISSING_KEY = 10027017;
+    public static final int USER_STORAGE_KEY_UNAVAILABLE_DECRYPT = 10027013;
+    public static final int USER_STORAGE_KEY_UNAVAILABLE_ENCRYPT = 10027012;
+    public static final int USE_STORAGE_KEY_LOGIN = 10027009;
+    public static final int USE_STORAGE_KEY_LOGOUT = 10027010;
+
+    public static String getMarkerName(int i) {
+        return i != 1 ? i != 2 ? i != 4 ? i != 5 ? i != 7 ? i != 8 ? i != 9 ? i != 11 ? "UNDEFINED_QPL_EVENT" : "SECURITY_USER_STORAGE_KEY_DECRYPT_NEEDS_UPDATE" : "SECURITY_USER_STORAGE_KEY_LOGIN_MISSING_KEY" : "SECURITY_USER_STORAGE_KEY_LOGIN_INVALID_KEY" : "SECURITY_USER_STORAGE_KEY_LOGIN_CRYPTO_UNAVAILABLE" : "SECURITY_USER_STORAGE_KEY_UNAVAILABLE_DECRYPT" : "SECURITY_USER_STORAGE_KEY_UNAVAILABLE_ENCRYPT" : "SECURITY_USE_STORAGE_KEY_LOGOUT" : "SECURITY_USE_STORAGE_KEY_LOGIN";
+    }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="anytime_bar_active_call_bar_full_title">
+        <item quantity="one">%1$s&apos;s party · %2$d person</item>
+        <item quantity="other">%1$s&apos;s party · %2$d people</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_friend_count">
+        <item quantity="one">%1$d Friend</item>
+        <item quantity="other">%1$d Friends</item>
+    </plurals>
+    <plurals name="anytime_tablet_profile_oculus_friend_count">
+        <item quantity="one">%1$d Friend on Oculus</item>
+        <item quantity="other">%1$d Friends on Oculus</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_group_full_text">
+        <item quantity="one">%1$s only supports up to %2$d person.</item>
+        <item quantity="other">%1$s only supports up to %2$d people.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_group_launch_leader_select_new_app_text">
+        <item quantity="one">%1$s only supports up to %2$d person. Select a new app to continue.</item>
+        <item quantity="other">%1$s only supports up to %2$d people. Select a new app to continue.</item>
+    </plurals>
+    <plurals name="anytime_tablet_social_party_party_spots_available">
+        <item quantity="one">%1$d spot available</item>
+        <item quantity="other">%1$d spots available</item>
+    </plurals>
+    <plurals name="local_stream_privacy_check_dialog_callout">
+        <item quantity="one">%1$d second left to start casting...</item>
+        <item quantity="other">%1$d seconds left to start casting...</item>
+    </plurals>
+    <plurals name="numberOfPeopleInTheParty">
+        <item quantity="one">%d person is in the party</item>
+        <item quantity="other">%d people are in the party</item>
+    </plurals>
+    <plurals name="numberOfPeopleInvitedToTheParty">
+        <item quantity="one">%d person has been invited</item>
+        <item quantity="other">%d people have been invited</item>
+    </plurals>
+    <plurals name="settings_permissions_apps_granted_subtitle">
+        <item quantity="one">%1$d of %2$d app allowed</item>
+        <item quantity="other">%1$d of %2$d apps allowed</item>
+    </plurals>
+    <plurals name="social_join_public_party_member_count">
+        <item quantity="one">There is currently 1 person in this party.</item>
+        <item quantity="other">There are currently %d people in this party.</item>
+    </plurals>
+</resources>

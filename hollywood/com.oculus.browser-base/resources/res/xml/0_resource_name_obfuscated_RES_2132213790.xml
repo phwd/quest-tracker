@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.chromium.components.browser_ui.settings.ChromeSwitchPreference android:persistent="false" android:title="@string/0_resource_name_obfuscated_RES_2131953268" android:key="privacy_sandbox_toggle" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:title="@string/0_resource_name_obfuscated_RES_2131953267" android:key="subtitle" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231280" android:summary="@string/0_resource_name_obfuscated_RES_2131953264" app:allowDividerBelow="false"/>
+    <org.chromium.components.browser_ui.settings.TextMessagePreference android:icon="@drawable/0_resource_name_obfuscated_RES_2131231024" android:summary="@string/0_resource_name_obfuscated_RES_2131953265" app:allowDividerBelow="false" app:iconTint="@color/0_resource_name_obfuscated_RES_2131099829"/>
+</PreferenceScreen>

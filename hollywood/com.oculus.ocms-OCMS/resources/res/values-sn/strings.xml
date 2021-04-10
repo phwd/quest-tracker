@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shorten_millions">Maminiti %1$s</string>
+    <string name="shorten_millions_capitalized">Maminiti %1$s</string>
+</resources>

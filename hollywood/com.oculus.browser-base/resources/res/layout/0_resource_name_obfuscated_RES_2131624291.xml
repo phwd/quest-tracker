@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.ui.widget.OptimizedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+    <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/drag_handlebar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:src="@drawable/0_resource_name_obfuscated_RES_2131230957" android:layout_centerHorizontal="true" android:importantForAccessibility="no"/>
+</org.chromium.ui.widget.OptimizedFrameLayout>

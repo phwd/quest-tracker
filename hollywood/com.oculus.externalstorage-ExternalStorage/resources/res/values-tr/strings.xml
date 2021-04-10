@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="done">Bitti</string>
+    <string name="otg_failure_message">Lütfen başlığını %%60 veya üzeri düzeye gelecek şekilde şarj et ve tekrar dene.</string>
+    <string name="otg_failure_title">USB\'ye Bağlanılamıyor</string>
+    <string name="reformat_usb">USB\'yi yeniden biçimlendir</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_format_confirm_message">Bu USB sürücüsünü yeniden biçimlendirmek şu anda depolanan tüm verileri silecek.</string>
+    <string name="storage_format_confirm_title">Emin misin?</string>
+    <string name="storage_launcher_accept">Devam</string>
+    <string name="storage_launcher_format_message">Bu USB sürücüsünü başlığınla kullanmak için yeniden biçimlendirmen gerekecek.</string>
+    <string name="storage_launcher_format_title">Sürücü Desteklenmiyor</string>
+    <string name="storage_launcher_gallery_message">Diskin içindekilere bakmak için Oculus Gallery\'yi açmak istiyor musun?</string>
+    <string name="storage_launcher_gallery_title">Harici Depolama</string>
+    <string name="storage_launcher_refuse">İptal</string>
+    <string name="storage_wizard_error_body">Hata: ^1</string>
+    <string name="storage_wizard_error_title">^1 biçimlendirilemedi</string>
+    <string name="storage_wizard_format_progress_body">Biçimlendirme sırasında ^1\'(y)i kaldırma.</string>
+    <string name="storage_wizard_format_progress_title">^1 biçimlendiriliyor...</string>
+    <string name="storage_wizard_ready_external_body">^1 fotoğraflar ve diğer medyayla kullanılmaya hazır.</string>
+    <string name="storage_wizard_ready_title">^1 hazır</string>
+</resources>
